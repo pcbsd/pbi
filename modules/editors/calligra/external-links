@@ -1,0 +1,20 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action "binary" for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/calligra     bin/calligra     binary
+bin/braindump     bin/braindump     binary,nocrash
+bin/calligraauthor     bin/calligraauthor     binary,nocrash
+bin/calligraconverter     bin/calligraconverter     binary
+bin/calligraflow     bin/calligraflow     binary
+bin/calligraplan     bin/calligraplan     binary
+bin/calligraplanwork     bin/calligraplanwork     binary
+bin/calligrasheets     bin/calligrasheets     binary
+bin/calligrastage     bin/calligrastage     binary
+bin/calligrawords     bin/calligrawords     binary
+bin/karbon     bin/karbon     binary
+bin/kexi     bin/kexi     binary
+bin/krita     bin/krita     binary
+bin/visualimagecompare     bin/visualimagecompare     binary

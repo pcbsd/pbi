@@ -1,0 +1,9 @@
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Nxesd
+GenericName=nxesd
+Exec=%%PBI_EXEDIR%%/nxesd
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/linux-nx-client.png
+StartupNotify=true

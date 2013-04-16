@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Pinball
+GenericName=Pinball
+Exec=%%PBI_EXEDIR%%/pinball
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/share/pixmaps/pinball.png
+StartupNotify=true
+Categories=Game;

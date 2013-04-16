@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=aMSN
+GenericName=aMSN
+Exec=%%PBI_EXEDIR%%/amsn
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/amsn.png
+StartupNotify=true

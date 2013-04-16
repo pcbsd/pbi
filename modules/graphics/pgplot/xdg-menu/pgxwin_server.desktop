@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=PGplot Win Server
+GenericName=PGplot Win Server
+Exec=%%PBI_EXEDIR%%/pgxwin_server
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/pgplot.png
+StartupNotify=true
+NoDisplay=true
+Categories=Graphics;

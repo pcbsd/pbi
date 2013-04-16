@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Git
+GenericName=Git
+Exec=%%PBI_EXEDIR%%/git-upload-archive
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/git.png
+StartupNotify=true
+NoDisplay=true
+Categories=Development;

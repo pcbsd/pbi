@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Quake3 Server
+GenericName=Quake3 Server
+Exec=%%PBI_EXEDIR%%/q3ded
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/share/pixmaps/quake3.png
+StartupNotify=true
+NoDisplay=true
+Categories=Game;

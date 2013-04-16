@@ -1,0 +1,11 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Magic Maze
+GenericName=magic maze
+Exec=%%PBI_EXEDIR%%/magicmaze
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/magicmaze.png
+StartupNotify=true
+Categories=Game

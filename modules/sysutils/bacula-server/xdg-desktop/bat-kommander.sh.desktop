@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Bat selection - kommander
+GenericName=Bat selection - kommander
+Exec=%%PBI_EXEDIR%%/bat-kommander.sh
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/share/pixmaps/bat-kommander.png
+StartupNotify=true

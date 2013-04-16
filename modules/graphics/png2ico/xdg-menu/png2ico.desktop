@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=png2ico
+GenericName=png2ico
+Exec=%%PBI_EXEDIR%%/png2ico
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/png2ico.png
+StartupNotify=true
+NoDisplay=true
+Categories=Graphics;

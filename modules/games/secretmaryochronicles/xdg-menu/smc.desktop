@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Secret Maryo Chronicles
+GenericName=Secret Maryo Chronicles
+Exec=%%PBI_EXEDIR%%/smc
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/share/pixmaps/smc.png
+StartupNotify=true
+Categories=Game;Arcade;

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/x-kbackup">
+    <comment>KBackup File</comment>
+    <glob weight="100" pattern="*.kbp"/>
+    <glob weight="100" pattern="*.KBP"/>
+ </mime-type>
+</mime-info>

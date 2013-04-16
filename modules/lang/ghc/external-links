@@ -1,0 +1,14 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/ghc     bin/ghc     binary,nocrash
+bin/ghci     bin/ghci     binary,nocrash
+bin/ghc-pkg     bin/ghc-pkg     binary,nocrash
+bin/runhaskell     bin/runhaskell     binary,nocrash
+bin/hsc2hs     bin/hsc2hs     binary,nocrash
+bin/runghc     bin/runghc     binary,nocrash
+bin/hp2ps     bin/hp2ps     binary,nocrash
+bin/hpc     bin/hpc     binary,nocrash

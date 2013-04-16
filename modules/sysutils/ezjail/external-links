@@ -1,0 +1,7 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/ezjail-admin     bin/ezjail-admin     binary,nocrash

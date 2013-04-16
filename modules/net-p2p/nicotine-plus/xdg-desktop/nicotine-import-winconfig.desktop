@@ -1,0 +1,9 @@
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Nicotine-import-winconfig
+GenericName=nicotine-import-winconfig
+Exec=%%PBI_EXEDIR%%/nicotine-import-winconfig
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/defaulticon.png
+StartupNotify=true

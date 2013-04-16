@@ -1,0 +1,17 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/ct_run     bin/ct_run     binary,nocrash
+bin/dialyzer     bin/dialyzer     binary,nocrash
+bin/epmd     bin/epmd     binary,nocrash
+bin/erl     bin/erl     binary,nocrash
+bin/erl_call     bin/erl_call     binary,nocrash
+bin/erlc     bin/erlc     binary,nocrash
+bin/escript     bin/escript     binary,nocrash
+bin/run_erl     bin/run_erl     binary,nocrash
+bin/run_test     bin/run_test     binary,nocrash
+bin/to_erl     bin/to_erl     binary,nocrash
+bin/typer     bin/typer     binary,nocrash
