@@ -328,7 +328,8 @@ bubbros:i386:1.6_4:8814f4862e278f9a3c1918555eee383e49187be9afbfbd52fca2b1c192622
 bugsquish:amd64:0.0.6_10:bce9bc392ee3921807e9be941073bbea7182e3bbc68656b6c071d4205866afe2:20120919 065513:/PBI/games/bugsquish/9/x64/bugsquish-0.0.6_10-amd64.pbi:1348067850::current:7687:
 bugsquish:i386:0.0.6_10:7da541812b453642364174c8ffbe8e114699b7c9ae26bae52437e44c7534d40c:20120919 005302:/PBI/games/bugsquish/9/x32/bugsquish-0.0.6_10-i386.pbi:1348067825::current:7815:
 burgerspace:amd64:1.9.0:b3bbd1695465aab5ea18b8faa0be04eeaea01fc274fdfba1351b4bc5974ba5dc:20111006 192257:/PBI/games/burgerspace/9/x64/burgerspace-1.9.0-amd64.pbi:1317933528::current
-burgerspace:i386:1.9.0:ec7f21d2accb71f9ac6e2038ce8b74619aac0e7c3423b0201b4cb9c4b98bd8ff:20111006 065948:/PBI/games/burgerspace/9/x32/burgerspace-1.9.0-i386.pbi:1317933581::current
+burgerspace:i386:1.9.0:ec7f21d2accb71f9ac6e2038ce8b74619aac0e7c3423b0201b4cb9c4b98bd8ff:20111006 065948:/PBI/games/burgerspace/9/x32/burgerspace-1.9.0-i386.pbi:1317933581::active
+burgerspace:i386:1.9.2:f0d7dae8ea80307efc0c159dd9bd198043589a47809a31b128363635826c7f83:20130422 075203:/PBI/games/burgerspace/9/x32/burgerspace-1.9.2-i386.pbi:1366644128::current:35591:
 burpsuite:amd64:1.5:073a85617fe56f9e700ad3212224b83779a4cb07099f78077b0c84bcacea9431:20130330 191535:/PBI/security/burpsuite/9/x64/burpsuite-1.5-amd64.pbi:1365699857::current:77578:
 burpsuite:i386:1.5:0ca7a9c3941d2349d9edc3a23d15a602a70869d8cbfb4942f49ea9327d0c97ad:20130404 215759:/PBI/security/burpsuite/9/x32/burpsuite-1.5-i386.pbi:1365699841::current:78347:
 bxpkg:amd64:0.0.4_0_2:29d3ee2629d99a0de4dd49dd35dab5db1899d397998986dfa54e8d5c3eed4017:20120906 041800:/PBI/ports-mgmt/bxpkg/9/x64/bxpkg-0.0.4_0_2-amd64.pbi:1346934178::current:49958:
