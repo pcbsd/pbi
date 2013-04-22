@@ -19,7 +19,8 @@ afnix:amd64:2.2.0:865758b811c6e089dbecf088c78482bc9494039b9d56b336a082c1d4856be7
 afnix:i386:2.2.0:35121ce889dd2d6b500271dd76d05147c559ffd573520247ab65a79534df3ca5:20130405 064441:/PBI/lang/afnix/9/x32/afnix-2.2.0-i386.pbi:1365699046::current:8834:
 afternoonstalker:amd64:1.1.4:e7ba632c848bc85a95e9d155d80a7da9ae70b9f49ce243d1bea6760c08fa0f10:20111006 112742:/PBI/games/afternoonstalker/9/x64/afternoonstalker-1.1.4-amd64.pbi:1317906862::active
 afternoonstalker:amd64:1.1.4:e7ba632c848bc85a95e9d155d80a7da9ae70b9f49ce243d1bea6760c08fa0f10:20111006 112742:/PBI/games/afternoonstalker/9/x64/afternoonstalker-1.1.4-amd64.pbi:1317906907::current
-afternoonstalker:i386:1.1.4:b4a989448423059f9b76c2b773dc2e882cd6de81dc66f6c55cb18fc31bae14bd:20111006 002331:/PBI/games/afternoonstalker/9/x32/afternoonstalker-1.1.4-i386.pbi:1317906959::current
+afternoonstalker:i386:1.1.4:b4a989448423059f9b76c2b773dc2e882cd6de81dc66f6c55cb18fc31bae14bd:20111006 002331:/PBI/games/afternoonstalker/9/x32/afternoonstalker-1.1.4-i386.pbi:1317906959::active
+afternoonstalker:i386:1.1.5:0c6a711688d6be27d15970da8e65673155c9cc4a3f6d250191316a2228530dea:20130422 080613:/PBI/games/afternoonstalker/9/x32/afternoonstalker-1.1.5-i386.pbi:1366643852::current:36232:
 agave:amd64:0.4.2_8:5dea6e77a25adf76ebc5b7472a6c6f87a570661def0ec6a55fdaaf57ec5ae451:20120416 025311:/PBI/graphics/agave/9/x64/agave-0.4.2_8-amd64.pbi:1335191376::current:99527:
 agave:i386:0.4.2_8:b22de16ce53bd23e34be3bfc00e7bdb9642d90741cf1cd74e3385757e46af520:20120416 081933:/PBI/graphics/agave/9/x32/agave-0.4.2_8-i386.pbi:1335191201::current:98117:
 akonadi:amd64:1.9.0:8ed65f52f8fd7ec372b029b44f2fbf279c0cb2e36cab526197d03a7e443e9aae:20130215 232550:/PBI/databases/akonadi/9/x64/akonadi-1.9.0-amd64.pbi:1361387841::active:453034:
