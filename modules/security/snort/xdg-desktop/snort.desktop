@@ -1,0 +1,10 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Snort
+GenericName=snort
+Exec=%%PBI_EXEDIR%%/snort
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/snort.png
+StartupNotify=true
