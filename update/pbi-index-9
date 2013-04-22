@@ -2357,8 +2357,8 @@ rootkithunter:amd64:1.3.8_1_01:895b869e2b0008b8e0cefe35cd4fcb825dbccec42fa93d58c
 rootkithunter:amd64:1.4.0_01:02904773591dbd623b58cdcda244b23a3da00720f31e7df2077dd9d44f91f5b7:20121021 200831:/PBI/security/rkhunter/9/x64/rootkithunter-1.4.0_01-amd64.pbi:1351095708::current:19602:
 rootkithunter:i386:1.3.8_1_01:14bfc47eeaa406a3c2f71944c9e31f8a32af5e3e487139f1c8c0131317b33175:20120204 152204:/PBI/security/rkhunter/9/x32/rootkithunter-1.3.8_1_01-i386.pbi:1329179370::active:19217:
 rootkithunter:i386:1.4.0_01:afcbaa2e717196543074d45d8f1627b1152eb1c9c31bbb9cf5f3da3c2e72e9e3:20121021 174128:/PBI/security/rkhunter/9/x32/rootkithunter-1.4.0_01-i386.pbi:1351095668::current:19089:
-rosegarden:amd64:12.12.25:de3e1fd25200c4dfc758f7da029d9d5ebe00e8ebb059729f5c832e98c2d66b0b:20130107 233427:/PBI/audio/rosegarden/9/x64/rosegarden-12.12.25-amd64.pbi:1358274464::active:411035:
-rosegarden:amd64:13.02:d604bfa4d5c25e4d0b4b7548e5bb5a04e8bcbebe053db094c1f1b2e3424fed4f:20130328 004930:/PBI/audio/rosegarden/9/x64/rosegarden-13.02-amd64.pbi:1365016114::current:395940:
+rosegarden:amd64:13.02:d604bfa4d5c25e4d0b4b7548e5bb5a04e8bcbebe053db094c1f1b2e3424fed4f:20130328 004930:/PBI/audio/rosegarden/9/x64/rosegarden-13.02-amd64.pbi:1365016114::active:395940:
+rosegarden:amd64:13.04:1e1f0ea7b914110aa479eb17a783f4c3dc8dbcd369ecc2ff39f64a996ee7e015:20130419 191748:/PBI/audio/rosegarden/9/x64/rosegarden-13.04-amd64.pbi:1366646329::current:395044:
 rosegarden:i386:13.02:f1d3da7b1b9f2f1fdd5240bb17608d805e00bb488fb0ab6c608f57996899c651:20130328 121336:/PBI/audio/rosegarden/9/x32/rosegarden-13.02-i386.pbi:1365016152::active:394277:
 rosegarden:i386:13.04:08c4959e3748d7d5e7a3458c6f1dbf175ac25dab20377ac4ab67df1c175762ff:20130419 191301:/PBI/audio/rosegarden/9/x32/rosegarden-13.04-i386.pbi:1366646286::current:392739:
 rox-filer:amd64:2.11_1:6d30ed1b2046da2b147b480d4130a4749b30b6eae6e1af9a773971ba4b622168:20120902 211736:/PBI/x11-fm/rox-filer/9/x64/rox-filer-2.11_1-amd64.pbi:1347480442::current:60460:
