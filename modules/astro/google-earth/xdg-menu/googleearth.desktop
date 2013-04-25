@@ -6,6 +6,6 @@ Name=Google Earth
 GenericName=Google Earth
 Exec=%%PBI_EXEDIR%%/googleearth
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/pixmaps/googleearth.png
+Icon=%%PBI_APPDIR%%/googleearth.png
 StartupNotify=true
 Categories=Network;
