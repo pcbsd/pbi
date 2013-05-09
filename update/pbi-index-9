@@ -2822,8 +2822,8 @@ virt-manager:amd64:0.9.1:2e88f90035e5d7297883a26fdf15ddef26057ab379768a928265cbc
 virt-manager:amd64:0.9.4_1:1af431f5dc1486643177c5945a13a8f5a9810fbc8131231dc145745235390b10:20120922 220917:/PBI/deskutils/virt-manager/9/x64/virt-manager-0.9.4_1-amd64.pbi:1348583471::current:88515:
 virt-manager:i386:0.9.1:fc5b7d19ba434e257ceadb7d66866d8da542bf098c8e4e3746d406a3120b52f0:20120303 042224:/PBI/deskutils/virt-manager/9/x32/virt-manager-0.9.1-i386.pbi:1331151914::active:84669:
 virt-manager:i386:0.9.4_1:d7d75be794d9058642f48ec23c349cacb942e3a586e4e8386856488f416cdf2d:20120923 003646:/PBI/deskutils/virt-manager/9/x32/virt-manager-0.9.4_1-i386.pbi:1348583262::current:86846:
-virtualbox:amd64:4.1.8:f3dc857698b709b099f7982acccfed7a76f8fd29baaa0924eaa1aa8e486b9a6b:20120226 121345:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.1.8-amd64.pbi:1330458497::active:248748:
-virtualbox:amd64:4.2.6:2f800dabad975610602000d2efb3c6e19d0d9b22e17f343b1b5970f47bccb8f8:20130406 045613:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.6-amd64.pbi:1365621134::current:217621:
+virtualbox:amd64:4.2.12:1538fd877e4338c9fbb1171f1871cf891ce306ebb62e901a0dfcb9abd654a7ca:20130504 060600:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.12-amd64.pbi:1368103816::current:221206:
+virtualbox:amd64:4.2.6:2f800dabad975610602000d2efb3c6e19d0d9b22e17f343b1b5970f47bccb8f8:20130406 045613:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.6-amd64.pbi:1365621134::active:217621:
 virtualbox:i386:4.2.12:39cdf802ac92fbdffa162fb3b5ab269d2ab188fc1a149dbc9a5767310ebcb1c8:20130509 092152:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.12-i386.pbi:1368103762::current:216342:
 virtualbox:i386:4.2.6:5f0176a2828e9c41142a67a1cff47d74ca2e9b971c1029b654212977a8f1bcbc:20130404 105628:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.6-i386.pbi:1365621106::active:213910:
 visualboyadvance:amd64:1.7.2_8:4c9896eeacbf50d1f032881abd39f6d6455cf2bd2d983fa6ba51b52b7cba3fb5:20110928 194128:/PBI/emulators/vba/9/x64/visualboyadvance-1.7.2_8-amd64.pbi:1317473247::current
