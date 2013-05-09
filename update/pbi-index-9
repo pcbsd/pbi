@@ -2557,7 +2557,8 @@ streamtuner:i386:0.99.99_18:6f7abc7b4e39f3d5780f8f164a9cc77a901b13f2f8ce4e756583
 stress:amd64:1.0.4:9bbeecda44962787d60c61698dfd37b5b752769f023ef66c69649c83d5785f2c:20120901 004908:/PBI/sysutils/stress/9/x64/stress-1.0.4-amd64.pbi:1347299218::current:51:
 stress:i386:1.0.4:d3af761e3023fdff6030e265d165a7df372b3831330f66188af4a222166f0b59:20120910 110508:/PBI/sysutils/stress/9/x32/stress-1.0.4-i386.pbi:1347299204::current:51:
 subcommander:amd64:2.0.0.b5_7:5954eac74cf2707ff17af4b5983f29568cdcb81311ec7febe3691434acfa0f01:20120830 214923:/PBI/devel/subcommander2/9/x64/subcommander-2.0.0.b5_7-amd64.pbi:1346424550::current:198283:
-subcommander:i386:2.0.0.b5_7:39c9879e5821dee82c9e4b1382ae99c58490a846ef6299beee6623c5653b5dbd:20120830 165123:/PBI/devel/subcommander2/9/x32/subcommander-2.0.0.b5_7-i386.pbi:1346424226::current:198155:
+subcommander:i386:2.0.0.b5.2_1:7459d9dfcc54c51ccc9af2560b558e2d1bcc7e741f2ddd71eaf565cf3bca5384:20130427 000908:/PBI/devel/subcommander2/9/x32/subcommander-2.0.0.b5.2_1-i386.pbi:1368102828::current:235799:
+subcommander:i386:2.0.0.b5_7:39c9879e5821dee82c9e4b1382ae99c58490a846ef6299beee6623c5653b5dbd:20120830 165123:/PBI/devel/subcommander2/9/x32/subcommander-2.0.0.b5_7-i386.pbi:1346424226::active:198155:
 subtitleeditor:amd64:0.39.0:c7872e258991e8c0b6912cc73c1406ee035cf4e8b8936ab6cec7e7ce7a823e6c:20111216 080756:/PBI/multimedia/subtitleeditor/9/x64/subtitleeditor-0.39.0-amd64.pbi:1326818125::active:78392:
 subtitleeditor:amd64:0.40.0:73af78c9ec6a11bd3f87d9a7a9b7b3e773808e7eae57c6415019dcfba48bcabe:20121208 094225:/PBI/multimedia/subtitleeditor/9/x64/subtitleeditor-0.40.0-amd64.pbi:1355420008::current:86718:
 subtitleeditor:i386:0.39.0:75794a706754f806674196ef7c04c4c0282723e16b50bfbcc9e684a71ce72b4a:20120116 132617:/PBI/multimedia/subtitleeditor/9/x32/subtitleeditor-0.39.0-i386.pbi:1326817818::active:77240:
