@@ -2824,8 +2824,8 @@ virt-manager:i386:0.9.1:fc5b7d19ba434e257ceadb7d66866d8da542bf098c8e4e3746d406a3
 virt-manager:i386:0.9.4_1:d7d75be794d9058642f48ec23c349cacb942e3a586e4e8386856488f416cdf2d:20120923 003646:/PBI/deskutils/virt-manager/9/x32/virt-manager-0.9.4_1-i386.pbi:1348583262::current:86846:
 virtualbox:amd64:4.1.8:f3dc857698b709b099f7982acccfed7a76f8fd29baaa0924eaa1aa8e486b9a6b:20120226 121345:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.1.8-amd64.pbi:1330458497::active:248748:
 virtualbox:amd64:4.2.6:2f800dabad975610602000d2efb3c6e19d0d9b22e17f343b1b5970f47bccb8f8:20130406 045613:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.6-amd64.pbi:1365621134::current:217621:
-virtualbox:i386:4.1.8:6f50d4f06bdf3d95f9e31dd5c7b640ef4dd71d481f705f61780cc3607e281611:20120226 115609:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.1.8-i386.pbi:1330457846::active:247724:
-virtualbox:i386:4.2.6:5f0176a2828e9c41142a67a1cff47d74ca2e9b971c1029b654212977a8f1bcbc:20130404 105628:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.6-i386.pbi:1365621106::current:213910:
+virtualbox:i386:4.2.12:39cdf802ac92fbdffa162fb3b5ab269d2ab188fc1a149dbc9a5767310ebcb1c8:20130509 092152:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.12-i386.pbi:1368103762::current:216342:
+virtualbox:i386:4.2.6:5f0176a2828e9c41142a67a1cff47d74ca2e9b971c1029b654212977a8f1bcbc:20130404 105628:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.6-i386.pbi:1365621106::active:213910:
 visualboyadvance:amd64:1.7.2_8:4c9896eeacbf50d1f032881abd39f6d6455cf2bd2d983fa6ba51b52b7cba3fb5:20110928 194128:/PBI/emulators/vba/9/x64/visualboyadvance-1.7.2_8-amd64.pbi:1317473247::current
 visualboyadvance:i386:1.7.2_8:7a0f05722d2e15b07d140efbd554b7d805e1c5820741315cbd07b374f9894595:20110930 082311:/PBI/emulators/vba/9/x32/visualboyadvance-1.7.2_8-i386.pbi:1317473362::current
 vlc:amd64:1.1.13_12:6ee155741ec6b6a164d2236ff105516923b2cbdf3b0e7aeb40f47ab761ed4753:20120802 131952:/PBI/multimedia/vlc/9/x64/vlc-1.1.13_12-amd64.pbi:1344012233::active:225820:
