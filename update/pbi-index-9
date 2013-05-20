@@ -1223,7 +1223,8 @@ hugin:i386:2011.4.0_3:1efc34fa2e0001f0100e9a4580411fd89458c495d93a7355efe1cc900d
 hulu-desktop:amd64:0.9.8_1:fb4cf7b665911cdee840b8afa540013eb9aafa11f7b8662775cab188b5b3f4ae:20111028 081219:/PBI/multimedia/linux-huludesktop/9/x64/hulu-desktop-0.9.8_1-amd64.pbi:1320252594::current:69427:
 hulu-desktop:i386:0.9.8_1:60aceec17dc800fe37157aac8599feb14d5b72b974efac30eefd4c0a4980a160:20111101 221553:/PBI/multimedia/linux-huludesktop/9/x32/hulu-desktop-0.9.8_1-i386.pbi:1320252760::current:68658:
 hydrogen:amd64:0.9.5:794f7542d59b854ae6319285ca1ea8bbe69f772f4ba7886d0c8b3b5a9513388d:20110807 200741:/PBI/audio/hydrogen/9/x64/hydrogen-0.9.5-amd64.pbi:1312822851::current
-hydrogen:i386:0.9.5:eb054c6a68cd4dcba57e7b800f9054ecf8e9ba7812bba3b827796847109483c6:20110802 041515:/PBI/audio/hydrogen/9/x32/hydrogen-0.9.5-i386.pbi:1312822962::current
+hydrogen:i386:0.9.5.1:d5c9f1d04ce8d1a04280f79f0028a3e1c0716be6e3cc6e94bd917a86fc64a6b0:20130512 012851:/PBI/audio/hydrogen/9/x32/hydrogen-0.9.5.1-i386.pbi:1369078718::current:194580:
+hydrogen:i386:0.9.5:eb054c6a68cd4dcba57e7b800f9054ecf8e9ba7812bba3b827796847109483c6:20110802 041515:/PBI/audio/hydrogen/9/x32/hydrogen-0.9.5-i386.pbi:1312822962::active
 hylafax:amd64:6.0.6:c78b0d04e78034f7a55849cc63d1cbaefe5c2e289e6fd02fd3079cacfaf66b72:20120719 135228:/PBI/comms/hylafax/9/x64/hylafax-6.0.6-amd64.pbi:1342794554::current:24981:
 hylafax:i386:6.0.6:0833e8b7d15252ca9d999f82dd549d6018902016d3bfe3ef82d7c674eded63e8:20120719 144518:/PBI/comms/hylafax/9/x32/hylafax-6.0.6-i386.pbi:1342794503::current:25109:
 icbm3d:amd64:0.4_3:ac11387b9e0675e9a90e8b27ab9fea1d2fbb98feedea9d1c944d38a778196ab8:20120919 082401:/PBI/games/icbm3d/9/x64/icbm3d-0.4_3-amd64.pbi:1348068041::current:2180:
