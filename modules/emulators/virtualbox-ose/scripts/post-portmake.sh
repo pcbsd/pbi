@@ -39,9 +39,7 @@ do
   make
   make install
   if [ $? -ne 0 ] ; then echo "Failed building kmod..." exit 1 ; fi
-  cp -R /boot/kernel/vboxdrv.ko ${PBI_PROGDIRPATH}/modules${rel}
-  cp -R /boot/kernel/vboxnetadp.ko ${PBI_PROGDIRPATH}/modules${rel}
-  cp -R /boot/kernel/vboxnetflt.ko ${PBI_PROGDIRPATH}/modules${rel}
+  cp -R /boot/modules/*.ko ${PBI_PROGDIRPATH}/modules${rel}
 done
 
 # Remove built-in virtualbox desktop file
