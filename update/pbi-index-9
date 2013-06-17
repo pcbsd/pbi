@@ -454,7 +454,8 @@ contacts:amd64:0.9_6:4a99a6bfac14cc24ccf5eaa9d7a970154477ac4637e769fad6d8f1c006e
 contacts:i386:0.9_6:e0daf1546010610ead49f7ab6da1fafa01f48b1bcec1285285bbc5576bd13c0d:20111220 192237:/PBI/deskutils/contacts/9/x32/contacts-0.9_6-i386.pbi:1326306156::current:70708:
 cooledit:amd64:3.17.17_5:2bc1fd121de0ec2fba9d9f213848ba692cc6e333aead93ff4e91e30d9ac7c13c:20120512 152605:/PBI/editors/cooledit/9/x64/cooledit-3.17.17_5-amd64.pbi:1336998127::current:18321:
 cooledit:i386:3.17.17_5:8d3bcd3c3cf385b7537ca822be8cea7625c75596157fe7bd6d0ef2e76880d828:20120512 183244:/PBI/editors/cooledit/9/x32/cooledit-3.17.17_5-i386.pbi:1336998087::current:18193:
-coreutils:amd64:8.20_1:67f0535e8e0494cd28018da00a9af8f5af00c1300b20b9550c99d8f0ca7ef40b:20121223 020836:/PBI/sysutils/coreutils/9/x64/coreutils-8.20_1-amd64.pbi:1358799708::current:8071:
+coreutils:amd64:8.20_1:67f0535e8e0494cd28018da00a9af8f5af00c1300b20b9550c99d8f0ca7ef40b:20121223 020836:/PBI/sysutils/coreutils/9/x64/coreutils-8.20_1-amd64.pbi:1358799708::active:8071:
+coreutils:amd64:8.20_2:664880cb12f90b21d659b6e4a95c18ec3fcaceb301db941c814b4539c0616d3c:20130615 044427:/PBI/sysutils/coreutils/9/x64/coreutils-8.20_2-amd64.pbi:1371492054::current:8071:
 coreutils:i386:8.20_1:17f0ed3a11c05fd87bbabac91b0b8fa106036947e3069ab504da62f95127f5a1:20121223 033738:/PBI/sysutils/coreutils/9/x32/coreutils-8.20_1-i386.pbi:1358799493::active:7944:
 coreutils:i386:8.20_2:6d97694849d8cf753e6e07ffd026307f612980114da61798c58dd18d04d9b31b:20130615 143302:/PBI/sysutils/coreutils/9/x32/coreutils-8.20_2-i386.pbi:1371492045::current:7944:
 cosmosmash:amd64:1.4.5:783b732555e2190b2efa97b45f98651f994e81eb852d1aacbf7235180ca28600:20111006 203221:/PBI/games/cosmosmash/9/x64/cosmosmash-1.4.5-amd64.pbi:1317934554::active
