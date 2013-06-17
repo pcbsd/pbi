@@ -1106,7 +1106,8 @@ grsync:i386:1.2.2:65899a980b1c296ae2e168e4672d358498ec4875dd26d9c92851cdfca53d13
 grsync:i386:1.2.3:e7331c5d354cc9804f71ecd198261a77d2505de00f0c21113878d68ab846c30f:20130207 230751:/PBI/net/grsync/9/x32/grsync-1.2.3-i386.pbi:1360351925::current:54794:
 gruler:amd64:0.6_9:af8bd07a2f9acd6127db02e7af092e86e389a6690b7d10d7dce12375216d05f2:20111014 092920:/PBI/deskutils/gruler/9/x64/gruler-0.6_9-amd64.pbi:1318857638::current
 gruler:i386:0.6_9:6acfe7d83a485600cb86ca2855944f51b7efda92f9789008e2088316b4c48502:20111015 062022:/PBI/deskutils/gruler/9/x32/gruler-0.6_9-i386.pbi:1318857814::current
-gsmartcontrol:amd64:0.8.7:24207b7cde9b8f80e8bb299b3daebfb42e552c3118b1a6536737ee4cd1dcc6e0:20120831 175149:/PBI/sysutils/gsmartcontrol/9/x64/gsmartcontrol-0.8.7-amd64.pbi:1346942091::current:57002:
+gsmartcontrol:amd64:0.8.7:24207b7cde9b8f80e8bb299b3daebfb42e552c3118b1a6536737ee4cd1dcc6e0:20120831 175149:/PBI/sysutils/gsmartcontrol/9/x64/gsmartcontrol-0.8.7-amd64.pbi:1346942091::active:57002:
+gsmartcontrol:amd64:0.8.7_1:21b68ff8fbcbd5b3387f2f7b3fbbd62e7fbad94f2150155885d87428cbcf2da4:20130615 022951:/PBI/sysutils/gsmartcontrol/9/x64/gsmartcontrol-0.8.7_1-amd64.pbi:1371494465::current:65973:
 gsmartcontrol:i386:0.8.7:8de97e789830492972a337f07b5bb508e73438500343a6e4a0dccc54c1a3d3e7:20120906 084951:/PBI/sysutils/gsmartcontrol/9/x32/gsmartcontrol-0.8.7-i386.pbi:1346941989::active:56234:
 gsmartcontrol:i386:0.8.7_1:19879a80cfa1cd69c42b7e6cd367cfa5731fc61627d5bc40ee9966b6111656ee:20130615 081923:/PBI/sysutils/gsmartcontrol/9/x32/gsmartcontrol-0.8.7_1-i386.pbi:1371494451::current:63666:
 gspeakers:amd64:0.11_12:3ac8df610d9e9a79a049159ffb5c8e5710069f33f3dbd0d8cb408339aa3be7f6:20111130 162153:/PBI/audio/gspeakers/9/x64/gspeakers-0.11_12-amd64.pbi:1323194876::current:54953:
