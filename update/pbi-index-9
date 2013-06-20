@@ -284,8 +284,8 @@ bluefish:amd64:2.2.2_1:aad226d7c2999eab6475b0c09089259b944a3fe4d7a743ec8b3023767
 bluefish:amd64:2.2.3:59d4736c524f11b43edc4c9985fa6d818029cba03de07c06798f9487312c75fa:20130124 165901:/PBI/www/bluefish/9/x64/bluefish-2.2.3-amd64.pbi:1359124956::current:74634:
 bluefish:i386:2.2.2_1:28a3c3ccf30b853dfb203d7ca0a20aa58c4c7850d01f7af3ca48beb64d4e5f8b:20121021 000059:/PBI/www/bluefish/9/x32/bluefish-2.2.2_1-i386.pbi:1351003323::active:72501:
 bluefish:i386:2.2.3:a7cf7e52e337d66442e051be4426121aff627502c588b8a707fd277af2fdded3:20130124 080525:/PBI/www/bluefish/9/x32/bluefish-2.2.3-i386.pbi:1359124941::current:73226:
-boinc-client:amd64:7.0.25_5:21344240cefb7703ab956edd54fe0b49393b6321fac31974fcc1f09b8fb96f4d:20120906 031028:/PBI/net/boinc-client/9/x64/boinc-client-7.0.25_5-amd64.pbi:1346932164::active:67764:
-boinc-client:amd64:7.0.28:559d133207547ae2a02bed17d0b622b73203c2c9a7ee87aac96a68fc6b61d80d:20121019 094555:/PBI/net/boinc-client/9/x64/boinc-client-7.0.28-amd64.pbi:1350661308::current:75959:
+boinc-client:amd64:7.0.28:559d133207547ae2a02bed17d0b622b73203c2c9a7ee87aac96a68fc6b61d80d:20121019 094555:/PBI/net/boinc-client/9/x64/boinc-client-7.0.28-amd64.pbi:1350661308::active:75959:
+boinc-client:amd64:7.0.28_2:e34f339b095dd2eadffdd04af9cda86fdb09e4c9d61164ced2dce0b2f55f1b5b:20130616 202121:/PBI/net/boinc-client/9/x64/boinc-client-7.0.28_2-amd64.pbi:1371751010::current:76601:
 boinc-client:i386:7.0.25_5:fa20cc9bcb1798bf59a5170a14ae0dcc7053cd01d77db9ff4773ebff1ef64349:20120905 182503:/PBI/net/boinc-client/9/x32/boinc-client-7.0.25_5-i386.pbi:1346932009::active:66994:
 boinc-client:i386:7.0.28:45bd17d84c4838129e55d1ef40a7909776465e57ae25d08e416f43e7dfc6c353:20121019 101059:/PBI/net/boinc-client/9/x32/boinc-client-7.0.28-i386.pbi:1350661180::current:73141:
 bomb-her-man:amd64:0.3:8ba2a370ef19d07669694d7dd767e364a766b55d3b8c276429cbd68894c245fd:20121018 033742:/PBI/games/bombherman/9/x64/bomb-her-man-0.3-amd64.pbi:1350662672::current:66225:
