@@ -1161,7 +1161,8 @@ gtktetcolor:amd64:0.6.4_10:95d6976e69d0e56b12a4854331ae16ac99a348c687c772bb61c58
 gtktetcolor:i386:0.6.4_10:0e7f36b76124f8d4e1cb82bf9212bf3e92cc728938c30a8f3d61372a5465b738:20111008 173046:/PBI/games/gtktetcolor/9/x32/gtktetcolor-0.6.4_10-i386.pbi:1318257895::current
 gtodo:amd64:0.14_12:7d450e1d42b3eb499ebe5a20a38bd0e84a074f3e2ecd1bbaebf058750ed61380:20111014 113202:/PBI/deskutils/gtodo/9/x64/gtodo-0.14_12-amd64.pbi:1318860120::current
 gtodo:i386:0.14_12:c5806c159a29b7ecfa3f3f2f5303c893ddaf5af7bc913bdaf63ae9cdaa0bfe83:20111015 081247:/PBI/deskutils/gtodo/9/x32/gtodo-0.14_12-i386.pbi:1318860265::current
-gtorrentviewer:amd64:0.2b_14:8f00f7f54b8c22a02f4915ffce202a55f8cdfa91267931101d859da65d38bd8f:20111219 070304:/PBI/net-p2p/gtorrentviewer/9/x64/gtorrentviewer-0.2b_14-amd64.pbi:1329409468::current:50983:
+gtorrentviewer:amd64:0.2b_14:8f00f7f54b8c22a02f4915ffce202a55f8cdfa91267931101d859da65d38bd8f:20111219 070304:/PBI/net-p2p/gtorrentviewer/9/x64/gtorrentviewer-0.2b_14-amd64.pbi:1329409468::active:50983:
+gtorrentviewer:amd64:0.2b_15:3a0bab331a215d2d725158596a5bebd0727cee15fd8745815821096f65aa4ba2:20130617 082712:/PBI/net-p2p/gtorrentviewer/9/x64/gtorrentviewer-0.2b_15-amd64.pbi:1371753155::current:59054:
 gtorrentviewer:i386:0.2b_14:afa1b41607da7177d212b091e2c9511879dc267ee948c243ee6674f7ee4daeef:20120128 185136:/PBI/net-p2p/gtorrentviewer/9/x32/gtorrentviewer-0.2b_14-i386.pbi:1329409354::current:50214:
 gturing:amd64:0.1.1_17:3ceb635865196fca360a3092f56e793944181aaebc9f6ae6b0f6fedb6ce0e68f:20111008 204224:/PBI/games/gturing/9/x64/gturing-0.1.1_17-amd64.pbi:1318258305::current
 gturing:i386:0.1.1_17:7ed6d1b7f52742d3e7e21985ba0dd96af37426f2383b334dbcd5ab8daec02922:20111008 191020:/PBI/games/gturing/9/x32/gturing-0.1.1_17-i386.pbi:1318258500::current
