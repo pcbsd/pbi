@@ -1464,7 +1464,8 @@ kompozer:amd64:0.8b3_2:31422781d4354fa22ed5716ae0ddb3f432c4dba2b6dcf00cb4d1391eb
 kompozer:i386:0.8b3_2:01ac39fa04ce4a5497d4adca389160687007fab24da5fbace68301b977f19f29:20111112 195342:/PBI/www/kompozer/9/x32/kompozer-0.8b3_2-i386.pbi:1321286881::current:58923:
 konversation:amd64:1.3.1_2:6f51f939dd70ac266f6bdf0d79056e81db612b9efe3e5805ad72a7f6e8c1d2db:20110905 121818:/PBI/irc/konversation-kde4/9/x64/konversation-1.3.1_2-amd64.pbi:1315313829::current
 konversation:i386:1.3.1_2:4d3c68eb6d52e8dd3fb0b59646151b758dde1e163eca9b2418e5d7eec2e9f570:20110829 024808:/PBI/irc/konversation-kde4/9/x32/konversation-1.3.1_2-i386.pbi:1315314298::current
-konverter:amd64:0.92-beta1_15:5e236ad921bb9ca5e15bbc10de7e745824f7c4d587c92513798ae147c65a39ae:20111215 093859:/PBI/multimedia/konverter/9/x64/konverter-0.92-beta1_15-amd64.pbi:1329844536::current:94787:
+konverter:amd64:0.92-beta1_15:5e236ad921bb9ca5e15bbc10de7e745824f7c4d587c92513798ae147c65a39ae:20111215 093859:/PBI/multimedia/konverter/9/x64/konverter-0.92-beta1_15-amd64.pbi:1329844536::active:94787:
+konverter:amd64:0.92-beta1_19:a3ce8ad20fea911c51c247e2e19a7019d9e1c0c6c834c48cbfeadffbfc9d4d81:20130619 143917:/PBI/multimedia/konverter/9/x64/konverter-0.92-beta1_19-amd64.pbi:1371755105::current:118484:
 konverter:i386:0.92-beta1_15:b766fe6a3c3ebbe5fcdb9ca04f46c2f1d573a18af7e31acb729e97064abd435e:20120115 102429:/PBI/multimedia/konverter/9/x32/konverter-0.92-beta1_15-i386.pbi:1329844272::current:92995:
 kopete:amd64:0.12.8_6:6c8a017afb01ba5bda29007990ef0dea907177210fd59f7e4f1f733036ffc9cf:20120519 234310:/PBI/net-im/kopete/9/x64/kopete-0.12.8_6-amd64.pbi:1337627928::current:94147:
 kopete:i386:0.12.8_6:cd923d5e542c84e0fbd9c13e40c5d4056dc2314e39fc78825da274de1bf12c40:20120520 011032:/PBI/net-im/kopete/9/x32/kopete-0.12.8_6-i386.pbi:1337627797::current:92098:
