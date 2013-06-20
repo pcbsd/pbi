@@ -1255,8 +1255,8 @@ imagemagick:amd64:6.8.0-7_1:cfeea9b94d7fa95962a426497cac62491a4eb1be682ef1563f12
 imagemagick:amd64:6.8.0-7_1_1:2f6516f7130bc30db2acb73bd86d477fe45c83b4962bd5f115af9beb3a30bff9:20130125 193725:/PBI/graphics/ImageMagick/9/x64/imagemagick-6.8.0-7_1_1-amd64.pbi:1359391594::current:88587:
 imagemagick:i386:6.8.0-7_1:0c83fe8ae55ef1806718fcf78274af46b8320a8c38cb3a491ed7b8251d7042dd:20121213 024141:/PBI/graphics/ImageMagick/9/x32/imagemagick-6.8.0-7_1-i386.pbi:1355774220::active:85310:
 imagemagick:i386:6.8.0-7_1_1:e84015d04616f21b1035448d3f0910b193e8af665dfc20aed1e70ce2abaf2da2:20130125 150211:/PBI/graphics/ImageMagick/9/x32/imagemagick-6.8.0-7_1_1-i386.pbi:1359391579::current:85004:
-imagination:amd64:3.0:7208033e15e00e53458e41c43867221823361ae8d801a1f60fe9924c8c87859d:20111028 015649:/PBI/multimedia/imagination/9/x64/imagination-3.0-amd64.pbi:1320158796::active:54313:
-imagination:amd64:3.0_1:be43145d5438ac37b6e22cc81f9e2382e70b01d1a760a5ff3bbe801505db2323:20120317 165147:/PBI/multimedia/imagination/9/x64/imagination-3.0_1-amd64.pbi:1346259710::current:62766:
+imagination:amd64:3.0_1:be43145d5438ac37b6e22cc81f9e2382e70b01d1a760a5ff3bbe801505db2323:20120317 165147:/PBI/multimedia/imagination/9/x64/imagination-3.0_1-amd64.pbi:1346259710::active:62766:
+imagination:amd64:3.0_2:65f8544a19565d2c2153378ea43e92022849c686c694f5c718aa4c45cc6dadd7:20130619 185638:/PBI/multimedia/imagination/9/x64/imagination-3.0_2-amd64.pbi:1371753690::current:76087:
 imagination:i386:3.0:1530e71fc8002b5225230069216a86280c50f9bdaed0bcbf2f917720a5291dc1:20111101 112820:/PBI/multimedia/imagination/9/x32/imagination-3.0-i386.pbi:1320158983::active:53544:
 imagination:i386:3.0_1:84d2e8402b596f2e2c03b43c9ca1a1e815688c44a216f1413558973b6b78a96f:20120316 055119:/PBI/multimedia/imagination/9/x32/imagination-3.0_1-i386.pbi:1346259584::current:61741:
 impossible_mission_puzzle:amd64:1.0.1:f3026e73cb8362fd71b0faae40c69edf426544650c973952169f5d8df6bd38e8:20120805 092942:/PBI/games/impossible_mission_puzzle/9/x64/impossible_mission_puzzle-1.0.1-amd64.pbi:1344266572::current:3973:
