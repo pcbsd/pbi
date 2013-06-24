@@ -4,4 +4,4 @@
 # Use action "binary" for binaries that need wrapper functionality
 
 # TARGET             LINK IN LOCALBASE         ACTION
-bin/processing     bin/processing     binary,nocrash
+bin/processing     bin/processing     binary
