@@ -2007,8 +2007,8 @@ opentaxsolver:amd64:8.05:415d82170c38deff85c45cb8adab47d13c653ecae7bfbbbd2fc42da
 opentaxsolver:amd64:9.01:c8b0b104523971bdeac20fb68fe4423ff86d24e3d4a92a4c99981d53b7d0587f:20120411 024843:/PBI/finance/opentaxsolver/9/x64/opentaxsolver-9.01-amd64.pbi:1335358125::current:3461:
 opentaxsolver:i386:8.05:60b9c0c4dc7bd5838c8626b392f7f7727d6e956ef469572fcb1c97da0c2c1c65:20110823 225200:/PBI/finance/opentaxsolver/9/x32/opentaxsolver-8.05-i386.pbi:1315399308::active
 opentaxsolver:i386:9.01:f54cd335d227850c74ec88e4e270443e7379a5bcadcebc976606848af6d16cba:20120411 032552:/PBI/finance/opentaxsolver/9/x32/opentaxsolver-9.01-i386.pbi:1335358104::current:3461:
-openttd:amd64:1.2.3:f1b026f88a89387c4da2fe5c6264d0e46c4247a038d6c1455bb4e9e37cbe2286:20121210 010209:/PBI/games/openttd/9/x64/openttd-1.2.3-amd64.pbi:1355417774::active:63662:
-openttd:amd64:1.3.0:f85ab744f9b8e6d28f4633eca83063ec084da04aaa5ec037fa8d7e41c38e4133:20130422 060042:/PBI/games/openttd/9/x64/openttd-1.3.0-amd64.pbi:1366645741::current:64521:
+openttd:amd64:1.3.0:f85ab744f9b8e6d28f4633eca83063ec084da04aaa5ec037fa8d7e41c38e4133:20130422 060042:/PBI/games/openttd/9/x64/openttd-1.3.0-amd64.pbi:1366645741::active:64521:
+openttd:amd64:1.3.1:59eefc95e5464236f15a46eb29e3ed8827da8aafa18d64ba6c54435bde2eeca1:20130623 080330:/PBI/games/openttd/9/x64/openttd-1.3.1-amd64.pbi:1372085724::current:67890:
 openttd:i386:1.2.3:6e11fbf5883b5c70f880dea6cd19572159d9f7da612bdcab35096a65d943d3db:20121210 144106:/PBI/games/openttd/9/x32/openttd-1.2.3-i386.pbi:1355417640::active:62512:
 openttd:i386:1.3.0:f35bc4ca7b29fa17788f1ac64e29f07a152f7a4da5ca8aae7a712d26119166d4:20130422 045320:/PBI/games/openttd/9/x32/openttd-1.3.0-i386.pbi:1366645723::current:63882:
 openvpn-admin:amd64:1.9.4_4:0bd4dccfabb9381eeb8200fe13da82ba1be2b08871e03c56ff105ead7783a6d0:20120323 215400:/PBI/security/openvpn-admin/9/x64/openvpn-admin-1.9.4_4-amd64.pbi:1332765795::current:94787:
