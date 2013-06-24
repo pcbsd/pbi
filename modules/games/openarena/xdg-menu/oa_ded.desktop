@@ -1,13 +1,12 @@
-#!/usr/bin/env xdg-open
+#!/usr/bin/env
 [Desktop Entry]
 Value=1.0
 Type=Application
 Name=Open Arena Server
-GenericName=Open Arena Server
-Exec=%%PBI_EXEDIR%%/openarenaded
+GenericName=open arena server
+Exec=%%PBI_EXEDIR%%/oa_ded
 Path=%%PBI_APPDIR%%
 Icon=%%PBI_APPDIR%%/openarena.png
 StartupNotify=true
 Terminal=true
-TerminalOptions=
-Categories=Game;
+Categories=Game
