@@ -452,8 +452,8 @@ conky:amd64:1.8.1_4:7613888e030c88f43fb22bab1945e7e9638e5c2059a05593db7ce304e15b
 conky:amd64:1.9.0_1:3416743663f2ba51580d21fa16774a872133ffb8f399100316c722e0d839acd1:20130305 203218:/PBI/sysutils/conky/9/x64/conky-1.9.0_1-amd64.pbi:1363017761::current:24967:
 conky:i386:1.8.1_4:78e617f744cdcc8dd935c9e00f86df711d47fdffd68fb2a2379f702ef8a69bfd:20110920 155519:/PBI/sysutils/conky/9/x32/conky-1.8.1_4-i386.pbi:1323116087::active:2948:
 conky:i386:1.9.0_1:c823894a91abd3bd9a0b48aae25e5aa96e92bedc6342e8042dde9dedeaafad4e:20130305 233150:/PBI/sysutils/conky/9/x32/conky-1.9.0_1-i386.pbi:1363017747::current:23814:
-connectagram:amd64:1.0.1:b3f1630c23571c5e5ebcf028b2c8e7ca9a5987541d20cf35d9418158c4779569:20120822 080333:/PBI/games/connectagram/9/x64/connectagram-1.0.1-amd64.pbi:1347464587::active:48164:
-connectagram:amd64:1.1.0:ab9c25bbd362c0c4b3e73da87026fa84711a498f781d3a639d7e72fc1f3eb07d:20130307 095845:/PBI/games/connectagram/9/x64/connectagram-1.1.0-amd64.pbi:1362752317::current:67083:
+connectagram:amd64:1.1.0:ab9c25bbd362c0c4b3e73da87026fa84711a498f781d3a639d7e72fc1f3eb07d:20130307 095845:/PBI/games/connectagram/9/x64/connectagram-1.1.0-amd64.pbi:1362752317::active:67083:
+connectagram:amd64:1.1.1:c3ba5d74c062ea1ae384185a860dae9f6b89046b8e72581188c2e87c2208d627:20130624 171159:/PBI/games/connectagram/9/x64/connectagram-1.1.1-amd64.pbi:1372192184::current:68661:
 connectagram:i386:1.0.1_1:1291468a1f4f15e1521854203f8f6af1ea4809dd42a3bef5cec446719dd48639:20120827 172334:/PBI/games/connectagram/9/x32/connectagram-1.0.1_1-i386.pbi:1347464216::active:47908:
 connectagram:i386:1.1.0:73eb983d00c1f385848bf6ad0e04a3e6a1cdc1b511de64eb27b745d8994ba055:20130307 124844:/PBI/games/connectagram/9/x32/connectagram-1.1.0-i386.pbi:1362752298::current:65161:
 contacts:amd64:0.9_6:4a99a6bfac14cc24ccf5eaa9d7a970154477ac4637e769fad6d8f1c006ed3ca1:20111012 084120:/PBI/deskutils/contacts/9/x64/contacts-0.9_6-amd64.pbi:1326306328::current:92098:
