@@ -2660,7 +2660,8 @@ taskcoach:amd64:1.3.20:220ee23af6497752029cd90a8eea22ec297a9ac3829006146c39b7ccb
 taskcoach:amd64:1.3.23:a01db785fae02e59fc5d12d47f3eed261eca65af1efdf76041df5bd0549a684d:20130215 071403:/PBI/deskutils/taskcoach/9/x64/taskcoach-1.3.23-amd64.pbi:1361390213::current:204051:
 taskcoach:i386:1.3.20:789f75ec260b2c34ed9425aa00ddf028a9702b66c9571ee7ef6db5e23e470632:20121215 071512:/PBI/deskutils/taskcoach/9/x32/taskcoach-1.3.20-i386.pbi:1355855252::active:189576:
 taskcoach:i386:1.3.23:36f62e65eef9043ac01f8dcf3e963871855523b928f9310264c96032cbbdaf20:20130217 115335:/PBI/deskutils/taskcoach/9/x32/taskcoach-1.3.23-i386.pbi:1361390180::current:191251:
-taskjuggler:amd64:2.4.3_5:c111d5f1edb5950e92b2c216b321035abf30ac4c5c0cdd2ecfe9fe37e359dad8:20110818 134435:/PBI/deskutils/taskjuggler/9/x64/taskjuggler-2.4.3_5-amd64.pbi:1315401564::current
+taskjuggler:amd64:2.4.3_5:c111d5f1edb5950e92b2c216b321035abf30ac4c5c0cdd2ecfe9fe37e359dad8:20110818 134435:/PBI/deskutils/taskjuggler/9/x64/taskjuggler-2.4.3_5-amd64.pbi:1315401564::active
+taskjuggler:amd64:3.4.0:31899d1fa3a9041451433f1a28fe6976734f4539dfbb7acc3a6fa4c8448a4345:20130626 120559:/PBI/deskutils/taskjuggler/9/x64/taskjuggler-3.4.0-amd64.pbi:1372273628::current:13323:
 taskjuggler:i386:2.4.3_5:a8cd011705748df9c7cfbb153f2876f894c7f02660daac92f9f1b6c36a8af820:20110809 032105:/PBI/deskutils/taskjuggler/9/x32/taskjuggler-2.4.3_5-i386.pbi:1315401827::current
 taxipilot:amd64:0.9.2_4:8429bec655998016097d3b14d6340f20fd1c90b928951055d03533f0214ba76b:20111024 180628:/PBI/games/taxipilot/9/x64/taxipilot-0.9.2_4-amd64.pbi:1320090703::current:99912:
 taxipilot:i386:0.9.2_4:6e2abb08cf1ab55f0c09449c79bad116c8cc265ca56f3804bd72b0a054a7deaf:20111030 120304:/PBI/games/taxipilot/9/x32/taxipilot-0.9.2_4-i386.pbi:1320090875::current:97861:
