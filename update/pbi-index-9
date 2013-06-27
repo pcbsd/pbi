@@ -860,8 +860,8 @@ galculator:i386:2.1:88adf420567898b0c6ac77881843ede3bda22181f3c1bb8f47d77de9d48e
 gambas:i386:2.15.2_2:a53eaf29fa06a175a6aeb9879a92a023ed6d7856003c8a5ce24b4500ab4cd49d:20110915 145451:/PBI/lang/gambas2/9/x32/gambas-2.15.2_2-i386.pbi:1324394562::current:140003:
 ganttproject:amd64:2.1-m3:3e1d9cddff727d9fdec46a4d341819d4c6fe6c473509ee8f7fd5d9108ece7859:20110810 162121:/PBI/deskutils/ganttproject/9/x64/ganttproject-2.1-m3-amd64.pbi:1313068907::current
 ganttproject:i386:2.1-m3:b3007446d6e33463efdbad55f7facf8ce33ccff029b131b3e7043a11da08b023:20110808 081423:/PBI/deskutils/ganttproject/9/x32/ganttproject-2.1-m3-i386.pbi:1313069067::current
-ganyremote:amd64:5.11.7:9bd72d7d7e3d08c62f129315460f3b7e11db7af7d863e9cdbf5ea9f5aef63d0d:20111012 114027:/PBI/deskutils/ganyremote/9/x64/ganyremote-5.11.7-amd64.pbi:1318597118::active
-ganyremote:amd64:6.1:e2e2eae538682b2b839c09581b44dd6da91005e9d27472c45a09c2cf3a81a0bf:20130401 165737:/PBI/deskutils/ganyremote/9/x64/ganyremote-6.1-amd64.pbi:1365439462::current:60681:
+ganyremote:amd64:6.1:e2e2eae538682b2b839c09581b44dd6da91005e9d27472c45a09c2cf3a81a0bf:20130401 165737:/PBI/deskutils/ganyremote/9/x64/ganyremote-6.1-amd64.pbi:1365439462::active:60681:
+ganyremote:amd64:6.2:47053801fc015fd3269643360b7f78d0fdaa349b5c47a19c35ab4a0344a8fb6a:20130627 050522:/PBI/deskutils/ganyremote/9/x64/ganyremote-6.2-amd64.pbi:1372341585::current:62001:
 ganyremote:i386:5.11.7:851b650e96fbd7120979e64538930bc4f4d711674c215fb8f850dbfe811fe263:20111014 022558:/PBI/deskutils/ganyremote/9/x32/ganyremote-5.11.7-i386.pbi:1318597237::active
 ganyremote:i386:6.1:4a0c677af043dc745e29b91b63f1c0b07cf96da353d8aae7a2541109198ea948:20130402 180730:/PBI/deskutils/ganyremote/9/x32/ganyremote-6.1-i386.pbi:1365439444::current:58890:
 gaupol:amd64:0.19.2_1:9109fa613941ddfaf54561e0cc27c30a0b8cf23d7b776b224f2b85e8d0677701:20120827 025152:/PBI/multimedia/gaupol/9/x64/gaupol-0.19.2_1-amd64.pbi:1346771640::current:189828:
