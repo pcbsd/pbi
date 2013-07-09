@@ -1963,8 +1963,8 @@ opencascade:amd64:6.3_10:f6962bcf11de4666350be4208011cc0bceb3eb78c1a2b17d553b62c
 opencascade:i386:6.3_10:7b0f64d1c6cd7406d2e06e3e00b715cb8edcc44bada292dc65e91b0c584f8232:20110924 051825:/PBI/cad/opencascade/9/x32/opencascade-6.3_10-i386.pbi:1321468335::current:183296:
 opencity:amd64:0.0.6.4:b3ddcad89f8f456804dea75bd858b38b0ad313e1a86733c91d07470247984e65:20111010 211521:/PBI/games/opencity/9/x64/opencity-0.0.6.4-amd64.pbi:1318339809::current
 opencity:i386:0.0.6.4:197c4e5018e57912b2703de661da58b1ab1919805628fc09c3d4a6d245de38b3:20111010 120324:/PBI/games/opencity/9/x32/opencity-0.0.6.4-i386.pbi:1318339884::current
-openconnect:amd64:4.08:182a0a823501f6dab6fa71637a992dc901b101fd27f268b7fc42a04340a47909:20130306 051137:/PBI/security/openconnect/9/x64/openconnect-4.08-amd64.pbi:1363021772::active:20103:
-openconnect:amd64:4.99:04f6635baf23ae831e24c7c0be35afa09cf681fc974ce041a0deb9c622779e19:20130615 142841:/PBI/security/openconnect/9/x64/openconnect-4.99-amd64.pbi:1371576673::current:20243:
+openconnect:amd64:4.99:04f6635baf23ae831e24c7c0be35afa09cf681fc974ce041a0deb9c622779e19:20130615 142841:/PBI/security/openconnect/9/x64/openconnect-4.99-amd64.pbi:1371576673::active:20243:
+openconnect:amd64:5.01:41d2b3ca01278a5f10fb7f28e78feace2aebb816c302ad686995df462b91df9e:20130701 055231:/PBI/security/openconnect/9/x64/openconnect-5.01-amd64.pbi:1373391654::current:20242:
 openconnect:i386:4.07:ce25599a2d464fd90b3d649de508bdd1129e9c2482247f6a3ec70eb091f13b59:20121021 180549:/PBI/security/openconnect/9/x32/openconnect-4.07-i386.pbi:1351094168::active:19602:
 openconnect:i386:4.08:f8484668275eefcf1d9bae262ae62381a80fb1c5d39b9fd4cab5dcc83b518e7f:20130306 070111:/PBI/security/openconnect/9/x32/openconnect-4.08-i386.pbi:1363021758::current:19591:
 openfire:amd64:3.7.0.beta:2efb68e1f49f7bd836fb7cb285e04d021cd4280bd501bc2f70e790b6a7f01c1d:20110920 024707:/PBI/net-im/openfire-devel/9/x64/openfire-3.7.0.beta-amd64.pbi:1320675981::current:96580:
