@@ -2369,8 +2369,8 @@ redeclipse:amd64:1.3.1:017cc70b6c07350bf3b37a896760d609c09c07ba37f0bc08858d64e73
 redeclipse:amd64:1.4:ed676b932aee09ddbd37f7070449561b747257cc45e865ee13b46b7f0c8a44d4:20130422 035050:/PBI/games/redeclipse/9/x64/redeclipse-1.4-amd64.pbi:1366646190::current:691388:
 redeclipse:i386:1.3.1:8bc53f1a37b6c34009ec00d7ce23b4b5daa75a7bbac849a223f0d55bbf0c5832:20121119 013723:/PBI/games/redeclipse/9/x32/redeclipse-1.3.1-i386.pbi:1354342993::active:502872:
 redeclipse:i386:1.4:4659025955867cbf453cf59c8ae72efd2c1c1ec6e4b65c3729472a28aae62257:20130422 030813:/PBI/games/redeclipse/9/x32/redeclipse-1.4-i386.pbi:1366646142::current:689724:
-rednotebook:amd64:1.6.5:29da5c56df955ee1afbbd8b0dca38127a91a439d338a6fd809911c42f271afce:20130107 171524:/PBI/deskutils/rednotebook/9/x64/rednotebook-1.6.5-amd64.pbi:1358184388::active:92610:
-rednotebook:amd64:1.7.1:1c0286066f91538c965048c46f70a44ddc95370ffed931b88ea814c6db2289f5:20130308 090939:/PBI/deskutils/rednotebook/9/x64/rednotebook-1.7.1-amd64.pbi:1365619365::current:94219:
+rednotebook:amd64:1.7.1:1c0286066f91538c965048c46f70a44ddc95370ffed931b88ea814c6db2289f5:20130308 090939:/PBI/deskutils/rednotebook/9/x64/rednotebook-1.7.1-amd64.pbi:1365619365::active:94219:
+rednotebook:amd64:1.7.2:8a79907fb2512d70bfff14e1fa85c3c5980d0f8de7cbc0a474f79597214b06a3:20130701 145402:/PBI/deskutils/rednotebook/9/x64/rednotebook-1.7.2-amd64.pbi:1373392432::current:104654:
 rednotebook:i386:1.6.5:69948efb1f3da1072a8171374ffebd5e8448000a36514c3620b66e5cc82f3c67:20130108 013221:/PBI/deskutils/rednotebook/9/x32/rednotebook-1.6.5-i386.pbi:1358182393::active:90689:
 rednotebook:i386:1.7.1:8ed25d0ff3704fadcf162707d918656f976a03bde12ab9259873fd7d3a202b23:20130327 212126:/PBI/deskutils/rednotebook/9/x32/rednotebook-1.7.1-i386.pbi:1365619346::current:99341:
 redshift:amd64:1.7:e47eae394eb80e1251e518f6424f180486bba6b5c231d0c7a48994015e2093b2:20120229 001938:/PBI/accessibility/redshift/9/x64/redshift-1.7-amd64.pbi:1332443552::current:41120:
