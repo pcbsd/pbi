@@ -2450,7 +2450,7 @@ rxvt-unicode:amd64:9.16:9400d9214cbf8c09c503c115fd20645df5e69d3048802cbe58066903
 rxvt-unicode:amd64:9.18:1b4c30d1b51c4fb69d2f5c5eaa9b8579907bea98d0ebe98d56ff5214c3c828d2:20130613 030607:/PBI/x11/rxvt-unicode/9/x64/rxvt-unicode-9.18-amd64.pbi:1371138326::current:47268:
 rxvt-unicode:i386:9.16:c63c61209648e9d0c9344fbb8d354b8a96c21ee24e56dcf85e0b3cd8adec411c:20130105 105924:/PBI/x11/rxvt-unicode/9/x32/rxvt-unicode-9.16-i386.pbi:1358524315::active:42785:
 rxvt-unicode:i386:9.18:215d537b08d0bc34b394d29417ce48f534cd068a8b674df64cd6435dc517109f:20130613 045703:/PBI/x11/rxvt-unicode/9/x32/rxvt-unicode-9.18-i386.pbi:1371138316::current:45730:
-sabnzbdplus:amd64:0.7.12_1:3d84be670b770dc39f01a4ff256b829b6d7983c8a6778eca182a0dbcb81e8575:20130616 051928:/PBI/news/sabnzbdplus/9/x64/sabnzbdplus-0.7.12_1-amd64.pbi:1371577972::current:34334:
+sabnzbdplus:amd64:0.7.13_1:c9e0faf70a5e2e1dd47b0e78bfdab2f927b1b9890a41d432eeaa817f892a890c:20130701 061723:/PBI/news/sabnzbdplus/9/x64/sabnzbdplus-0.7.13_1-amd64.pbi:1373392566::current:34460:
 sabnzbdplus:amd64:0.7.9:d2b09dbbc04ade4ea4b401487cdf9347f822d1c75552e763412297e3e11e1344:20130124 171215:/PBI/news/sabnzbdplus/9/x64/sabnzbdplus-0.7.9-amd64.pbi:1359130786::active:34056:
 sabnzbdplus:i386:0.7.11:1253b64371d9d190acdec7c7ebcfbd9f98baf4d96ea96c1275a199e776b3a0fc:20130306 071509:/PBI/news/sabnzbdplus/9/x32/sabnzbdplus-0.7.11-i386.pbi:1363022873::current:33673:
 sabnzbdplus:i386:0.7.9:dd06363a1aaa6c36a45cc54c5fce496d1db9fdfd7d1a205a7170e242de589a7e:20130124 085344:/PBI/news/sabnzbdplus/9/x32/sabnzbdplus-0.7.9-i386.pbi:1359130768::active:33289:
