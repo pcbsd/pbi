@@ -1825,7 +1825,8 @@ musescore:amd64:1.2:73b21026b6b704458186df246706ad1aafc47de29a4600a7ac0a89cc0fa6
 musescore:amd64:1.3:7913f08cc9444e66199891696e827d894bfb0a7ee996ca797159bfffac9533df:20130401 195638:/PBI/audio/musescore/9/x64/musescore-1.3-amd64.pbi:1365615106::current:231191:
 musescore:i386:1.2:ebf2c6a048464cd2eb46627b55a9899051d6796c678a6705a3fce02b08c377f9:20120705 044431:/PBI/audio/musescore/9/x32/musescore-1.2-i386.pbi:1341511060::active:200844:
 musescore:i386:1.3:3bc03c46847eb1c0b5dceaefe436cbc8526ec482d302cb4a0c9a0da69f2aeb6b:20130402 231011:/PBI/audio/musescore/9/x32/musescore-1.3-i386.pbi:1365615070::current:227990:
-musicplayerdaemon:amd64:0.16.6:c64a8f9937503f44dc3ff845331f6db2c01904d4435d0cc7e6da90a128fe4ff5:20120107 231045:/PBI/audio/musicpd/9/x64/musicplayerdaemon-0.16.6-amd64.pbi:1326480016::current:48420:
+musicplayerdaemon:amd64:0.16.6:c64a8f9937503f44dc3ff845331f6db2c01904d4435d0cc7e6da90a128fe4ff5:20120107 231045:/PBI/audio/musicpd/9/x64/musicplayerdaemon-0.16.6-amd64.pbi:1326480016::active:48420:
+musicplayerdaemon:amd64:0.17.3_1:133567f891c7aeca77878b781ca3e434df277796f335a0534d12cfb35e10eed0:20130628 201723:/PBI/audio/musicpd/9/x64/musicplayerdaemon-0.17.3_1-amd64.pbi:1373391290::current:54825:
 musicplayerdaemon:i386:0.16.6:b852bfab3b4cc4d929cc45e3d636b51055c1ba74671f96631e26868f959ca6cb:20120108 062447:/PBI/audio/musicpd/9/x32/musicplayerdaemon-0.16.6-i386.pbi:1326479899::current:47780:
 mutt:amd64:1.4.2.3_5:a3f9eec26a87bf1e9bc549b307b3bf2ff1e8775fa285b4771f652e0c098f6fb4:20110906 093941:/PBI/mail/mutt/9/x64/mutt-1.4.2.3_5-amd64.pbi:1315316036::active
 mutt:amd64:1.5.21:288de934cdafe3288cd0792c935ef18d1d074be6c5498d5d5d4b1a07c19c81b8:20121014 044613:/PBI/mail/mutt/9/x64/mutt-1.5.21-amd64.pbi:1350498507::current:25237:
