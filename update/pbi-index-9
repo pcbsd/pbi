@@ -2584,7 +2584,8 @@ soundconverter:amd64:1.5.4:69e45a1407ebc47968693cca33ddb8ea1b305f6bd47950aeed71e
 soundconverter:amd64:1.5.4_1:bd217096f6067167954368f9eaad88cb5d492e276dbcc76d7638e93cc063e9bb:20120706 221320:/PBI/audio/soundconverter/9/x64/soundconverter-1.5.4_1-amd64.pbi:1346263244::current:139490:
 soundconverter:i386:1.5.4:c1fcabd10d40840ee2425733e02bd01ec826fbe9298499f7b91356c371613491:20110923 011524:/PBI/audio/soundconverter/9/x32/soundconverter-1.5.4-i386.pbi:1316781144::active
 soundconverter:i386:1.5.4_1:ecb2127b795b5de5dcdf91c6a5d684518a5e3caea8fde0a6b19821eb402fac34:20120824 145355:/PBI/audio/soundconverter/9/x32/soundconverter-1.5.4_1-i386.pbi:1346262975::current:137825:
-soundkonverter:amd64:0.9.94rc2_5:2b506d410150cead53b3b7012298a2073222b01695fa386a86dde9dd931b151f:20120819 142249:/PBI/audio/soundkonverter/9/x64/soundkonverter-0.9.94rc2_5-amd64.pbi:1345832823::current:239654:
+soundkonverter:amd64:0.9.94rc2_5:2b506d410150cead53b3b7012298a2073222b01695fa386a86dde9dd931b151f:20120819 142249:/PBI/audio/soundkonverter/9/x64/soundkonverter-0.9.94rc2_5-amd64.pbi:1345832823::active:239654:
+soundkonverter:amd64:2.0.3:818c3d83c9049d0f54ea3527594bd1e4d777158e283192e269cdc3e35bcf714e:20130628 054316:/PBI/audio/soundkonverter/9/x64/soundkonverter-2.0.3-amd64.pbi:1373918525::current:548246:
 soundkonverter:i386:0.9.94rc2_5:43c150274905850f4ec3fc074bb1447f4199088d9df5f5b61ed79d968e87e8a0:20120818 133604:/PBI/audio/soundkonverter/9/x32/soundkonverter-0.9.94rc2_5-i386.pbi:1345831854::current:238245:
 spek:amd64:0.8.1:6c1c54543f826804c2c0370360f61f07892a58b25cbca99a72b0ac6c5dcbf6fa:20121028 173621:/PBI/audio/spek/9/x64/spek-0.8.1-amd64.pbi:1355853399::active:83645:
 spek:amd64:0.8.2:aaaa350e3b3f12f4cca16520ada05c0a79d051895574fa26ebcf8e59686ffa1b:20130308 212224:/PBI/audio/spek/9/x64/spek-0.8.2-amd64.pbi:1363023552::current:165906:
