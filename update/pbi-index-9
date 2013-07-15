@@ -1310,8 +1310,8 @@ jabref:amd64:2.6:bc2ddbdd042b2b7dc27996fc74adc2dc8648b4f64bb916d4c45177506661b04
 jabref:amd64:2.8.1:0502598e05e7683561ca0546e0503bdad9eb9c17cb9f9e7edb08a1eab7e5c3cb:20121204 203406:/PBI/print/jabref/9/x64/jabref-2.8.1-amd64.pbi:1355411397::current:105547:
 jabref:i386:2.6:62f05cec9621d370065824d8955713211af64872d73931919238f1cf9b8578ea:20111110 045056:/PBI/print/jabref/9/x32/jabref-2.6-i386.pbi:1320937275::active:85438:
 jabref:i386:2.8.1:007f308ee02b28ab06654ebc3df6745dbb3b5413b517fa212b47e211db5741e2:20121206 040630:/PBI/print/jabref/9/x32/jabref-2.8.1-i386.pbi:1355411201::current:105419:
-jack-keyboard:amd64:2.6:75a1a5d29ac30e124788ce4197accc842e67ea39d558a39f3d2eef9fad185f8c:20120112 214725:/PBI/audio/jack-keyboard/9/x64/jack-keyboard-2.6-amd64.pbi:1326473545::active:53288:
-jack-keyboard:amd64:2.7.1:ba5981bebc0d5448d800e1cbcc589d69656431d464ad5890e49c4be4a0130752:20120526 232304:/PBI/audio/jack-keyboard/9/x64/jack-keyboard-2.7.1-amd64.pbi:1338313329::current:53032:
+jack-keyboard:amd64:2.7.1:ba5981bebc0d5448d800e1cbcc589d69656431d464ad5890e49c4be4a0130752:20120526 232304:/PBI/audio/jack-keyboard/9/x64/jack-keyboard-2.7.1-amd64.pbi:1338313329::active:53032:
+jack-keyboard:amd64:2.7.1_1:a63e61f8474a0f578b8cf51211acfef0953e52fbd66943b11b37cfbc5c4c2582:20130629 014110:/PBI/audio/jack-keyboard/9/x64/jack-keyboard-2.7.1_1-amd64.pbi:1373910523::current:62126:
 jack-keyboard:i386:2.6:766ba50f1c55c0ac79a9381ccf94b5f738c2e5c1a06a92dd6f2718c02ba74d0f:20120112 214445:/PBI/audio/jack-keyboard/9/x32/jack-keyboard-2.6-i386.pbi:1326473417::active:52521:
 jack-keyboard:i386:2.7.1:7a93bfdec5dad7a8bb91d192b0ba08349fa5b95b422f18946fa83b211e40eb6d:20120526 212821:/PBI/audio/jack-keyboard/9/x32/jack-keyboard-2.7.1-i386.pbi:1338313424::current:52520:
 jack-rack:amd64:1.4.7_5:4ebeb17de0c8cab710792ba25027444d3371faf27c2482129a87a85881daa497:20120629 161231:/PBI/audio/jack-rack/9/x64/jack-rack-1.4.7_5-amd64.pbi:1340994810::current:81982:
