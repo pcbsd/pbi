@@ -1595,8 +1595,8 @@ libcanberra:amd64:0.28_1:231b64ed7eaca478757b1f2c641cff79abd5dc715e427274b7110af
 libcanberra:i386:0.28_1:aa0dd3b2275e8bde8424b96341d0ec177bbcfd890fb5a81da0d506cb714ec902:20111201 095125:/PBI/audio/libcanberra/9/x32/libcanberra-0.28_1-i386.pbi:1324411618::current:50470:
 librecad:amd64:1.0.0_1:2b412c23247233b07b4d1b94e04605cc1eda43fbea2662c078dd31b41556b857:20130115 225141:/PBI/cad/librecad/9/x64/librecad-1.0.0_1-amd64.pbi:1358382240::current:187268:
 librecad:i386:1.0.0_1:cee259efad420ed582b80947658febadd8003c9965537c678d36421052207f38:20130115 232806:/PBI/cad/librecad/9/x32/librecad-1.0.0_1-i386.pbi:1358378700::current:184449:
-libreoffice:amd64:3.5.7:5a8d7c515315a0b04e5b6c68434b4a61919d4fa4809b6264cbf61fdad069858e:20121116 202613:/PBI/editors/libreoffice/9/x64/libreoffice-3.5.7-amd64.pbi:1353431005::active:767761:
-libreoffice:amd64:3.6.5_1:bb71359b1ecc294ed03f152e0be8761a42fd8172b5d009e95c9dc2106b245f73:20130215 042412:/PBI/editors/libreoffice/9/x64/libreoffice-3.6.5_1-amd64.pbi:1361389013::current:877514:
+libreoffice:amd64:3.6.5_1:bb71359b1ecc294ed03f152e0be8761a42fd8172b5d009e95c9dc2106b245f73:20130215 042412:/PBI/editors/libreoffice/9/x64/libreoffice-3.6.5_1-amd64.pbi:1361389013::active:877514:
+libreoffice:amd64:4.0.4_1:67d78e11ecf29ff8658c7617eb35d2441d2cff77787be1477175f3a77b6d2ee1:20130701 173423:/PBI/editors/libreoffice/9/x64/libreoffice-4.0.4_1-amd64.pbi:1373911526::current:548216:
 libreoffice:i386:3.5.7:03040ae4eb6de0f88c156812b49a573edea5aebbd3f3943d4eade17ebbc35c9b:20121116 214146:/PBI/editors/libreoffice/9/x32/libreoffice-3.5.7-i386.pbi:1353376594::active:759817:
 libreoffice:i386:3.6.5_1:8f4fc55bb7c91565a29d60ffacaf7a8dfcb184c9a69294cb528ae1f9ed2193a5:20130216 163243:/PBI/editors/libreoffice/9/x32/libreoffice-3.6.5_1-i386.pbi:1361388909::current:862666:
 liferea:amd64:1.8.7:d70b9eb45ebf0d1621eb24085ce6e5ea27c579fca33342d113489738127ce98a:20120828 224530:/PBI/net/liferea/9/x64/liferea-1.8.7-amd64.pbi:1346775713::current:82876:
