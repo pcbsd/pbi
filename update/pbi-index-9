@@ -514,8 +514,8 @@ darwinstreamingserver:amd64:6.0.3:f1d55bde7021aacdfbd545e253debb91eae46c37ef9329
 darwinstreamingserver:i386:6.0.3:c2c60acfe12bebf56b9545725278d64e53e40d830180dea70238f107e40e0884:20110917 233325:/PBI/net/DarwinStreamingServer/9/x32/darwinstreamingserver-6.0.3-i386.pbi:1316612604::current
 dbvisualizer:amd64:7.1:08ae0a13a5f428d0788d9bec9f9a40623755c2b79da650f4e33fafdebb2f130a:20110905 203840:/PBI/java/dbvis/9/x64/dbvisualizer-7.1-amd64.pbi:1315332089::current
 dbvisualizer:i386:7.1:b0fa5fd96f74cd76e427263513b27c64d7f06ce95139737cf656f42c0169d860:20110829 094947:/PBI/java/dbvis/9/x32/dbvisualizer-7.1-i386.pbi:1315332276::current
-deadbeef:amd64:0.4.4_2:2e45274f11c092e590c6f7e79164696052e9d47af29fa062eba3eb1c61302617:20110801 234915:/PBI/audio/deadbeef/9/x64/deadbeef-0.4.4_2-amd64.pbi:1312302215::active
-deadbeef:amd64:0.5.5:2f0d963b6ab03cb001144d29aab4cd2d928287df7eab364abd7a236b59976222:20120626 021836:/PBI/audio/deadbeef/9/x64/deadbeef-0.5.5-amd64.pbi:1340883766::current:91201:
+deadbeef:amd64:0.5.5:2f0d963b6ab03cb001144d29aab4cd2d928287df7eab364abd7a236b59976222:20120626 021836:/PBI/audio/deadbeef/9/x64/deadbeef-0.5.5-amd64.pbi:1340883766::active:91201:
+deadbeef:amd64:0.5.5_2:412d36817630967028e488cabd1d46b6789e243b7ae7b7df79d5f5613296e59e:20130629 092022:/PBI/audio/deadbeef/9/x64/deadbeef-0.5.5_2-amd64.pbi:1373904789::current:109139:
 deadbeef:i386:0.4.4_2:d312e0199bf4f1e71c4ae73508ff9e8b22cabe6d70557b49ab39902e2652edc6:20110801 152710:/PBI/audio/deadbeef/9/x32/deadbeef-0.4.4_2-i386.pbi:1312302362::active
 deadbeef:i386:0.5.5:1bc951eee629d9a140ce8ff9573e80d17e1219f4a386e599d74351e75decfe83:20120626 132934:/PBI/audio/deadbeef/9/x32/deadbeef-0.5.5-i386.pbi:1340883307::current:90565:
 decibel-audio-player:amd64:1.07:f897681ded599c7ae9ee95dda0eea76c5132a615c28c76c86fa5e6d6ac233e70:20111129 234411:/PBI/audio/decibel-audio-player/9/x64/decibel-audio-player-1.07-amd64.pbi:1323123428::active:108237:
