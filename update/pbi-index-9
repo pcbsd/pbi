@@ -2948,8 +2948,8 @@ whichwayisup:i386:0.7.9_4:40cdcfa6736dfe1238e5e4f0661ac4b136ffbbf4fae9051be580ca
 whichwayisup:i386:079_3:43d8e68fc90b3cbf1dbc34865cf154b38f0c8dc2eed10e8782ba88064e02a77f:20120806 174251:/PBI/games/whichwayisup/9/x32/whichwayisup-079_3-i386.pbi:1344341740::active:122966:
 white_dune:amd64:0.30pl5_4:b5aedfe1d2d05a65a7a19a57abddbc8a7e605b23f204f686a7e02beed20cee8b:20120808 045753:/PBI/graphics/white_dune/9/x64/white_dune-0.30pl5_4-amd64.pbi:1345475355::current:20498:
 white_dune:i386:0.30pl5_4:d26b78957010f16381f6cd33b2e90433d320d3789a41379546ec39780683ac69:20120808 104749:/PBI/graphics/white_dune/9/x32/white_dune-0.30pl5_4-i386.pbi:1345475278::current:19986:
-widelands:amd64:build16_1:11049d0f67794001da765e09c220dc701b59b8fa1d7b6e14692d4caacebe53a2:20110828 045654:/PBI/games/widelands/9/x64/widelands-build16_1-amd64.pbi:1314793899::active
-widelands:amd64:build17_1:d06b8775ee5fa8e4d193b135b91b2287c78762aa5d3fe5cc4f7b75a0f36bd020:20121213 031145:/PBI/games/widelands/9/x64/widelands-build17_1-amd64.pbi:1355760925::current:191112:
+widelands:amd64:build17_1:d06b8775ee5fa8e4d193b135b91b2287c78762aa5d3fe5cc4f7b75a0f36bd020:20121213 031145:/PBI/games/widelands/9/x64/widelands-build17_1-amd64.pbi:1355760925::active:191112:
+widelands:amd64:build17_2:e45cfba9496737b591e9c0da17d0315f7a844017fb3c24c1e016fdde88426000:20130622 114815:/PBI/games/widelands/9/x64/widelands-build17_2-amd64.pbi:1374078622::current:201881:
 widelands:i386:build16_1:f10e2ed60b8532f847ab15248b0d218edd6e1cc273d4763b1e996d531a7ee6c2:20110827 025116:/PBI/games/widelands/9/x32/widelands-build16_1-i386.pbi:1314794132::active
 widelands:i386:build17_1:7d9f968576aff001a6439b7b543835b0b2e0e2edfe225cf27eada4692db5bb9b:20121213 045818:/PBI/games/widelands/9/x32/widelands-build17_1-i386.pbi:1355760480::current:189444:
 windstille:amd64:0.3.0_15:fc082996d6fe9251cd2adc17ef9ad81117f6929ee092b6cc0f888b1306bd8c35:20120909 095621:/PBI/games/windstille/9/x64/windstille-0.3.0_15-amd64.pbi:1347299536::current:18065:
