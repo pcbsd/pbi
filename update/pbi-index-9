@@ -2276,8 +2276,8 @@ pymol:i386:1.5.0.1.3978:c1328b87b5ebb139d75407e75acbb82f84f1b90aceb6ddd96fc13c3a
 pypanel:amd64:2.4_8:42d37fd4c8dd07f410142b877a04a2a0674dd449282361aba08ce389fbe82954:20111203 074957:/PBI/deskutils/pypanel/9/x64/pypanel-2.4_8-amd64.pbi:1326814757::current:14859:
 pypanel:i386:2.4_8:8db6deef630c886bfc1d1fa26dafad5093f93ce3d5f34d95ea6c7b4cc992051c:20111214 034107:/PBI/deskutils/pypanel/9/x32/pypanel-2.4_8-i386.pbi:1326814661::current:14859:
 q4wine:i386:0.120_1:052a75f60d31c25f27fbbcef206bfc43628993d09727070f4d3c1a051a3ba2c1:20130626 165920:/PBI/deskutils/q4wine/9/x64/q4wine-0.120_1-i386.pbi:1372351889::current:200335:
-qbittorrent:amd64:3.0.8:30baffe576314992fd848d1e845983e22d3b8ea099a1fe9a503aed0625a5d379:20130207 160632:/PBI/net-p2p/qbittorrent/9/x64/qbittorrent-3.0.8-amd64.pbi:1360354152::active:235543:
-qbittorrent:amd64:3.0.9:1d3792a407f75b4a87f1df51fbd471711fa95fe4cfbb9a443e2faefaa3645595:20130617 060708:/PBI/net-p2p/qbittorrent/9/x64/qbittorrent-3.0.9-amd64.pbi:1371577823::current:239912:
+qbittorrent:amd64:3.0.10_1:40c1c030bd1df00a53b512ec2a7a2f233319970a8de07ec8a16837e7cd0bb17f:20130721 171051:/PBI/net-p2p/qbittorrent/9/x64/qbittorrent-3.0.10_1-amd64.pbi:1374524896::current:236209:
+qbittorrent:amd64:3.0.9:1d3792a407f75b4a87f1df51fbd471711fa95fe4cfbb9a443e2faefaa3645595:20130617 060708:/PBI/net-p2p/qbittorrent/9/x64/qbittorrent-3.0.9-amd64.pbi:1371577823::active:239912:
 qbittorrent:i386:3.0.6:3196cb124f983564890415b161c9f6a4eb381e702fdb39bc38613685eafe0bd2:20121016 103836:/PBI/net-p2p/qbittorrent/9/x32/qbittorrent-3.0.6-i386.pbi:1350496295::active:202895:
 qbittorrent:i386:3.0.8:7d1c3fa203afe1ccb68dd606d82cdac99abd119d3e418b8a4b5a1f87a0c8401c:20130208 085533:/PBI/net-p2p/qbittorrent/9/x32/qbittorrent-3.0.8-i386.pbi:1360354124::current:234136:
 qcad:amd64:2.0.5.0.1_7:0fce9ec2c5c32d3a1ec085f57a750a5a248eb0bafba0ab6fc74973935e4407a8:20110809 111743:/PBI/cad/qcad/9/x64/qcad-2.0.5.0.1_7-amd64.pbi:1312895792::current
