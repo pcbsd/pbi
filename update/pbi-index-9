@@ -1603,7 +1603,8 @@ libreoffice:amd64:3.6.5_1:bb71359b1ecc294ed03f152e0be8761a42fd8172b5d009e95c9dc2
 libreoffice:amd64:4.0.4_1:67d78e11ecf29ff8658c7617eb35d2441d2cff77787be1477175f3a77b6d2ee1:20130701 173423:/PBI/editors/libreoffice/9/x64/libreoffice-4.0.4_1-amd64.pbi:1373911526::current:548216:
 libreoffice:i386:3.5.7:03040ae4eb6de0f88c156812b49a573edea5aebbd3f3943d4eade17ebbc35c9b:20121116 214146:/PBI/editors/libreoffice/9/x32/libreoffice-3.5.7-i386.pbi:1353376594::active:759817:
 libreoffice:i386:3.6.5_1:8f4fc55bb7c91565a29d60ffacaf7a8dfcb184c9a69294cb528ae1f9ed2193a5:20130216 163243:/PBI/editors/libreoffice/9/x32/libreoffice-3.6.5_1-i386.pbi:1361388909::current:862666:
-liferea:amd64:1.8.7:d70b9eb45ebf0d1621eb24085ce6e5ea27c579fca33342d113489738127ce98a:20120828 224530:/PBI/net/liferea/9/x64/liferea-1.8.7-amd64.pbi:1346775713::current:82876:
+liferea:amd64:1.8.15:29a690640f417fe5038d2844908329eb58be7a9e50e966cd9b89e0b35da90c6d:20130721 141929:/PBI/net/liferea/9/x64/liferea-1.8.15-amd64.pbi:1374518672::current:102094:
+liferea:amd64:1.8.7:d70b9eb45ebf0d1621eb24085ce6e5ea27c579fca33342d113489738127ce98a:20120828 224530:/PBI/net/liferea/9/x64/liferea-1.8.7-amd64.pbi:1346775713::active:82876:
 liferea:i386:1.8.7:f93959ac3fecd4e8265a693a1ddfe412ac127e09baed1787ea12b5df20029a43:20120903 070606:/PBI/net/liferea/9/x32/liferea-1.8.7-i386.pbi:1346775573::current:81978:
 lightspark-devel:amd64:r20110309_1:b3f37e52dc5403fdbbce02103572880ff62290d87a7145496a2646c31cd5cef4:20110829 064320:/PBI/graphics/lightspark-devel/9/x64/lightspark-devel-r20110309_1-amd64.pbi:1314627634::current
 lightspark-devel:i386:r20110309_1:4438a118450ae0ff1ac601e788d3aefb81816bd490a5bc13df4754cb9f859662:20110828 050440:/PBI/graphics/lightspark-devel/9/x32/lightspark-devel-r20110309_1-i386.pbi:1314628225::current
