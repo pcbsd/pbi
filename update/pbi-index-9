@@ -49,8 +49,8 @@ alsa-utils:amd64:1.0.25:05eabf022d18d93e2c79c3d331b33e3ca24a11f9ae45d05c9b9e0806
 alsa-utils:amd64:1.0.26:46c8b9109438c33373568a25c63f555a7ed631412a8cdb011ccaaaacc8932826:20121028 212317:/PBI/audio/alsa-utils/9/x64/alsa-utils-1.0.26-amd64.pbi:1355933056::current:14347:
 alsa-utils:i386:1.0.25:343f7b4584e9b60c3d675812db199ed8a4685b81da9215f11b5bdedafb96494c:20120823 222700:/PBI/audio/alsa-utils/9/x32/alsa-utils-1.0.25-i386.pbi:1347303015::active:7047:
 alsa-utils:i386:1.0.26:5aba14c22d6c480cda0c1eac2bc67c81db72274d17050a13e2c0f300c724867e:20121217 073703:/PBI/audio/alsa-utils/9/x32/alsa-utils-1.0.26-i386.pbi:1355932503::current:14091:
-amanda-client:amd64:3.2.3:6084c87561cc4212ca3274d5ccac25c97a0fd85cb616df9159d53e1a5f92f77c:20111205 044520:/PBI/misc/amanda-client/9/x64/amanda-client-3.2.3-amd64.pbi:1326204090::active:32793:
-amanda-client:amd64:3.3.2:f98dcb3290b79136129215d27a1124136dc783b096b0a9e4851c567d8fd6a500:20121026 085246:/PBI/misc/amanda-client/9/x64/amanda-client-3.3.2-amd64.pbi:1351517695::current:34716:
+amanda-client:amd64:3.3.2:f98dcb3290b79136129215d27a1124136dc783b096b0a9e4851c567d8fd6a500:20121026 085246:/PBI/misc/amanda-client/9/x64/amanda-client-3.3.2-amd64.pbi:1351517695::active:34716:
+amanda-client:amd64:3.3.2_1:d33cc4244393da7c20f68f515512d135584cf4bac7590c0c43653b8fcb448e0d:20130722 031537:/PBI/misc/amanda-client/9/x64/amanda-client-3.3.2_1-amd64.pbi:1374510886::current:32795:
 amanda-client:i386:3.2.3:ec6e4041b30a78b8a4c4ab0d6429eeb4672c29c469cb5e800810d0b7109e839b:20120109 041453:/PBI/misc/amanda-client/9/x32/amanda-client-3.2.3-i386.pbi:1326203944::active:32153:
 amanda-client:i386:3.3.2:238bb6b42e0683cd8b33766e63757c6b99365e4f47c75bc7d269325b55f95cec:20121026 040004:/PBI/misc/amanda-client/9/x32/amanda-client-3.3.2-i386.pbi:1351517551::current:33691:
 americasarmy:amd64:2.5.0_1:219096d676ba56aeb94db15ce81f792e0943635cff79427ca73bd2742be3047a:20110826 182136:/PBI/games/linux-americasarmy/9/x64/americasarmy-2.5.0_1-amd64.pbi:1314644146::current
