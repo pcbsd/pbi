@@ -1016,8 +1016,8 @@ gnomekiss:amd64:2.0_6:37c65d0497fd25ae2babd893a4df64662f1e964720850f3a37a8b58bc0
 gnomekiss:i386:2.0_6:b656c967b615c09f2885909dbd533d2f1ced656a979596e534f9a9784b5a6d54:20111007 133141:/PBI/games/gnomekiss/9/x32/gnomekiss-2.0_6-i386.pbi:1318252284::current
 gnomememoryblocks:amd64:0.2_9:a340e5f193907777752d91769a90ae8faa38ef90d01e6b62ea48051775fe3de9:20111008 080339:/PBI/games/gnomememoryblocks/9/x64/gnomememoryblocks-0.2_9-amd64.pbi:1318254662::current
 gnomememoryblocks:i386:0.2_9:c578829031944012f8a97f8de504754e7e1fb2d00f5a6fc3c0f37717868a2693:20111008 002050:/PBI/games/gnomememoryblocks/9/x32/gnomememoryblocks-0.2_9-i386.pbi:1318254773::current
-gnomemplayer:amd64:1.0.7:7ad454e82f79aede908ce028fb7f917287a8b2fd226f5a0958346ec8251f9419:20130306 152916:/PBI/multimedia/gnome-mplayer/9/x64/gnomemplayer-1.0.7-amd64.pbi:1363019036::active:82189:
-gnomemplayer:amd64:1.0.8:f713c8f3985d5c49680829e428ab0428dcce40ea71666097b5fd4b0220bb429d:20130326 031647:/PBI/multimedia/gnome-mplayer/9/x64/gnomemplayer-1.0.8-amd64.pbi:1365440461::current:76554:
+gnomemplayer:amd64:1.0.8:f713c8f3985d5c49680829e428ab0428dcce40ea71666097b5fd4b0220bb429d:20130326 031647:/PBI/multimedia/gnome-mplayer/9/x64/gnomemplayer-1.0.8-amd64.pbi:1365440461::active:76554:
+gnomemplayer:amd64:1.0.8_1:fd5275607f183f80fcba100e5ea0f67867b4de8ab91ae78d82716bf11a5ceaa0:20130722 022418:/PBI/multimedia/gnome-mplayer/9/x64/gnomemplayer-1.0.8_1-amd64.pbi:1374512961::current:63025:
 gnomemplayer:i386:1.0.7:9a85c3e76ef5098a01b2b5beb99549d3027311b5247ace30e0c3b7fce598b816:20130306 181035:/PBI/multimedia/gnome-mplayer/9/x32/gnomemplayer-1.0.7-i386.pbi:1363019016::active:80779:
 gnomemplayer:i386:1.0.8:51fe2ab196b9e612a23187ad6ff74dec2a4e37c627872f9e38428a57633503b1:20130326 022827:/PBI/multimedia/gnome-mplayer/9/x32/gnomemplayer-1.0.8-i386.pbi:1365440445::current:75659:
 gnomermind:amd64:1.0.1_9:293b5d922bc803bc6375320a5a5394850330c347d26b75c569f7ef065e7329d6:20111008 084307:/PBI/games/gnomermind/9/x64/gnomermind-1.0.1_9-amd64.pbi:1318255542::current
