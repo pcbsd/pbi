@@ -2645,8 +2645,8 @@ supertransball2:amd64:1.5_6:bf315bc1a8ee831c83415c9f98973a21f3153daffb66646264ec
 supertransball2:i386:1.5_6:e5f321d82bccb484b3e71997c736655a62588edf02b65b4c1445f1cdea64564d:20120806 080041:/PBI/games/stransball2/9/x32/supertransball2-1.5_6-i386.pbi:1347893860::current:17680:
 supertux:amd64:0.1.3_7:0fd635d1999b1ccc17cbde22b0c0f5213f3257356f5adce7c0d64a6f03675e75:20111028 021855:/PBI/games/supertux/9/x64/supertux-0.1.3_7-amd64.pbi:1320083386::current:12298:
 supertux:i386:0.1.3_7:01e336bbc395d3e837ecabf406406d475dfef327c948746b2e29437f06646e73:20111030 095753:/PBI/games/supertux/9/x32/supertux-0.1.3_7-i386.pbi:1320083455::current:12426:
-supertuxkart:amd64:0.7:0442a32b3e00094f60613e80994f8fe6a0aad35822a9f77284682dbef8e703a5:20110827 140328:/PBI/games/supertuxkart/9/x64/supertuxkart-0.7-amd64.pbi:1314721731::active
-supertuxkart:amd64:0.8:9aa6e7b9c26bd0288551de0566d91dd76b32a5eebc50872e93848bd220762d56:20130106 140842:/PBI/games/supertuxkart/9/x64/supertuxkart-0.8-amd64.pbi:1357878437::current:175354:
+supertuxkart:amd64:0.8:9aa6e7b9c26bd0288551de0566d91dd76b32a5eebc50872e93848bd220762d56:20130106 140842:/PBI/games/supertuxkart/9/x64/supertuxkart-0.8-amd64.pbi:1357878437::active:175354:
+supertuxkart:amd64:0.8_1:c04e683e09e4fd8aac4572be77e93ffe7f0738c3e04f1196403098a57b662b75:20130722 073450:/PBI/games/supertuxkart/9/x64/supertuxkart-0.8_1-amd64.pbi:1374525520::current:175621:
 supertuxkart:i386:0.7:12130a9e33e5f009164c9745f196de9f9570ea0b39f8c87ebb9282d6b15daf83:20110826 113857:/PBI/games/supertuxkart/9/x32/supertuxkart-0.7-i386.pbi:1314721968::active
 supertuxkart:i386:0.8:27adc76846ee376b01f26d25b6e11fd932fd4e71bf3fc03d82037e43d8c88821:20130107 000842:/PBI/games/supertuxkart/9/x32/supertuxkart-0.8-i386.pbi:1357872184::current:174331:
 surf:amd64:0.4.1_2:6bfd2186c9faac697bea3b26f7cefc4d7c6d84bc3a64fdd6636b5cfc8d88cd0a:20121212 193544:/PBI/www/surf/9/x64/surf-0.4.1_2-amd64.pbi:1358208388::active:87233:
