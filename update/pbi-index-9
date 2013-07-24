@@ -424,8 +424,8 @@ claws-mail:amd64:3.9.0:beb4488627a146330053c99472dbc47de5898c0bce4f1346b43d41b5d
 claws-mail:amd64:3.9.2:c5a13727cf6fcd38bc257eef09c51a0f66022be3ab13e66d951f0c36fb325354:20130620 205524:/PBI/mail/claws-mail/9/x64/claws-mail-3.9.2-amd64.pbi:1371834526::current:150385:
 claws-mail:i386:3.8.1_01:78c3b826c3c5e84e5a1cbea3fcb38411123643d5d4b0a5f92d08f8b89a7e0c88:20121129 174718:/PBI/mail/claws-mail/9/x32/claws-mail-3.8.1_01-i386.pbi:1354286328::active:141289:
 claws-mail:i386:3.9.0:f4cd1e9a7fa47abfb5ce4925e54df500a5d72387e214c720891dad5ee60e1c57:20121221 194334:/PBI/mail/claws-mail/9/x32/claws-mail-3.9.0-i386.pbi:1356746786::current:142052:
-clementine:amd64:1.1.0_01:8f4b940b90dc0547992111f9e8271f49579536e79618d66fc78019752899283a:20130125 120108:/PBI/audio/clementine-player/9/x64/clementine-1.1.0_01-amd64.pbi:1359385022::active:519980:
-clementine:amd64:1.1.1:fa6c7ba18594c24956678dce2efed403525c1029b42b78dceb1bf03d1b5b5eac:20130629 154150:/PBI/audio/clementine-player/9/x64/clementine-1.1.1-amd64.pbi:1373046040::current:353672:
+clementine:amd64:1.1.1:fa6c7ba18594c24956678dce2efed403525c1029b42b78dceb1bf03d1b5b5eac:20130629 154150:/PBI/audio/clementine-player/9/x64/clementine-1.1.1-amd64.pbi:1373046040::active:353672:
+clementine:amd64:1.1.1_1:9f8a563cfc29fe623db2f78825fa0633a59bfeafafe0529c55827de6f7353d25:20130722 215703:/PBI/audio/clementine-player/9/x64/clementine-1.1.1_1-amd64.pbi:1374670493::current:348925:
 clementine:i386:1.0.0_6_01:ac6455ad196ebd26c46030fbfeb4391bab6d74ea9beacdb28fbabfc9f98c445d:20121128 152909:/PBI/audio/clementine-player/9/x32/clementine-1.0.0_6_01-i386.pbi:1354305755::active:511839:
 clementine:i386:1.1.0_01:7bb0ad3c8152582aa6b90ea07d1b8ab0becf73ee7fff1c5d65b769489230f745:20130125 042017:/PBI/audio/clementine-player/9/x32/clementine-1.1.0_01-i386.pbi:1359384984::current:510125:
 clex:amd64:3.18:3097af6d1b4b8bba145f346e4118a13df2e05a42b48416a1c310e565b94b0518:20111205 061705:/PBI/misc/clex/9/x64/clex-3.18-amd64.pbi:1326303504::active:108:
