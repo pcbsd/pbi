@@ -575,7 +575,8 @@ dosbox:i386:0.74:88964fb9dfc99033607bdce5ed1fd3f728dbcbd00782b859dda85375e933512
 dovecot2:amd64:2.2.2:f5306a3f3198a629e7ed11c6de70988a53356ff0f05413ad7b89c5acc9b75955:20130620 180802:/PBI/mail/dovecot2/9/x64/dovecot2-2.2.2-amd64.pbi:1371834628::active:3205:
 dovecot2:amd64:2.2.4:14c93b28d5c9d7eb9eacf23eeb29ae4bcce0fec6be00da737f660d8d6161987e:20130701 071330:/PBI/mail/dovecot2/9/x64/dovecot2-2.2.4-amd64.pbi:1373048889::current:3205:
 dovecot2:i386:2.1.3:a0ee67a45291115e48b2780080f88589b3f2dbbeafb0e699665f78e8c44d9358:20120513 204737:/PBI/mail/dovecot2/9/x32/dovecot2-2.1.3-i386.pbi:1337009075::active:2820:
-drivel:amd64:3.0.3:7e50d7e670aa30f66fe075e0fb651d67e86db31e9f8476a2f60ad31c06ffacf0:20111012 095631:/PBI/deskutils/drivel/9/x64/drivel-3.0.3-amd64.pbi:1318595016::current
+drivel:amd64:3.0.3:7e50d7e670aa30f66fe075e0fb651d67e86db31e9f8476a2f60ad31c06ffacf0:20111012 095631:/PBI/deskutils/drivel/9/x64/drivel-3.0.3-amd64.pbi:1318595016::active
+drivel:amd64:3.0.5:34199b3a79da36a8f1fb32a12d68fa7c3940f28354ada6a54238931fa154c61d:20130724 011941:/PBI/deskutils/drivel/9/x64/drivel-3.0.5-amd64.pbi:1375113044::current:77241:
 drivel:i386:3.0.3:fe5443d986c504f9ebcc2f909e02620097d14c1bc9dac96f9035efd4dd43c52b:20111014 003953:/PBI/deskutils/drivel/9/x32/drivel-3.0.3-i386.pbi:1318595158::current
 duplicity-devel:amd64:0.6.10_1:8bc04aa0a47a552caddffe0d9c8f82d90174d45015c5b57a6d7ae723e38fd1f0:20111106 041526:/PBI/sysutils/duplicity-devel/9/x64/duplicity-devel-0.6.10_1-amd64.pbi:1321383253::current:18705:
 duplicity-devel:i386:0.6.10_1:a9288929e9ab9ce395baf5b95d200edc2b07b0074b65e26786febf89e4b17661:20110920 164323:/PBI/sysutils/duplicity-devel/9/x32/duplicity-devel-0.6.10_1-i386.pbi:1321383323::current:19730:
