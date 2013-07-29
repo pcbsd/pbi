@@ -1496,7 +1496,8 @@ komodo-edit:i386:5.2.4_1:a910418917bd359acc32b4980223242865de1fe23c1cebfe8e9da30
 komodo-edit:i386:6.1.2:13169ac6313e69dd6a2a998da76ae52a3fa73e1317ca96c1557c886a98d9c608:20110930 061917:/PBI/editors/komodo-edit/9/x32/komodo-edit-6.1.2-i386.pbi:1317472588::current
 kompozer:amd64:0.8b3_2:31422781d4354fa22ed5716ae0ddb3f432c4dba2b6dcf00cb4d1391ebc1c4254:20111110 090354:/PBI/www/kompozer/9/x64/kompozer-0.8b3_2-amd64.pbi:1321286740::current:60204:
 kompozer:i386:0.8b3_2:01ac39fa04ce4a5497d4adca389160687007fab24da5fbace68301b977f19f29:20111112 195342:/PBI/www/kompozer/9/x32/kompozer-0.8b3_2-i386.pbi:1321286881::current:58923:
-konversation:amd64:1.3.1_2:6f51f939dd70ac266f6bdf0d79056e81db612b9efe3e5805ad72a7f6e8c1d2db:20110905 121818:/PBI/irc/konversation-kde4/9/x64/konversation-1.3.1_2-amd64.pbi:1315313829::current
+konversation:amd64:1.3.1_2:6f51f939dd70ac266f6bdf0d79056e81db612b9efe3e5805ad72a7f6e8c1d2db:20110905 121818:/PBI/irc/konversation-kde4/9/x64/konversation-1.3.1_2-amd64.pbi:1315313829::active
+konversation:amd64:1.4_2:a62fae598713f8d5556d41b4bd3ae3792bb935e02296d253ec4b9d6280e37c0a:20130723 194011:/PBI/irc/konversation-kde4/9/x64/konversation-1.4_2-amd64.pbi:1375114207::current:612775:
 konversation:i386:1.3.1_2:4d3c68eb6d52e8dd3fb0b59646151b758dde1e163eca9b2418e5d7eec2e9f570:20110829 024808:/PBI/irc/konversation-kde4/9/x32/konversation-1.3.1_2-i386.pbi:1315314298::current
 konverter:amd64:0.92-beta1_15:5e236ad921bb9ca5e15bbc10de7e745824f7c4d587c92513798ae147c65a39ae:20111215 093859:/PBI/multimedia/konverter/9/x64/konverter-0.92-beta1_15-amd64.pbi:1329844536::active:94787:
 konverter:amd64:0.92-beta1_19:a3ce8ad20fea911c51c247e2e19a7019d9e1c0c6c834c48cbfeadffbfc9d4d81:20130619 143917:/PBI/multimedia/konverter/9/x64/konverter-0.92-beta1_19-amd64.pbi:1371755105::current:118484:
