@@ -2876,7 +2876,7 @@ viking:i386:1.4:f971339c895548105b3c72c8bd32918ddfa4ae3cc6736409e1b67cb8a3df45f6
 virt-manager:amd64:0.9.5:38eb969994f6435e420cc6ef4107018b7aff5ef3d26ac675f4597de5cb877d06:20130626 115343:/PBI/deskutils/virt-manager/9/x64/virt-manager-0.9.5-amd64.pbi:1372274139::active:105291:
 virt-manager:amd64:0.9.5_1:1dcd233c9faaf11be72a6983264a9296ac241216a95e76ac85ad4c09d68240e7:20130704 151735:/PBI/deskutils/virt-manager/9/x64/virt-manager-0.9.5_1-amd64.pbi:1374078415::current:105931:
 virt-manager:i386:0.9.4_1:d7d75be794d9058642f48ec23c349cacb942e3a586e4e8386856488f416cdf2d:20120923 003646:/PBI/deskutils/virt-manager/9/x32/virt-manager-0.9.4_1-i386.pbi:1348583262::active:86846:
-virtualbox:amd64:4.2.12:1538fd877e4338c9fbb1171f1871cf891ce306ebb62e901a0dfcb9abd654a7ca:20130504 060600:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.12-amd64.pbi:1368103816::current:221206:
+virtualbox:amd64:4.2.16_2:55ab707db2f7a29d8d1b46fdcf0b4ce460b0d557ad7c0e642f65e868fe468dc2:20130719 232213:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.16_2-amd64.pbi:1375117501::current:216729:
 virtualbox:amd64:4.2.6:2f800dabad975610602000d2efb3c6e19d0d9b22e17f343b1b5970f47bccb8f8:20130406 045613:/PBI/emulators/virtualbox-ose/9/x64/virtualbox-4.2.6-amd64.pbi:1365621134::active:217621:
 virtualbox:i386:4.2.12:39cdf802ac92fbdffa162fb3b5ab269d2ab188fc1a149dbc9a5767310ebcb1c8:20130509 092152:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.12-i386.pbi:1368103762::current:216342:
 virtualbox:i386:4.2.6:5f0176a2828e9c41142a67a1cff47d74ca2e9b971c1029b654212977a8f1bcbc:20130404 105628:/PBI/emulators/virtualbox-ose/9/x32/virtualbox-4.2.6-i386.pbi:1365621106::active:213910:
