@@ -2659,8 +2659,8 @@ tagtool:i386:0.12.3_10:13e696d2143e23fe24e9ca8afb5ffed3ea0678d4f4e5058af37beb209
 tagtool:i386:0.12.3_11:27142bba8d146afd2ebd2d0d62c2695e4bd3e4153f8bb842d2d44e1d59176ce2:20120707 083827:/PBI/audio/tagtool/9/x32/tagtool-0.12.3_11-i386.pbi:1346265510::current:50086:
 tanglet:amd64:1.2.1:613c73d73ed8d765fe9ca3541d0d44fc8cf7a6cd055e1893201a4e3b514dd997:20120806 045427:/PBI/games/tanglet/9/x64/tanglet-1.2.1-amd64.pbi:1345473854::current:54441:
 tanglet:i386:1.2.1:4efba10d4a9e1d9f0b96bc6887bd6842becf9bd8ee4535077371e3aa9b9f08e4:20120806 105420:/PBI/games/tanglet/9/x32/tanglet-1.2.1-i386.pbi:1345473740::current:54185:
-taskcoach:amd64:1.3.20:220ee23af6497752029cd90a8eea22ec297a9ac3829006146c39b7ccb208b073:20121214 094454:/PBI/deskutils/taskcoach/9/x64/taskcoach-1.3.20-amd64.pbi:1355855607::active:201613:
-taskcoach:amd64:1.3.23:a01db785fae02e59fc5d12d47f3eed261eca65af1efdf76041df5bd0549a684d:20130215 071403:/PBI/deskutils/taskcoach/9/x64/taskcoach-1.3.23-amd64.pbi:1361390213::current:204051:
+taskcoach:amd64:1.3.23:a01db785fae02e59fc5d12d47f3eed261eca65af1efdf76041df5bd0549a684d:20130215 071403:/PBI/deskutils/taskcoach/9/x64/taskcoach-1.3.23-amd64.pbi:1361390213::active:204051:
+taskcoach:amd64:1.3.31:dcbbc41f3acd269f08c8407d76e56d37abc02a9e6f8b547e83ae925883117951:20130809 020820:/PBI/deskutils/taskcoach/9/x64/taskcoach-1.3.31-amd64.pbi:1376500336::current:216857:
 taskcoach:i386:1.3.20:789f75ec260b2c34ed9425aa00ddf028a9702b66c9571ee7ef6db5e23e470632:20121215 071512:/PBI/deskutils/taskcoach/9/x32/taskcoach-1.3.20-i386.pbi:1355855252::active:189576:
 taskcoach:i386:1.3.23:36f62e65eef9043ac01f8dcf3e963871855523b928f9310264c96032cbbdaf20:20130217 115335:/PBI/deskutils/taskcoach/9/x32/taskcoach-1.3.23-i386.pbi:1361390180::current:191251:
 taskjuggler:amd64:2.4.3_5:c111d5f1edb5950e92b2c216b321035abf30ac4c5c0cdd2ecfe9fe37e359dad8:20110818 134435:/PBI/deskutils/taskjuggler/9/x64/taskjuggler-2.4.3_5-amd64.pbi:1315401564::active
