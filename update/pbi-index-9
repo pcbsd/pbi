@@ -2179,7 +2179,8 @@ pokerth:i386:1.0.1:9226e951a68f5fc5450c510c774b9be705fb9d4a97429b69fa0788817ccac
 pokerth:i386:1.0:317bed2842a7b7a4e83dfea2814de64bb8e0325683dd6786ea02660480d63289:20130107 021637:/PBI/games/pokerth/9/x32/pokerth-1.0-i386.pbi:1358176724::active:105035:
 portaudit-db:amd64:0.2.3_1:1a3997cd67058b9b174b19afa5cae2b1fdc209520557049a3098ddeed2930243:20121229 171157:/PBI/ports-mgmt/portaudit-db/9/x64/portaudit-db-0.2.3_1-amd64.pbi:1358446699::current:6919:
 portaudit-db:i386:0.2.3_1:11332e739208e6c71da5641ea01fbc0d3bcf2390313fd58a5e6542e4457837fb:20130104 150511:/PBI/ports-mgmt/portaudit-db/9/x32/portaudit-db-0.2.3_1-i386.pbi:1358446499::current:7047:
-portaudit:amd64:0.6.0:3e3a3026f7793455862afc60b1f2bfcca45ce29e42bf358db35af2229413cbba:20121229 170444:/PBI/ports-mgmt/portaudit/9/x64/portaudit-0.6.0-amd64.pbi:1358446100::current:45:
+portaudit:amd64:0.6.0:3e3a3026f7793455862afc60b1f2bfcca45ce29e42bf358db35af2229413cbba:20121229 170444:/PBI/ports-mgmt/portaudit/9/x64/portaudit-0.6.0-amd64.pbi:1358446100::active:45:
+portaudit:amd64:0.6.1:35313dd4c59e5bbb272ef2355c0c376fb504dc3a28b73ce960d4c11334f44646:20130808 212045:/PBI/ports-mgmt/portaudit/9/x64/portaudit-0.6.1-amd64.pbi:1376499536::current:46:
 portaudit:i386:0.6.0:255dc98839d3f3b8f320056001dbc8f2c6eb0f6785c419e4a092edb1d7c5add0:20130104 145638:/PBI/ports-mgmt/portaudit/9/x32/portaudit-0.6.0-i386.pbi:1358446041::current:45:
 portmaster:amd64:3.17.1:b2aad6e6cf317f94970b30c8515b42e2375e5e1cfe5be74b48f5166167a39917:20130723 221511:/PBI/ports-mgmt/portmaster/9/x64/portmaster-3.17.1-amd64.pbi:1375115526::current:65:
 portmaster:amd64:3.17:8a2113e426a53c87aea66f210c757cbc4aae4436629263167a47c4639f9f95ba:20130701 055536:/PBI/ports-mgmt/portmaster/9/x64/portmaster-3.17-amd64.pbi:1373392060::active:66:
