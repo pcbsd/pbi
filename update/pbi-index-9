@@ -2205,6 +2205,7 @@ prboom:amd64:2.5.0_3:bf9ac126a4352119f93ae3f4080e7a5f85b26e3a97e3b4665cff62947d9
 prboom:i386:2.5.0_3:a495797b48fea33725a7ed0800aa4d14730a7a385f4470d8d4152133e26e6252:20120415 200459:/PBI/games/prboom/9/x32/prboom-2.5.0_3-i386.pbi:1335202255::current:7175:
 predict:amd64:2.2.3:bf6386ca7ad13602a87d91d6c858ebc3382dd87c7acba9ddd82e0642c14d0a82:20110809 162543:/PBI/comms/predict/9/x64/predict-2.2.3-amd64.pbi:1312912610::current
 predict:i386:2.2.3:a3c417249eac81e6a4e806393d26604c21551972bbb6ff601a5ff2fde54ca235:20110807 100712:/PBI/comms/predict/9/x32/predict-2.2.3-i386.pbi:1312912651::current
+prelude-manager:amd64:1.0.2_2:d2cc6ac682283f3f403d3a1db81bf3abd8ee4d92ec2c6264e8d72d4f8ab14bff:20130624 233625:/PBI/security/prelude-manager/9/x64/prelude-manager-1.0.2_2-amd64.pbi:1378241537::current:214935:
 primateplunge:amd64:1.1_6:9a2e8ae6b937adf7e1d61c43c5069ad3ac6f21adae8da6fa802f8737672bda49:20120909 090325:/PBI/games/primateplunge/9/x64/primateplunge-1.1_6-amd64.pbi:1347296992::current:18705:
 primateplunge:i386:1.1_6:19948371a8cf725be0019337eddaeda0766f63fa106b3066711c54fef71d6abc:20120909 072752:/PBI/games/primateplunge/9/x32/primateplunge-1.1_6-i386.pbi:1347296957::current:18833:
 privoxy:amd64:3.0.19:e16ff1d91524e2e3a1334dc13f116885895cc998142fbeca309003d8c27be70b:20120120 224545:/PBI/www/privoxy/9/x64/privoxy-3.0.19-amd64.pbi:1329330997::active:1027:
