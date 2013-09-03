@@ -2794,8 +2794,8 @@ trafshow:amd64:5.2.3_2:82c2411a58f0674f864c29d5f476ff162ccd2bada309334d76e4211a1
 trafshow:i386:5.2.3_2:bb363036190db1310cf225cf25da2493ce620cdd1f9ed467825bb4e59e03d5ef:20120129 192603:/PBI/net/trafshow/9/x32/trafshow-5.2.3_2-i386.pbi:1328896998::current:69:
 traindirector:amd64:3.6_3:f338790101569e4ad44225e69ef92fb7b74429028e1e74e33d78655637ba35a7:20120415 192147:/PBI/games/traindirector/9/x64/traindirector-3.6_3-amd64.pbi:1335205334::current:61101:
 traindirector:i386:3.6_3:f6857df5dad86b6fa2bb009523d06db1004394ef05b1e21b42ba1d031648bf59:20120415 233711:/PBI/games/traindirector/9/x32/traindirector-3.6_3-i386.pbi:1335205244::current:60205:
-transmission-qt4:amd64:2.76:76d5da670b9858e6f52bc4de065af662a4da375d8a732c4e29645f41764f5ee3:20130124 184856:/PBI/net-p2p/transmission-qt4/9/x64/transmission-qt4-2.76-amd64.pbi:1359131391::active:67466:
-transmission-qt4:amd64:2.77:df474e37c7f06eb63f709eb2bd0b4bbea53def16a53d5b3d975c1ddb826c8cc3:20130306 060128:/PBI/net-p2p/transmission-qt4/9/x64/transmission-qt4-2.77-amd64.pbi:1363024568::current:67211:
+transmission-qt4:amd64:2.77:df474e37c7f06eb63f709eb2bd0b4bbea53def16a53d5b3d975c1ddb826c8cc3:20130306 060128:/PBI/net-p2p/transmission-qt4/9/x64/transmission-qt4-2.77-amd64.pbi:1363024568::active:67211:
+transmission-qt4:amd64:2.82:81048739ab3577633e80de083914786500c2dee12acd913b2c54e48c16fc81a7:20130830 213135:/PBI/net-p2p/transmission-qt4/9/x64/transmission-qt4-2.82-amd64.pbi:1378224991::current:66355:
 transmission-qt4:i386:2.76:a08686a53cf3edb690176211afa4bc4de7ddf2c8a5bd0d7b74904975e795e233:20130124 104506:/PBI/net-p2p/transmission-qt4/9/x32/transmission-qt4-2.76-i386.pbi:1359131375::active:65676:
 transmission-qt4:i386:2.77:b85531d798b92d30cc3aea4633a2fa7c42b61348278abdce4aa4ed7196472d18:20130306 082038:/PBI/net-p2p/transmission-qt4/9/x32/transmission-qt4-2.77-i386.pbi:1363024549::current:65803:
 transmission-remote-gui:amd64:4.1:33bc83cf62053a8f4aed24e79110b3f8427f95b09dec0cbb1723416dcc53973e:20121220 140350:/PBI/net-p2p/transmission-remote-gui/9/x64/transmission-remote-gui-4.1-amd64.pbi:1357156970::active:88255:
