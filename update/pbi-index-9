@@ -2828,6 +2828,7 @@ tuxfighter:amd64:54_1:bb9d2de48386955d5604d7eddf82a69f186f9cd05e5271e613f9f29377
 tuxfighter:i386:54_1:630f3f10e75a4ef06f2d8c4fcc92f61ab6133cf81920464df938e3268f1e4fac:20130201 181725:/PBI/games/tuxfighter/9/x32/tuxfighter-54_1-i386.pbi:1360073541::current:160784:
 tuxguitar:amd64:1.2_3:d76e0dce80b1c8ae52f11371151aab93f8c2e8d4b4a64cebd73eba93d37c666b:20110818 051614:/PBI/audio/tuxguitar/9/x64/tuxguitar-1.2_3-amd64.pbi:1315402497::current
 tuxguitar:i386:1.2_3:e1a69f1a1c494611ab7fb12e533a54a9939bcde508f229b2257755caabf67eac:20110808 225133:/PBI/audio/tuxguitar/9/x32/tuxguitar-1.2_3-i386.pbi:1315402786::current
+tuxkart:amd64:0.4.0_4:4daa7b56967e478cdd500efa1007b4eb1eaca15be7e7026612bf1e402f223a1e:20130722 181623:/PBI/games/tuxkart/9/x64/tuxkart-0.4.0_4-amd64.pbi:1378236571::current:23829:
 tuxmath:amd64:1.6.0_6:4e02c851c3d979a2d5b9c58de06de60b196c395f1564d59fc0aa06ae86f0b3f4:20110827 171008:/PBI/games/tuxmath/9/x64/tuxmath-1.6.0_6-amd64.pbi:1314738320::current
 tuxmath:i386:1.6.0_6:0d87fa19eb1b5d77ce63d2360df9b5a73c8f84af685bf6aa06bda8d7d1f13b0e:20110826 151430:/PBI/games/tuxmath/9/x32/tuxmath-1.6.0_6-i386.pbi:1314738376::current
 tuxpaint:amd64:0.9.21:4524c192f94fc6d408016c15868a729c3cc4de9f0bd1cf3f1361a255a44f27f5:20110827 182730:/PBI/games/tuxpaint/9/x64/tuxpaint-0.9.21-amd64.pbi:1314631824::current
