@@ -2802,8 +2802,8 @@ transmission-remote-gui:amd64:4.1:33bc83cf62053a8f4aed24e79110b3f8427f95b09dec0c
 transmission-remote-gui:amd64:4.1_1:ab20f1840475cd473fabf8009154692a2e491175b6f611a0816523b59d17d6e2:20130617 020006:/PBI/net-p2p/transmission-remote-gui/9/x64/transmission-remote-gui-4.1_1-amd64.pbi:1374077775::current:94148:
 transmission-remote-gui:i386:4.0.3:48f61df2199a96a57e9794c131431515ba7b9090d08754966800fe1f93115667:20120905 174703:/PBI/net-p2p/transmission-remote-gui/9/x32/transmission-remote-gui-4.0.3-i386.pbi:1346948315::active:57258:
 transmission-remote-gui:i386:4.1:ca496f9d27fe39fcf5eb71955f3082c04006840e1b577c5d2122103eea41b7ec:20121220 102458:/PBI/net-p2p/transmission-remote-gui/9/x32/transmission-remote-gui-4.1-i386.pbi:1357155233::current:86462:
-transmission:amd64:2.77:220473bb6649ae0e959537b14b334a3608fdf00855108add5336b0e8563367bb:20130325 203116:/PBI/net-p2p/transmission/9/x64/transmission-2.77-amd64.pbi:1364837659::active:70667:
-transmission:amd64:2.80:59698d9be91d8024e8cf1fb16b902464859dc2dca9314d17f0158dc813dead81:20130703 002239:/PBI/net-p2p/transmission/9/x64/transmission-2.80-amd64.pbi:1374077421::current:71860:
+transmission:amd64:2.80:59698d9be91d8024e8cf1fb16b902464859dc2dca9314d17f0158dc813dead81:20130703 002239:/PBI/net-p2p/transmission/9/x64/transmission-2.80-amd64.pbi:1374077421::active:71860:
+transmission:amd64:2.82:73ec349005210c09eadaa09a83182c52714432db6d362f002b1f87aefa8a5c91:20130831 211300:/PBI/net-p2p/transmission/9/x64/transmission-2.82-amd64.pbi:1378224938::current:82494:
 transmission:i386:2.51:fb49c7e8105b55969724a8becdec9c6639355fe7c2e81d5ccf442c8fd2b3a98a:20120802 194409:/PBI/net-p2p/transmission/9/x32/transmission-2.51-i386.pbi:1344009870::active:52007:
 transmission:i386:2.77:90f56dae001220ecd42a5cd6a5b8b4be39b941b2a117a010be223816c2d8ae04:20130325 200539:/PBI/net-p2p/transmission/9/x32/transmission-2.77-i386.pbi:1364837642::current:68362:
 tremulous:amd64:1.1.0_8:434d5be78b4e89bd614841a5c3e74dccd1f42d4bb877298ad314b9ac1de9b7e3:20110827 153423:/PBI/games/tremulous/9/x64/tremulous-1.1.0_8-amd64.pbi:1314737366::current
