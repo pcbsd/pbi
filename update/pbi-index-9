@@ -1629,6 +1629,7 @@ linpopup:amd64:1.2.0_8:dcf2817c29daa3a80ba4907ef43d0254cdf4beb41976ed17c6bee8e45
 linpopup:i386:1.2.0_8:6f90b4afedd37999d4750bbd00a6059d2da05282120e64c0ef7db090493b7837:20120901 095322:/PBI/net-im/linpopup/9/x32/linpopup-1.2.0_8-i386.pbi:1346776244::current:38302:
 linux-defcon:amd64:1.42:d94284a4c85fcab4ee113b42c013a8b557d7d3517a5b1bbc24bb6ea63bba7eca:20130201 230010:/PBI/games/linux-defcon/9/x64/linux-defcon-1.42-amd64.pbi:1360616127::current:106381:
 linux-defcon:i386:1.42:6c73cd495887e125cd8f7fd0e0b09b27b56e7a3289f2785c3233a45ffdb5aaf6:20130201 223958:/PBI/games/linux-defcon/9/x32/linux-defcon-1.42-i386.pbi:1360616103::current:105997:
+linux-nx-client:amd64:3.4.0_2:c5dbe0247784e35829a3fd1754dd3c2852b9bf69f5d4f8bc9e6b01d771ce6860:20130624 222415:/PBI/net/linux-nx-client/9/x64/linux-nx-client-3.4.0_2-amd64.pbi:1378308832::current:56746:
 linux-realplayer:amd64:10.0.9.809-20070726_2:16cdc1f1d0715f2ff062aaf83462b3946b1d696d637c2212a2ce589a1ac78d6d:20111215 113010:/PBI/multimedia/linux-realplayer/9/x64/linux-realplayer-10.0.9.809-20070726_2-amd64.pbi:1327331501::current:25749:
 linux-realplayer:i386:10.0.9.809-20070726_2:bcde8d4a7a8c45f606667ac0d406045bf399f2c5256c5f6cb0ae4e7a24322670:20120115 140851:/PBI/multimedia/linux-realplayer/9/x32/linux-realplayer-10.0.9.809-20070726_2-i386.pbi:1327331413::current:14475:
 liquidwar:amd64:5.6.4_1:c5a8e729c02976313e01b31a06f23008b9a0aa603a5d4b1044d64c26a3458142:20110826 221631:/PBI/games/liquidwar/9/x64/liquidwar-5.6.4_1-amd64.pbi:1315329239::current
