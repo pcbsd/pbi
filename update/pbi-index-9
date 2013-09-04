@@ -1664,6 +1664,7 @@ luckybackup:amd64:0.4.6:9c363833242d105721d71872dbf35841b8b6f081d693f7d5ca721524
 luckybackup:amd64:0.4.7_1:88d1162fa96f482df69ef64de54a70cec978321b184f511f40230ab8594bf38e:20121021 085230:/PBI/sysutils/luckybackup/9/x64/luckybackup-0.4.7_1-amd64.pbi:1351083729::current:192137:
 luckybackup:i386:0.4.6:baa10150e044bc276a1763ce30a162ece7a5e2112769cc7abb67f9dc6a42d877:20111111 064525:/PBI/sysutils/luckybackup/9/x32/luckybackup-0.4.6-i386.pbi:1321007651::active:171768:
 luckybackup:i386:0.4.7_1:23f21acbce67fe3c03f93eda2cf9be21d94b17e15ee1d11b5a8b925236d18dd8:20121021 063952:/PBI/sysutils/luckybackup/9/x32/luckybackup-0.4.7_1-i386.pbi:1351083339::current:191878:
+lxmusic:amd64:0.4.5:45982ce2f3fa1bd8e718f2755d0fe2a804c82aee613f6abb06adafe1457fc208:20130628 190516:/PBI/audio/lxmusic/9/x64/lxmusic-0.4.5-amd64.pbi:1378308906::current:63663:
 lynis:amd64:1.2.9:efc7fa6d92dedd576b226c401b39f9429fc6b4c157c9493b0cf2622df1acb0f7:20111101 131059:/PBI/security/lynis/9/x64/lynis-1.2.9-amd64.pbi:1321462391::current:116:
 lynis:i386:1.2.9:2fd804f3f638bed03a9d7155dc3a3581428eacb36e117891ad6d11e3edccc4dc:20110920 042648:/PBI/security/lynis/9/x32/lynis-1.2.9-i386.pbi:1321462435::current:116:
 lynx:amd64:2.8.8d15:a5c2cfb7a8df34109579cb00900ee9f3c9031e9ced4b3d41e4ec33470dd2b15b:20130614 001343:/PBI/www/lynx-current/9/x64/lynx-2.8.8d15-amd64.pbi:1371560219::current:7559:
