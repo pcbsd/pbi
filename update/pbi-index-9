@@ -2640,8 +2640,8 @@ subtitleeditor:amd64:0.39.0:c7872e258991e8c0b6912cc73c1406ee035cf4e8b8936ab6cec7
 subtitleeditor:amd64:0.40.0:73af78c9ec6a11bd3f87d9a7a9b7b3e773808e7eae57c6415019dcfba48bcabe:20121208 094225:/PBI/multimedia/subtitleeditor/9/x64/subtitleeditor-0.40.0-amd64.pbi:1355420008::current:86718:
 subtitleeditor:i386:0.39.0:75794a706754f806674196ef7c04c4c0282723e16b50bfbcc9e684a71ce72b4a:20120116 132617:/PBI/multimedia/subtitleeditor/9/x32/subtitleeditor-0.39.0-i386.pbi:1326817818::active:77240:
 subtitleeditor:i386:0.40.0:28d2107132dfa1186202cbc8b78c7e7393f94e7030c8a7eaa25fd1c8c0036207:20121209 064931:/PBI/multimedia/subtitleeditor/9/x32/subtitleeditor-0.40.0-i386.pbi:1355419785::current:83773:
-subversion:amd64:1.8.0_3:dd75761fd31bbdc7e0236de318241b5b3f34884b4ec4abe2475ea71333169371:20130722 093226:/PBI/devel/subversion/9/x64/subversion-1.8.0_3-amd64.pbi:1374525337::active:8584:
-subversion:amd64:1.8.1:0762294b4f0ccb4c61d39cbd8abc77f0da1b611c8e47b1a8f0ca4798b644e661:20130726 063805:/PBI/devel/subversion/9/x64/subversion-1.8.1-amd64.pbi:1375116886::current:8456:
+subversion:amd64:1.8.1:0762294b4f0ccb4c61d39cbd8abc77f0da1b611c8e47b1a8f0ca4798b644e661:20130726 063805:/PBI/devel/subversion/9/x64/subversion-1.8.1-amd64.pbi:1375116886::active:8456:
+subversion:amd64:1.8.3:5a794ef9b67616217daa8c104f672276c3cf7be462ef8b8b3b64abd50cbec2cf:20130904 125317:/PBI/devel/subversion/9/x64/subversion-1.8.3-amd64.pbi:1378475906::current:8456:
 subversion:i386:1.7.8:ea8a4e7d724f0f52b0aa14e1a93dd6f53f47017068595f4fb3f0675ba31aee90:20130107 171754:/PBI/devel/subversion/9/x32/subversion-1.7.8-i386.pbi:1357852699::active:27030:
 subversion:i386:1.7.9_1:bb09e3da63952c00dae1d76734daa8a7bee7b39455a8d29511085d6d300ce356:20130412 010946:/PBI/devel/subversion/9/x32/subversion-1.7.9_1-i386.pbi:1365775114::current:27271:
 super_methane_brothers:amd64:1.4.8_5:64c58e0f50d1c77a494042b2ddea1835c708715e35d07e25d8c802fe2a4eab07:20130109 024611:/PBI/games/super_methane_brothers/9/x64/super_methane_brothers-1.4.8_5-amd64.pbi:1359563967::current:28166:
