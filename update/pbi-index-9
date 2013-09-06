@@ -1223,6 +1223,7 @@ handbrake:amd64:0.9.8_2:b8a2b438d58a77c10654482fb63decc163918b91deb42770f5affc78
 handbrake:i386:0.9.3_1:16d4a6b553b01c60330ac9f488ef042ec6389cf4a1e42ccb9223213455bf2893:20120316 015059:/PBI/multimedia/handbrake/9/x32/handbrake-0.9.3_1-i386.pbi:1332423774::active:3973:
 handbrake:i386:0.9.8_1:8fd1c54e607e3dd0dd2b9b12100fc56fcb3485731a14b3f5c224e8e27be80dec:20121026 170938:/PBI/multimedia/handbrake/9/x32/handbrake-0.9.8_1-i386.pbi:1351525176::current:64815:
 haskellplatform:amd64:2012.4.0.0_1:966de2c55f45ededf459bdff010f7e237df79902716f839dc137657397a0009b:20130107 115838:/PBI/devel/hs-haskell-platform/9/x64/haskellplatform-2012.4.0.0_1-amd64.pbi:1357932668::active:205967:
+haskellplatform:amd64:2013.2.0.0:c4ba83ee40d984f823f78949608895ab4688759729aea30ccd41630890d1d88d:20130626 063322:/PBI/devel/hs-haskell-platform/9/x64/haskellplatform-2013.2.0.0-amd64.pbi:1378475698::current:214421:
 haskellplatform:i386:2012.2.0.0:2d6c4fff51a20a36d1ed33e10c6e28238499a648e68a0b69e15f3dc2a5bfaf65:20120721 165738:/PBI/devel/hs-haskell-platform/9/x32/haskellplatform-2012.2.0.0-i386.pbi:1343046048::active:89792:
 haskellplatform:i386:2012.4.0.0_1:049669f8ca4d8673707d87e59dbebacccfff4e6561883a60b8e3f6ac3a446477:20130107 205240:/PBI/devel/hs-haskell-platform/9/x32/haskellplatform-2012.4.0.0_1-i386.pbi:1357928789::current:194568:
 hedgewars:amd64:0.9.16:bc6f1bc6365420e250f342634d80dc5cc035524b37a8e7f493245cf067fbd579:20111004 110447:/PBI/games/hedgewars/9/x64/hedgewars-0.9.16-amd64.pbi:1317729829::active
