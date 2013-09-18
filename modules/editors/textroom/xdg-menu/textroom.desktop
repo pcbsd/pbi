@@ -2,8 +2,8 @@
 [Desktop Entry]
 Value=1.0
 Type=Application
-Name=textroomtextroom
-GenericName=textroomtextroom
+Name=textroom
+GenericName=textroom
 Exec=%%PBI_EXEDIR%%/textroom
 Path=%%PBI_APPDIR%%
 Icon=%%PBI_APPDIR%%/textroom.png
