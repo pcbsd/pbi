@@ -508,7 +508,7 @@ darkplaces:amd64:20110628:51656685960ffe303e0b43809e151f999389f004cf8cb0e8dbfa3b
 darkplaces:amd64:20110628_2:3cdefacb74f4e53a70c3ce2197f52b896aaa3a3a48309f0569f16484618b071a:20130624 150426:/PBI/games/darkplaces/9/x64/darkplaces-20110628_2-amd64.pbi:1373904688::current:36126:
 darkplaces:i386:20071120_5:7da3a3a7824fef1cab642760a695cd48f4ac574292f31240b0704597eaf11a13:20110824 171723:/PBI/games/darkplaces/9/x32/darkplaces-20071120_5-i386.pbi:1314647342::active
 darkplaces:i386:20110628:8746b5e0614f5fc63c96106ed11a8c487fa61fb0af463a96921a17382c9d3b6b:20111026 235923:/PBI/games/darkplaces/9/x32/darkplaces-20110628-i386.pbi:1319744359::current:13066:
-darktable:amd64:1.2.2:488dce128ccc7cbe489a3da483c95d22c22ff3b1adf82fa3fd98e5335406b7ad:20130703 020650:/PBI/graphics/darktable/9/x64/darktable-1.2.2-amd64.pbi:1373046921::current:169336:
+darktable:amd64:1.2.3:e0b011eea8dd974ee330cf084f57dad3ede1a61ac50826ccf432a9b60b74d325:20130918 015452:/PBI/graphics/darktable/9/x64/darktable-1.2.3-amd64.pbi:1379686423::current:180618:
 darktable:amd64:1.2:1c868689c1e7cd9bad8acfa06079f5707ba506c38d52c14535be71d879b35b7b:20130622 040458:/PBI/graphics/darktable/9/x64/darktable-1.2-amd64.pbi:1372085052::active:169207:
 darktable:i386:1.1.3:1702670716eb83d1376cc5a6049b32c2f285bf9ce3d43aa4fe370858077cc25a:20130306 230725:/PBI/graphics/darktable/9/x32/darktable-1.1.3-i386.pbi:1363017940::active:160401:
 darwinstreamingserver:amd64:6.0.3:f1d55bde7021aacdfbd545e253debb91eae46c37ef9329363ab34ddc6098fc67:20110921 110804:/PBI/net/DarwinStreamingServer/9/x64/darwinstreamingserver-6.0.3-amd64.pbi:1316612514::current
