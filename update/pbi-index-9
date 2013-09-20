@@ -1403,8 +1403,8 @@ katalog:amd64:0.4_8:c186a0a31b6b6a2211b40f1a2ec8950ff1389b1620071a83dd8c5c2c1e4b
 katalog:i386:0.4_8:e1cff6b4784037ddd8de1399d20fd2d254984422bae533369b1c3e496976b0be:20120913 194912:/PBI/misc/katalog/9/x32/katalog-0.4_8-i386.pbi:1347646221::current:110926:
 katapult:amd64:0.3.2.2_4:2ffef8248963a7eaf557cb6b3cd43969c48c6a4829bbdc66f8a115654844aa73:20111014 183538:/PBI/deskutils/katapult/9/x64/katapult-0.3.2.2_4-amd64.pbi:1318860929::current
 katapult:i386:0.3.2.2_4:9882ab7f8fca09fab3f967c248ec4ffb369c093025c01cc4ae80a068666fbe06:20111016 073152:/PBI/deskutils/katapult/9/x32/katapult-0.3.2.2_4-i386.pbi:1318861107::current
-kaudiocreator:amd64:1.2.90_2:aaf91d60e22fb48fb5d0d2122a41d1e1a0d362ba4d40f13d44c80faafba3d91b:20111220 034211:/PBI/audio/kaudiocreator/9/x64/kaudiocreator-1.2.90_2-amd64.pbi:1324408225::active:232610:
-kaudiocreator:amd64:1.3:d1fe9cee182b3d534f91b000b426160c91c12e800fa657861ae1ab7bd17cb4db:20130629 020641:/PBI/audio/kaudiocreator/9/x64/kaudiocreator-1.3-amd64.pbi:1373911136::current:549397:
+kaudiocreator:amd64:1.3:d1fe9cee182b3d534f91b000b426160c91c12e800fa657861ae1ab7bd17cb4db:20130629 020641:/PBI/audio/kaudiocreator/9/x64/kaudiocreator-1.3-amd64.pbi:1373911136::active:549397:
+kaudiocreator:amd64:1.3_1:e815de32a823f6751b6c2006be7450b3cb68db4f6056ad0672a10a0f2e68b084:20130913 193339:/PBI/audio/kaudiocreator/9/x64/kaudiocreator-1.3_1-amd64.pbi:1379688075::current:549785:
 kaudiocreator:i386:1.2.90_2:4bbdf9f25f94ef34dcaa89538bbb636aedb0b4f5bd38f65702f0b894d81f82d2:20111201 070532:/PBI/audio/kaudiocreator/9/x32/kaudiocreator-1.2.90_2-i386.pbi:1324407854::current:259635:
 kb:amd64:8.04_6:7b4ce9eca4079e978f64c4317ad3c0caff939d0856e59d2e12ffe094a0c19a83:20110809 162305:/PBI/comms/kb/9/x64/kb-8.04_6-amd64.pbi:1312912238::current
 kb:i386:8.04_6:998984cdf20134f8633a6eefc482d0ada99ac629d296c3ae3be284463af0ea04:20110807 100439:/PBI/comms/kb/9/x32/kb-8.04_6-i386.pbi:1312912369::current
