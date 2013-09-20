@@ -2288,8 +2288,8 @@ qcomicbook:amd64:0.8.1_1:567fbf4fbff322e1947a1338341b9a6149a4e94298562cf27fbdcb8
 qcomicbook:i386:0.8.1_1:5cbf84a06657a95f3a2bfa817ba7162fdfdae57fe7b31feafeaa82947b40e87b:20110828 122535:/PBI/graphics/qcomicbook/9/x32/qcomicbook-0.8.1_1-i386.pbi:1315162890::current
 qdevelop:amd64:0.28:53f4e4b70855507e9bd7798228ee78b339669f25dcb1ee2996a113466f7eab87:20110312 175021:/PBI/devel/qdevelop/9/x64/qdevelop-0.28-amd64.pbi:1301936961::current
 qdevelop:i386:0.28:2e62eb15b27d5304d8a490785d9a42a3cc2c83ccfb14e1f1bde8d68526ee36a4:20110314 081901:/PBI/devel/qdevelop/9/x32/qdevelop-0.28-i386.pbi:1301936735::current
-qemu:amd64:1.5.1_1:d0bfeacbb991a79afaedfe7a0edce5205adaae0e32fae5cff8a152b70ce2c66f:20130722 113004:/PBI/emulators/qemu-devel/9/x64/qemu-1.5.1_1-amd64.pbi:1374524996::active:284617:
-qemu:amd64:1.6.0:5af0916b6bbefb7293ac86476241bca5397fc41aaeed7b90f7aabc2d7c66cfa4:20130829 094343:/PBI/emulators/qemu-devel/9/x64/qemu-1.6.0-amd64.pbi:1377872577::current:286662:
+qemu:amd64:1.6.0:5af0916b6bbefb7293ac86476241bca5397fc41aaeed7b90f7aabc2d7c66cfa4:20130829 094343:/PBI/emulators/qemu-devel/9/x64/qemu-1.6.0-amd64.pbi:1377872577::active:286662:
+qemu:amd64:1.6.0_1:f9710c82debf3bd094b97be751b8c0d5d592169bf83cff5549ed304e41c423ae:20130907 224843:/PBI/emulators/qemu-devel/9/x64/qemu-1.6.0_1-amd64.pbi:1379689359::current:287831:
 qemu:i386:1.4.0_01:ee40aa16b70c56b8ccbdea6420abbee9456255048c39773d075b67861ff66554:20130406 075436:/PBI/emulators/qemu-devel/9/x32/qemu-1.4.0_01-i386.pbi:1365618780::active:248343:
 qgis:amd64:1.8.0_01:dc22ba60801b7c008d5bf0e1d42286bd93c25d8c9b045157b5121e3e721f3461:20121027 060829:/PBI/graphics/qgis/9/x64/qgis-1.8.0_01-amd64.pbi:1351535450::active:217495:
 qgis:amd64:1.8.0_1:e93c44efebe695efd2148a7c0cdae67f306755d044eea482bb2386b0900bda71:20130621 111834:/PBI/graphics/qgis/9/x64/qgis-1.8.0_1-amd64.pbi:1373917566::current:215457:
