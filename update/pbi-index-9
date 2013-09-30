@@ -366,6 +366,7 @@ calibre:i386:0.9.27:0d9c7ac95015306342c679240ce821676ad0ba47ef6050ec97d7cee949de
 calibre:i386:0.9.8:a0e3d6ea8a89ee53efcb2ff89beca867a8a83730df0ecf5a4c5074ffeef09d98:20121215 221749:/PBI/deskutils/calibre/9/x32/calibre-0.9.8-i386.pbi:1355767113::active:261816:
 cannonsmash:amd64:0.6.6_16:ed41cad667b6bfad07a5bc06f609f74bd92015e4c2bf2c9b4853334a5325db47:20120510 080749:/PBI/games/csmash/9/x64/cannonsmash-0.6.6_16-amd64.pbi:1336651359::current:53801:
 cannonsmash:i386:0.6.6_16:3cfd31b3fdd9642232abac7ccaf61bbdb2a6902d50800a49175846c22d85fccc:20120510 091610:/PBI/games/csmash/9/x32/cannonsmash-0.6.6_16-i386.pbi:1336651266::current:53288:
+capicity:amd64:1.0:446f0e36bbb23c60f44bd39972a41ccf14537c10a7307ccd9fb73b0f15004cb1:20130918 202457:/PBI/games/capicity/9/x64/capicity-1.0-amd64.pbi:1380557876::current:65587:
 cbrpager:amd64:0.9.22_2:63f4ee615433e33ec6d16c1fa200cc65eb0ceba09f2fadd6bff28f374f584f8f:20121207 230307:/PBI/graphics/cbrpager/9/x64/cbrpager-0.9.22_2-amd64.pbi:1355159578::current:87359:
 cbrpager:i386:0.9.22_2:49e65de2b197c9995d6ec5fe1c56275024252cedfdc3afc86cd343b5bb9ca9c2:20121207 205022:/PBI/graphics/cbrpager/9/x32/cbrpager-0.9.22_2-i386.pbi:1355157908::current:83901:
 cbview:amd64:0.06_8:cb2d0876c461895986aa9bcf56c6d1b9080f156a19325f8cc6dcee14357716f0:20130205 190530:/PBI/graphics/cbview/9/x64/cbview-0.06_8-amd64.pbi:1360614935::current:57481:
