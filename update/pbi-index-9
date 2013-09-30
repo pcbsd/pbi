@@ -653,7 +653,8 @@ enemyterritory:amd64:2.60b_1:f3c207513319837823d33271bdf0bc2db3f515e325c74620693
 enemyterritory:i386:2.60b_1:39ee9f913721ff1894c676340310ffd835655931110106eb948584da5225a8ac:20110825 160251:/PBI/games/linux-enemyterritory/9/x32/enemyterritory-2.60b_1-i386.pbi:1314649060::current
 enigma:amd64:1.01_8:3a37fa89f9c085af9d99c5bd9afb0790427580dbf6eba7d770ea521e40cc94f3:20111007 030732:/PBI/games/enigma/9/x64/enigma-1.01_8-amd64.pbi:1317989135::current
 enigma:i386:1.01_8:52d4663300168611d2b1bfe91b21716fb13b12245e1286b5a02087edece1868b:20111006 153353:/PBI/games/enigma/9/x32/enigma-1.01_8-i386.pbi:1317989220::current
-eos-movrec:amd64:0.3.1_beta_2:fcfa88856aa4002ff2ba86ca2f61f9afd40e66230c14728a5e5eebb8f7a44567:20121017 211417:/PBI/graphics/eos-movrec/9/x64/eos-movrec-0.3.1_beta_2-amd64.pbi:1350658304::current:51879:
+eos-movrec:amd64:0.3.1_beta_2:fcfa88856aa4002ff2ba86ca2f61f9afd40e66230c14728a5e5eebb8f7a44567:20121017 211417:/PBI/graphics/eos-movrec/9/x64/eos-movrec-0.3.1_beta_2-amd64.pbi:1350658304::active:51879:
+eos-movrec:amd64:0.3.2_beta_1:49c03303f4e4932dd1635e193afa7c09adaa74f47d5ebdcb5d569dc327a04dc7:20130928 163557:/PBI/graphics/eos-movrec/9/x64/eos-movrec-0.3.2_beta_1-amd64.pbi:1380553584::current:67510:
 eos-movrec:i386:0.3.1_beta_2:5995f786d71bcf4c1af34c3c386b680d2f7199f1188ed99f92811c88b87255a4:20121017 075607:/PBI/graphics/eos-movrec/9/x32/eos-movrec-0.3.1_beta_2-i386.pbi:1350658221::current:50216:
 epiar:amd64:0.5.1_1:96360ecd18c812e42ed9b39f81a3e41507d8b8598c8fd894d2eb82b1c689ac3a:20130624 134622:/PBI/games/epiar/9/x64/epiar-0.5.1_1-amd64.pbi:1372192270::active:72246:
 epiar:amd64:0.5.1_2:8ef723cbd3828b2e94200209c6628ba46f834f5bebda4cfbf0946576b3e79ad3:20130701 200059:/PBI/games/epiar/9/x64/epiar-0.5.1_2-amd64.pbi:1373905119::current:71732:
