@@ -11,3 +11,4 @@ bin/sdraw     bin/sdraw     binary,nocrash
 bin/simpress     bin/simpress     binary,nocrash
 bin/smath     bin/smath     binary,nocrash
 bin/setofficelang     bin/setofficelang     binary,nocrash
+bin/soffice	bin/soffice	binary
