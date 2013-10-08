@@ -1484,8 +1484,8 @@ kmldonkey:amd64:0.11_3:8bdac2823c0852b727ef1a7ffc9fc452946bf5a70e15f6ee1d9d7c12d
 kmldonkey:i386:0.11_3:f3417fda7b24bc2adfb0d47b80d1427e60d6ffa5693fb999a671bb171940aee9:20120128 195948:/PBI/net-p2p/kmldonkey/9/x32/kmldonkey-0.11_3-i386.pbi:1329410785::current:82364:
 kmplayer-kde4:amd64:0.11.2b:b10bccd7c1fb3370f5c277048a534f32a16b21e8fb5ea8eb056e74da23ea36c1:20120126 124923:/PBI/multimedia/kmplayer-kde4/9/x64/kmplayer-kde4-0.11.2b-amd64.pbi:1329422761::current:342890:
 kmplayer-kde4:i386:0.11.2b:8004081d52d8b65ae12a668c708ee4b2479f69d3314527ad32dbfaa5902bbde5:20120126 234543:/PBI/multimedia/kmplayer-kde4/9/x32/kmplayer-kde4-0.11.2b-i386.pbi:1329422275::current:333285:
-kmymoney:amd64:4.6.3:44b2e3bb72d4e1b768407a72bc1f4e4a5fc22df67692c314f3fd7e5fd8c918bf:20121201 185927:/PBI/finance/kmymoney-kde4/9/x64/kmymoney-4.6.3-amd64.pbi:1354561121::active:459835:
-kmymoney:amd64:4.6.3_2:0924630814bb03af16eaebbd25bae11deb85fc2d6a48ac147a22037e63b81b91:20130625 090157:/PBI/finance/kmymoney-kde4/9/x64/kmymoney-4.6.3_2-amd64.pbi:1373911375::current:567308:
+kmymoney:amd64:4.6.3_2:0924630814bb03af16eaebbd25bae11deb85fc2d6a48ac147a22037e63b81b91:20130625 090157:/PBI/finance/kmymoney-kde4/9/x64/kmymoney-4.6.3_2-amd64.pbi:1373911375::active:567308:
+kmymoney:amd64:4.6.4:8e57cb243c7a6b09a6a856966adedc83b703ae1e90bb99be92d7b6cbeb80a422:20131006 151915:/PBI/finance/kmymoney-kde4/9/x64/kmymoney-4.6.4-amd64.pbi:1381268421::current:566181:
 kmymoney:i386:4.6.2_2:93790334b2f054fa04e8c14ea7bd7956c54839b1ae7569438397cf10c484f45b:20120827 111920:/PBI/finance/kmymoney-kde4/9/x32/kmymoney-4.6.2_2-i386.pbi:1346158679::active:306258:
 kmymoney:i386:4.6.3:a97a64389a165456334383644f2bf95edf04f14b88bb0f27802d6f47c58fd494:20121201 181810:/PBI/finance/kmymoney-kde4/9/x32/kmymoney-4.6.3-i386.pbi:1354560053::current:452284:
 kmysqladmin:amd64:0.7.2_8:aeeb72a9e653279cd2ac51e448a256d8d3ac3d13f7cd97fc8071b486766c6bd9:20110809 234633:/PBI/databases/kmysqladmin/9/x64/kmysqladmin-0.7.2_8-amd64.pbi:1312987219::current
