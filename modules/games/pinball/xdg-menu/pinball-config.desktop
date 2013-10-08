@@ -1,12 +1,11 @@
-#!/usr/bin/env xdg-open
+#!/usr/bin/env
 [Desktop Entry]
 Value=1.0
 Type=Application
-Name=Configuration
-GenericName=Configuration
+Name=Emilia Pinball Config
+GenericName=emilia pinball config
 Exec=%%PBI_EXEDIR%%/pinball-config
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/pixmaps/pinballcfg.png
+Icon=%%PBI_APPDIR%%/pinball.png
 StartupNotify=true
-NoDisplay=true
 Categories=Game;
