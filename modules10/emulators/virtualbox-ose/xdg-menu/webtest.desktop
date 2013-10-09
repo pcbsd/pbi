@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=VirtualBox Web
+GenericName=VirtualBox Web
+Exec=%%PBI_EXEDIR%%/webtest
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/virtualbox.png
+StartupNotify=true
+NoDisplay=true
+Categories=Utility;

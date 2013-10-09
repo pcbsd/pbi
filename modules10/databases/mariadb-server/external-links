@@ -1,0 +1,30 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/mysql     bin/mysql     binary,nocrash
+bin/mysql_config     bin/mysql_config     binary,nocrash
+bin/mysql_fix_privilege_tables     bin/mysql_fix_privilege_tables     binary,nocrash
+bin/mysql_upgrade     bin/mysql_upgrade     binary,nocrash
+bin/mysqladmin     bin/mysqladmin     binary,nocrash
+bin/mysqlbinlog     bin/mysqlbinlog     binary,nocrash
+bin/mysqlcheck     bin/mysqlcheck     binary,nocrash
+bin/mysqldump     bin/mysqldump     binary,nocrash
+bin/mysqlimport     bin/mysqlimport     binary,nocrash
+bin/mysqlshow     bin/mysqlshow     binary,nocrash
+bin/mysqlslap     bin/mysqlslap     binary,nocrash
+bin/mysqltest     bin/mysqltest     binary,nocrash
+bin/mysql2mysql     bin/mysql2mysql     binary,nocrash
+bin/mytop     bin/mytop     binary,nocrash
+bin/mysql_convert_table_format     bin/mysql_convert_table_format     binary,nocrash
+bin/mysql_find_rows     bin/mysql_find_rows     binary,nocrash
+bin/mysql_fix_extensions     bin/mysql_fix_extensions     binary,nocrash
+bin/mysql_secure_installation     bin/mysql_secure_installation     binary,nocrash
+bin/mysql_setpermission     bin/mysql_setpermission     binary,nocrash
+bin/mysql_zap     bin/mysql_zap     binary,nocrash
+bin/mysqlaccess     bin/mysqlaccess     binary,nocrash
+bin/mysqld_multi     bin/mysqld_multi     binary,nocrash
+bin/mysqldumpslow     bin/mysqldumpslow     binary,nocrash
+bin/mysqlhotcopy     bin/mysqlhotcopy     binary,nocrash

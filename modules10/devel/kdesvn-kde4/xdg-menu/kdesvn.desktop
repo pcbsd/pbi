@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=SVN client
+GenericName=SVN client
+Exec=%%PBI_EXEDIR%%/kdesvn
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/kdesvn.png
+StartupNotify=true
+Categories=Development;

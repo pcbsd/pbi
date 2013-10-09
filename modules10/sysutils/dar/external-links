@@ -1,0 +1,12 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/dar     bin/dar     binary,nocrash
+bin/dar_xform     bin/dar_xform     binary,nocrash
+bin/dar_slave     bin/dar_slave     binary,nocrash
+bin/dar_manager     bin/dar_manager     binary,nocrash
+bin/dar_cp     bin/dar_cp     binary,nocrash
+bin/dar_static     bin/dar_static     binary,nocrash

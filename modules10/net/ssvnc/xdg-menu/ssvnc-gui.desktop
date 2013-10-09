@@ -1,0 +1,10 @@
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Ssvnc-gui
+GenericName=ssvnc-gui
+Exec=%%PBI_EXEDIR%%/ssvnc-gui
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/defaulticon.png
+StartupNotify=true
+Categories=Internet

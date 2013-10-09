@@ -1,0 +1,16 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET                LINK IN LOCALBASE       ACTION
+#etc/rc.d/servfoo       etc/rc.d/servfoo        keep
+#include/libfoo.h       include/libfoo.h        replace
+#bin/appfoo             bin/appfoo              binary,nocrash
+#bin/appfoo2            bin/appfoo-test         binary
+
+# Added the gimp binaries, since we are building a meta-port
+bin/gimp		bin/gimp		binary,nocrash
+bin/gimp-console	bin/gimp-console	binary,nocrash
+bin/gimptool-2.0	bin/gimptool-2.0	binary,nocrash
+bin/gimp-help		bin/gimp-help		binary,nocrash

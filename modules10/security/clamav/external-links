@@ -1,0 +1,16 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action "binary" for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/clamav-config     bin/clamav-config     binary,nocrash
+bin/clambc     bin/clambc     binary,nocrash
+bin/clamconf     bin/clamconf     binary,nocrash
+bin/clamdtop     bin/clamdtop     binary,nocrash
+bin/clamscan     bin/clamscan     binary,nocrash
+bin/clamdscan     bin/clamdscan     binary,nocrash
+bin/freshclam     bin/freshclam     binary,nocrash
+bin/sigtool     bin/sigtool     binary,nocrash
+sbin/clamd     sbin/clamd     binary,nocrash
+bin/clamtk     bin/clamtk     binary

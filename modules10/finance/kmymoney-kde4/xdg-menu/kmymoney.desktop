@@ -1,0 +1,11 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=KMyMoney
+GenericName=kmymoney
+Exec=%%PBI_EXEDIR%%/kmymoney
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/kmymoney.png
+StartupNotify=true
+Categories=Office;

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Phoronix Test Suite
+GenericName=Phoronix Test Suite
+Exec=%%PBI_EXEDIR%%/phoronix-test-suite
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/phoronix-test-suite.png
+StartupNotify=true
+NoDisplay=true
+Terminal=true
+TerminalOptions=
+Categories=Utility;

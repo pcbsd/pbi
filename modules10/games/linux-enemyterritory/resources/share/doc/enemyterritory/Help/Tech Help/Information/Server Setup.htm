@@ -1,0 +1,1614 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=FrontPage.Editor.Document>
+<meta name=Generator content="Microsoft FrontPage 4.0">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./Server%20Setup_files/filelist.xml">
+<link rel=Edit-Time-Data href="./Server%20Setup_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Server Setup &amp; Advanced Commands</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>matthew beal</o:Author>
+  <o:LastAuthor>matthew beal</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>411</o:TotalTime>
+  <o:Created>2003-05-17T01:05:00Z</o:Created>
+  <o:LastSaved>2003-05-21T22:03:00Z</o:LastSaved>
+  <o:Pages>6</o:Pages>
+  <o:Words>3473</o:Words>
+  <o:Characters>19800</o:Characters>
+  <o:Company>Activision, Inc.</o:Company>
+  <o:Lines>165</o:Lines>
+  <o:Paragraphs>39</o:Paragraphs>
+  <o:CharactersWithSpaces>24315</o:CharactersWithSpaces>
+  <o:Version>9.4402</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:18.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-next:Normal;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{mso-style-next:Normal;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:12.5pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	tab-stops:12.5pt;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:695159496;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1777219008 67698691 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1
+	{mso-list-id:716928497;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-302906396 67698691 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l2
+	{mso-list-id:1624771167;
+	mso-list-type:hybrid;
+	mso-list-template-ids:161370296 67698691 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1037"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<table border=0 cellpadding=0 width="99%" style='width:99.94%;mso-cellspacing:
+ 1.5pt;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='height:.75pt'>
+  <td width="0%" style='width:.9%;padding:.75pt .75pt .75pt .75pt;height:.75pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:1.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="98%" style='width:98.4%;padding:.75pt .75pt .75pt .75pt;
+  height:.75pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-size:1.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='height:15.75pt'>
+  <td width="0%" style='width:.9%;padding:.75pt .75pt .75pt .75pt;height:15.75pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width="98%" style='width:98.4%;padding:.75pt .75pt .75pt .75pt;
+  height:15.75pt'>
+  <h1><span style='font-family:Arial'>Server Setup &amp; Advanced Commands</span></h1>
+  <p><span style='font-size:13.5pt;mso-bidi-font-size:10.0pt;color:black'>Wolfenstein:
+  Enemy Territory</span><span style='font-size:13.5pt'> </span><span
+  style='font-size:13.5pt;mso-bidi-font-size:10.0pt;color:black'>Game&nbsp; -
+  Server Guide</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" alt="" style='width:5in;
+   height:3.75pt'/><![endif]--><![if !vml]><img width=480 height=5
+  src="./Server%20Setup_files/image001.gif" v:shapes="_x0000_i1025"><![endif]></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><a href="#serverminimumsystem">Server
+  Minimum System</a><br>
+  <a href="#hostingdedicatedservers">Hosting Dedicated Servers</a><br>
+  </span></b><b><span lang=EN-GB style='mso-bidi-font-size:10.0pt;color:black;
+  mso-ansi-language:EN-GB'><a href="#commandlineoptionsforexpertadmins">Command
+  Line Options for Expert Admins</a><br>
+  <a href="#serveronlysettingsforexpertadmins">Server Only Settings for Expert
+  Admins</a><br>
+  <a href="#serverconsolecommandsforexpertadmins">Server Console Commands for
+  Expert Admins</a><br>
+  <a href="#gamecommands">Game Commands</a></span></b><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><a
+  href="Documents%20and%20SettingsmbealMy%20DocumentsWolf%20ET%22%20l"></a><br>
+  <a href="#creatingaserverforexpertadmins">Creating a Server for Expert Admins
+  (using the .cfg)</a></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='mso-bidi-font-size:10.0pt;color:black'>&nbsp;</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><a
+  name=serverminimumsystem><b><span style='font-size:13.5pt;color:black'>Server
+  Minimum System</span></b></a><b><span style='font-size:13.5pt;color:black'><br>
+  </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>There are two
+  types of servers you can create to run Enemy Territory: Listen servers and
+  Dedicated servers. Listen servers allow you to play the game and host it at
+  the same time, while Dedicated servers only host the game. Dedicated servers
+  use fewer resources than Listen servers, and are therefore more stable to
+  play on. Listen servers work well if you’re playing on a LAN.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='mso-bidi-font-size:10.0pt;color:black'>To run a Dedicated server, we
+  suggest you have at least:<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.25in;text-indent:-.25in;tab-stops:list .25in'><span lang=EN-GB
+  style='mso-bidi-font-size:10.0pt;font-family:Symbol;color:black;mso-ansi-language:
+  EN-GB'>·</span><span lang=EN-GB style='font-size:7.0pt;color:black;
+  mso-ansi-language:EN-GB'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+  lang=EN-GB style='mso-bidi-font-size:10.0pt;color:black;mso-ansi-language:
+  EN-GB'>Intel® Pentium® IV 1.3ghz processor or equivalent<br>
+  </span><span style='mso-bidi-font-size:10.0pt;color:black'>ET needs about 30
+  MHz dedicated to the ET process per player slot.<span style="mso-spacerun:
+  yes">  </span>Here is a table with suggested server speeds based upon maximum
+  client settings.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list 39.5pt'><![if !supportLists]><span
+  style='font-family:"Courier New";mso-bidi-font-family:"Times New Roman"'>o<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]>For a 32 player dedicated server, ET will need 1ghz.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list 39.5pt'><![if !supportLists]><span
+  style='font-family:"Courier New";mso-bidi-font-family:"Times New Roman"'>o<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]>For a 16 player dedicated server, ET will need
+  500mhz.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo2;tab-stops:list 39.5pt'><![if !supportLists]><span
+  style='font-family:"Courier New";mso-bidi-font-family:"Times New Roman"'>o<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]>For an 8 player dedicated server, ET will need
+  250mhz.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:21.5pt;text-indent:-21.5pt'><span lang=EN-GB style='mso-bidi-font-size:
+  10.0pt;font-family:Symbol;color:black;mso-ansi-language:EN-GB'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:21.5pt;text-indent:-21.5pt'><span lang=EN-GB style='mso-bidi-font-size:
+  10.0pt;font-family:Symbol;color:black;mso-ansi-language:EN-GB'>·</span><span
+  lang=EN-GB style='font-size:7.0pt;color:black;mso-ansi-language:EN-GB'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><span lang=EN-GB style='mso-bidi-font-size:10.0pt;color:black;
+  mso-ansi-language:EN-GB'>128 MB RAM<br>
+  This assumes no other applications are running in the background.<span
+  style="mso-spacerun: yes">  </span>If other server applications are running,
+  you should expect to need more system RAM.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:21.5pt;text-indent:-21.5pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.25in;text-indent:-.25in;tab-stops:list .25in'><span
+  style='mso-bidi-font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+  style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><span style='mso-bidi-font-size:10.0pt;color:black'>Excellent
+  connection to the Internet or LAN.<span style="mso-spacerun: yes">  </span><b>We
+  strongly recommend T1 connection speed.</b><span style="mso-spacerun: yes"> 
+  </span><br>
+  Servers on Cable or DSL connections should limit their games to only to 2-4
+  players (depending on upstream). </span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  style='mso-bidi-font-size:10.0pt;color:black'>&nbsp;&nbsp;</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><a name=hostingdedicatedservers><b><span
+  style='font-size:13.5pt;color:black'>Hosting Dedicated Servers </span></b></a><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><br>
+  </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>To create a
+  server, click on “Host Game” at the main menu. The “Host Game” screen
+  contains a number of options that allow you to configure the server.<span
+  style="mso-spacerun: yes">  </span>This section contains explanations of
+  these settings, to help you get the most out of your game.</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>Settings<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><span style='mso-bidi-font-size:10.0pt;color:black'><br>
+  This area allows you to configure the fundamental server properties.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.25in;mso-outline-level:1'><b><span style='mso-bidi-font-size:
+  10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:12.5pt;mso-outline-level:1;tab-stops:12.5pt'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Server Name</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>:<span style="mso-spacerun:
+  yes">  </span>This is the name of the server as it will appear on server
+  lists.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:12.5pt;mso-outline-level:1;tab-stops:12.5pt'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Game Type</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>:<span style="mso-spacerun:
+  yes">  </span>This is the gametype that the server will run.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Campaign</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>: This is the standard game
+  type for Wolfenstein : Enemy Territory.<span style="mso-spacerun: yes"> 
+  </span>Players will gain experience as they progress through a 3-map campaign
+  in either Africa or Europe.<span style="mso-spacerun: yes">  </span>Experience
+  will be carried over from map to map until the campaign restarts after the third
+  map.<span style="mso-spacerun: yes">  </span><b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Last
+  Man Standing</span></b><span style='mso-bidi-font-size:10.0pt;color:black'>:
+  In this mode, each player has only 1 life.<span style="mso-spacerun: yes"> 
+  </span>The game ends when all the players on one team have died, awarding
+  victory to the other team.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Single-Map
+  Objective</span></b><span style='mso-bidi-font-size:10.0pt;color:black'>:<span
+  style="mso-spacerun: yes">  </span>This game type allows the server to run
+  any map in any order, but experience does not carry over from map to map.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Stopwatch</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>:<span style="mso-spacerun:
+  yes">  </span>A very fun game type, stopwatch pits the attacking players
+  against the clock.<span style="mso-spacerun: yes">  </span>When one team
+  wins, the clock is set and the players switch sides and the attackers now try
+  to beat the new clock.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:12.5pt;mso-outline-level:1'><b><span style='mso-bidi-font-size:
+  10.0pt;color:black'>Auto-Configure Server</span></b><span style='mso-bidi-font-size:
+  10.0pt;color:black'>:<span style="mso-spacerun: yes">  </span>This option
+  allows you to quickly set up a server for a specific type of play.<span
+  style="mso-spacerun: yes">  </span>It is highly recommended that you utilize
+  one of the two auto-configuration options provided, depending on your needs.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>No</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>:<span style="mso-spacerun:
+  yes">  </span>The server will not auto configure itself.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Competition
+  Settings</span></b><span style='mso-bidi-font-size:10.0pt;color:black'>:<span
+  style="mso-spacerun: yes">  </span>The server will configure itself for match
+  play.<span style="mso-spacerun: yes">  </span>This setting is recommended if
+  you are going to be running a match server where clans play against each
+  other.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l1 level1 lfo4;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Public
+  Settings</span></b><span style='mso-bidi-font-size:10.0pt;color:black'>: The server
+  will configure itself for online play.<span style="mso-spacerun: yes"> 
+  </span>This setting is recommended if you just want to set up a server for
+  people to play and have fun.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:12.5pt;mso-outline-level:1'><b><span style='mso-bidi-font-size:
+  10.0pt;color:black'>Dedicated Server</span></b><span style='mso-bidi-font-size:
+  10.0pt;color:black'>: This option controls what type of server you will be
+  running.<span style="mso-spacerun: yes">  </span>A listen server, or a
+  dedicated server.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l2 level1 lfo6;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>No</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>: This is a listen server,
+  where the server is also a client in the game.<span style="mso-spacerun:
+  yes">  </span>This setting allows you to host a game and play at the same
+  time.<span style="mso-spacerun: yes">  </span>However, this server will not
+  show up on Internet server lists.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l2 level1 lfo6;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Yes
+  - LAN</span></b><span style='mso-bidi-font-size:10.0pt;color:black'>: This is
+  the first of two dedicated server types.<span style="mso-spacerun: yes"> 
+  </span>This server will show up on the LAN server lists, but not Internet.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.75in;text-indent:-.25in;mso-outline-level:1;mso-list:l2 level1 lfo6;
+  tab-stops:list .75in'><![if !supportLists]><span style='mso-bidi-font-size:
+  10.0pt;font-family:"Courier New";mso-bidi-font-family:"Times New Roman";
+  color:black;mso-bidi-font-weight:bold'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><b><span style='mso-bidi-font-size:10.0pt;color:black'>Yes
+  – Internet</span></b><span style='mso-bidi-font-size:10.0pt;color:black'>:
+  This is the second of two dedicated server types.<span style="mso-spacerun:
+  yes">  </span>This server will show up on Internet server lists.<span
+  style="mso-spacerun: yes">  </span>NOTE: If the server is behind a firewall,
+  it may not show up on Internet server lists.<b><o:p></o:p></b></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:12.5pt;mso-outline-level:1'><b><span style='mso-bidi-font-size:
+  10.0pt;color:black'>Password</span></b><span style='mso-bidi-font-size:10.0pt;
+  color:black'>: This optional setting allows you to password protect your
+  server.<span style="mso-spacerun: yes">  </span>Only players who have the
+  right password will be able to enter your server.<span style="mso-spacerun:
+  yes">  </span>If you do not wish to password protect your server, leave this
+  setting alone.<o:p></o:p></span></p>
+  <h2>Features</h2>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'>This is a list of 6 primary settings that can be toggled
+  on or off.<span style="mso-spacerun: yes">  </span>Please adjust these
+  settings as you see fit.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:25.3pt;text-indent:-12.8pt;mso-outline-level:1'><b>Friendly Fire</b>:<span
+  style="mso-spacerun: yes">  </span>Turning this on will allow teammates to
+  hurt each other.<span style="mso-spacerun: yes">  </span>Please keep in mind that
+  Enemy Territory has built-in protection against intentional Team Killers.<span
+  style='mso-bidi-font-size:10.0pt;color:black'> <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:25.3pt;text-indent:-12.8pt;mso-outline-level:1'><b>Max Lives</b>:
+  Turning this on will give each player in the game a limited number of lives.<span
+  style='mso-bidi-font-size:10.0pt;color:black'> <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:25.3pt;text-indent:-12.8pt;mso-outline-level:1'><b>Punkbuster</b>:
+  Turning this on will enable Evenbalance’s Punkbuster Anti-Cheat protection.<span
+  style="mso-spacerun: yes">  </span>This is highly recommended as it will help
+  keep cheaters from playing on your server.<span style="mso-spacerun: yes"> 
+  </span>Please see the PunkBuster documentation for more information.<span
+  style='mso-bidi-font-size:10.0pt;color:black'> <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:25.3pt;text-indent:-12.8pt;mso-outline-level:1'><b>Weapon
+  Restrictions</b>: Turning this feature on will limit the number of heavy
+  weapons, such as the panzerfaust, that are allowed in the game.<span
+  style='mso-bidi-font-size:10.0pt;color:black'> <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:25.3pt;text-indent:-12.8pt;mso-outline-level:1'><b>Anti-Lag</b>:
+  Turning this on enables the Anti-Lag feature.<span style="mso-spacerun:
+  yes">  </span>This results in smoother gameplay for players that are running
+  on computers with higher pings.<span style='mso-bidi-font-size:10.0pt;
+  color:black'> <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:25.3pt;text-indent:-12.8pt;mso-outline-level:1'><b>Balanced Teams</b>:
+  Turning this on allows the server to restrict players from joining a team
+  that has too many players.<span style='mso-bidi-font-size:10.0pt;color:black'>
+  <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:12.5pt;mso-outline-level:1'><span style='mso-bidi-font-size:10.0pt;
+  color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h2>Name</h2>
+  <h2><span style='font-weight:normal'>This area allows you to select the
+  location of play.<span style="mso-spacerun: yes">  </span>For campaign mode,
+  the available selection consists of the two different campaign areas, Central
+  Europe and North Africa.<span style="mso-spacerun: yes">  </span>For other
+  game types, the available selection consists of the individual maps in the
+  game.<o:p></o:p></span></h2>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>Details<br>
+  </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>This area
+  contains the details of the currently selected map or game type.<span
+  style="mso-spacerun: yes">  </span>When a map is selected, its description
+  will be located here.<span style="mso-spacerun: yes">  </span>When a game
+  type is selected, its description will appear here as well.</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>Advanced<br>
+  </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>Clicking this
+  button will take you to a screen that allows you to set more advanced
+  options, such as the Message of the Day, remote console passwords, and more.</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>Start
+  Server</span></b><span style='mso-bidi-font-size:10.0pt;color:black'><br>
+  Once you’ve configured the server, click this button to start it.</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'>&nbsp;</p>
+  <p><a name=commandlineoptionsforexpertadmins><b><span style='font-size:13.5pt;
+  color:black'>Command Line Options for Expert Admins</span></b></a><span
+  style='mso-bidi-font-size:10.0pt;color:black'><br>
+  </span><span style='mso-bidi-font-size:10.5pt;color:black'>Command line
+  options must be set on the command line and will not work if executed in a
+  config file.<span style="mso-spacerun: yes">  </span>To set a command line
+  option, add it to the Target line of the game’s shortcut.<span
+  style="mso-spacerun: yes">  </span>It is recommended that you create a
+  secondary shortcut for dedicated servers.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>com_hunkmegs</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>com_hunkmegs – This option determines how much memory the
+  server will use for players and items.<span style="mso-spacerun: yes"> 
+  </span>The default value for this is 72, but this value should be overridden
+  by adding it to the command line on dedicated servers.<span
+  style="mso-spacerun: yes">  </span>For general use, a com_hunkmegs setting of
+  32 is sufficient.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage, add the following to the Target field of the
+  game’s shortcut:<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>+set com_hunkmegs<br>
+  <br>
+  Sample in target field of game shortcut:<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&quot;C:\Program Files\Wolfenstein - Enemy
+  Territory\ET.exe” +set dedicated 1 +set com_hunkmegs 32<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>NOTE: user made or future map releases may require a
+  higher setting. If you receive an <b>ERROR: Hunk_Alloc failed</b> message,
+  then try increasing the com_hunkmegs setting in increments of 2 until the map
+  successfully loads.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>net_ip</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>If you are on a multi-homed server and the default IP is
+  not what you want to use for your Wolfenstein : Enemy Territory server, the
+  net_ip command will need to be used. This must be set on the command line in
+  the following form.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage, add the following to the Target field of the
+  game’s shortcut:<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>+set net_ip &lt;ip address&gt;<br>
+  <br>
+  Sample in target field of game shortcut:<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&quot;C:\Program Files\Wolfenstein - Enemy
+  Territory\ET.exe” +set dedicated 1 +set net_ip 192.168.0.0</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>net_port</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Changing the default server port requires the net_port
+  command be run on the command line. It is useful for running multiple servers
+  on the same computer or making the server somewhat more private. The default
+  port is 27960 and is incremented automatically by 1 if another server is
+  started without a specified port.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage, add the following to the Target field of the
+  game’s shortcut:<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>+set net_port<br>
+  <br>
+  Sample in target field of game shortcut:<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&quot;C:\Program Files\Wolfenstein - Enemy Territory\ET.exe”
+  +set dedicated 1 +set net_port 27961</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'>&nbsp;</p>
+  <p><a name=serveronlysettingsforexpertadmins><b><span style='font-size:13.5pt;
+  color:black'>Server Only Settings for Expert Admins</span></b></a><span
+  style='mso-bidi-font-size:10.5pt;color:black'><br>
+  Server settings are only used only on the server and may be used at the
+  console or command line. Command line usage requires a +set before each
+  command. For example:</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>+set sv_maxclients 16</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>sv_maxclients</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>sv_maxclients - sets the maximum amount of clients
+  that can connect to the server. The default setting is 20. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: sv_maxclients</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>sv_privatePassword</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>sv_privatePassword - sets a password on the server so
+  only clients that know the password can connect to the server. Clients use
+  the \password command. The default is for no password required. Set to
+  &quot;&quot; for no password. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'>&nbsp;</p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: sv_privatePassword &quot;&lt;password&gt;&quot;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>sv_hostname</span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+  lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;mso-ansi-language:
+  EN-GB'>sv_hostname - sets the server name that will show up in the master
+  server list. The name must be enclosed in quotes if a space is in the name. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: sv_hostname &quot;&lt;servername&gt;&quot;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>sv_maxRate</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>sv_maxRate - sets the maximum allowable rate a
+  client may have set when connected to the server. The default is 0, which is
+  no limit. A suggested setting is 8000 or 10000 so server bandwidth is not
+  used up by high speed clients, thus allowing modem players to have a smoother
+  game. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: sv_maxRate &lt;#####&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>sv_pure</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>sv_pure - controls crc/zip check of client pk3 files
+  to make sure the pk3 file has not been modified for cheating or other
+  purposes. Client pk3 files must match that of the server to connect. The
+  default is set to 1, or on. Set to 0 to turn off check. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: sv_pure 1</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'>&nbsp;</p>
+  <p><a name=serverconsolecommandsforexpertadmins><b><span style='font-size:
+  13.5pt;color:black'>Server Console Commands for Expert Admins</span></b></a><span
+  style='mso-bidi-font-size:10.0pt;color:black'><br>
+  </span><span style='mso-bidi-font-size:10.5pt;color:black'>Server console
+  commands are used from the server console or the remote console.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>One new feature in Enemy Territory is the referee
+  feature.<span style="mso-spacerun: yes">  </span>Players can be given referee
+  powers without having rcon access.<span style="mso-spacerun: yes"> 
+  </span>Once a ref is set, they can access referee commands.<span
+  style="mso-spacerun: yes">  </span>The game contains a built-in ref help
+  system, so please access that for more information.<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>ref</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'> – displays the list of available referee commands.<span
+  style="mso-spacerun: yes">  </span>Type it with no argument to access the
+  referee commands, usage for the individual commands is explained in the
+  console.<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: ref<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>status</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>status - shows the client number (num), score, ping,
+  player name (name), client IP address (address), and port connected through
+  (qport). Client number is used in conjunction with the kick command. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: status</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>kick</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>kick - removes a player from the server.
+  Particularly useful for removing disruptive players. To kick a player, first find
+  the number (num) associated with the player name via the status command. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: kick &lt;num&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>timelimit</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>timelimit - Default to the map specific time limit.
+  This can be changed, but is advised against doing so. However, changing it to
+  0 makes the game have unlimited time, which can produce some interesting
+  results. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: timelimit &lt;#min&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>rconpassword</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>rconpassword - sets remote console password so
+  clients may change server settings without direct access to the server console.
+  The default is set to none. Client can control the server by entering
+  commands on the console with the format of \rconpassword mypass and then
+  adding server commands after the \rcon command. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: rconpassword &lt;serverpassword&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>killserver</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>killserver - will stop all server services from
+  running but leaves the Wolfenstein : Enemy Territory executable running on
+  the server. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: killserver</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>map_restart #</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>map_restart # - Defaults to 5 seconds. # defines the
+  amount of time before the map restarts, in seconds. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: map_restart 5<o:p></o:p></span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p><a name=gamecommands><b><span style='font-size:13.5pt;color:black'>Game
+  Commands</span></b></a><span style='mso-bidi-font-size:10.5pt;color:black'><br>
+  Generally, all game commands must be entered after the level loads either in
+  the config file or on the command line/console. An exception to that rule
+  would be the g_gametype. The following are the most useful game commands for
+  a dedicated server.</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_warmup</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_warmup - Amount of warmup time allotted to
+  connected clients. Defaults to 20 seconds. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_warmup &lt;#seconds&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_friendlyFire</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_friendlyFire - determines if players can damage
+  their own teammates. Set to 1 to allow players to damage their own teammates.
+  Set to 0 so players can not damage their own teammates. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_friendlyFire 1</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_gametype</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_gametype - controls the type of gameplay
+  (Campaign, Objective, Stopwatch, or LMS).<span style="mso-spacerun: yes"> 
+  </span>The default is 4, which is Campaign mode. Set to 3 for Stop Watch. Set
+  to 5 for LMS, or 2 for Objective</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'>&nbsp;</p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_gametype &lt;#&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_log</span></b><span style='mso-bidi-font-size:10.5pt;
+  color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_log - sets the name of the server log file. The
+  default is games.log and does not need to be modified unless running multiple
+  dedicated servers on the same computer. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_log &lt;filename.ext&gt;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_allowvote</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_allowvote - enable players connected to the server
+  to call for and vote on changes including: map, map restart, kick, and
+  g_gametype. The default is 1, which is on. Set to 0 to turn off voting. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_allowvote 1</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_maxlives</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_maxlives - Defaults to 0 (Unlimited). Change this
+  to the number of lives you wish all players to have. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_maxlives 0</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_minGameClients</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_minGameClients - Defaults to 4. Change this number
+  (usually larger) to reflect how many clients must join a server before it
+  enters restricted mode. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_minGameClients 4</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_noteamswitching</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_noteamswitching - Defaults to 0, which disables
+  team switching. Change this value to allow team switching or not. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_noteamswitching 0</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></b></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><b><span style='mso-bidi-font-size:
+  10.5pt;color:black'>g_complaintlimit</span></b><span style='mso-bidi-font-size:
+  10.5pt;color:black'><br>
+  </span><span lang=EN-GB style='mso-bidi-font-size:9.0pt;color:black;
+  mso-ansi-language:EN-GB'>g_complaintlimit - Defaults to 5. This is the number
+  of complaints that have to be filed before someone is kicked. We recommend
+  setting this low. </span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>&nbsp;</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><span style='mso-bidi-font-size:
+  10.5pt;color:black'>Usage: g_complaintlimit 5</span></p>
+  <p style='margin:0in;margin-bottom:.0001pt'>&nbsp;</p>
+  <p style='margin:0in;margin-bottom:.0001pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><a name=creatingaserverforexpertadmins><b><span
+  style='font-size:13.5pt;color:black'>Creating a Server for Expert Admins
+  (using the .cfg)</span></b></a><span style='mso-bidi-font-size:10.0pt;
+  color:black'> <br>
+  Wolfenstein: Enemy Territory allows advanced users to setup servers by
+  creation of sever.cfg files.<span style="mso-spacerun: yes">  </span>Below
+  are some samples to use, with explanations of each setting.<span
+  style="mso-spacerun: yes">  </span>Please note, Activision doesn’t not
+  officially support these config files.<span style="mso-spacerun: yes"> 
+  </span>They are provided solely to help users in setting up dedicated
+  servers.<span style="mso-spacerun: yes">  </span>The default server.cfg is suggested
+  only for 600mhz processors and above.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><span style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>server.cfg
+  </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>– Dedicated
+  server config file.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>campaigncycle.cfg</span></b><span
+  style='mso-bidi-font-size:10.0pt;color:black'> – Campaign map cycle config
+  file.<span style="mso-spacerun: yes">  </span>Required to run Campaign game
+  type.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>lmscycle.cfg
+  –</span></b><span style='mso-bidi-font-size:10.0pt;color:black'> Last Man
+  Standing map cycle config file.<span style="mso-spacerun: yes"> 
+  </span>Required to run Last Man Standing game type.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>objectivecycle.cfg
+  – </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>Objective
+  map cycle config file. <span style="mso-spacerun: yes"> </span>Required to
+  run Objective game type.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>stopwatchcycle.cfg
+  </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>– Stopwatch
+  map cycle config file.<span style="mso-spacerun: yes">  </span>Required to
+  run Stopwatch game type.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><b><span style='mso-bidi-font-size:10.0pt;color:black'>punkbuster.cfg
+  – </span></b><span style='mso-bidi-font-size:10.0pt;color:black'>Punkbuster
+  config file.<span style="mso-spacerun: yes">  </span>Useful when running
+  PunkBuster.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  mso-outline-level:1'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Example server.cfg</span></b></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set dedicated
+  &quot;2&quot;<span style='mso-tab-count:4'>                   </span>// 1:
+  dedicated server for lan 2: dedicated server for internet<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// set net_ip &quot;&quot;<span
+  style='mso-tab-count:4'>                    </span>// set to override the
+  default IP ET uses<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// set net_port
+  &quot;27960&quot;<span style='mso-tab-count:3'>             </span>// set to
+  override the default port ET uses<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// PASSWORDS &amp; CLIENTS
+  <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_maxclients
+  &quot;20&quot;<span style='mso-tab-count:3'>              </span>// number of
+  players including private slots<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_password
+  &quot;&quot;<span style='mso-tab-count:4'>                   </span>// set to
+  password protect the server<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_privateclients
+  &quot;4&quot;<span style='mso-tab-count:2'>           </span>// if set &gt;
+  0, then this number of client slots will be reserved for connections<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_privatepassword
+  &quot;&quot;<span style='mso-tab-count:2'>           </span>// that have
+  &quot;password&quot; set to the value of &quot;sv_privatePassword&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set rconpassword
+  &quot;&quot; <span style='mso-tab-count:3'>                </span>// remote
+  console access password<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set refereePassword
+  &quot;&quot;<span style='mso-tab-count:3'>              </span>// referee
+  status password<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// DL, RATE<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_maxRate
+  &quot;13000&quot;<span style='mso-tab-count:3'>              </span>// 10000
+  standard but poor for ET <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_dl_maxRate
+  &quot;42000&quot;<span style='mso-tab-count:2'>           </span>// increase/decerease
+  if you have plenty/little spare bandwidth <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_allowDownload
+  &quot;0&quot;<span style="mso-spacerun: yes">        </span><span
+  style='mso-tab-count:1'>    </span>// global toggle for both legacy download
+  and web download<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_wwwDownload
+  &quot;0&quot;<span style='mso-tab-count:3'>              </span>// toggle to
+  enable web download<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_wwwBaseURL
+  &quot;&quot; <span style='mso-tab-count:3'>               </span>// base URL
+  for redirection<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_wwwDlDisconnected
+  &quot;0&quot;<span style='mso-tab-count:2'>        </span>// tell clients to
+  perform their downloads while disconnected from the server<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_wwwFallbackURL
+  &quot;&quot;<span style='mso-tab-count:2'>            </span>// URL to send
+  to if an http/ftp fails or is refused client side<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// MOTD ETC<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_hostname
+  &quot;ETHost&quot; <span style='mso-tab-count:2'>           </span>// name of
+  server here<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set server_motd0 &quot;
+  ^NEnemy Territory ^7MOTD &quot;<span style='mso-tab-count:1'>   </span>//
+  message in right corner of join screen here<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set server_motd1
+  &quot;&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set server_motd2
+  &quot;&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set server_motd3
+  &quot;&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set server_motd4
+  &quot;&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set server_motd5
+  &quot;&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// MISC SETTINGS<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set
+  g_heavyWeaponRestriction &quot;100&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_antilag
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_altStopwatchMode
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_autofireteams
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_complaintlimit
+  &quot;6&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_ipcomplaintlimit
+  &quot;3&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_fastres
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_friendlyFire
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//set g_gametype
+  &quot;4&quot;<span style='mso-tab-count:3'>                </span>// Game
+  type should be set from map rotation script<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_minGameClients
+  &quot;8&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_maxlives
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_alliedmaxlives
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_axismaxlives
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_teamforcebalance
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_noTeamSwitching
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_voiceChatsAllowed
+  &quot;4&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_doWarmup
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_warmup
+  &quot;30&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_spectatorInactivity
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_floodProtect
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_allowDownload
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_pure &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_minping
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set sv_maxping
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set match_latejoin
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set match_minplayers
+  &quot;4&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set match_mutespecs
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set match_readypercent
+  &quot;100&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set match_timeoutcount
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set match_warmupDamage
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set team_maxplayers
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set team_nocontrols
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set pmove_fixed
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set pmove_msec
+  &quot;8&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// LMS ONLY SETTINGS<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_lms_teamForceBalance
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_lms_roundlimit
+  &quot;3&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_lms_matchlimit
+  &quot;2&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_lms_currentMatch
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_lms_lockTeams
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_lms_followTeamOnly
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// VOTING<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_allowVote
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_limit
+  &quot;5&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_percent
+  &quot;50&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_comp
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_gametype
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_kick
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_map
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_matchreset
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_mutespecs
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_nextmap
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_pub
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_referee
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set
+  vote_allow_shuffleteams &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_swapteams
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set
+  vote_allow_friendlyfire &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_timelimit
+  &quot;0&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set
+  vote_allow_warmupdamage &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_antilag
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_balancedteams
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set vote_allow_muting
+  &quot;1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// PUNKBUSTER<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// sv_punkbuster is a
+  readonly variable. Use +set sv_punkbuster on command line or use the command
+  pb_sv_enable in the console.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//pb_sv_enable<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//exec punkbuster.cfg<span
+  style='mso-tab-count:3'>               </span>// Punkbuster Settings<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// LOGGING<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_log
+  &quot;etserver.log&quot; <span style='mso-tab-count:2'>           </span>//
+  Game logging<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set g_logsync 0<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set logfile 0 <span
+  style='mso-tab-count:4'>                      </span>// Console logging ( 1:
+  enable 2: enable and sync )<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// MAP ROTATION SCRIPT<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>exec campaigncycle.cfg<span
+  style='mso-tab-count:3'>              </span>// Campaign mode<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//exec objectivecycle.cfg<span
+  style='mso-tab-count:2'>           </span>// Objective mode<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//exec lmscycle.cfg<span
+  style='mso-tab-count:3'>                 </span>// Last Man Standing mode<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//exec stopwatchcycle.cfg<span
+  style='mso-tab-count:2'>           </span>// Stopwatch mode<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// WATCHDOG<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// in case the game dies
+  with an ERR_DROP<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// or any situation
+  leading to server running with no map<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//set com_watchdog 10<span
+  style='mso-tab-count:4'>                     </span>// defaults 60<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set com_watchdog_cmd
+  &quot;exec campaigncycle.cfg&quot;<span style='mso-tab-count:1'>   </span>//
+  defaults to quit<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Example campaigncycle.cfg:</span><o:p></o:p></b></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d1 &quot;campaign
+  cmpgn_northafrica ; set nextcampaign vstr d2&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d2 &quot;campaign
+  cmpgn_centraleurope ; set nextcampaign vstr d1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>// server doesn't
+  recognise the campaign command when the gamecode isn't running yet.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d_initial &quot;set
+  g_gametype 4 ; map oasis ; set nextcampaign vstr d2&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>vstr d_initial<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Example
+  lastmanstandingcycle.cfg:</span><o:p></o:p></b></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d1 &quot;set
+  g_gametype 5 ; map oasis ; set nextmap vstr d2&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d2 &quot;set g_gametype
+  5 ; map battery ; set nextmap vstr d3&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d3 &quot;set
+  g_gametype 5 ; map goldrush ; set nextmap vstr d4&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d4 &quot;set
+  g_gametype 5 ; map radar ; set nextmap vstr d5&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d5 &quot;set
+  g_gametype 5 ; map railgun ; set nextmap vstr d6&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d6 &quot;set
+  g_gametype 5 ; map fueldump ; set nextmap vstr d1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>vstr d1<o:p></o:p></span></p>
+  <p class=MsoPlainText><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Example objectivecycle.cfg:</span><o:p></o:p></b></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d1 &quot;set
+  g_gametype 2 ; map oasis ; set nextmap vstr d2&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d2 &quot;set
+  g_gametype 2 ; map battery ; set nextmap vstr d3&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d3 &quot;set
+  g_gametype 2 ; map goldrush ; set nextmap vstr d4&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d4 &quot;set
+  g_gametype 2 ; map radar ; set nextmap vstr d5&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d5 &quot;set
+  g_gametype 2 ; map railgun ; set nextmap vstr d6&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>set d6 &quot;set
+  g_gametype 2 ; map fueldump ; set nextmap vstr d1&quot;<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>vstr d1<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Example stopwatchcycle.cfg:</span><o:p></o:p></b></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//Map-Cycle Stopwatch<br>
+  //by Erik Melen (Deveus)<br>
+  //<br>
+  //3 = Stopwatch<br>
+  //Stopwatch Rotation. A full ABBA or ABAB rotation requires 4 rounds per map.<br>
+  //A simple map_restart is all that is needed for rounds 2-4.<br>
+  <br>
+  //*****Siwa Oasis Stopwatch Game<br>
+  set m2r1 "g_gametype 3; map oasis; set nextmap vstr m2r2; sets StopwatchRound 1;"&nbsp;<br>
+  set m2r2 "map_restart 0; set nextmap vstr m2r3; sets StopwatchRound 2;"&nbsp;<br>
+  set m2r3 "map_restart 0; set nextmap vstr m2r4; sets StopwatchRound 3;"<br>
+  set m2r4 "map_restart 0; set nextmap vstr m2r5; sets StopwatchRound 4;"<br>
+  <br>
+  //*****Seawall Battery Stopwatch Game<br>
+  set m2r5 "g_gametype 3; map battery; set nextmap vstr m2r6; sets StopwatchRound 1;"<br>
+  set m2r6 "map_restart 0; set nextmap vstr m2r7; sets StopwatchRound 2;"<br>
+  set m2r7 "map_restart 0; set nextmap vstr m2r8; sets StopwatchRound 3;"<br>
+  set m2r8 "map_restart 0; set nextmap vstr m2r9; sets StopwatchRound 4;"<br>
+  <br>
+  //*****Gold Rush Stopwatch Game<br>
+  set m2r9 "g_gametype 3; map goldrush; set nextmap vstr m2r10; sets StopwatchRound 1;"<br>
+  set m2r10 "map_restart 0; set nextmap vstr m2r11; sets StopwatchRound 2;"<br>
+  set m2r11 "map_restart 0; set nextmap vstr m2r12; sets StopwatchRound 3;"<br>
+  set m2r12 "map_restart 0; set nextmap vstr m2r13; sets StopwatchRound 4;"<br>
+  <br>
+  //*****Würzburg Radar Stopwatch Game<br>
+  set m2r13 "g_gametype 3; map radar; set nextmap vstr m2r14; sets StopwatchRound 1;"<br>
+  set m2r14 "map_restart 0; set nextmap vstr m2r15; sets StopwatchRound 2;"<br>
+  set m2r15 "map_restart 0; set nextmap vstr m2r16; sets StopwatchRound 3;"<br>
+  set m2r16 "map_restart 0; set nextmap vstr m2r17; sets StopwatchRound 4;"<br>
+  <br>
+  //*****Rail Gun Stopwatch Game<br>
+  set m2r17 "g_gametype 3; map railgun; set nextmap vstr m2r18; sets StopwatchRound 1;"<br>
+  set m2r18 "map_restart 0; set nextmap vstr m2r19; sets StopwatchRound 2;"<br>
+  set m2r19 "map_restart 0; set nextmap vstr m2r20; sets StopwatchRound 3;"<br>
+  set m2r20 "map_restart 0; set nextmap vstr m2r21; sets StopwatchRound 4;"<br>
+  <br>
+  //*****Fuel Dump Stopwatch Game<br>
+  set m2r21 "g_gametype 3; map fueldump; set nextmap vstr m2r22; sets StopwatchRound 1;"<br>
+  set m2r22 "map_restart 0; set nextmap vstr m2r23; sets StopwatchRound 2;"<br>
+  set m2r23 "map_restart 0; set nextmap vstr m2r24; sets StopwatchRound 3;"<br>
+  set m2r24 "map_restart 0; set nextmap vstr m2r1; sets StopwatchRound 4;"<br>
+  <br>
+  vstr m2r1 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+  style='mso-bidi-font-size:10.0pt;color:black'>Example punkbuster.cfg:</span><o:p></o:p></b></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//PunkBuster Server config
+  <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//Thanks to those on the
+  SplashDamage forums for their contribution.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//Compiled by Erik Melen
+  (Deveus) and Paul Goldilla (loony)<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//Enable Punkbuster<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_enable <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//Bad Names list<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//Place any names that you
+  feel players should not use on your server in here.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//To add more bad name
+  entries, simply follow the format shown below.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_badname 30 Nazi <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_badname 30 Hitler<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//CVARs for the PB server
+  to check. Place checks to keep players from abusing CVARs.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvarempty <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar rate in 2500
+  25000 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar snaps in 20 40 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar cl_maxpackets
+  in -15 100 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar cg_bobup in 0
+  0.005 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar r_picmip in 0 3<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar
+  r_overbrightbits in 0 4 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar
+  r_mapoverbrightbits in 0 4 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar cg_shadows in 0
+  1 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar r_rmse in 0 0 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar cg_fov in 90
+  120 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar
+  r_allowextensions in 1<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_cvar r_softwareGL in
+  0<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_scorekick -9<span
+  style="mso-spacerun: yes">     </span>//player gets kicked for having score
+  below zero<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_CQC 1 //Client Query
+  Capability (i.e. can they query the server cvars)<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_MsgPrefix &quot;ET
+  PB Server&quot; <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_KickLen 5 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_LogSync 0 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_LogCeiling 1000 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_Sleep 100 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_PowerMin 10 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_PowerDef 1 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_PowerKickLen 5 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//pb_sv_httpAddr
+  192.168.0.1<span style="mso-spacerun: yes">  </span>//enter Webtool address
+  here<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//pb_sv_httpPort
+  27970<span style="mso-spacerun: yes">        </span>//enter Webtool port here<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//pb_sv_httpRefresh 60 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//pb_sv_httpKey &quot;Put
+  Password Here&quot; <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>//pb_sv_httpmaps radar
+  railgun fueldump oasis battery goldrush<span style="mso-spacerun: yes">  
+  </span>//for the Web Tool map pull down menu<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_extChar 0 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_minName 1 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_dupNameGrace 30
+  //Prevents name stealing on the server.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_changePeriod 10 <o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_changeMax 5 //Number
+  of name changes before kicking a player.<o:p></o:p></span></p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+  style='font-size:10.0pt;font-family:"Courier New"'>pb_sv_emptyname 1 <o:p></o:p></span></p>
+  <p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=HylaFAX - Setup Instructions
+GenericName=hylafax - setup instructions
+Exec=openwith %%PBI_EXEDIR%%/hylafax-setup.txt
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/hylafax.png
+StartupNotify=true
+Categories=Utility;
