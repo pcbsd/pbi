@@ -190,8 +190,8 @@ atomix:i386:2.14.0_9:64dd1f199d903c7fd028fde2e9bcc59459dba1db38b6825181a731191ab
 atunes:amd64:3.1.0:c5045de4eac7c0e296e2e4c686490b4a9d1156462e26b11b6a5905ecca3c7567:20130710 124956:/PBI/audio/atunes/9/x64/atunes-3.1.0-amd64.pbi:1373900928::active:146278:
 atunes:amd64:3.1.1:eb06079fdb2998c5514273519d92a076b38c9fa183bc3e06ad8c03394a487bca:20130924 163558:/PBI/audio/atunes/9/x64/atunes-3.1.1-amd64.pbi:1380553425::current:152050:
 atunes:i386:2.0.1:2855e13b9601d2a800238ab5b04506a1b252c644a7a8cebd82cd26a5c523a887:20110801 075739:/PBI/audio/atunes/9/x32/atunes-2.0.1-i386.pbi:1312220533::active
-audacious:amd64:3.1.1:211fc23fad8fe4e2cb3b8fc408de139b344ab874c8d363410c8670f5f1c982bc:20120119 043741:/PBI/multimedia/audacious/9/x64/audacious-3.1.1-amd64.pbi:1326982721::active:59052:
-audacious:amd64:3.2.4:e6ff9485a74560b8cb1a55eef7f9b8f1e01d0313da9a1eb435925ffb1d0ab950:20121128 215736:/PBI/multimedia/audacious/9/x64/audacious-3.2.4-amd64.pbi:1354555454::current:106571:
+audacious:amd64:3.2.4:e6ff9485a74560b8cb1a55eef7f9b8f1e01d0313da9a1eb435925ffb1d0ab950:20121128 215736:/PBI/multimedia/audacious/9/x64/audacious-3.2.4-amd64.pbi:1354555454::active:106571:
+audacious:amd64:3.4.1:435059bcabf4f7d5c7aa892b2c13f5451b9e4a97ae6e9226734b3a8c0bcde2de:20131018 034353:/PBI/multimedia/audacious/9/x64/audacious-3.4.1-amd64.pbi:1382116489::current:119516:
 audacious:i386:3.1.1:9be2d90b099c82de9d1ed34ef92db3a67dd7f1772650a927770e579e319a82b5:20120109 093246:/PBI/multimedia/audacious/9/x32/audacious-3.1.1-i386.pbi:1326982525::active:58155:
 audacious:i386:3.2.4:004391ea6430c2daaf5e5adac4edf17edb2bd6cb9d831f17c1b1a29b10fd02ed:20121128 211044:/PBI/multimedia/audacious/9/x32/audacious-3.2.4-i386.pbi:1354553426::current:104911:
 audacity:amd64:2.0.3_1:038aa7280aaf9fcf6543e9d366a40aeaa75b0fbfa374bfcc4b9037d748b47454:20130629 144645:/PBI/audio/audacity/9/x64/audacity-2.0.3_1-amd64.pbi:1373901100::active:93768:
