@@ -297,7 +297,8 @@ boinc-client:i386:7.0.25_5:fa20cc9bcb1798bf59a5170a14ae0dcc7053cd01d77db9ff4773e
 boinc-client:i386:7.0.28:45bd17d84c4838129e55d1ef40a7909776465e57ae25d08e416f43e7dfc6c353:20121019 101059:/PBI/net/boinc-client/9/x32/boinc-client-7.0.28-i386.pbi:1350661180::current:73141:
 bomb-her-man:amd64:0.3:8ba2a370ef19d07669694d7dd767e364a766b55d3b8c276429cbd68894c245fd:20121018 033742:/PBI/games/bombherman/9/x64/bomb-her-man-0.3-amd64.pbi:1350662672::current:66225:
 bomb-her-man:i386:0.3:dd0c222ec4bf61fe371d21b31bff407816699cc7feb475f693c0e77ae906948e:20121017 213400:/PBI/games/bombherman/9/x32/bomb-her-man-0.3-i386.pbi:1350662570::current:64046:
-bomberclone:amd64:0.11.8_6:94289efe056ca83d7465f1b2f74e460fc0d0e13da1eb50b689324424f4a31794:20110825 200850:/PBI/games/bomberclone/9/x64/bomberclone-0.11.8_6-amd64.pbi:1314363488::current
+bomberclone:amd64:0.11.8_6:94289efe056ca83d7465f1b2f74e460fc0d0e13da1eb50b689324424f4a31794:20110825 200850:/PBI/games/bomberclone/9/x64/bomberclone-0.11.8_6-amd64.pbi:1314363488::active
+bomberclone:amd64:0.11.9:8b3150741f2ac5305a229e8eaf61972ebfbaebb63e7c8fd52589d4121bc6f4ff:20131013 164959:/PBI/games/bomberclone/9/x64/bomberclone-0.11.9-amd64.pbi:1382116539::current:43683:
 bomberclone:i386:0.11.8_6:df226824db11ce019dc1e69a5a5544a1b573e2e74f76a00f13019244779f6fda:20110824 113327:/PBI/games/bomberclone/9/x32/bomberclone-0.11.8_6-i386.pbi:1314363561::current
 bombermaze:i386:0.6.6_10:c6498480f0b5ede39353eeff38e79bca108c43a8dd4b29f1b25c3926461f6e43:20111006 050533:/PBI/games/bombermaze/9/x32/bombermaze-0.6.6_10-i386.pbi:1324325418::current:46243:
 bombono:amd64:1.2.1:3139783f308d35f99e12899b9ca8fa87d6ca8f8b34b9f9b8f7627894f9a762f8:20120217 202045:/PBI/multimedia/bombono/9/x64/bombono-1.2.1-amd64.pbi:1330460108::active:92098:
