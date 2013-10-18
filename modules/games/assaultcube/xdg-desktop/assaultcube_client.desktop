@@ -6,5 +6,5 @@ Name=AssaultCube client
 GenericName=AssaultCube client
 Exec=%%PBI_EXEDIR%%/assaultcube_client
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/icons/assaultcube.png
+Icon=%%PBI_APPDIR%%/assaultcube.png
 StartupNotify=true
