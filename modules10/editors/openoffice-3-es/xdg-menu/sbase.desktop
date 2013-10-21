@@ -1,0 +1,13 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Apache Openoffice - sbase
+GenericName=apache openoffice - sbase
+Exec=%%PBI_EXEDIR%%/sbase
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/openoffice.png
+StartupNotify=true
+Categories=Office;
+NoDisplay=true
+MimeType=application/x-sbase

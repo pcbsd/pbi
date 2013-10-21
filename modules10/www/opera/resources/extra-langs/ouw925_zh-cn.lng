@@ -1,0 +1,6476 @@
+; Opera language file version 2.0
+; Copyright © 1995-2007 Opera Software ASA. All rights reserved.
+; Created on 2007-04-10 15:03
+; Lines starting with ; (like this) are comments and need not be translated
+
+[Info]
+Language="zh-cn"
+; The string below is the language name in its own language
+LanguageName="简体中文"
+Charset="utf-8"
+Build.Linux=638
+Version.Linux=9.20
+DB.version=869
+
+[Translation]
+
+; General strings
+
+; Used in a popup error message when Opera can't connect to the remote
+; server due to other phenomena than the one stated in 32873.
+-303587263="无法连接到远程服务器"
+
+; The error code corresponding to this string is used in a number of
+; situations when the server has abruptly closed the connection, and then
+; the string can be used in a popup error message.
+406813980="远程服务器已关闭连接"
+
+; Used in a popup error message when Opera has failed to load a requested
+; page more than once.
+-767243423="再次尝试读取该页面失败。\r\n\r\n服务器可能出现问题。"
+
+; Used in a popup error message when Operas request to connect to a server
+; is refused. (For example when the server exists but does not answer on
+; the specified port.)
+-1847391312="无法连接到远程服务器"
+
+; Used in a popup error message when Opera has tried to resolve a server
+; name with the DNS to fetch a requested document from it, and the server
+; domain exists but the server itself does not (for example
+; http://fff.example.com).
+-467236228="无法定位远程服务器"
+
+; Used in a popup error message when Opera has tried to resolve a server
+; name with the DNS to fetch a requested document from it, and the server
+; domain doesn't exist (for example http://invalid).
+-1504149836="该地址不存在"
+
+; Used as default error message in a popup error message, when no other
+; network error message applies.
+-1467543495="内部通讯错误"
+
+; Used in a popup error message when there is no route from the client's
+; subnet to the server's subnet, likely due to a badly configured network.
+948480566="网络无法连接。请联系您的系统管理员。"
+
+; Used in a number of error situations, when the user has entered a
+; malformed URL, such as opera:nonexistant, into the URL field. The http
+; respose error code 400 (Bad request), and some other http error codes
+; between 400 and 500 (signifying client errors) also give the same
+; result.
+-14659052="非法地址"
+
+; Used in a popup error message when the network of the underlying system is
+; down. This could be due to errors in the protocol stack, network card or
+; driver, or in the physical network outside of the system.
+1420893634="网络故障"
+
+; Used in a popup error message when the server has tried to redirect a
+; document request from Opera to an adress and Opera fails to connect to
+; that server.
+890657822="服务器试图重定向到一个无效的地址。\r\n请通知该网站的管理员。"
+
+; Used in a popup error message when a proxy server has been specified for a
+; specific request type, and the proxy server doesn't answer when an URL
+; of that type is entered in the URL field.
+966887426="无法连接到代理服务器"
+
+; Used in a popup error message when Opera has tried to resolve a proxy
+; server name with the DNS to fetch a requested document from it, and the
+; server domain exists but the server itself does not (for example
+; fff.opera.com).
+803238461="找不到代理服务器"
+
+; Used in a popup error message when Opera has tried to resolve a proxy
+; server name with the DNS to fetch a requested document from it, and the
+; server domain doesn't exist (for example fjdlsakhngfjf).
+-936682827="无法访问代理服务器。服务器不可用"
+
+; Used in a popup error message when Operas request to connect to a proxy
+; server is refused. (For example when the server exists but does not
+; answer on the specified port.)
+1943858161="无法连接代理服务器。访问被拒绝"
+
+358460907="结束点并未处于对应的状态"
+; Used on Macintosh as a default network error message.
+740291732="打开传输错误"
+
+; Used when Opera has tried to open a network socket to a server and the
+; socket is busy. This message should be handled internally most of the
+; time.
+-1157672946="网络套接字阻塞"
+
+; Used in a popup error message when a non-recoverable error has occurred in
+; the network protocol stack or network drivers of the system.
+182377296="网络套接字出现问题。请检查您的网络驱动程序。"
+
+; 
+799744891="远程服务器超时。请稍候再试一次。"
+
+; Used in a popup error message when not enough socket resources (file
+; handles, network buffers) are free.
+-1550530872="网络套接字资源问题。请再试一次"
+
+; Used in a popup error message when Opera discovers that the network
+; implementation lacks functionality needed to handle the protocol that is
+; needed to fulfill a request.
+-964370023="这个 Winsock 实现缺少重要的功能。"
+
+-377063689="Winsock 版本不正确"
+; The default error message, used in any situation where no more specific
+; error message can be created.
+109608805="内部程序错误。"
+
+-352821964="请等到当前打印任务完成"
+575013369="无法打开新的窗口。内存或资源不足"
+; Used in a popup error message when the address type is unknown or
+; unsupported.
+1118839518="地址类型未知或不被支持"
+
+; Might be used in a popup error message when the user has clicked the Home
+; button and no home page is set in preferences and we don't have a quick
+; UI (if we have Quick we use the Set homepage dialog).
+2075232397="没有定义首页。请设定。"
+
+2050542879="无法建立到打印机的连接"
+; Used in an error popup message when the printer has encountered an error
+; while printing (as opposed to 20013 which pops up if the printing can't
+; even start, which is more likely.)
+1725016247="无法打印页面。请检查打印机是否可访问"
+
+156962827="打印页面"
+; Used in a popup error message when the user has requested a file from the
+; server that it's not allowed to fetch (HTTP response code 4?? unless
+; handled specifically), if the user has set the Network/Server
+; errors/Always show dialog box preference.
+821358772="远程服务器拒绝执行该请求。\r\n该地址不可用。"
+
+; Used in a popup error message when the user has requested a file from the
+; server that does not exist (HTTP response code 404), if the user has set
+; the Network/Server errors/Always show dialog box preference.
+-1304259437="找不到该地址："
+
+; Used in a popup error message as a default message when the user has made
+; a valid request for a file from the server, and the server encounters an
+; error that prevents it to fulfill the request (HTTP response code 5xx
+; and 6xx), if the user has set the Network/Server errors/Always show
+; dialog box preference.
+-1534197113="找不到远程服务器或文件"
+
+; Used in a popup error message when the user has requested a file from the
+; server, and the server could not fulfill the request since this
+; functionality wasn't implemented (HTTP error code 501), if the user has
+; set the Network/Server errors/Always show dialog box preference.
+692443531="远程服务器缺乏必要的功能"
+
+; Used in a popup error message when the user has requested a document from
+; the server, the server sends the document using HTTP compression, and
+; the document decoder couldn't decode the data properly.
+324835147="数据解码时出现问题。数据可能有错误。"
+
+; Used in a popup error message when the user has submitted a form using a
+; HTTP request method (specified with the METHOD attribute to the FORM tag
+; in the HTML form) that the server does not accept (HTTP error code 405),
+; if the user has set the Network/Server errors/Always show dialog box
+; preference.
+1580841951="服务器不接受该 HTTP 请求方法"
+
+; Used in a popup error message when the user tries to fetch a document by
+; clicking a link, and the server cannot send the requested document in a
+; format that matches the content of the HTTP accept headers sent in the
+; request (HTTP error code 406), if the user has set the Network/Server
+; errors/Always show dialog box preference. However, Opera accepts all
+; document formats and sends *.* in its accept header, so this is unlikely
+; to happen.
+1149298043="服务器无法发送可接受的数据"
+
+; Used in a popup error message when the user has requested a document from
+; the server, the server needs more data from Opera to fulfill the
+; request, and Opera fails to deliver the data before the server times out
+; and cancels the request (HTTP error code 408). Unlikely to happen very
+; often. Visible if the user has set the Network/Server errors/Always show
+; dialog box preference
+-751126418="服务器超时"
+
+; Used in a popup error message when Opera has sent a HTTP request to fetch
+; or send a document to the server, and the server determins that there's
+; a conflict with a third part regarding the document, that can be solved
+; by the user (HTTP error message 409). This could happen when the user
+; submits a form that leads to a change of an online document, and the
+; server detects that the changes conflicts with other changes already
+; made to the document. Visible if the user has set the Network/Server
+; errors/Always show dialog box preference
+1517647577="与服务器现有的资源冲突"
+
+; Used in a popup error message when the user has requested a document and
+; the server answers that the document has been there, but has been
+; permanently removed (HTTP error code 410). Visible if the user has set
+; the Network/Server errors/Always show dialog box preference.
+-711230064="该地址不再可用"
+
+; Used in a popup error message if the user has sent a request to the
+; server, and the server answers that it needs a Content-Length header to
+; process the request (HTTP error code 411). Opera never sends requests
+; without a valid Content-Lenght header. Visible if the user has set the
+; Network/Server errors/Always show dialog box preference.
+758757449="需要提供 HTTP 内容长度"
+
+; Used in a popup error message if the user has sent a request to the server
+; containing one or more precondition headers, and one or more of these
+; preconditions evaluated false on the server (HTTP error code 412). The
+; precondition headers could be If-Range and If-Modifified-Since, that
+; could be used to fetch the missing parts of a earlier partially fetched
+; documents, if the document is still the same. Unlikely to happen.
+; Visible if the user has set the Network/Server errors/Always show dialog
+; box preference.
+329914774="HTTP 预处理失败"
+
+; Used in a popup error message when the user has sent a request to a
+; server, and the server signalled that the request entity (the actual
+; request data) was too large (HTTP error code 413). Visible if the user
+; has set the Network/Server errors/Always show dialog box preference.
+-1058835823="HTTP 请求的数据太多"
+
+; Used in a popup error message when the user has sent a request to a server
+; and the URL is longer than the server can handle (HTTP error code 414).
+; Visible if the user has set the Network/Server errors/Always show dialog
+; box preference.
+-1079658918="HTTP 地址太长"
+
+; Used in a popup error message when the user has sent a request to a server
+; and the server didn't recognize the content type of the request entitiy
+; (HTTP error code 415). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+-1140372240="服务器不能识别该内容类型"
+
+; Used in a popup error message if Opera has requested a part of a file that
+; does not exist (HTTP error code 416). This shouldn't happen. Visible if
+; the user has set the Network/Server errors/Always show dialog box
+; preference.
+-616120726="服务器无法发送该文件的被请求部分"
+
+; Used in a popup error message if Opera has sent a request with certain
+; expectations in the HTTP header 'Expect', and the server can't meet that
+; expectation because vital features are not implemented. For example, the
+; server can be expected to handle HTTP_CONTINUE (HTTP reply code 100)
+; when sending in forms (HTTP error code 417). Visible if the user has set
+; the Network/Server errors/Always show dialog box preference.
+857450575="HTTP 预期失败"
+
+; Used in a popup error message when Opera has sent a request to a HTTP
+; proxy server, and the upstream server returned an invalid response code
+; (HTTP error code 502). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+-1195254785="HTTP 网关失败"
+
+; Used in a popup error message when the user has requested a document and
+; the server can't fulfill the request since it's overloaded or offline
+; (HTTP error code 503). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+1578430811="该服务已经超载或已断线。请稍后再试"
+
+; Used in a popup error message when the user has sent a request to a proxy
+; server, and the upstream server did not answer before the proxy server
+; timed out (HTTP error code 504). Visible if the user has set the
+; Network/Server errors/Always show dialog box preference.
+-1311914337="HTTP 网关超时"
+
+; Used in a popup error message when the user has requested a document from
+; a server, and the server doesn't support the HTTP version used (HTTP
+; error code 505). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+1531026242="该 HTTP 版本不被接受"
+
+; Used in a warning popup message when the user has tried to fetch a
+; document from a server, using HTTP digest authentication to check the
+; documents integrity, and the authentication failed.
+-740353027="身份验证失败。内容可能不可信"
+
+; Used in a warning popup message when the user has tried to fetch a
+; document from a proxy server, using HTTP digest authentication to check
+; the documents integrity, and the authentication failed.
+-1145474466="代理服务器身份验证失败。内容可能不可信"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the server answered that the ftp service was not
+; currently available (FTP error 421).
+620822149="FTP 服务器不可使用"
+
+; Used in a popup error message as a default error message when the user has
+; entered an FTP URL into the URL field and an error has occurred.
+195626167="FTP 模块内部错误"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the server has rejected the connection.
+-1924345111="无法连接。FTP 服务器可能太忙。"
+
+; Can be used when the the user has entered an FTP URL into the URL field,
+; and the server has rejected the connection because the provided user
+; name didn't exist. Normally an authentication dialog is shown instead.
+-1848604135="没有在 FTP 服务器上找到该用户"
+
+; Can be used when the the user has entered an FTP URL without user name and
+; password into the URL field to do an anonymous login, and the server did
+; not accept anonymous logins. Normally an authentication dialog is shown
+; instead.
+1189442079="所连接的 FTP 服务器需要用户名和密码"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the directory did not exist
+1347458739="找不到 FTP 目录"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the file did not exist.
+677350004="找不到文件"
+
+; Used in a popup error message when an initiated FTP file download is
+; interrupted by the server, either by the connection being closed (FTP
+; error 426) or the download action being aborted (FTP error 451).
+749039349="远程 FTP 服务器已关闭连接"
+
+; Used in a popup error message when the user has entered an FTP URL in the
+; URL field to request a file download, and the server signals that it
+; can't set up a passive data channel to transfer the file (FTP error
+; 425).
+114420836="无法打开远程 FTP 通道"
+
+; Used in a popup error message when the user has entered a file URL
+; pointing to a file that does not exist in the URL field.
+1341715899="无法打开文件"
+
+29719148="打印缩放比例只能够设定在 20 和 400% 之间。请输入一个有效的值"
+-1531609405="连接到单个服务器的最大连接数必须介于 1 到 99 之间。"
+1990780688="最大总连接数必须介于 1 到 999 之间。"
+-841488811="历史的行数必须介于 0 到 999 之间。"
+; Used in a popup error message when the user has requested a file from the
+; server, and the server recieves the request but no data exists to return
+; (HTTP error code 204), if the user has set the Network/Server
+; errors/Always show dialog box preference.
+-889828450="远程服务器已接受请求 - 未返回内容"
+
+; Used in a popup error message when the user has entered a file URL in the
+; URL field and the file is read-protected.
+-308415646="该文件拒绝访问"
+
+; Used in a popup error message when the user has entered a file URL in the
+; URL field and the file does not exist.
+1307823342="文件不存在"
+
+; Used in a popup error message when Opera has tried to write a file to disk
+; and there was not enough disk space left. This happens for example when
+; trying to save a page to disk, but also in many other places and
+; situations, not always connected with something that the user does.
+-741209408="无法写入文件。磁盘已满。"
+
+; Used in a popup error message when Opera has failed to write data into the
+; cache, for example when fetching a document.
+435718529="内部缓存错误"
+
+520154852="资源不足。无法装入字符串"
+; Used as default text on file upload input elements in forms in HTML
+; documents.
+-1783794762="选择"
+
+; Used in a popup error message when the user has entered a telnet URL
+; (starts with 'telnet:') in the URL field to start a telnet session, and
+; no telnet application is specified in preferences.
+-510694030="没有指定 Telnet 应用程序。请在首选项中输入 Telnet 应用程序的完整路径。"
+
+; Used in a popup error message when the user has entered a telnet URL
+; (starts with 'telnet:') in the URL field to start a telnet session, and
+; no hostname has been specificed in the url.
+426171406="没有指定主机名称"
+
+; Used in a popup error message when the user has entered a TN3270 URL
+; (starting with tn3270:) in the URL field, to connect to a server with
+; TN3270, and no path to a TN3270 terminal application has been specified
+; in the preferences. (TN3270 is a variant of telnet used mainly on IBM
+; mainframes).
+-1755894156="没有指定 TN3270 应用程序。请在首选项中输入 TN3270 应用程序的完整路径。"
+
+; Used in a popup error message when the user has entered a TN3270 URL
+; (starting with tn3270:) in the URL field, to connect to a server with
+; TN3270, and no hostname has been specified. (TN3270 is a variant of
+; telnet used mainly on IBM mainframes).
+-819028720="没有指定主机名称"
+
+-1072146715="皮肤文件(*.zip)|*.zip|全部文件(*.*)|*.*|"
+-1005530747="HTML 文件|*.htm;*.html|Web 存档|*.mht|文本文件|*.txt|GIF 文件|*.gif|PNG 文件|*.png|JPEG 文件|*.jpg;*.jpeg|BMP 文件|*.bmp|SVG 文件|*.svg;*.svgz|声音文件|*.wav|AVI 视频文件|*.avi|MIDI 音乐文件|*.mid;*.midi|Opera 窗口设置|*.win|XML 文件|*.xml|样式表文件|*.css|全部文件 (*.*)|*.*|"
+; Used in the File/Open dialog to let the user select what type of files the
+; dialog should show. The labels are visible in the File type dropdown
+; list.
+1697415490="HTML 文件(*.htm;*.html)|*.htm;*.html|文本文件(*.txt)|*.txt|GIF 文件(*.gif)|*.gif|PNG 文件(*.png)|*.png|JPEG 文件(*.jpg)|*.jpg|BMP 文件(*.bmp)|*.bmp|SVG 文件|*.svg;*.svgz|全部文件(*.*)|*.*|"
+
+1485048895="程序文件(*.exe)|*.exe|全部文件(*.*)|*.*|"
+-1970773635="声音文件(*.wav)|*.wav|全部文件(*.*)|*.*|"
+592736239="X509(*.usr)|*.usr|PKCS #7 签名(*.p7s)|*.p7s|PKCS #7(*.p7)|*.p7|PKCS #12(带私钥)(*.p12)|*.p12;*.pfx|PEM 文件(*.pem)|*.pem|全部文件|*.*|"
+1738062614="X509(*.usr)|*.usr|PKCS #7 签名(*.p7s)|*.p7s|PKCS #7(*.p7)|*.p7|PKCS #12(带私钥)(*.p12)|*.p12;*.pfx|PEM 文件(*.pem)|*.pem|"
+-1668392241="X509 (*.ca)|*.ca;*.crt;*.cer;*.509;*.der|PKCS #7 签名(*.p7s)|*.p7s|PKCS #7(*.p7)|*.p7|PEM 文件 (*.pem)|*.pem|全部文件|*.*|"
+1902934622="逗号分隔的文件(*.csv)|*.csv|全部文件(*.*)|*.*|"
+; Used in the authentication dialog when the user tries to access a password
+; protected document.
+190440433="请输入该页的用户名和密码。"
+
+; Used in the authentication dialog when the user has tried to access a
+; password protected HTML page and authentication has failed.
+1179984052="没有通过该页的身份验证。请重新输入用户名和密码。"
+
+; Used when the user has tried to access an URL type that according to the
+; settings in preferences should be accessed through a proxy server, and
+; the proxy server requires authentication.
+-877069358="请输入该代理服务器的用户名和密码。"
+
+; Used when the user has tried to access an URL type that according to the
+; settings in preferences should be accessed through a proxy server, and
+; the authentication to the proxy server fails.
+1607302869="没有通过代理服务器身份验证。请重新输入用户名和密码。"
+
+-1381160483="CSS 文件(*.css)|*.css|HTML 文件(*.htm,*.html)|*.htm;*.html|全部文件(*.*)|*.*|"
+-1548879258="图片|*.gif;*.png;*.jpg;*.jpeg;*.jpe;*.bmp|全部文件|*.*|"
+-1764642929="邮件已投递"
+; Used in a popup error message when Opera finds that the document type is
+; unknown, or no document exists. This is hard to produce, though, since
+; handle all unknown file/mime types by letting the user decide what to do
+; with them - save, open or other alternatives, and empty documents are
+; just ignored.
+-1334353290="未知文档类型或文档不存在。"
+
+-2107080074="无法创建 Opera 目录。请使用有效的目录名再试一次"
+; Used in an error popup dialog when the user has entered a gopher or WAIS
+; url in the URL field, and no corresponding proxy has been set in
+; preferences.
+1915388591="该地址类型需要使用代理服务器。请在首选项中设定代理服务器。"
+
+; Used as the default text to substitute an image in an HTML document, if
+; the image can't be loaded (or viewing of images is turned off) and the
+; images alt attribute is empty.
+-1548171291="图像"
+
+; Used as the default prompt string to a searchable index specified with the
+; ISINDEX tag (an early form of forms functionality, deprecated in HTML
+; 4.X) in a HTML document, and is rendered in the document above an input
+; text area. (The label can be changed from this default with the PROMPT
+; attribute to the ISINDEX tag.)
+257961784="这是一个可搜索的索引"
+
+; Used at the end of an HTML document that has not been fully loaded because
+; the user has cancelled the request with the Stop button.
+729579061="传送停止!"
+
+-1291368336="这是一个内部类型，无法删除。"
+1761196910="删除文件类型"
+-349261683="您确定要删除文件类型关联[%s]吗?\n\n如果删除，Opera 下次将无法自动处理此类型的文件。"
+-550180835="无法定位系统文件 WSOCK32.dll。您可能需要重新安装您的网络驱动程序。"
+-272576070="Opera 电子邮件"
+-1869569473="如果您想要查看特定类型的广告，请设置这些选项"
+; Search strings
+1731818968="搜索引擎"
+143957063="关键字"
+-475340800="<默认>"
+
+; Search with x
+-1988219522="搜索 %s"
+
+-1453252862="系统资源不足，Opera 无法创建新的窗口。\n请关闭部分 Opera 窗口或其他正在运行的程序以获得更多的系统资源。"
+-2072462430="Windows 资源"
+-965895029="系统资源不足"
+943043206="事件"
+2018876050="声音文件"
+69268550="打开文件(&O)"
+-1294999549="用 %s 打开文件(&O)"
+-826112101="您想做什么?"
+-691888469="注意! 在您在打开文件之前总是应该进行病毒检查"
+912272472="未知服务器"
+1849271768="文档:"
+-191591729="图像:"
+527933789="总计:"
+526767594="速度:"
+1838098568="时间:"
+; Used in the dialog title when user tried to download file to an invalid
+; directory.
+-1233519848="无效的下载目录"
+
+; The user tried to download a file to an invalid directory.
+-510986057="您试图下载到无效的目录。"
+
+1900489595="非法的页边距设置。必须介于 0 到 5 厘米(2英寸)"
+1484203207="没有指定收件人。请指定收件人或新闻组"
+1448953232="无法播放多媒体文件。请检查相关的设备是否已被正确安装。"
+1323471366="无法运行注册的程序。Windows 内存不足或者应用程序文件受损。"
+22184271="找不到文件。"
+-292716452="找不到路径。"
+1485863656="无法启动注册的程序。内存不足。"
+-1112644250="无法启动注册的程序。DLL 库可能已受损。"
+-981866121="无法启动注册的程序。该程序需要 32 位 Windows 扩展。"
+1960318198="此扩展名未注册应用程序。"
+-1388946625="无法启动注册的程序。"
+1544915868="无法运行应用程序。Windows 内存不足或者应用程序文件受损。"
+1669329573="找不到程序。"
+1354428850="找不到程序路径。"
+1535777150="无法启动应用程序。内存不足。"
+2137220732="无法启动应用程序。DLL 库可能已经损坏。"
+665279181="无法启动应用程序。该程序需要 32 位 Windows 扩展。"
+-1339033131="无法启动应用程序。"
+-1880596941="您必须指定 MIME 类型。"
+-104559212="未指定 MIME 类型"
+-591099552="该 MIME 类型已经被定义。\n\n%s\n\n您想要覆盖吗?"
+198289025="覆盖 MIME 类型吗?"
+; Popup error message when the user has tried to print a document and the
+; printer signals that it's out of paper. Currently unsorted.
+-1136487989="无法打印。打印机缺纸。"
+
+; Used in the document window when showing an ftp file listing. 
+236947530="上级目录"
+
+; Used in the 'type' column of the created directory listing when a file URL
+; pointing to a directory (for example file://localhost/C:/) has been
+; entered in the URL field, when the list item type is a directory.
+1655346089="目录"
+
+; Used in the column titles of the created directory listing when a file URL
+; pointing to a directory (for example file://localhost/C:/) has been
+; entered in the URL field.
+-1886208143="名称"
+-1885966286="类型"
+-1886019317="大小"
+-1885983809="时间"
+
+-1603847837="网页普通文字"
+1996324275="网页 <h1>"
+1996324276="网页 <h2>"
+1996324277="网页 <h3>"
+1996324278="网页 <h4>"
+1996324279="网页 <h5>"
+1996324280="网页 <h6>"
+1454201505="网页 <pre>"
+581096763="链接 <a>"
+148398850="表单单行文本框"
+1826320747="表单多行文本框"
+-1626533879="表单按钮"
+1650965499="CSS font-family serif"
+941022991="CSS font-family sans-serif"
+-251987805="CSS font-family cursive"
+-1459975592="CSS font-family fantasy"
+-496949433="CSS font-family monospace"
+1628598700="地址太长。"
+; Used in a popup error message when there is not enough free memory for
+; Opera to complete the current task.
+1037842700="内存不足。"
+
+-1288121764="查找结果"
+1556424467="个人栏"
+-1352710556="空白页面"
+-1759909084="新建文件夹"
+906850014="添加"
+1325210100="添加"
+606160820="菜单"
+377181184="查找"
+1647828869="新建标签"
+-918088919="新建"
+-4062831="打开"
+-1001150226="保存"
+880020204="打印"
+-1093357638="复制"
+197832810="查找"
+-847360260="后退"
+-1705826954="重新装入"
+830055518="前进"
+380699176="首页"
+-2061425340="前往"
+1380682310="激活"
+-1706951539="平铺"
+-1635182269="层叠"
+-101179097="快捷栏"
+278263762="全屏"
+870715797="转到"
+-913592259="搜索"
+790656628="续传"
+-607245441="重新下载"
+-1478706519="停止"
+879407488="关闭全部窗口吗?"
+; Used in the progress bar when a request for fetching a document has been
+; enqueued for sending to the server.
+837164424="正在发送请求队列到 %s..."
+
+; Used in the progress bar when Opera is looking up the name for the host to
+; fetch a document from.
+66074078="正在查询主机名 %s..."
+
+; Used in the progress bar when connecting to the host to fetch the
+; requested document.
+-1971575858="正在连接到远程主机 %s..."
+
+; Used in the progress bar when sending a document request to the server.
+1773355565="正在向 %s 发送请求..."
+
+; Used in the progress bar when receiving data from the requested document
+; from the server.
+1021730588="正在从 %s 接收数据..."
+
+; Used in the progress bar when starting the network before fetching a
+; requested document.
+-123330029="正在连接网络/调制解调器..."
+
+; Used in the progress bar (often too briefly to be seen, before the
+; hostname lookup) when searching for a complete name for the server to
+; fetch a requested document from.
+-312841378="正在搜索完整的服务器名称..."
+
+; Used in the progress bar when setting up an encrypted connection with the
+; server before fetching a requested document.
+242456090="正在建立安全连接..."
+
+; Used in the progress bar when connecting to a proxy server to fetch a
+; requested document.
+-289213041="正在连接代理服务器..."
+
+; Used in the progress bar when waiting for a connection to the server to be
+; set up, to fetch a requested document.
+94677311="等待(#%2)连接到 %1"
+
+; Used in the progress bar when a requested file has been loaded from the
+; server.
+-128287927="已完成对 %s 的请求"
+
+; Used in the progress bar when waiting for a reply from the server after
+; requesting a document.
+-478562659="已激活 40 秒超时。正在等待数据..."
+
+; Used in a popup warning message when the user has submitted a HTML form to
+; a server, which accepts the request, but never sends an HTTP_CONTINUE
+; (HTTP response code 100) to tell Opera to send the forms data. Opera
+; waits for 40 seconds before showing the warning message.
+-1149141658="该服务器似乎出现错误。\n\n如果装入不能正常完成，请停止请求并再次提交表单。"
+
+; Used in the progress bar while the user selects to accept or reject a
+; cookie in the cookie warning/confirmation dialog, when accessing a site
+; that requires the server to set client cookies, and Opera is not set to
+; automatically receive this kind of cookie.
+2096696774="等待用户确认 Cookie(s)..."
+
+; Used in the progress bar while Opera checks that the domain stated in the
+; cookie exists.
+1256965226="正在等待 Cookie 域名的 DNS 确认..."
+
+; Used in a popup error message if the user has entered an URL with a port
+; specification that is not the default port for that protocol, and is
+; among the ones that Opera uses internally (for example
+; www.example.com:25) in the URL field.
+-483931386="为安全起见，对此端口的访问已被禁止。"
+
+; Used in a popup error message, along with the complete cookie data, when
+; the server wants to set an HTTP cookie with a domain attribute that does
+; not match the server name.
+874543792="服务器试图将 Cookie 用作非法用途。服务器主机名与域属性不符，因此该 Cookie 已被拒绝。\r\n\r\n此网站可能不可信。"
+
+; Used in a popup error message, along with the complete cookie data, when
+; the server wants to set an HTTP cookie, and Opera fails to look up the
+; domain stated in the cookie in the DNS.
+1084336304="服务器试图为没有注册的 IP 地址的域名设置 Cookie。为安全起见，此操作不可接受，因此该 Cookie 已被拒绝。\r\n\r\n您可能想要联系该网站的网管以便为在 Cookie 中指定的域名创建 IP 地址。"
+
+; Used in about page.
+-128069365=", 此插件被禁用"
+
+558880268="Opera 启动"
+519664501="Opera 退出"
+115269511="页面已装入"
+-544479256="下载完毕"
+-705946906="失败"
+-516179123="跟随链接"
+1787559867="无"
+-497527115="没有皮肤"
+-129095232="%s 文件未注册查看器，您需要定义一个程序来打开该类型的文件。\n单击[高级]按钮将可以指定用于打开该文件类型的程序。"
+1573133838="找不到应用程序"
+1699014693="选择事件发生时播放的声音文件"
+1554210286="Windows 资源不足。请关闭一些窗口或程序以避免出现问题。"
+1540414467="Windows 资源不足。请关闭一些窗口或程序以避免出现问题。"
+-713481087="已保存的会话文件似乎已经受损而无法使用。"
+-1559500272="Opera 窗口设置(*.win)|*.win|全部文件(*.*)|*.*|"
+-1466343430="查看"
+591882635="发送"
+-1393253531="停止"
+599857409="第%d页"
+; Used in an warning/confirmation dialog when the user has submitted a form
+; via email.
+1934568974="此表单将通过电子邮件提交，并且向收件人显示您的姓名和电子邮件地址。您要继续吗?"
+
+; Used in an warning/confirmation dialog when the user has tried to submit
+; an HTML form insecurely.
+-2067346554="该表单即将在没有加密的情况下提交。您要继续吗?"
+
+; Used in a warning/confirmation dialog when the user has submitted an HTML
+; form, and the server wants to redirect the submitted data to another
+; server. GET and POST refers to HTTP commands. POST is to send the form
+; data again to the new destination, GET discards the data, but continues
+; to to the new destination.
+-2108836572="服务器试图将您的表单重新定向。\n\n单击[是]继续，向新的目标重新提交表单\n\n单击[否]进入新的目标，但不发送表单。\n\n单击[取消]将取消发送该表单。"
+
+1586230699="无"
+-546753258="低"
+1585999766="中"
+1585949678="高"
+2024554106="服务器没有安全性"
+-1343029723="服务器安全性低"
+2024323173="服务器安全性中"
+2024273085="服务器安全性高"
+1343545735="服务器安全性低。图像未加密"
+-1784824889="服务器安全性中。图像未加密"
+-1055693793="服务器安全性高。图像未加密"
+; Used in the title bar of the Certificate authorities dialog in the network
+; security preferences.
+-787920615="证书颁发机构"
+
+; Used in the title bar of the Personal certificate dialog in the network
+; security preferences.
+-615416248="个人证书"
+
+; Used in a popup error message when the client was unable to connect to the
+; server.
+-609046020="连接服务器失败。原因可能是服务器支持的加密方式未在安全首选项中启用。"
+
+; Used in a poup error message to inform about a transmission failure.
+-987128712="传送失败。"
+
+; Used in a popup error message when the certificate is invalid or
+; non-verifiable.
+-573306081="非法的或不可验证的证书。"
+
+; Used in a popup error message when the certificate is unsupported.
+2063851617="不被支持的证书。"
+
+; Used in a popup error message when the certificate has been revoked by its
+; issuer.
+912684264="证书已由它的发行者收回。"
+
+; Used in a popup error message when the certificate has expired.
+2039718793="此证书已到期。"
+
+; Used in a popup error message when the certificate is unknown.
+831263304="此证书未知。"
+
+; Used in a popup error message, when the certificate is valid, but
+; permission denied.
+-2004784560="此证书是有效的，但相关权限被拒绝。"
+
+; Used in a popup error message when an internal error has occurred.
+-598522595="发生了内部错误。"
+
+; Used in a popup error message when the certificate's chain was not ordered
+; properly.
+-970675139="该证书链的次序不正确。"
+
+; Used in a popup error message when no acceptable SSL 2 encryption methods
+; have been found.
+-512986067="未发现被许可的 SSL 2 加密方法。"
+
+; Used in a popup error message when an unknown error has been detected.
+-1248952938="检测到未知的错误。"
+
+; Used in a popup error message when the server only supports SSL 2, and SSL
+; 2 is not enabled in preferences.
+731403204="该服务器仅支持 SSL v2。网管应该升级服务器。如果您想要连接到该服务器，您必须在首选项的安全设置中激活 SSL v2。"
+
+; Used as a title of a warning dialog.
+1948946636="安全连接: 警告(%u)"
+566511154="安全连接: 来自服务器的警告(%u) "
+
+; Used as a title of a error dialog.
+-1087181122="安全连接: 重大错误(%u)"
+-25004956="安全连接: 来自服务器的重大错误(%u)。"
+
+; Indicates that something went wrong with the OCSP validation request
+-2111822686="在线验证(OCSP)服务器的证书失败。"
+
+; Used in the security password dialog.
+201826749="请输入主密码"
+1101329179="请输入旧的主密码"
+-1208916378="请输入新的主密码"
+1794405509="请再次输入新的主密码"
+674909923="密码错误，请输入正确的主密码"
+
+; Error message during changing of password.
+1551983116="更改主密码失败。"
+
+; Information to the user about requirements on security password.
+1530501215="您的密码不能少于 6 位，其中应该至少包含一个数字和一个字母"
+
+; Used in the security password dialog.
+664671332="选择一个主密码，以便保护您在 Opera 中的客户端证书"
+
+; Used in a text label in the view certificates dialog.
+-402560894="这些是已经注册在数据库中的个人证书。"
+1050252930="这些是已经注册在数据库中的证书颁发机构。"
+
+; Message during installation of certificate.
+708880179="您要把该证书颁发机构的证书链安装到数据库中吗?"
+-574001618="您要把该个人证书链安装到到数据库中吗?"
+2106774225="您要把这个 PEM 编码证书链安装到数据库中吗?"
+
+; Used in a popup error dialog when there is problem with the server's
+; certificate and the user is about to send a request to the server.
+-1995146316="您将向该服务器发送一个请求。是否继续?"
+
+; Used in a popup error dialog when there is problem with the server's
+; certificate, it did not match its hostname.
+84333047="该服务器的证书和主机名不匹配，接受吗?"
+
+; Used as a dialog text when one of the certificates presented by the server
+; has expired.
+870472473="服务器所提供的证书之一已经过期。您是否想要接受此证书?"
+
+; Used in a dialog text when the user is prompted to select a certificate
+; for the server.
+301488599="服务器要求一个证书。请在这些证书中选择一个。或者按[取消]，不发送。"
+
+; Used in a popup error message when the signatures of the certificate could
+; not be verified.
+841952790="无法验证此证书的签名。尽管这种情况可能是由于发行者用来对证书签名的方法不对，但也可能是因为有人试图篡改或伪造证书。"
+
+; Used in a popup error message when the certificate cannot be used for the
+; intended purpose.
+1568984207="此证书无法用于这个目的。"
+
+; Used as a dialog title when installing certificates.
+1553324179="安装证书颁发机构"
+1432740334="安装客户端证书"
+-825617807="安装 PEM 证书"
+
+; Used as a dialog title when the user should select a client certificate..
+-1705818569="选择客户端证书"
+
+; Used as a dialog title when there is a problem with the certificate.
+1218347377="证书警告"
+-883789402="错误的证书名称"
+844278570="证书过期"
+-1617071296="服务器证书过期"
+
+; Used in a popup error message when the certificate has expired.
+-96444861="此证书已经到期。您应该删除它，并安装一个更新的证书。"
+
+; Used in a dialog title when the server's certificate chain is incomplete.
+1271662468="找不到证书签字者"
+
+; Used in a dialog when the server's certificate chain is incomplete, during
+; certificate installation.
+1008146677="服务器证书链不完全，且签字者未注册。是否接受?"
+-2078780637="该服务器的根证书没有注册。您可以安装此证书。接受并安装吗?"
+
+; Used in a dialog during certificate installation. The certificate has been
+; installed and is usable, but Opera couldn't verify it, because the the
+; signer of certificate is missing.
+-1090846694="您的证书已经被安装。但缺少该证书的签字者，故 Opera 无法校验。如果您有该证书的签字者，请安装它。"
+
+2025255719="安装"
+; Error message during changing of password.
+-111701802="设置主密码失败。"
+
+; Used in a popup error message when the installation of a certificate
+; failed.
+138106567="证书安装失败。"
+
+; Used in a dialog during certificate installation, when the client
+; certificatea had no matching private key in the database.
+2076883697="无法在数据库中找到与客户端证书匹配的私钥。"
+
+; Used in a dialog during certificate installation, when the certificate's
+; chain was not ordered properly.
+2096450965="该证书链的次序不正确。"
+
+; Used in a popup error message when the installation of a certificate
+; failed, because there was a different client certificate already
+; installed.
+-1973969022="此密钥已经被另一个证书使用了。安装失败。"
+
+; Used in a popup error message when a different certificate already exist
+; for at least one of the installed certificate authorities.
+623132391="另一个证书已经使用了这些已安装的证书颁发机构中的至少一个。这些将被忽略。"
+
+-781353367="生成密钥"
+1979093832="Opera 正在生成您的私钥，请稍候。"
+; Error message when encryption is disabled.
+-267159947="首选项中已经禁用了全部的加密方法。"
+
+; Used in a dialog during certificate installation, when the certificate is
+; unknown or has an invalid format.
+1515187534="未知的证书或使用了非法格式。"
+
+; Error message when encryption is disabled.
+1207224929="安全操作不可用。"
+-1629273963="安全性被禁用。"
+
+77600876="此安全操作被禁用。"
+1383055937="如果缺少此安全性 DLL，Opera 的安全性特征将不能使用"
+1552880124="接受"
+; Used in a popup error message when the server's certificate held an
+; invalid name expression.
+-1089784783="该服务器的证书含有非法的名称表达式"
+
+; Header for description of encryption type in certificate dialogs. Max 30
+; characters.
+-206988917="连接"
+
+; IMPORTANT!!!! Do not change %u, %ld or \r and \n !!!!
+-1808442172="系数:"
+863827172="系数:"
+-1993303540="注解:"
+122085675="通用注解:"
+1442439783="个人注解:"
+-373290903="素数 1:"
+-373290902="素数 2:"
+1053948893="注解 1:"
+1053948894="注解 2:"
+1563762202="系数:"
+1409753599="不被支持的密码运算法则 "
+-1179958636="未知的外部对象 ID "
+1184375241="未知的签名运算法则 "
+
+; Followed by the version of the certificate format. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+-2026063377="证书版本"
+
+; Followed by the certificate's serial number. !!IMPORTANT!! No HTML special
+; characters are allowed !!
+1787377060="序列号"
+
+; Followed by the date the certificate became valid. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+157557903="生效时间"
+
+; Followed by the certificate's expiration date. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+-907414258="失效时间"
+
+; Followed by the certificate's fingerprint. !!IMPORTANT!! No HTML special
+; characters are allowed !!
+-188195677="指纹"
+
+; Followed by the certificates's public key name. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+1637190079="公钥算法"
+
+; Followed by the algorithm used to sign the certificate. !!IMPORTANT!! No
+; HTML special characters are allowed !!
+-1519010094="签名算法"
+
+; Followed by a list of extensions. !!IMPORTANT!! No HTML special characters
+; are allowed !!
+-874459112="扩展"
+
+; The exension is critical. !!IMPORTANT!! No HTML special characters are
+; allowed !!
+-757917242=" (关键)"
+
+; IMPORTANT!!!! Do not change %u, %ld or \r and \n !!!!
+393005854="\r\n\r\n公钥指纹 (SHA-1):\r\n  "
+
+; Max 199 chars 
+-1466464979="%u 位私钥。已生成 %s。\r\nURL: %s"
+
+-516230462="该证书可能不能用于 SSL 验证或发行 SSL 证书。"
+-516230468="该证书可用于 SSL 客户端验证。"
+-516230467="该证书可用于 SSL 服务器端验证。"
+-516230466="该证书可同时用于 SSL 客户端与服务器端验证。"
+-516230465="该证书可用于 SSL 证书的发放。"
+-516230464="该证书可用于 SSL 客户端验证及证书的发放。"
+-516230463="该证书将用于 SSL 服务器端验证及证书的发放。"
+-516230461="该证书可被用于 SSL 客户端和服务器端的验证，以及证书的发放。"
+; Used in a popup error message when the server has requested an
+; authentication method that Opera does not support, when fetching a
+; document.
+1801081976="该服务器所需的登录验证方法不被支持。"
+
+; Used in a popup error message when a proxy server has requested an
+; authentication method that Opera does not support, when fetching a
+; document.
+86761315="该代理服务器所需的登录验证方法不被支持。"
+
+; Used in a popup error message when the user has tried to authenticate to a
+; page outside of the given security realm.
+90474365="该 URL 在可以被指定区域验证的列表中不存在。\r\n无法发送身份验证信息。"
+
+; Used in the progress bar while Opera is uploading a file to the server.
+-82082389="正在将文件上传到服务器"
+
+1596445137="该功能在此版本的 Opera 中不可使用。"
+-153395454="该特性已被禁用"
+; Used as a title of the generated drives list page (opera:drives) on some
+; platforms.
+1395472123="驱动器"
+
+; Used as title of the generated plug-in list page (opera:plugins) on some
+; platforms.
+-1303632626="插件"
+
+; Used as title of the generated history list page, when the user has
+; selected Windows/Special/History, or entered the URL opera:history.
+-2050389743="历史"
+
+-1331726731="插件目录已经扫描完毕。\n有关新的文件类型处理的插件已经激活。\n已知文件类型的插件处理已经添加，但尚未激活。"
+; Used as title of the generated cache list page, when the user has selected
+; Windows/Special/Cache, or entered the URL opera:cache.
+-1429037863="缓存"
+
+; Used in the Filename column of the created cache listing (created by
+; entering the special URL opera:cache into the URL field) when the file
+; is cached in memory and not to a file.
+-1068073072="(内存)"
+
+; Used in about page.
+1599373481="源文件属于"
+
+; Used as page title in a blank page created by entering the special URL
+; opera:blank in the URL field.
+-592232182="空白页面"
+
+; Used as column titles in the generated cache list page, when the user has
+; selected Windows/Special/Cache, or entered the URL opera:cache.
+-524571995="文件名"
+-299260835="地址"
+-1713924769="大小"
+
+-455242895="您要取消该下载过程吗?"
+; Used in a popup confirmation dialog when the user has gone to
+; Preferences/Multimedia, enabled plug-ins and pressed the 'Find plug-ins'
+; button, and new plug-ins needs to be activated.
+946913177="您想要把插件“%1”关联到“%2”文件类型吗?"
+
+837228054="未注册版本"
+-1258367437="在此添加页面..."
+1736509033="打开文件夹中的全部项目"
+; Docked hotlist window
+1018760425="标题"
+
+-1506826399="管理书签..."
+1378247789="昵称不能含有句号、问号、冒号、斜线或反斜线"
+-501173777="无效的昵称"
+-1149995204="鼠标手势"
+619665011="这是您首次执行 Opera 的鼠标手势。\n\n所谓鼠标手势，是指当您按住鼠标右键并拖曳而产生的操作命令。\n\n单击[帮助]可学习鼠标手势。\n\n您想要继续使用鼠标手势吗?"
+; Use skin from button set (buttons.ini)
+-1626082655="使用来自按钮集的皮肤吗?"
+1409876984="按钮集还包含皮肤图像。\n您是否想要使用?"
+
+-403001992="快捷键"
+-2008564385="索引"
+1824635302="当 Opera 关闭时。"
+-1681190725="该 Cookie 将仅仅发送给这个域名中安全的服务器。"
+1496650930="该 Cookie 将可以发送给该域名下的任何服务器。"
+-1504688269="该 Cookie 将仅仅发送给此安全的服务器。"
+39944970="该 Cookie 将仅仅发送给此服务器。"
+-507328659="该 Cookie 将从数据库中被删除。"
+-533070172="在命令行中选择的首选项文件需要经过升级才能在此版本的 Opera 中使用。升级将会导致和以往 Opera 版本的不兼容。您要继续升级吗? 如果您按[取消]，将使用默认的首选项文件。"
+-1598715159="下载"
+332683195="用户自定义"
+; Used in a popup error dialog during loading of global history list.
+1166471331="您的历史记录文件受损，将被清除。"
+
+; Probably deprecated. On O7 and O6 Win, the JavaScript error dialog is
+; popped up instead, if the user has requested in preferences/Multimedia
+; to be alerted of JavaScript errors.
+1581708385="JavaScript 执行失败"
+834340559="执行脚本失败。"
+-1161598097="脚本编译失败。"
+
+; Used if Opera for some reason tries to run JavaScript in a non-HTML
+; document. This is not likely to happen.
+66541742="javascript: URL 只能在 HTML 文档中运行。"
+
+; Used in a popup error message when the Opera fails to load the JavaScript
+; library at startup.
+-1112225044="无法装入系统文件 ES262-32.DLL。JavaScript 将不被执行。"
+
+; Used in the progress bar while Opera is busy running a JavaScript program.
+-466995444="正在执行 JavaScript..."
+
+-62827592="名称"
+531591762="大小"
+-1002341127="类型"
+-227119188="进度"
+-308398330="时间"
+956966280="速度"
+-1127055485="完毕"
+-1592207656="已停止"
+1463173159="错误"
+1193666106="复制文件信息"
+-39632401="错误"
+-38776776="文件"
+2050033290="全部文件 (*.*)"
+1228940699="停止执行此页面中的脚本"
+1984544987="不再显示此对话框(&D)"
+-1174213301="新建文件夹"
+; Used in the title bar of a warning/confirmation dialog when a script tries
+; to read the content of a password input element in a form in a HTML
+; document.
+1411382162="JavaScript 安全性警告"
+
+; Used in a warning/confirmation dialog when a script tries to read the
+; content of a password input element in a form in a HTML document.
+1932185442="某脚本试图读取表单中的密码。\n\n您确定允许该脚本访问您的密码吗?"
+
+-185022905="关闭拨号连接失败(超时)"
+613028583="断开拨号连接吗?"
+50119801="您已经连接到 %s，您真的想要断开此拨号连接?"
+-972259686="书签属性"
+-1968570497="书签"
+-1727569741="错误的 PIN 码"
+363197295="无法验证签名"
+2024735571="读卡器已经在使用了"
+-1032461966="卡出现错误"
+673183128="您的卡号和邮件中的接收人不匹配"
+-94409337="无法加密(未定义的错误)"
+1243273713="名称"
+-1489393778="在线"
+-1489393777="离开"
+-1489393776="马上回来"
+-1489393775="忙"
+-1489393773="隐身"
+-1489393772="接电话中"
+-1905354370="外出就餐"
+-942346389="艺术/文化"
+1954373870="汽车"
+-74993178="书籍/杂志"
+-1036582212="电脑/游戏"
+1791166963="电脑/科技"
+-828361781="烹饪"
+-1792184759="流行/购物"
+-1485277739="投资/理财"
+1177593467="食品/酒类"
+-385208199="健康/健美"
+-461366283="居家/园艺"
+-1455606028="电影"
+1127457794="音乐"
+-367470990="新闻/事件"
+268274424="科学/教育"
+-1219849012="运动/爱好"
+-1178841041="旅游/休闲"
+-514635255="不指定"
+-1123409232="25,000 美元以下"
+-1123409231="25,000-35,999 美元"
+-1123409230="36,000-49,999 美元"
+-1123409229="50,000-75,999 美元"
+-1123409228="76,000-99,999 美元"
+-1123409227="100,000 美元以上"
+1363536868="1900-1929"
+942973545="1930-1949"
+-769057780="1950-1959"
+522410222="1960-1969"
+1813878224="1970-1979"
+-1189621070="1980-1989"
+101872738="1990 以后"
+-1915930440="男"
+636686787="女"
+88507216="单身"
+1866942201="单亲家庭"
+-841049742="已婚"
+515098780="已婚并有子女"
+825725929="初中"
+224649322="高中"
+-149584163="大专"
+-538735653="大学结业"
+-1567718846="大学学士"
+1468766223="研究生"
+-304568432="该文档试图设置 Cookie\r\n %s="%s"\r\n\r\n该值将 %s 被发送到 %s 文档于 %s%s%s%s, 同时路径将起始于 /%s。\r\n\r\n"
+-35945185="仅 "
+1530389153="安全的网页 "
+-29215723="该服务器 "
+-1048672320="该域名下的全部服务器 "
+-1184962795=", 端口 "
+-692607805="升级 Opera"
+-650613995="Opera 关闭时将删除 Cookie。"
+4574694="，但是 Cookie 将在 Opera 关闭时删除，除非您另有设置。"
+-1178357299="Cookie 有效，直到 %s%s\r\n\r\n"
+1751362522="该 Cookie 有效性只能在 %s 之前而现在已经过期，现存的全部 Cookie 中与其同名的将被删除。\r\n\r\n"
+1594070323="该服务器将发送关于 Cookie 用途的信息是:“%s”\r\n"
+-1738967699="\r\n更多的信息请查询<%s>\r\n%s\r\n\r\n"
+-1738967698="该服务器提供了有关该 Cookie 的信息，在 <%s>\r\n%s\r\n\r\n"
+338431595="\r\n当需要查看文档的时候可以按下面的“查看注释”按钮。\r\n"
+-1137274796="接受，在关闭 Opera 前更新"
+-198630078="没有更改的接受"
+2042782064="接受，但是关闭 Opera 时删除"
+-2106201915="接受，但是关闭 Opera 时保存"
+1552935675="接受来自该服务器的 Cookies"
+613795125="拒绝来自该服务器的 Cookies"
+-1461454532="接受来自该域名下的 Cookies"
+1894372214="拒绝来自该域名下的 Cookies"
+-833137654="\r\n----------------------\r\n完整的 Cookie 请求:\r\n\r\n"
+2114766269="接收来自该服务器的第三方 Cookies"
+1175625719="拒绝来自该服务器的第三方 Cookies"
+-899623938="接受来自该域名的第三方 Cookies"
+-1838764488="拒绝来自该域名的第三方 Cookies"
+-1775826046="拒绝全部 Cookies"
+-1448442579="请在每次收到时让我决定"
+1325388160="按照服务器管理器中指定的选项"
+1907518502="接受全部 Cookies"
+2049407228="仅接受发送给服务器自身的 Cookies"
+2015705380="拒绝全部 Cookies"
+-1586994401="请在每次收到时让我决定"
+1826551691="接受全部 Cookies"
+1432967109="有关更改生效之前需要重新启动 Opera。\n\n您想要关闭 Opera 吗?"
+722660518="关闭 Opera 吗?"
+1392615723="默认语言(英语)"
+1656750584="找不到被支持的 Java 运行时刻环境。\n您必须从 SUN 自行下载安装 Java 运行时刻环境 1.2 版本或者是更新的版本。\n本次 Opera 会话将自动禁用 Java 语言。\n以后的会话也要禁用 Java 吗?"
+-1908513205="Opera 中的 Java 类没有足够的许可来执行。\n可能原因是 opera.policy 文件找不到，或者许可文件没有足够的权限访问 opera.jar 文件。\nJava 程序因此无法工作。"
+-978296662="所安装的 Java 运行时环境的版本不兼容。请在 <http://www.javasoft.com> 下载 JRE 1.2 或更新版本。"
+-650026867="Java DLL 文件在注册信息所指示的地方没有找到。\n您的 Java 安装将会中断。Java 小程序因此无法工作。"
+1667549552="创建 Java 虚拟机失败。"
+1941809035="Java 虚拟机已经退出。\n\n本次会话中将禁用 Java。"
+-2069634423="Java 虚拟机异常中断。\n\n本次会话中将禁用 Java。"
+1913846319="注册本地 Java 方法失败。\n\n您可能使用了旧的 opera.jar 文件，或者没有包含在\nOpera 类路径中。Java 小程序因此无法工作。"
+-1830611236="您是否想要查看有关 Java 运行时刻环境的安装指南?"
+-1094361596="找不到 opera.jar 文件\n可能原因是在 opera.ini 文件中[JAVA]相关项目中缺少了\n“OPERA CLASSPATH”内容，或者相应的路径错误。\nJava 小程序因此无法工作。"
+1400974046="Opera 找不到 opera.policy 文件。\n可能原因是在 opera.ini 文件中[JAVA]相关项目中缺少了\n“SECURITY POLICY”内容，或者相应的路径错误。\nJava 小程序因此无法工作。"
+; Dialog title for signed Java applets certificate dialog.
+469712059="Java 安全性"
+
+; Used in dialog for signed Java applets.
+2030873128="某个 Java 小程序正在请求运行的权限，而这些权限可能会允许它损害您的计算机。\n\n只有在知道并信任起始网站的情况下，才应接受此请求。"
+
+-1872720="没有发现"
+1893273179="发送邮件错误"
+1893292455="未指定外部邮件程序。"
+-185484224="发送邮件错误"
+-185464948="无法启动外部邮件程序"
+-1367350697="电子邮件"
+-2097859181="您的 Opera 邮件属性设置不正确。\n您想要现在就编辑邮件属性吗?"
+-147109579="所选择的邮件客户端程序没有指定。\n您想要现在就编辑您的电子邮件首选项吗?"
+1408010931="目前没有注册的默认邮件客户端程序。\n您想要现在就编辑您的电子邮件首选项吗?"
+-752244387="警告"
+-752225111="所选择的外部邮件客户端可能不存在，或者账户设置不正确。\n\n仍然应用更改吗?"
+-924276195="识别为 Opera"
+-985287404="接受不正确的路径"
+1993345890="拒绝(&F)"
+1325547048="接受(&C)"
+1264569138="选择包含您的语言文件的目录"
+639348246="用户定义"
+; Used as default text on submit input elements in forms in HTML documents.
+1356785972="提交"
+
+; Used as default text on reset input elements in forms in HTML documents.
+169522595="重置"
+
+; Used as default text on button input elements in forms in HTML documents.
+692138972="按钮"
+
+; Used at top of the document when trying to show an malformed XML document.
+; Followed by a more specific XML error message.
+-2021978484="XML 分析失败"
+
+; Used in a popup error message when the user has entered input in a text
+; input element in a WML document, and the input did not match the format
+; specification.
+44999632="输入无效。"
+
+432512663="标签栏(&T)"
+-269674069="显示搜索"
+-2011196507="按最近使用的顺序循环"
+979995915="按标签栏顺序循环"
+-360753815="不显示列表循环"
+; Preferences dialog options
+1747247047="广告"
+-1305813132="辅助功能"
+-634691627="默认浏览器"
+33470825="字体"
+-219837233="电子邮件"
+-478760061="文件类型"
+1341372032="历史和缓存"
+452600415="浏览器外观"
+264817555="网页样式"
+-207454098="语言"
+39813015="多媒体"
+2004623204="网络"
+-1301854420="程序和路径"
+1693953724="个人信息"
+272486666="隐私"
+-1941436581="安全"
+122528232="声音"
+1824812073="启动和退出"
+109954594="搜索"
+-254407842="窗口"
+
+-1381406774="目录"
+1325603600="正在应用新的首选项，请稍候..."
+2119218620="名称"
+2118863802="描述"
+2119290728="路径"
+-299716555="MIME 类型"
+-860666646="文件扩展名"
+; Unicode block names for the international font preferences
+1339762897="自动"
+1278504860="没有可用的字体"
+1967748952="阿拉伯语"
+163298945="亚美尼亚语"
+1399722224="基础拉丁语"
+1309502152="孟加拉语"
+-826566756="切诺基语"
+-1843399734="货币符号"
+-501441828="简体中文"
+2037662161="繁体中文"
+151532465="斯拉夫语"
+1254587015="梵语"
+1230425483="埃塞俄比亚语"
+2011575273="通用标点"
+-1339859166="乔治亚语"
+-1104605980="希腊语"
+-1809700844="扩展希腊语"
+1928308749="古亚拉迪语"
+-2039226046="果鲁穆奇语(旁遮普语)"
+-832995011="半角和全角格式"
+-2072958219="朝鲜语"
+-2068634317="希伯来语"
+-702947343="日语平假名"
+58130102="CJK 符号和标点"
+-1100463261="日语汉字"
+-108478300="埃纳德语"
+934935378="日语片假名"
+-1100212947="高棉语"
+-789800494="老挝语"
+-1916199105="增补拉丁语1"
+-425125506="扩展拉丁语A"
+-425125505="扩展拉丁语B"
+-1234848386="附加扩展拉丁语"
+-1323454363="马拉亚拉母语"
+1140574298="蒙古语"
+-896664213="缅甸语"
+-907027258="数字格式"
+-1095510782="欧甘语"
+-1095113606="奥利亚语"
+-1091443113="古代北欧语"
+1946198646="僧加罗语"
+-1613861535="古叙利亚语"
+-1089791091="泰米尔语"
+-1598646900="德鲁古语"
+-1595506013="萨那语"
+-293317796="泰国语"
+-1071619203="藏语"
+-945247675="统一加拿大土著语"
+
+; About page
+1374863234="关于 Opera"
+-1129922063="注册信息"
+-1176349515="已注册"
+-1779978808="姓名"
+-1903611012="组织"
+-1529335185="评估版本"
+962024521="路径"
+-1004908702="系统"
+1557681688="首选项"
+-33068845="Opera 目录"
+92075738="已存会话"
+-1795415314="书签"
+455019715="插件路径"
+1011802234="缓存"
+-1153529489="帮助文档"
+-248109233="Java"
+163333106="第三方"
+1463797622="Opera 软件公司非常感谢以上个人和团体，及其开发的软件代码。"
+-544464384="Java 运行时刻环境所安装的版本不被本版本的 Opera 所支持"
+-509660262="没有安装 Java 运行时刻环境"
+857127032="是"
+1197327908="否"
+1197327894="无"
+
+-887848582="像素"
+1995601639="位每像素"
+-42936756="字节"
+-1003188973="错误信息"
+-733307256="%i 帧的动画"
+-2040260108="文件找不到。"
+-1008231729="无效的文件名。"
+-2099097547="请确认文件名或路径是否正确。"
+-63918038="字节"
+1430354649="B"
+; Short for kilobyte
+698570216="KB"
+
+-1047074189="MB"
+1811210289="GB"
+1359772549="TB"
+-892792889="/s"
+; Used in about page.
+-1573886397="Java 没有安装"
+
+-63928757="选择用来保存文件的文件夹"
+; Used in about page.
+80168480="版本"
+468601187="编制"
+1813791800="平台"
+-1908045493="版本信息"
+1523437109="系统"
+-902935139="合作伙伴"
+
+-1360722636="当 Opera 试图连接到打印机时出现故障。请检查您的打印机设置。如果您使用的是网络打印机，请检查您的网络连接。"
+533855858="打印机故障"
+1100529353="打印机"
+-698447941="此窗口内的源代码已经被编辑。您是否想要保存?"
+; Used in the window title when the page has been edit using the internal
+; source viewer.
+-603163635="(已编辑) "
+
+-868248807="页面"
+; Used in a warning/confirmation dialog when the user has activated offline
+; mode and then requested Opera to access information that is only
+; available online.
+-280397314="已启用脱机工作模式。无法打开\n\n%s\n\n您是否想要切换为联机模式?"
+
+-1971676029="分钟"
+-1154860362="分钟"
+-383601203="秒钟"
+-287998656="秒钟"
+-1981013995="上次使用"
+-286978725="您输入了一个无效的刷新值。\n\n只能输入数字，且刷新值不能为零。"
+; XML error message used at top of the document, following string 13046,
+; when trying to show an malformed XML document. Followed by a line and
+; character count to help finding the error in the XML file.
+-295491426="内存不足"
+-1893261847="语法错误"
+1539802399="没有找到元素"
+1758868602="没有较好格式化"
+1063248502="打开记号"
+624633491="不匹配标签"
+1137328231="重复属性"
+106859500="在文档元素之后写入废数据"
+540342028="非法的参数实体引用"
+-724128281="未定义实体"
+-1253933171="递归实体引用"
+1558453403="异步实体"
+-1479977094="无效的字符数字引用"
+-344302473="二进制实体引用"
+-670773483="在属性中引用外部实体"
+-1837298787="XML 处理指令无法被外部实体启动"
+-1206748514="未知的编码"
+158082984="XML 声明中指定的编码不正确"
+1042682130="打开的 CDATA 片断"
+1847016194="处理外部实体引用时出错"
+735688169="文档不独立"
+111023602="未知的错误"
+
+; Error messages from XML
+996630135="行号:"
+67277308="字符:"
+
+374657940="“%s”的值无效"
+1871357318="“%1”包含无效的值。\n需要位于 %2 和 %3 之间的值。\n\n"
+1871357319="您想要重置该值吗?"
+1871357320="重置到最近一个正确值。"
+-388170568="未知的"
+; Used in a warning/confirmation dialog when an URL with a user name (like
+; http://username@www.example.com) is entered in the URL field.
+-261225755="安全警告:\n\n您将进入一个包含用户名的地址。\n\n用户名： %s\n服务器： %s\n\n您确定想要进入该地址吗?"
+
+570146371="没有找到"
+1279544764="找不到文本 "
+303768058="显示全部邮件头"
+; Label in the displayed header of a news/mail/MIME/MHTML message.
+941300722="日期"
+941390952="发信人"
+-979575324="主题"
+742328503="收信人"
+742327930="抄送"
+-1272983108="密件抄送"
+
+; Displayed in-line when an attachment could not be decoded.
+-1634617399="警告：在解码此文件时，Opera 遇到错误。"
+
+886033966="仅图像"
+1991895613="仅文本"
+1292305140="将文本置于图像下"
+1311417945="将文本置于图像右侧"
+-1014852471="打开全部弹出窗口"
+1806518680="屏蔽全部弹出窗口"
+-1714620648="在后台打开弹出窗口"
+596453194="屏蔽不想要的弹出窗口"
+1532045500="确认删除"
+1470333716="请确认是否要永久删除这个面板。\n\n%s"
+562779722="添加快捷栏面板吗?"
+603779600="选择"
+791451177="Opera 被设定为启动时打开已保存的会话"
+715557440="Opera 被设定为启动时打开首页"
+967211196="Opera 被设定为启动时打开离开时正在浏览的页面"
+2145685666="Opera 被设定为启动时不显示任何标签"
+1648574141="点击此处更改"
+1632215285="&Google"
+1632215286="AllTheWeb"
+1632215287="超级搜索"
+1632215290="价格比较(&C)"
+1632215292="域名"
+1632215293="图像"
+-1971470395="视频"
+-1971470393="Google 兴趣组(&R)"
+-1971470392="&Opera 支持"
+-1971470391="&BitTorrent 下载"
+-1971470390="新闻(&N)"
+-1752296930="&Yahoo!"
+; Prompting the user to enter the password protecting the key when importing
+; PKCS #12 key/certificate.
+2000211780="请输入密码以保护此密钥"
+
+; Prompting the user to enter the password protecting the key when exporting
+; PKCS #12 key/certificate.
+1977455147="请输入一个密码以保护导出的私钥"
+
+; Prompting the user to re-enter the password protecting the key when
+; exporting PKCS #12 key/certificate.
+782606346="请再次输入密码"
+
+; Used when importing private PKCS #12 key.
+1770057013="导入私钥"
+
+1079526121="导入密钥和证书"
+-1817811090="您要导入此私钥和附带的证书吗?"
+; Ask the user if to import the private PKCS #12 key.
+1514024393="您要从此文件中导入私钥吗?"
+
+; Error messages when importing PKCS #12 key/certificate.
+2139736887="私钥和证书导入失败"
+-970642115="此文件中没有私钥"
+2105370925="导入的私钥和附带的证书不匹配。操作失败。"
+
+-1769113189="自动代理服务器配置失败。\n本次会话的代理服务器配置被自动禁用。"
+857858150="您可以在地址域中执行 Web 搜索"
+; Strings for suppressed e-mail frames and generated download pages.
+-953386095="框架中的内容没有被显示"
+958355689="无法显示内容。<a href="%s">下载 %s。</a>"
+-1956656936="禁止装入外部框架源: <a href="%s">%s</a> suppressed （点击查看）。"
+1236894590="外部邮件框架"
+948531105="禁止装入外部框架源:"
+-456131578="-456131578::(单击以查看)"
+
+10884003="创建新的文档窗口"
+447125422="续传"
+-1955739101="停止下载"
+; Button for accessing the BitTorrent preferences
+-1003277204="BitTorrent 首选项..."
+
+; Folder to be used for BitTorrent downloads
+856927944="下载文件夹"
+
+-1025687219="大小"
+-119414254="Wand"
+; Message shown in the status bar when Java Virtual Machine is
+; loading/starting up.
+1819744776="正在启动 Java 虚拟机..."
+
+; Attribution-line when replying to a mail
+-740066405="在 %:Date:，%f 写道:"
+
+; Attribution-line when forwarding a mail
+-71505916="\\n\\n------- 转发的邮件 -------\\n寄件人: %:From:\\n收件人: %:To:\\n抄送: %:Cc:\\n主题: %:Subject:\\n日期: %:Date:\\n"
+
+; Attribution-line when followup to a news message
+1026907201="在 %:Date:，%f 写道:"
+
+; Attribution-line when replying by mail to a news message
+-1619530923="在 %:Date:，您在 %:Newsgroups: 中写道:"
+
+; Attribution-line when forwarding by mail a news message
+-30659010="\\n\\n---- 转发的 Usenet 邮件 ----\\n寄件人: %:From:\\n新闻组: %:Newsgroups:\\n主题: %:Subject:\\n日期: %:Date:\\nURL: news://%:Message-Id:\\n"
+
+1007470475="Wand"
+-753084428="正在检查文件夹"
+1466582899="正在收取文件夹"
+359274802="正在收取信体"
+-430971379="正在收取附件"
+1912257733="正在创建文件夹"
+40236388="正在删除文件夹"
+1412476976="正在重命名文件夹"
+964207037="正在订阅文件夹"
+1395623917="正在删除邮件"
+-1130206281="正在追加邮件"
+-1979469956="正在存储标志"
+750104871="正在连接服务器"
+-845210771="邮件大小错误"
+768185520="用户名错误"
+1202168739="密码错误"
+322602986="内部错误"
+-1085695999="邮件不存在!"
+1320499655="试图删除服务器上的邮件时的问题"
+-1203615035="此服务器不支持 TLS。要从此服务器获得邮件，您必须禁用安全连接。"
+1314360083="未指定"
+-1246331938="POP3 不可用。网络是否出现了问题?"
+; About page
+1596479526="邮件目录"
+
+358598191="服务器试图执行非法重定向"
+; Used in index category in M2
+-1392548564="IMAP 文件夹"
+-502651701="过滤器"
+
+; Used while M2 is searching. Padded by ' <search>...'
+957688689="正在搜索"
+
+; Formats the M2 display of time today
+-502148434="今天 %X"
+
+; Used in M2 when a message has no label
+1605277971="无标签"
+
+; Priority of a M2 message
+-140659036="最高优先级"
+1424414712="高优先级"
+753169386="低优先级"
+2147362134="最低优先级"
+
+; Used in Mail|Manage Account
+142847632="账户"
+-963096793="状态"
+
+; Used in Mail|Newsgroups
+839457469="已订阅"
+1838753371="状态"
+-609320476="新闻组"
+
+; Received news index in m2
+483845434="收到的新闻"
+
+; Received list index in m2
+483777785="收到的列表"
+
+; Clipboard index in m2
+-78645977="剪贴板"
+
+; Prefix for newsservers in serverlist in m2
+85627416="新闻位于"
+
+; Prefix for mailservers in serverlist in m2
+-1262320482="邮箱属于"
+
+; Name for a new Imap folder in M2
+2065642310="新建"
+
+; Status-message when done fetching messages in M2
+-2101352284="收到了 %u 封"
+
+; Status-message when no messages was fetched in M2
+624518676="没有收到或发出邮件"
+
+; Error-message if setting From or Organization in M2 failed
+1487413443="设置寄件人(“%s”)或组织(“%s”)信头失败"
+
+; The From-address is not given according to standards
+-1379600151="非法寄件人地址"
+
+; M2 was unable to mime-encode a message
+-512944663="MIME 编码失败"
+
+; Store::AddMessage failed
+1505623305="存储邮件失败"
+
+; M2 needs Drafts and Outbox to store messages
+-661079866="无法定位草稿箱或发件箱"
+
+; M2 will move a message to Outbox when sending or queueing it
+-986422451="将邮件移动到发件箱失败"
+
+; M2 will move a message from Drafts when it is sent or deleted
+1646979425="将邮件从草稿箱中移出失败"
+
+; M2 got an error-message while sending a message
+484291495="发送邮件失败"
+
+; Default name for new indexes in M2
+-643484333="新建过滤器"
+
+; Used for invalid mbox files in M2
+-106198979="文件不合法"
+
+; Used various places in the import-code in M2
+95649339="导入的"
+
+; Progress-information in M2 import-code
+-1019061060="已导入"
+
+; Used in the M2 Import Mail wizzard
+1407566304="导入项目"
+
+; Marks where quoted text has been removed when replying to a mail
+-287776209="<省略部分>"
+
+; The file being downloaded is already being written to the selected file,
+; this is not possible!
+1607346661="该文件已经装入"
+1439074736="正在写入下列文件，请选择另外的文件名"
+
+; Period to view e-mails from
+-220518426="今天"
+253715633="本周"
+-228808373="本月"
+1552729014="本季度"
+253787382="今年"
+-510333986="所有"
+
+; Remove folder warning dialog title
+-1983638368="删除 %s"
+
+500015002="您确定想要退订此新闻组吗?"
+1968003002="您确定想要删除“%s”吗?"
+-2044617545="您确定想要退订此 IMAP 文件夹吗?"
+; Start a full search from the mail hotlist panel
+-1955384806="开始搜索"
+
+-1376278688="没有选中邮件"
+1626290358="没有选中视图"
+; Title of button in compose window
+-209306281="密件抄送"
+1911004990="回复到"
+-1808671865="跟随"
+-499146279="新闻"
+
+903567712="(%d 封未读)"
+-1713938763="(%d 封未读，共 %d 封)"
+-1869847336="附件"
+1683445610="大小"
+-1605237264="未设置电子邮件地址。请编辑账户"
+1809943622="丢失服务器设置"
+713023156="账户没有设置寄出邮件服务器"
+-1909264106="无效的寄件人地址"
+2145727896="账户丢失电子邮件地址"
+; Title of error dialog when user tries to send message where recipient
+; fields are empty or contain invalid addresses.
+2055895202="无效地址"
+
+; Error dialog when user tries to send message where recipient fields are
+; empty or contain invalid addresses.
+-58137115="邮件缺少收件人，或者指定了一个或多个无效的电子邮件地址。"
+
+-346006943="取消邮件"
+536265206="您确定想要取消此邮件吗?"
+; Priority of a M2 message
+1081308353="常规优先级"
+
+-618477900="在此输入网址"
+-475005964="快速查找"
+-1968343740="缩放"
+-1791459201="状态域"
+617152721="删除账户"
+1785796486="您确定想要删除该账户吗?"
+1914986335="管理账户"
+-2008263792="账户属性"
+1015848901="%s 服务器"
+-2074227911="收信 %s 服务器"
+-1086713295="寄信 %s 服务器"
+-742714718="默认编码"
+711841783="服务器清理"
+-1586121556="您想要删除服务器上的已读邮件吗?"
+-1113037915="类型"
+; General Do-not-show-this-dialog-again text for use in most new dialogs
+-1552385912="不再显示本对话框"
+
+-959045886="下一步 >"
+-46227616="< 上一步"
+-1460731384="完成"
+334337687="关闭"
+1990484605="中"
+-2051372103="强"
+-2072276931="或"
+334322703="与"
+1044168460="主题"
+919146328="From 信头"
+1594319559="To 信头"
+-1884428502="CC 信头"
+-937386061="Reply-to 信头"
+-182573343="新闻组信头"
+-421187988="任何信头"
+686063303="整封邮件"
+-1869960677="包含"
+1846164898="不包含"
+642672715="匹配正则表达式"
+261670970="匹配邮件要求 "
+1125071290="或者 "
+-744284980="并且 "
+-144367921="主题"
+1119732308="发送者姓名"
+596646735="任何信头"
+1764828458="整封邮件"
+1858011710="包含"
+-199620411="不包含"
+; Used to format the title of a dialog, contact properties and similar
+-1932212490="%s 的属性"
+
+2115379161="下载 Opera 皮肤"
+683774433="正在下载皮肤..."
+-1383512975="应用下载的皮肤"
+-794168025="您想要保存此皮肤吗?"
+1412896940="皮肤名称:"
+561691518="作者:"
+-1411554329="下载失败"
+256547938="上次会话(自动保存)"
+-731299598="已下载 %d 字节"
+1234312586="删除"
+; Status-message when messages was sent in M2
+-979626360="已发送 %u 封"
+
+-1539668999="邮件体未下载"
+312861595="普通电子邮件(POP)"
+1734243891="IMAP"
+1734415593="新闻"
+-1193472185="导入电子邮件"
+651577126="Opera Web 邮件"
+-16709871="从 Opera 5/6 导入"
+-402172828="从 Eudora 导入"
+421179725="从 Netscape 6/7 导入"
+-2060287496="从 Outlook Express 导入"
+-1680227078="导入普通 mbox 文件"
+; 'prefs' is the base name of the file, and should probably not be
+; translated
+1406278082="Netscape 首选项文件(prefs.js):"
+152179497="Netscape 首选项文件(prefs.js)|prefs.js|"
+1058447946="Thunderbird 首选项文件(prefs.js):"
+-610822223="Thunderbird 首选项文件(prefs.js)|prefs.js|"
+
+-2131422728="邮箱文件夹:"
+1529096418="普通 mbox 文件:"
+1966855692="普通 mbox 文件(*.mb*)|*.mb*|全部文件(*.*)|*.*|"
+1356219640="收信"
+; Added in front of server response when POP server returnes an error
+231313436="服务器响应:"
+
+; Used when IMAP folder subscription fails
+1732530625="更改文件夹订阅失败! 可能文件夹已经在服务器上订阅/退订了。"
+
+; Used when mailserver reports that it does not support TLS
+1515019770="此服务器不支持 TLS!"
+
+; Generic error when connection to IMAP server failed
+-1959866031="连接到 IMAP 服务器失败。"
+
+; Precedes IMAP alert messages
+1146409497="IMAP 服务器上的警告邮件:"
+
+; Used when IMAP-server notifies that folder has been renamed on server
+-401195818="文件夹“%s”已被改名为“%s”。"
+
+; Used when appending a message to an IMAP folder
+776466772="将邮件追加到文件夹失败。"
+
+; Used when copying an IMAP message failed
+-6091572="复制邮件失败。"
+
+; Used when local storing of IMAP message failed
+-469992771="将收取的邮件存入本地失败。下次收取时将会再次收取该邮件。"
+
+; Used by M2 POP backend when storing a message fails
+-326197847="Opera 试图从 POP3 服务器收取第 %d 封邮件(UIDL %s)，但在本机上保存失败。"
+
+; Generic message when a M2 backend fails to connect to its server
+1835843551="无法连接到服务器"
+
+; M2 SMTP error message
+1953696758="邮件已发出，但是无法将其移到发件箱之外"
+-784456562="发送邮件失败。可能 SMTP 服务器设置不正确。邮件将存在队列中。"
+41975382="SMTP 服务不可用"
+352591336="内部错误"
+498065860="服务器临时出错"
+-1044511774="服务器错误"
+933936372="收件人语法错误"
+1026826696="收件人不可用错误"
+-800940705="收件人不是本地"
+-447630176="没有指定服务器"
+-2076034012="SMTP 错误"
+1422394318="收件人错误"
+408051755="SMTP 验证错误"
+-1528356310="服务器不支持 TLS"
+372184460="服务器不支持 SMTP 验证"
+-1899843119="未指定的 SMTP 错误"
+
+; Used when M2 for some reason isn't able to flush a message to disk
+-542134600="保存失败，可能文件系统损坏或者病毒作祟(%i)"
+
+; String used in customize toolbar box
+-2104869557="文档"
+-1125996158="图像"
+1280521648="总计"
+1279355453="速度"
+587130762="已过时间"
+-726326096="进度状态"
+-1383827894="常规"
+1260247800="时钟"
+23652165="识别为"
+
+; Imported bookmarks are stored in this folder
+668597205="Netscape 书签"
+-1089962701="Internet Explorer 收藏夹"
+-2127349657="KDE1 书签"
+-1184732696="Konqueror 书签"
+
+; String to be used in preference font list for UI fonts
+1522165030="浏览器菜单"
+367662404="浏览器工具栏"
+282774721="浏览器对话框"
+648422881="浏览器面板"
+
+; Used in preference font list for UI fonts
+25135132="浏览器工具提示"
+
+; String to be used in preference font list
+406642990="撰写电子邮件"
+
+; String to be used in preference font list to identify a system default
+; font
+137662006="(默认)"
+
+; When a SMTP server drops the connection when MAIL FROM is sent, it usually
+; is because needed authentication isn't fulfilled.
+1240511189="服务器中断了连接。可能需要先验证。"
+
+; String that is displated on about page when java is installed
+-630614510="没有安装 Java 运行时刻环境"
+
+; Version of Qt library that Opera uses. Shown on About page
+658508522="Qt 库"
+
+; Text to be used on the menubars. Some languages need a separate string
+; here
+1409512585="快退"
+
+; Used when saving a printer file to disk (from a filedialog box)
+-402829326="Postscript 文件(*.ps)|*.ps|全部文件(*.*)|*.*|"
+
+; Label in the displayed header of a news/mail message
+367751872="组织"
+-1275015800="新闻组"
+299353252="Followup-To"
+-1023973383="Reply-to"
+-1398981521="重发自"
+
+; Title string of the HTML text that displays certificate data
+-1041039008="证书信息"
+
+; Header string for the detailed listing of certificate data
+2043360159="细节"
+
+; DSA Private Key key list item
+-1229363551="私钥(X)"
+
+; DSA Public Key list item
+-1229363550="公钥(Y)"
+
+; Component P of DSA key
+-1229363559="DSA 组件 P"
+
+; Component Q of DSA key
+-1229363558="DSA 组件 Q"
+
+; Component G of DSA key
+-1229363568="DSA 组件 G"
+
+; Diffie Hellman Private Key component
+857434526="DH 私钥"
+
+; Diffie Hellman Public Key Component
+-1926274908="DH 公钥"
+
+; Diffie Hellman Modulus Key component
+613488173="DH 系数"
+
+; Diffie Hellman Generator Key component
+613488164="DH 生成器"
+
+; Add characters here that can be used as fallback shortcuts (eg: of the
+; kind "File (A)"). An empty string will disable fallback shortcuts.
+-377009404="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+
+-1296291032="下载 Opera 工具栏设置"
+-425908944="正在下载工具栏设置..."
+1324771264="应用工具栏设置"
+-264278410="您想要继续使用此工具栏设置吗?"
+1488441578="下载 Opera 菜单设置"
+1694746610="正在下载菜单设置..."
+-806672648="您想要继续使用此菜单设置吗?"
+-1196191202="下载 Opera 鼠标设置"
+1316907558="正在下载鼠标设置..."
+374450668="您想要继续使用此鼠标设置吗?"
+736588742="下载 Opera 键盘设置"
+-605573426="正在下载键盘设置..."
+433266900="您想要继续使用此键盘设置吗?"
+-1097377482="副本"
+93189975="您确定想要信任此发行者吗?"
+; Open file dialog
+-797806689="Opera 书签文件(*.adr)|*.adr|"
+1117324125="HTML/Netscape 收藏夹文件(*.htm, *.html)|*.htm;*.html"
+-1411735922="Konqueror 书签文件(*.xml)|*.xml"
+
+; InputAction treeview header
+-1865438968="操作"
+-136521655="输入环境和快捷键"
+
+1199718168="键盘设置"
+-1728342704="鼠标设置"
+-1749151654="工具栏设置"
+-1066549444="菜单设置"
+-595347745="皮肤"
+; Fonts and colors preferences
+-1445821585="类型"
+-799406642="字体"
+
+; Cache preferences
+-689135061="自动"
+
+; string appended to setupfilename if this is modified, in preferences
+; dialog
+-1492831544="(已修改)"
+
+; Info panel
+-740715055="- 无标题 -"
+1197560677="主要页面的 URL:"
+-1937922503="服务器返回的编码(Opera 使用的编码):"
+864499482="服务器返回的 MIME 类型:"
+864715533="主要页面的大小:"
+1343250180="内嵌元素数:"
+-228112001="内嵌元素大小:"
+-1548445594="本地缓存文件:"
+-761181853="- 无缓存文件 - "
+-1010865942="安全性"
+1648291680="概览:"
+1425344006="- 不安全 -"
+918667752="更多信息"
+578403440="框架"
+-1544278915="框架:"
+1036993977="内嵌框架"
+682176678="IFrame:"
+
+-108388079="快进"
+711342150="另存为"
+830950105="选择会话文件"
+-1535219881="窗口"
+155743609="在此新记笔记"
+739612478="附件"
+1604859069="版本"
+-299829102="密码算法"
+-477544027="细体"
+1506702806="普通"
+-1446479474="粗体"
+1658037448="以空白页面启动"
+584306170="您将要打开 %d 个联系人\n\n继续吗?"
+; History and cache preferences
+60437277="每 %d 分钟"
+511007177="每 %d 小时"
+435767103="每小时"
+436294733="每周"
+
+1101328228="您将要打开 %d 个书签\n\n继续吗?"
+1146664644="您的第一个账户已经设置好了\n\nOpera 革命性的邮件和新闻组客户程序与传统的邮件程序有很大不同，因此强烈建议您阅读教程。\n\n您想现在查看教程吗?"
+-700786693="使用 Opera 邮件"
+-700155865="在底部弹出"
+21275667="记住上次的大小"
+1672119243="总是最大化"
+14733995="总是层叠"
+; Checkbox string in filetype dialog box
+-1117577968="将网址直接传递给应用程序"
+
+; Used in preference dialog box (window page)
+1747305600="在当前标签旁打开新标签"
+
+; Info panel. When server does not supply an encoding
+-224998054="- 未提供 -"
+
+; Checkbox in download dialog for saving action
+1137266026="记住选择并不再显示对话框"
+
+; Certificate verification servername mismatch
+-625958927="服务器名称“%1”与证书名称“%2”不匹配。可能有人想监视您。"
+
+; Certificate not yet valid
+-1263224075="“%1”的证书在 %2 前尚未生效。您计算机上的时钟是否正确?"
+
+; The certificate expired on the given date
+-221013334="“%1”的证书已于 %2 到期。网管应该更新证书。"
+
+; Certificate warning
+1076459478="您已经要求使用来自“%1”的证书时给出警告"
+
+; Unknown certificate authority
+-1998870601="“%1”的证书是由未知的证书颁发机构“%2”签字的。不可能检验该证书是否为有效的证书"
+
+; Unknown root certificate authority
+2104370139="Opera 不知道 %1 的根证书，因此无法确定该证书是否可信。"
+
+-1243033219="服务器在身份验证时中断了连接。"
+1790168951="新版本的 Opera 已经推出"
+-119907268="新版本的 Opera 已经推出。\n您想要下载更新版本吗?"
+1882483772="MP3 文件|*.mp3|"
+; Typically telnet, tn3270, news, mailto
+-93919767="协议"
+
+907743631="程序"
+; Voice XML related message from the Voice log panel
+2033395953="语音状态日志..."
+
+1949547324="添加带操作的新按钮\n\n%s\n\n您想要继续吗?"
+-1165861871="新按钮"
+855179963="语音日志"
+919933899="使用 Opera 革命性的电子邮件客户程序: http://www.opera.com/mail/"
+; Status message when M2 is emptying trash
+1606080971="正在清空回收站"
+
+; Message string shown in dialog box before auto reset in kiosk mode
+-1460323384="由于没有活动，Opera 即将于 %d 秒内重置"
+-825155371="由于没有活动，Opera 即将于 1 秒内重置"
+
+; Text for button in toolbar that can clear contents if edit field
+-1877498682="清除"
+
+; Message string used in a dialog box when user wants do do something that
+; requires online mode (eg. fetching mail)
+924255680="已启用脱机工作模式。\n\n您是否想要切换为联机模式?"
+
+; Used in a popup error dialog when the certificate authority os unknown for
+; the presented certificate.
+-1490416928="现有的证书有未知的证书颁发机构。"
+
+; Used in a popup error dialog when handshake faild due to export
+; restrictions.
+164301828="握手失败，原因是导出限制。"
+
+; Used in a popup warning dialog when handshake faild because the server
+; does not want to accept the enabled SSL/TLS protocol versions.
+1578580827="握手失败，原因是服务器不接受已启用的 SSL/TLS 协议版本。"
+
+; Used in a popup error dialog when handshake failed because the server
+; requires encryption methods more secure than those enabled.
+1390989995="握手失败，原因是服务器所需的加密方式比目前启用的方式更为安全。"
+
+; Used in a popup warning dialog when the server wants to negotiate a
+; connection that does not encrypt the data, but only verifies integrity.
+574018254="服务器想要想要越过不加密数据的连接，而不仅是校验完整性。如果您继续的话，任何人都可以阅读数据，但无法阅读。"
+
+; Used in preference dialog box to control page redrawing
+1427179905="立即重绘"
+550719049="1 秒后重绘"
+-2086956878="%d 秒后重绘"
+674938805="装入后重绘"
+
+; Label in the preference dialog box for page redrawing feature
+-2044163720="装入"
+
+; Used in mail filter dialog
+-980079358="来自 %s 的邮件"
+
+; Add filter dialog box
+376529848="来自发送者的邮件"
+-1245074222="邮件的主题包含"
+
+; Account properties dialog box
+2121516417="账户分类"
+
+; Message in reindex mail dialog box
+569895596="Opera 需要重建建立您某些邮件的索引。如果您现在取消, Opera 将在下次继续。"
+
+; Used in pref box (multimedia)
+-1676375908="立即绘制图像"
+
+-1171706681="在此写上对 %s 的快速回复"
+-1103514230="匹配正规表达式 "
+390893824="此过滤器并添加规则"
+; Used in javascript option dialog box
+1209386397="允许更改窗口大小"
+2000527170="允许移动窗口"
+1598300031="允许将窗口提到最前"
+1591702420="允许将窗口推到最后"
+
+; Used in javascript option dialog
+1059426994="允许更改状态域"
+
+; Opens javascript options dialog box
+2111331705="JavaScript 选项..."
+
+; Label for window handling options
+-1474072333="窗口处理"
+
+; Option string for popup window management
+-1178005071="总是最大化，包括弹出窗口"
+
+; Window handling mode string
+-1397166165="首选在窗口中打开标签"
+
+; Window handling mode string (SDI mode)
+510974322="首选打开单独的窗口"
+
+; Message string used on startup in we cannot load plug-ins
+1597504151="Opera 无法装入插件库“libnpp.so”。插件将无法工作。\n\n请检查您的安装。\n"
+
+; Fallback text for plug-in description when plug-in is missing this
+; resource
+95480677="无描述"
+
+; Fallback text for plug-in name when plug-in is missing this resource
+-996302718="无名称"
+
+; Message shown when downloaded skin can not be used
+175291223="无法继续。请选择为您正在使用的 Opera 版本所制作的皮肤。"
+
+1420284438="查找链接:"
+-867731270="查找文字:"
+; Quick find/inline search didn't find any matching items.
+1408761624="(无匹配)"
+-1914012173="未找到匹配"
+
+; Used when a newsgroup name is not sent in UTF-8
+1692590165="此服务器上的某些新闻组名称未根据编码。这些新闻组将会以此账户寄出的编码显示。"
+
+; RSS folder
+-427372281="RSS 新闻推送"
+
+; Used for OE mail import, parameters are identity, account name and mailbox
+-1034142199="%s [%s] (已导入)/%s"
+
+; 
+-1468588607="(%s) - 导入失败，[错误=%i]\n Id:%s\n 来自:%s"
+-159267853=" 已经导入"
+969263664=" 正在进行转换。请稍候..."
+-781606758="Outlook Express 导入警告"
+-2102437032="(%s) - 跳过了空邮箱"
+704878608="新闻推送"
+-440036748="文件夹"
+
+1548611541="房间"
+-281751318="用户"
+1710093463="话题"
+; Displayed when the user tries to set a nickname for chatting while another
+; user is already using that name
+1843350990="昵称 %s 已经被其他人使用了。请输入新昵称。"
+
+-32822822="房间 %s 被密码保护。请输入密码。"
+-620870443="自动平铺全部窗口"
+343252692="%d/%d"
+-973585970="%d/%d(还剩 %d 秒)"
+-1501641545="%d/%d(还剩 %d 分钟)"
+-1887302470="要更新 VoiceXML 的全部设置，需要重新启动程序。您是否想要立即执行此操作?(正在运行的页面将会被重置。)"
+895403355="需要重新启动 VoiceXML 插件"
+; A popup warning message that appears on pages with Voice XML content in a
+; language not supported by the voice browser
+-25876283="语音浏览器不支持此语言"
+
+; Default text for the Add button in forms. It is used to add template
+; instances to the form.
+1701265194="添加"
+
+; Default text for the Remove button in forms. It is used to remove template
+; instances from the form.
+1462527183="删除"
+
+; Default text for the Move Up button in forms. It is used to move template
+; instances in the form.
+1183624700="上移"
+
+; Default text for the Move Down button in forms. It is used to move
+; template instances in the form.
+2041209519="下移"
+
+417170167="%s\n(单击此处可查看未读邮件)"
+147544424="%s 想要给您发送下列文件。您是否想要接收?\n\n文件: %s\n大小: %s\n\n注意: 您不应该接收来自未知用户的文件，也不应该接收内容不详的文件。"
+1102844454="接受文件"
+1196390472="邮件(%d)"
+945245059="启动"
+422330584="文件“%s”已下载完成\n(单击此处可显示菜单)"
+-683462731="信息"
+-761600753="房间邀请"
+-571768538="%s 邀请您加入房间 %s\n您是否要接受邀请?"
+-1754086927="开始与 %s 交谈于"
+-343024111="未知联系人"
+-1587827817="%d 位用户在聊天室中，话题为：%s"
+-434443649="正在加入聊天室..."
+-1781726688="发送文件"
+-1807942708="开始与 %s 交谈于"
+991876860="从聊天断开"
+-1440211820="%s 把您从聊天室里踢出来了(原因: %s)"
+-1132826756="您离开了聊天室"
+264572212="%s 加入了 %s"
+1072782510="%s 已经断开连接"
+987343019="%s 被踢出了 %s，%s 给出的原因是: %s"
+1376744230="%s 离开了 %s"
+-442172020="房间话题是: %s"
+-1111971637="%s 将房间话题更改为: %s"
+-1142203621="房间管理开"
+-972968523="%s 设置了模式 +m: 房间现在被管理"
+-565019740="%s 设置了模式 -m: 房间现在不被管理"
+-1320703231="%s 设置了模式 +l: 用户限制现在为 %s"
+325891291="%s 设置了模式 -l: 现在没有用户限制"
+-1726460557="%s 设置了模式 +t: 现在只有管理员可更改话题"
+-2015289952="%s 设置了模式 -t: 现在每个人都可以更改话题"
+562170748="%s 设置了模式 +k: 房间现在被密码保护"
+-806947253="%s 设置了模式 -k: 房间现在不被密码保护"
+1904702022="%s 设置了模式 +s: 房间现在绝密"
+-750883179="%s 设置了模式 *s: 房间现在不是绝密"
+-1719434490="%s 设置了模式 %s"
+1816602980="%s 设置了用户模式 %s"
+319028477="%s 将昵称更改为 %s"
+-965314470="%s 设置了用户模式 +o: %s 现在是房间管理员"
+926299881="%s 设置了用户模式 -o: %s 现在不是房间管理员"
+1605464424="%s 设置了用户模式 +v: 房间被管理时 %s 可以说话"
+-1619203754="%s 设置了用户模式 -v: 房间被管理时 %s 不可以说话"
+766732100="%s 是 %s@%s (%s)"
+-1933272880="%s 正处于以下房间: %s"
+1378311846="%s 正在使用服务器 %s(%s)"
+406926542="%s 是 IRC 管理员"
+-1815767593="%s 离开了(%s)"
+1913009061="%s 以 %s 登录了"
+385714693="%u 小时"
+-156316936="%u 小时"
+-675178343="%u 分钟"
+-806048756="%u 分钟"
+-445511709="%u 秒"
+-1816984426="%u 秒"
+48425245=" "
+-1557830673="%s 在 %s 登录，并且发呆了 %s"
+936707788="%s 在 %s 登录"
+-1752296958="&Answers.com"
+-1752296957="Opera 搜索(&S)"
+-1752296956="卓越网(&Z)"
+-1752296955="&Ebay 易趣"
+-1752296931="电脑之家(&W)"
+-859211014="新的新闻推送消息:\n%s"
+; Dialog message
+120044454="未知错误"
+
+; Message box text shown when hotlists data has been imported
+-348055302="导入了 %d 项"
+1862555410="导入了一项"
+
+; Used in File Handler Edit Dialog
+-694083371="启动程序前询问"
+
+; Short string in dialog header seaction
+236071286="询问"
+
+; File handler dialog box string
+1387206342="文件(强制)"
+-1153664958="文件夹"
+
+; Dialog box string shown before opening a folder
+1501805284="打开文件夹"
+
+; Dialog box string shown before opening a file
+-341751576="打开文件"
+
+; String in dialog <open file><filename>WITH<application>
+-252900186="使用程序"
+
+; Text on button that opens file handler dialog box
+-1031377841="保存文件的句柄..."
+
+73186160="流行程度"
+-1570631949="列出房间"
+-1689094898="新建房间"
+144583584="更换昵称"
+-1142784857="发送电子邮件"
+-1591746111="检查/发送"
+-29774876="固定占位符"
+-33861927="动态占位符"
+-1554596811="折行符"
+1196468679="新闻推送"
+; Message box string that is shown if mailto address contains command
+; character and we use an external e-mail client
+-2019540747="电子邮件地址包含命令字符。您想要运行命令吗?"
+
+928245257="聊天(IRC)"
+-706714493="%u 间房"
+1980799452="XHTML+语音"
+-1773077766="不可用"
+; This warning will be displayed for anonymous Diffie Hellman secure SSL
+; connections.
+1971097350="服务器请求了匿名连接，因此无法验证服务器的身份。此服务是否应该是匿名且您想要将数据发送到匿名服务器?"
+
+; This warning is displayed if a low level encryption (level 1) is selected
+; by the server.
+15694585="此站点正在使用的加密方式 目前已经被认为不安全。它无法再充分保护敏感数据。您想要继续吗?"
+
+; Title of low encryption level dialog
+-1608443547="低加密级别"
+
+-1938569383="面板"
+; The error to display if we get a VALIDATE_ERROR_STEP_MISMATCH for a number
+; field. Any %1 is replaced by the entered value and %2 with the step
+; value.
+1300921250="此表单不允许数字 %1。此输入框只允许特定的数字。"
+
+; The error to display if we get a VALIDATE_ERROR_STEP_MISMATCH for a date
+; field. Any %1 is replaced by the entered value and any %2 is replaced by
+; the step value.
+-2132866121="此表单不允许日期 %1。此输入框只允许特定的日期。"
+
+; The title of the error page that is shown when loading a URL fails.
+-1125267849="错误"
+
+; The error page that is shown when loading a URL fails.
+-1996452250="您试图访问的地址 %s 目前不可用。请确保网址(URL)拼写和标点符号使用都正确，然后试着重新装入页面。"
+
+; The error page that is shown when loading an url fails.
+-571130177="除非您确定您需要使用代理服务器才能连接到 Internet，否则请按键盘上的 F12 键，然后禁用代理服务器。重新装入页面。"
+660918719="若尚未启用同步 DNS 的话，可以试着启用该选项。而若已启用的话，试着禁用该选项。您可在 Opera 的网络首选项中找到该选项。"
+-412691063="检查 Internet 安全防护软件的设置是否正确，是否阻碍了普通的 Web 浏览。"
+1317434611="如果您在局域网的防火墙之后，而您认为防火墙可能给您带来各种问题，请联系您的系统管理员。"
+1976505887="请确定您的 Internet 连接处于活动状态，然后再检查一下同一连接上的其它应用程序是否工作正常。"
+1162929380="如果您正在使用拨号连接，请检查您连接的拨号属性以及服务器类型，确定设置正确了网络登录方式。"
+
+; The associated tablefield displays the signature of the cetificate !!
+; IMPORTANT !! No special HTML characters in this string !!
+-371513372="签名"
+
+; Generic message when settings have been saved
+-1154642790="设置已保存"
+
+; Generic message when no changes to settings have been saved
+1871184022="此部分中没有要保存的更改"
+
+-94837333="下载 Opera 语音设置"
+-1876705869="正在下载语音设置..."
+1475804537="您想要继续使用此语音设置吗?"
+; Voice C3N User Agent Identifier, shall only be translated if supported by
+; voicelibs
+270046378="Opera"
+
+; Voice C3N Prelink Phrase, shall only be translated if supported by
+; voicelibs
+-1902106441="(go to | jump to)"
+
+; Voice C3N Postlink Phrase, shall only be translated if supported by
+; voicelibs
+-2004163178="[page]"
+
+; Encoding, when used other places than menus, to avoid crash with japanese
+; access keys
+-2092204962="编码"
+
+; Voice C3N Prenick Phrase, shall only be translated if supported by
+; voicelibs
+-1744783314="转到书签"
+
+; Voice C3N Postnick Phrase, shall only be translated if supported by
+; voicelibs
+-1846840051=""
+
+; While downloading binary setupfile
+-2011460894="下载扩展"
+-655411675="下载二进制设置文件"
+
+; Used as template when redirect is turned off to produce a clickable link
+; to the redirection target.
+-57185507="<h1>重定向状态</h1> URL 已重定向至 %s。请单击链接以访问。<p>您可以在设置中启用自动重定向。<p><hr>由 Opera &copy; 生成"
+-1845785787="自动跳转状态"
+1433700170="此地址已自动跳转到%s。请点击链接访问。"
+1433905157="您可以在首选项中允许自动重定向。"
+
+; Used to indicate that a document is generated by Opera.
+-826703050="由 Opera 生成。"
+
+; used when a wml deck is not reached in correct order
+1976688640="拒绝访问"
+566351754="您无权访问此 WML 层面。\n\n您到达此层面的次序不对。"
+
+; used when opera generates a redirect message. this is the title.
+-2137516168="重定向"
+
+; A short string to be displayed above the column of week buttons. No longer
+; than a couple of chars. Used by the month view (calendar) widget in
+; WebForms2.
+-674571725="周"
+
+; A short string for Monday. Used by the month view (calendar) widget in
+; WebForms2.
+-548377585="一"
+
+; A short string for Tuesday. Used by the month view (calendar) widget in
+; WebForms2.
+-241569242="二"
+
+; A short string for Wednesday. Used by the month view (calendar) widget in
+; WebForms2.
+11450219="三"
+
+; A short string for Thursday. Used by the month view (calendar) widget in
+; WebForms2.
+1634457179="四"
+
+; A short string for Friday. Used by the month view (calendar) widget in
+; WebForms2.
+-818947258="五"
+
+; A short string for Saturday. Used by the month view (calendar) widget in
+; WebForms2.
+1479732404="六"
+
+; A short string for Sunday. Used by the month view (calendar) widget in
+; WebForms2.
+-306449701="日"
+
+; A fatal SSL error occurred, e.g. a handshake or transmission error, the
+; internal error message gives more details
+-1527043971="无法完成安全事务"
+
+-1151828609="更新新闻推送"
+; Used in a popup error message when the user has requested a document from
+; the server, the server sends the document using HTTP compression, and
+; the document decoder couldn't decode the data properly. This version is
+; used when LIMITED_MEMORY_DEVICE is turned on.
+324184647="数据解码时出现问题。数据可能损坏，或内存不足。"
+
+; Used in a popup error message when the user has requested a document from
+; the server, and the server returns a HTTP_USE_PROXY (which is not
+; supported for security reasons) error code.
+280883669="服务器试图将 Opera 重定向到另外一个代理服务器。为安全起见，此操作不支持。"
+
+; The title of the error page that is shown when loading a URL fails.
+-360926641="检查您是否可以访问其它网页。"
+
+; The error page that is shown when loading a URL fails.
+-277470719="某些在线服务使用的安全协议无法与 TLS 1.0 共同工作。请试着在 Opera 的安全首选项中禁用该特性。"
+2007199746="如果网址没有出错，您可能想要:"
+
+; The error page that is loaded when a URL fails.
+1581176738="需要帮助吗?"
+-1578977767="打开 <a href="http://help.opera.com/">Opera 帮助</a>。"
+507228282="转到 <a href="http://www.opera.com/support/">Opera 的在线支持平台</a>。"
+
+; Replaces obsolete string 69881.
+1399668865="从 Apple Mail 导入"
+
+; Notification of a blocked popup
+-1112516751="屏蔽了弹出窗口来自 "
+
+; Message used to notify user of logging status.
+-923196373="<<< 语音浏览器已退出 - 日志窗口被禁用 >>>\n"
+
+; Text used in generating about text.
+314331646="插件未装入"
+
+; Text used in generating about text
+-1641044856="IBM 多模型环境"
+
+; Used for adding to account names when the account is temporary
+-1520398650="(临时)"
+
+; String used when a popup has been blocked to give the user an option to
+; open it.
+-314779598="\n(点击此处打开)"
+
+; Item on the start toolbar
+376069807="十大"
+
+; Music toolbar item.
+1899152018="添加"
+
+; Music toolbar item
+-1751945089="播放"
+-1979986745="暂停"
+-1751828113="停止"
+
+-1797390215="接收文件"
+1099492910="显示电子邮件"
+; List box entry
+612186847="从 Thunderbird 导入"
+-16709870="从 Opera 7 导入"
+
+; Used as the default text to substitute a plug-in in an HTML document, if
+; the plug-in is not installed and the images alt attribute is empty
+931079982="插件内容"
+
+; Used as the default text to substitute a java applet in an HTML document,
+; if java is not installed and the images alt attribute is empty
+125645089="Java 小程序内容"
+
+; Shown as tooltip and status information when the plug-in has not been
+; activated
+-245753105="您需要启用 JavaScript 才能访问此内容。请按 F12，选择“允许使用 JavaScript”，然后重新装入页面。"
+
+; This is the title of an error page displayed when a URL containing invalid
+; characters in the servername is rejected during URL resolving
+1996608452="非法 URL"
+
+; First line of the message, the URL is displayed on the next line
+1150263994="URL"
+
+; Second part of the illegal URL message, follows the URL
+1150263995="含有于所在位置无效的字符。"
+
+; The possible reasons for why the invalid characters are there: Mistake, or
+; attack.
+1379880234="出现这种情况的原因可能是 URL 拼写错误，但也可能是此 URL 尝试将您引入您误认为安全的网站。"
+
+; Header for the SSL certificate description page" !!IMPORTANT!! No HTML
+; special characters are allowed !!
+-1396250407="安全信息"
+
+; Followed by the secure tunnel specification." !!IMPORTANT!! No HTML
+; special characters are allowed !!
+1176832065="安全协议"
+
+; Followed by the number of the certificate in the certificate chain, used
+; as a heading for the SSL certificate description page" !!IMPORTANT!! No
+; HTML special characters are allowed !!
+-350566025="服务器证书"
+
+; Followed by the number of the certificate in the certificate chain, used
+; as a heading for the SSL certificate description page." !!IMPORTANT!! No
+; HTML special characters are allowed !!
+-2018873682="已验证的证书"
+-2079528865="客户证书"
+
+; Followed by the servername in the certificate that matched the servername
+; of the host
+1904202967="已验证的服务器名称"
+
+; Who was the certificate for this server issued to
+1138739937="发行给"
+
+; Who was this certificate issued by?
+1138739353="发行者"
+
+; This warning is displayed when the user has disabled some or all of the
+; strong encryption methods, and the server selected a low level
+; encryption method (level 1)
+-1209211918="服务器指定了不安全的加密级别。而您禁用了某些强加密方式，这可能是服务器被迫选择这种弱加密方式的原因。为安全起见，您应该在继续前启用强加密。您是否想要继续使用低加密级别?"
+
+; Displayed in the about page if User JavaScript is enabled
+-458492070="用户 JavaScript 文件"
+
+; Mail panel
+1520323759="无法完成所请求的操作，因为选中的一封或多封信的正文没有下载到本地。Opera 现在将会尝试下载缺少的信件正文。"
+983164455="移动或复制失败"
+
+; Transfers panel
+-319112693="正检查文件夹"
+-201564325="正共享文件"
+-491457712="当前下载(入/出)"
+-1257431027="连接(种子/下载者)[全部]"
+
+; BitTorrent connections, short version
+-1631907428="连接"
+
+; BitTorrent connections, verbose text
+434282018="速度: %d, 下载者: %d(总计种子/下载者: %d/%d)"
+
+; Chat window
+-338247295="%d 位用户在聊天室中"
+
+; skin manager
+86588876="Opera 标准"
+
+; Skin manager
+569369974="Windows 自身"
+-903847876="Macintosh 自身"
+
+; Message string shown if a plug-in setup problem takes place
+-2026717958="在安装插件的过程中 Opera 遇到了一个问题。\n插件将无法正常工作。\n请检查您的安装。\n"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate rge word 'libnpp.so'
+-432051014="找不到插件“libnpp.so”。"
+
+; Message string shown if a plug-in setup problem takes place
+-1001975364="此插件未在安装包中包含。"
+2145260270="此可执行文件位于安装包中。"
+-1007065015="无法装入插件库“libnpp.so”。"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate  the word 'operamotifwrapper'
+-1024225571="找不到插件可执行文件“operamotifwrapper”。"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate the word 'Motif'
+708708394="请安装 Motif。"
+
+; Message string shown if a plug-in setup problem takes place.
+2062427490="(路径可在首选项对话框中修改)"
+
+; Tooltip text shown when mouse is hovering the e-mail client text field in
+; Preference dialog.  Do not translate the flags (like %t) and not
+; 'mailto'
+-566594663="标志\n\n%t (to) 将被替换为收件人\n%c (CC) 将被替换为抄送收件人\n%a (BCC) 将被替换为密件抄送收件人\n%s (subject) 将被替换为主题文本\n%b (body) 将被替换为正文文本\n%r (address) 将被替换为地址。结果总是以“mailto:”开头\n%w (address) 类似 %r，但没有“mailto:”\n\n示例\n<client> [%t] [-cc %c] [-subject %s] [-body %b]"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate the word 'operamotifwrapper'
+-494715725="无法启动插件执行程序“operamotifwrapper”。"
+
+; Tracker communication error header
+-509925896="无法与发布服务器通讯: "
+
+; Tracker communication error context
+-1318861316="BitTorrent 发布服务器与种子文件的通讯: "
+
+; First message to user when clicking a .torrent link
+1637975240="您即将从以下位置开始 BitTorrent 下载：\n\n %s\n\n请注意，您将与下载相同文件的其他人共享您收到的内容。\n\n您确定想要这样做吗？"
+
+; Title of the dialog
+1692897257="BitTorrent 下载"
+
+-819618716="BitTorrent 存档“%s”已下载完成\n(单击此处可显示菜单)\n\n请注意，您下载的内容将被继续共享，除非您手动停止。"
+; Move-to-sent-dropdown in mail import wizard, no mailbox selected:<none>
+-1564256783="<无>"
+
+; The loading was aborted due to security reasons for instance loading a
+; file: url from a document loaded from an http: url
+-1399476641="为安全起见，对 URL 的装入已被禁止。"
+
+; Caption for a single alternate link in a newsfeed
+-387365869="文章:"
+
+; Caption for a single related link in a newsfeed
+-1767083404="相关链接:"
+
+; Caption for a single via link in a newsfeed
+-217852653="链接自:"
+
+; Caption for a single download link in a newsfeed
+787372707="下载:"
+
+; Button to reset a preference to default.
+-425450415="默认"
+
+; Internally generated document needs JS to function.
+1110936292="您需要启用 JavaScript 才能使用此文档。请重新装入页面。"
+
+; Show all configuration options at the same time.
+-1870351643="全部显示"
+
+; Messages for opera:config.
+491310161="某些更改需要重新启动才能生效。"
+
+; Title for opera:config.
+1592381550="首选项编辑器"
+
+; Writing direction for language, "ltr" for left-to-right or "rtl" for
+; right-to-left.
+1850176044="从左至右"
+
+; The OCSP server says that the OCSP request was malformed
+1676397738="在线验证(OCSP)服务器报告验证失败，原因是请求格式不对。"
+
+; The OCSP server could not create response because of an internal error
+1260085234="在线验证(OCSP)服务器报告验证失败，原因是服务器内部错误。"
+
+; The OCSP server says try again later
+-1852612414="在线验证(OCSP)服务器报告验证失败，原因是该服务器下线，请稍后再试。"
+
+; The OCSP response should have been signed when it was sent, Opera does not
+; support signing of OCSP responses
+-1629981425="在线验证(OCSP)服务器报告验证失败，原因是请求必须签名。"
+
+; The OCSP server claims we are not authorized to get a response for the
+; validation request. This is very likely an OCSP server problem
+-780013139="在线验证(OCSP)服务器报告验证失败，原因是您无权验证此证书。"
+
+; We don't understand the reason code given for why the OCSP request failed
+1288130594="在线验证(OCSP)服务器报告验证失败，原因未知。"
+
+; An error was found in the OCSP response, making it invalid
+887031139="在线验证(OCSP)服务器返回的响应有错。"
+
+; The OCSP response could not be validated, and it could be a fake
+1205273924="无法验认在线验证(OCSP)服务器的响应。"
+
+; The OCSP response is older than its specified validity period, or is so
+; old Opera will not accept it.
+466045243="在线验证(OCSP)服务器的响应太旧。"
+
+; The website is no longer in operation, and the certificate has been
+; revoked
+452336457="证书被吊销，原因是站点已经停止运行"
+
+; A newer certificate has been purchased.
+-1035416434="证书被吊销，原因是颁发了较新证书。"
+
+; The information in the certificate no longer identifies the correct owners
+10534282="证书被吊销，原因是站点已经更换了所有者。"
+
+; There's been a serious problem at the CA, and at least some of the
+; certificates from the CA can no longer be trusted
+-260835684="证书被吊销，原因是颁证机构被弃用，而此颁证机构的某些或全部证书不再可信。"
+
+; The owner has reported that the private key associated with the
+; certificate was compromised (e.g. stolen) or lost (e.g. they forgot the
+; password)
+345370497="证书被吊销，原因是与证书关联的密钥被弃用，证书不再可信。"
+
+; Status bar shows plug-in initiated url loading. Input string: domain name
+; of url being loaded.
+83724205="正在从 %s 传送数据"
+
+; Used when a 40/56-bit, authentication-only or anonynmous method is
+; selected by the server
+-1765289207="服务器所使用的加密方式不安全。"
+
+; Used when the public key of the server, or one of the certificates is not
+; long enough to provide adequate security, presently it is used for RSA
+; keys shorter than 900 bits.
+1375884585="服务器使用较短的公钥，因此是不安全的。"
+
+; Used when the public key of the server, or one of the certificates is not
+; long enough to provide adequate security, presently it is used for
+; RSA/DH/DSA keys between 900 and 1020 bits.
+1691604376="服务器使用的公钥长度只能满足中等安全性。"
+
+; Currently used for SSL v2, which is obsolete and have known security
+; problems fixed by later versions of SSL and TLS
+-656286379="服务器使用过期的安全协议版本。"
+
+; Used in search field on address bar
+-1453429782="在页面中查找(&F)"
+
+; Caption for multiple alternate links in a newsfeed
+769504734="文章:"
+
+; Caption for multiple related links in a newsfeed
+-426780673="相关链接:"
+
+; Caption for multiple via links in a newsfeed
+505415390="链接自:"
+
+; Caption for multiple download links in a newsfeed
+1334569070="下载:"
+
+; Sent to console when Opera is not able to load a script linked from a page
+-577114886="链接的脚本未装入"
+
+; Heading for the folder or ftp listing page
+489139792="文件夹列表"
+
+1964793765="%s 服务器"
+; html title of the page information
+-1527978796="页面信息"
+
+; Chat window
+2127064144="%d 位用户在聊天室中"
+
+-771071578="%d 位用户在聊天室中，话题为：%s"
+; The certificate expired on the given date, java allow dialog.
+2089918635=""%1" 的证书已于 %2 到期。网管应该更新小程序。"
+
+; Warning displayed if a certificate is being installed from a HTTP or FTP
+; URL
+-1725796747="此证书是使用不安全的连接从 "%1" 中下载的"
+
+; Displayed for unknown root certificates that are missing the required
+; basic constraints and key usage extensions
+760918586=""%1" 的证书未包含所有必要信息"
+
+; Name of the Today folder in the history panel/page
+-1748691533="今天"
+
+; Name of the Yesterday folder in the history panel/page
+-1882227284="昨天"
+
+; Name of the Earlier this week folder in the history panel/page
+756908222="本周之前"
+
+; Name of the Earlier this month folder in the history panel/page
+353293976="本月之前"
+
+; Name of the Older folder in the history panel/page
+1447812616="较旧"
+
+; About page User CSS folder label
+168507773="用户 CSS 目录"
+
+; Merlin dedication for about-page.
+489069232="永远怀念 Geir Ivars&oslash;y。"
+
+; Description of how Basic Authentication sends the password
+48164205="基本验证：清除文本"
+
+; Description of how Digest Authentication sends the credentials
+1677839979="分类验证：密码未直接通过"
+
+; Description of how NTLM Authentication sends the credentials
+-1485707258="Microsoft NTLM : 密码未直接通过"
+
+; Description of how MS Negotiate Authentication sends the credentials
+-488341557="Microsoft Negotiate : 密码未直接通过"
+
+; Button in source viewer toolbar for saving to cache and refreshing the
+; edited page
+1094079060="应用更改"
+
+-611566104="存在来自上一个会话的待定 IMAP 命令。是否现在处理？"
+-1662197742="待定 IMAP 命令"
+735576426="来自服务器的错误：%s。您是否更改了自己的密码？"
+1809598168="源:"
+-1204190122="添加控件"
+-1318171891="屏蔽为 Firefox"
+-2000624253="屏蔽为 Internet Explorer"
+-1278148494="控件下载"
+1755000112="正在下载控件..."
+; Error text when a setup file or widget can't be applied after download
+-420402860="应用此文件时发生了错误。"
+
+-1926142231="保存下载的控件"
+616590390="您想要保留此控件吗？"
+-48102728="%s 邀请您加入房间 %s。如果您加入，请单击房间名称。"
+587964953="%s 想向您发送文件 %s (%s)。如果您接受，请单击文件名。"
+268083167="单击您要阻止的内容，按住“Shift”并单击可阻止特定的内容元素。"
+-1026292481="阻止："
+1415826242="解除阻止："
+-593203511="打开此文件可能会对计算机造成损害。\n只有在相信文件的内容时，才能将其打开。\n您想要继续吗？"
+; Should typically be %#c on Windows and %c on Unix. Format used by the
+; locale to define how a long date/time is shown.
+1965445176="%#c"
+
+; Text written on top of blocked images when using the content blocker
+1592645969="已屏蔽的图像"
+
+; Text written on top of blocked plug-ins when using the content blocker
+-1159735767="已屏蔽的内容"
+
+; Sender of welcome message shown when you create the first e-mail account
+; in Opera
+-1111582602="Opera 桌面产品团队 <noreply@opera.com>"
+
+; Subject of message shown to new mail client users.
+1988764740="欢迎使用 Opera Mail"
+
+; Body of message shown to new mail client users.
+-1111729968="尊敬的 Opera 用户：\n\n您刚才激活了 Opera 的内置电子邮件、新闻和新闻推送客户端。希望您能够喜欢！\n\nOpera Mail 使用快捷、方便：您的邮件将被自动分类，搜索起来既简单又有效。\n\nOpera 的工作方式与大多数电子邮件客户端略有不同，因此我们建议新用户先阅读电子邮件和新闻推送帮助：\nopera:/help/mail.html\nopera:/help/feeds.html\n\n我们诚意邀请您开始使用电子邮件客户端，从此不再为电子邮件的分类而烦心：Opera 会很荣幸地为您处理。\n\nOpera 团队衷心致意！\n"
+
+-1311631998="添加"
+; Option on widget toolbar whether the Opera Widgets tab should always be
+; visible.
+-679663514="显示控件选项卡"
+
+2138046855="隐藏控件"
+313144515="更改设置"
+2080847489="完成"
+; In the BitTorrent configuration dialog to indicate unlimited
+; download/upload speed
+-1067119794="不限制"
+
+; Used in about page
+1005433012="刷新插件"
+
+; Used for link in error page when XML document cannot be parsed.
+-1989918768="将文档重解析为 HTML"
+
+; Text for XML parse error message
+2146131313="错误:"
+-267730392="规范:"
+
+; A widget that has no name assigned to it
+-1412267390="控件"
+
+; Shown in the warning dialog for removing accounts if removing will remove
+; local messages
+-1187019550="将会删除为此帐户存储在本地的邮件。"
+
+; Text on the button in the WF2 calendar that clears the selected value,
+; selecting "no" date.
+559655831="无"
+
+; Text on the button in the WF2 calendar that selects the date that is
+; "today"
+579923217="今天"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate the word 'operapluginwrapper'
+-1664703893="找不到插件的可执行文件 “operamotifwrapper”"
+
+; Tooltip string for tray icon
+1045417549="%d 未读消息"
+2118270715="1封未读邮件"
+
+; Title for warning on read-only messages
+83187865="一些消息无法被修改"
+
+; Text for warning on read-only messages
+37533518="一些选定的消息被标记为只读，无法被修改。"
+
+; The title attribute of the >> link for selecting next entry on generated
+; webfeed pages
+1248101963="下一页"
+
+; The title attribute of the << link for selecting previous entry on
+; generated webfeed pages
+-1151467159="上一页"
+
+; The link for going back to list of all entries when on a generated page
+; for one entry
+-494370643="内容列表"
+
+; Title of history search page
+1099269918="历史搜索"
+
+; Subscribe to an RSS web feed.
+-606519656="订阅"
+
+; Unsubscribe from an RSS web feed.
+1867586235="取消订阅"
+
+; Heading for generated page when Opera has blocked a fraud site
+-91525170="欺诈警告"
+
+; Body of warning page generated when Opera has blocked a site
+1964603636="您正在准备打开的网页已经因为欺诈被列入黑名单。它很可能试图骗取您的私人或财政信息。我们强烈建议您不要访问此网页。"
+
+; Option to bypass Opera's blocking of a blacklisted site
+-871840478="忽略此警告"
+
+; Option to go to the help for the anti-phishing feature
+-543549680="更多关于 Opera 的欺诈保护的内容"
+
+; The 'get me out of here' option for generated page when Opera has blocked
+; a blacklisted site
+-1113781852="转到主页"
+
+; When printing in some locale, time is 12 hour format
+-224807385="午前"
+1801262742="午后"
+
+; Explanatory text displayed at the top of the page when using the ALT
+; debugger.
+-1197772896="某个可见的图片的 ALT 属性无效或不存在。"
+
+; Title of the history top 10 shown in the speed dial suggestions list
+-2038375348="经常访问的页面"
+
+; Shown when no history top 10 is available to be listed in the Speed Dial
+; suggestions list
+1509749455="没有浏览历史"
+
+; Title of the list of open Web pages shown in the Speed Dial suggestions
+; list
+1028796671="打开网页"
+
+; Shown when the list of tabs in the Speed Dial dialog suggestions list is
+; empty
+-1163002853="目前没有打开的网页"
+
+; Title of the list of suggested Opera sites for speeddial
+-416790863="Opera 站点"
+
+; Speed Dial help button
+528772207="什么是快速拨号？"
+
+; Caption of button in inline help that opens an Opera help page
+1059596273="更多..."
+
+; Short help shown inside the Speed Dial page
+2056080008="当打开一个新的标签页时，快速拨号可以让您快速访问您最喜欢的网站。点击一个空白项可以添加新的快速拨号入口，删除请点叉，利用鼠标拖拽缩略图可以重新排列快速拨号项。点击缩略图，或按 %1 到 %2，可以打开快速拨号的网页。"
+
+; Caption of a button that unhides Speed Dial
+-1656817791="显示快速拨号"
+
+; Caption of a button that hides Speed Dial
+-96763782="隐藏快速拨号"
+
+; Shown inside an empty Speed Dial
+-1799226240="点击添加网页"
+
+; Shown on a Speed Dial to indicate that it will show a preview of the Web
+; page
+761703394="预览"
+
+; Tooltip shown on a Speed Dial. The parameter will contain the url of the
+; web page that is set for the Speed Dial
+-318104816="点击访问 %s"
+
+; Instructions shown during Speed Dial configuration
+-1199406616="在推荐列表中选择或输入一个网址。"
+
+; Name of the feature
+2112804961="快速拨号"
+
+; Title of Speed Dial in browsing history
+-524350168="返回快速拨号"
+
+; Title of the Opera Web site listed in the Speed Dial suggestions
+-371290281="Opera"
+
+; Title of the Opera Community website listed in the Speed Dial suggestions
+956084379="Opera 社区"
+
+; Title of the Opera Mini website listed in the Speed Dial suggestions
+673402787="Opera Mini"
+
+; Dialog title and components
+
+; Used in most dialogs
+660644312="确定"
+326443447="确定"
+730258692="取消"
+193344611="取消"
+
+; Opera as default browser
+602929145="协议"
+-960648533="http"
+-1636630434="https"
+-960449144="news"
+-1070316939="ftp"
+1780552688="gopher"
+-960130529="wais"
+776127007="Opera 启动时检查是否为默认浏览器"
+1959530921="全选"
+
+; Password required
+1934783555="身份验证"
+-175979580="信息"
+-215302341="用户名"
+-1474052307="密码"
+
+; Send form without encryption?
+660643917="提交前警告"
+
+; Use Opera
+2122499232="将 Opera 用作默认 Web 浏览器"
+-1117247151="Opera 未被设为系统默认的浏览器。\n\n您是否愿意将 Opera 设为默认的浏览器?"
+326436591="是"
+660644283="否"
+
+; Validate source
+-1956242782="校验源代码"
+722076378="您要把此页上传到在线源代码校验器吗?"
+
+; Advanced startup settings
+-1918601460="同步 DNS"
+
+; Certificate
+845172279="证书名称"
+760368433="发行者"
+-489552039="允许连接到使用此证书的网站"
+-1710695723="使用此证书前警告我"
+1230327623="接受"
+1619237134="安装"
+
+; Performance
+1500396219="同一服务器的最大连接数"
+-963384524="最大总连接数"
+
+; Personal information
+-1613993777="此信息可使用鼠标右键粘贴到表单中"
+491280082="名"
+365108324="姓"
+-1758483281="地址"
+786795682="城市"
+-1493208566="州/省"
+192982108="邮政编码"
+-800670115="国家"
+-1308367955="电话"
+-78925070="手机/传真"
+866587697="电子邮件"
+-2069137646="主页"
+-6747107="特殊 1"
+1284720862="特殊 2"
+-1718778465="特殊 3"
+
+; Fast bookmark access
+-74873841="请输入书签的昵称"
+
+; Server name completion
+-1620313612="查找局域网计算机"
+1099463235="尝试用以下设置补全网址"
+-586855897="前缀"
+-1174682320="后缀"
+
+; Links in frame
+2076813121="打开"
+-1802770985="关闭"
+
+; Import e-mail
+-204969357="导入设置"
+
+; Cookie security problem
+-191270829="接受"
+543673424="拒绝"
+531071069="某 Cookie 中的路径与页面地址不匹配。"
+-1361312927="当然，您也可以要求网站管理员以设置合法安全的 Cookie。"
+-1492700677="您想要接受这个 Cookie 吗?"
+1830946422="设置[接受]和[拒绝] Cookie 应用到整个域中"
+
+; Update language file
+940335548="您的 Opera 语言文件需要更新。"
+-1618068701="下载新的语言文件"
+
+; Automatic window reload
+1704195940="启用"
+879526679="分"
+1522085772="秒"
+-1137798824="仅当服务器认为页面过期后重新装入"
+
+; Image properties
+-2071741297="图像"
+-360225991="尺寸"
+-360227935="深度"
+-360207182="地址"
+998036769="图像类型"
+997983738="文件大小"
+
+; File download
+-8617288="文件"
+-290039121="服务器"
+
+; Delete private data
+-1539576016="即将执行下面指定的操作。如果你未更改默认操作的话，打开的全部标签都将关闭，进行中的文件下载也将中断。"
+-1773600261="删除临时 Cookies"
+198003670="删除全部 Cookies"
+-1236632752="删除被密码保护的页面和数据"
+1644218916="删除整个缓存"
+868452184="清除浏览网页的历史"
+-1526188589="清除输入地址的历史"
+-818510585="清除已访问链接的历史"
+1416340364="清除文件下载历史"
+-642181654="清除全部邮件账户的密码"
+526675409="清除全部 Wand 密码"
+
+; Item properties
+2128741606="昵称"
+-1618821496="地址"
+-1958888455="描述"
+728869388="上级文件夹"
+-1187537688="创建时间"
+-1949464196="最近浏览时间"
+
+; Bookmarks Properties
+-1241453065="名称"
+
+; Set home page
+1795906726="每次启动 Opera 时显示我的首页"
+
+; Save windows
+768336150="将打开的全部标签保存为会话，以便以后轻松获取"
+1303304956="选择..."
+-413528322="我每次启动 Opera 时显示这些标签和窗口"
+
+; Confirm file upload
+2025661489="以下所列文件已被选中，将发往其它计算机且将无法再干预。您真的想要发送这些文件吗?"
+-88521873="目的"
+-1312077104="起始地址"
+
+; Print options
+-332433289="打印页面背景"
+-229197440="打印页眉页脚"
+1455310448="缩放比例"
+63340355="页边距[厘米]"
+-1006130883="上边"
+1157120597="左边"
+-462465912="右边"
+1299923487="下边"
+
+; Print dialog. Destination tab
+1003648387="目的"
+
+; Print dialog. Options tab
+592887117="选项"
+
+; Print dialog. Printer program tab
+766567485="打印机程序"
+
+; Print dialog.
+2097463237="打印机"
+
+; Print dialog. List column header
+161571347="打印机"
+-1993473331="主机"
+-1789499230="注释"
+
+; Print dialog. Checkbox
+472255140="打印到文件"
+
+; Print dialog. Frame text label
+643823355="打印范围"
+850397807="打印副本"
+-730356454="全部"
+
+; Print dialog
+-1927520633="选中范围"
+-771838223="页面"
+
+; Print dialog.
+1668227189="从:"
+
+; Print dialog
+-2104539772="至:"
+-319731166="副本数"
+-479337266="先打印第一页"
+203854778="先打印最后一页"
+
+; Print dialog. Frame text label
+-786746304="颜色"
+1087561336="选项"
+-640741598="纸张格式"
+
+; Print dialog
+2128880860="可能时以彩色打印"
+-140671652="以灰度打印"
+697575478="纵向"
+1164269708="横向"
+
+; Print dialog. Printer parameter
+-2051840762="参数"
+
+; Print dialog. Help text label
+-928277857="打印机程序必须从 stdin 读入数据。\n参数将作为一个字符串传递给程序。"
+
+; Print dialog. Dialog title
+2013882579="打印"
+
+; Print dialog. Paper type
+-2104540430="A0 (841 x 1189 mm)"
+-2104540429="A1 (594 x 841 mm)"
+-2104540428="A2 (420 x 594 mm)"
+-2104540427="A3 (297 x 420 mm)"
+-2104540426="A4 (210x297 mm, 8.26x11.7 英寸)"
+-2104540425="A5 (148 x 210 mm)"
+-2104540424="A6 (105 x 148 mm)"
+-2104540423="A7 (74 x 105 mm)"
+-2104540422="A8 (52 x 74 mm)"
+-2104540421="A9 (37 x 52 mm)"
+-2104540397="B0 (1030 x 1456 mm)"
+-2104540396="B1 (728 x 1030 mm)"
+-2104540395="B2 (515 x 728 mm)"
+-2104540394="B3 (364 x 515 mm)"
+-2104540393="B4 (257 x 364 mm)"
+-2104540392="B5 (182x257 mm, 7.17x10.13 英寸)"
+-2104540391="B6 (128 x 182 mm)"
+-2104540390="B7 (91 x 128 mm)"
+-2104540389="B8 (64 x 91 mm)"
+-2104540388="B9 (45 x 64 mm)"
+-730356284="B10 (32 x 45 mm)"
+-730355042="C5E (163 x 229 mm)"
+-730353194="DLE (110 x 220 mm)"
+-1728791405="Executive (7.5x10 英寸, 191x254 mm)"
+-783188742="Folio (210 x 330 mm)"
+147238516="Ledger (432 x 279 mm)"
+-776438298="Legal (8.5x14 英寸, 216x356 mm)"
+147827665="Letter (8.5x11 英寸, 216x279 mm)"
+2146989824="Tabloid (279 x 432 mm)"
+-680796782="美国通用十号信封(105 x 241 mm)"
+
+; Print dialog.
+326882116="本地程序"
+-2033953696="自定义打印机"
+
+; Print dialog. Fileselector title
+1456184242="选择输出文件"
+-1974980107="选择程序"
+
+; Print dialog. Printer connection
+-776083284="本地已连接"
+
+; Print dialog. Alternate printer names
+-477665405="别名:"
+
+; Print dialog. Unknown printer location
+516082601="未知的位置"
+
+; Print dialog. Unknown printer
+-337003759="未知"
+
+; Dialog title. When no printer was found
+-1500748574="没有安装打印机"
+
+; Dialog help text
+-1557376255="没有指定有效的打印机\n\n您可以选择打印到文件或者在打印对话框中指定自定义打\n印机"
+
+; Column header label when listing plug-ins
+262687564="使用"
+
+; First time dialog help text
+960391086="中键单击操作可按住 Shift+中键单击进行配置。\n\n您想要现在配置操作吗?"
+
+; Dialog close button
+-979709540="关闭"
+
+; Dialog apply button
+-981936756="应用"
+-964083629="打印"
+
+; Dialog help button
+1011687983="帮助"
+
+; Qt library strings (colordialog)
+7501022="添加到自定义颜色(&A)"
+232103932="基本颜色(&B)"
+-867638571="自定义颜色(&C)"
+-875840640="规定自定义颜色(&D) >>"
+238629099="绿(&G):"
+-1478752555="红(&R):"
+-1554760798="蓝(&U):"
+-1478751582="饱和度(&S):"
+-1478748323="亮度(&V)"
+-1478762916="色调(&E)"
+-1554797234="透明通道(&L)"
+253739196="选择颜色"
+
+; Qt library strings (filedialog)
+1991694632="%1\n文件未找到。\n请检查路径和文件名。"
+-1076089010="删除(&D)"
+-877919944="否(&N)"
+1093424652="是(&Y)"
+-1240457208="打开(&O)"
+-528126221="重命名(&R)"
+-52987579="保存(&S)"
+-1646738897="未排序(&U)"
+1414807772="<qt>您确定想要删除 %1 %2 吗?</qt>"
+2109971655="全部文件 (*)"
+-1642147550="属性"
+1722443788="后退"
+-659416626="复制或移动文件"
+-259324395="创建新文件夹"
+1722516217="日期"
+2105831986="删除 %1"
+-1156894903="详细资料视图"
+1093401914="目录"
+956037592="目录"
+-1710798672="目录:"
+1010255397="错误"
+873367164="文件名(&N):"
+873609021="文件类型(&T):"
+1722596539="文件"
+50466481="查找目录"
+1092365088="不可访问"
+-821980206="列表视图"
+-751032665="查找范围(&I):"
+1722875356="名称"
+923962996="新建文件夹 %1"
+923962995="新建文件夹 1"
+923962994="新建文件夹"
+-220624703="向上一级目录"
+1722927373="打开"
+1865479851="预览文件内容"
+254602761="预览文件信息"
+-528183246="重新装入(&E)"
+-108955079="只读"
+709077442="读写"
+1723023063="读取: %1"
+-493443042="另存为"
+1723055338="保存"
+574631323="显示隐藏文件(&H)"
+1723064182="大小"
+1723070467="排序"
+273459937="按日期排序(&D)"
+273819076="按名称排序(&N)"
+274007902="按大小排列(&S)"
+
+; Qt library strings (filedialog) - Not regular file
+1463055356="特殊"
+
+; Qt library strings (filedialog)
+-361471359="到目录的符号链接"
+956418786="到文件的符号链接"
+-1926486845="到特殊位置的符号链接"
+1723117213="类型"
+-68758424="只写"
+1031592326="写: %1"
+277362385="目录"
+-1853418948="文件"
+272992419="符号链接"
+
+; General message box strings
+-426392460="您必须先选择一个文件"
+502259861="缺少文件名"
+1604953162="选定的文件名已存在。如果您\n继续，将会替换现有文件的\n内容。\n\n您想要继续吗？"
+1482828165="替换文件"
+1626691316="选中的文件名已经存在。请选择另外的文件"
+-1281489981="非法的文件名"
+639028599="写操作失败。数据未保存。\n\n请确定您是否有该目录的写许可，以及是否有足够的\n剩余磁盘空间。"
+-314417192="保存失败"
+483903138="您没有指定位置的写许可。"
+-1211065580="您没有指定%1的写许可。\n\n名称: %2"
+-490449851="拒绝访问"
+-1950990976="目录"
+-1390443925="文件"
+
+; Message box title
+1563466345="无效的插件版本"
+
+; Message box help text
+-1533759672="检测到了无效的 Netscape 代理插件版本。在纠正此错误之前，Opera 无法使用该插件。请安装此版本 Opera 自带的代理插件。"
+
+; Message box title
+-954879056="插件搜索"
+
+; Message box help text for delayed plug-in search (after startup)
+-766632113="插件在启动时未安装。现在将开始安装。"
+
+; Message box help text
+1392883905="上次试图执行插件搜索时发生了严重错误。\n\n您想要现在开始搜索插件吗?"
+
+; Text above a list of directories
+-1716908490="注册的插件目录"
+
+; Help text for setting display resolution (DPI)
+-1907626649="显示分辨率"
+
+; Default display resolution value
+-221904756="系统默认"
+
+; Preferences
+-482365072="应用"
+
+; Advertising
+-673223269="广告"
+
+; Privacy
+1669902403="允许自动重定向"
+-44337407="使用 Cookies 追踪被密码保护的网页"
+-710257074="启用 Cookies"
+1493006323="管理 Cookies..."
+-52958885="退出 Opera 时删除新 Cookies"
+370346349="警告我不正确的 Cookie 域名"
+-1248831366="接受不正确路径的 Cookies"
+1456075810="警告我不正确的 Cookie 路径"
+
+; Accessibility
+-819148542="启用鼠标手势"
+-1101959295="双击文本以显示上下文菜单"
+186363710="将鼠标手势调整为左手习惯"
+919715221="启用自动完成下拉框"
+
+; Windows
+1445692897="循环标签"
+
+; Programs
+-1037896592="启用邮件和聊天"
+-2039956664="下载文件夹"
+-386352693="源代码查看器"
+-1261223714="Telnet 程序"
+741548000="TN3270 程序"
+
+; Fonts and colors
+-173306681="选择..."
+1850810654="最小字体大小(像素)"
+-142265689="背景颜色"
+-1821217361="链接样式"
+-1581303318="我的链接样式..."
+100462302="国际"
+-466818101="国际字体..."
+
+; File type
+387537687="文件类型"
+1157430188="MIME 类型"
+1246545064="操作"
+-465773983="用 Opera 打开"
+1157368313="保存到磁盘"
+-476926331="下载完毕后打开"
+-1590629512="不询问文件夹而直接保存到"
+-1269937528="用默认应用程序打开"
+-1006151541="用其它应用程序打开"
+1844282809="使用插件"
+
+; Network
+-868465547="浏览器识别"
+-1869997290="用 UTF-8 给国际语言网址编码"
+1016988895="代理服务器"
+-697010572="服务器名称补全"
+2097055631="总是显示服务器错误"
+1224008052="相对 FTP 路径"
+-490501369="绝对 FTP 路径"
+
+; Link style
+-1421175617="未访问"
+-1972543376="下划线"
+1222649501="删除线"
+-480033431="颜色"
+1289892463="已访问"
+-84227297="标记已访问的链接"
+-615919994="天"
+1706322406="小时"
+-1267953030="总是给图像链接加边框"
+1307039014="总是给链接上加边框"
+
+; International fonts
+-2034190404="如果文本没有正确显示，请在这里选择要使用的字体。"
+-1975145200="书写系统"
+-1669632023="普通字体"
+-1793402588="等宽字体"
+
+; Cache
+-1441773700="清除"
+80367024="磁盘缓存"
+-1269064102="缓存文档"
+-903440803="缓存图像"
+1084434026="缓存其它"
+1963944855="退出时清空"
+1267104753="立即清空"
+969938757="总是"
+1085760724="从不"
+-881832071="总是检查重定向"
+904250869="总是检查重定向"
+
+; Proxy servers
+1889671252="代理服务器"
+-1895292633="HTTP"
+1028618477="端口"
+357110010="HTTPS"
+402457745="FTP"
+-116584809="端口"
+-1421646356="Gopher"
+-427503717="WAIS"
+1709956069="以下地址不使用代理服务器"
+-1543456927="使用自动代理服务器配置"
+
+; E-mail client
+747685698="使用计算机中默认的电子邮件软件"
+-921388538="使用指定的电子邮件软件"
+
+; Toolbars
+-368151846="在地址栏中显示"
+
+; File types
+-1188521384="根据 MIME 类型判断操作"
+1481415954="如果 MIME 类型不可信，以文件扩展名进行判断"
+114869221="新建..."
+1366031389="删除"
+1627417410="编辑..."
+
+; Windows
+624327750="重用当前标签"
+-781072053="弹出窗口"
+43350370="显示滚动条"
+-222483523="在标题栏显示网页大小"
+
+; Sounds
+522220231="启用程序声音"
+-1436814124="选择..."
+-992349035="清除"
+889786866="测试"
+
+; Multimedia
+727207872="显示图像"
+-1587747711="只显示已缓存的图像"
+1856019676="不显示图像"
+-1853078577="允许播放 GIF/SVG 动画"
+1268135569="允许网页中的声音"
+-747386131="允许使用插件"
+
+; Security
+-60978559="个人"
+-74806097="启用 SSL 2"
+-406036080="启用 SSL 3"
+-1694952417="启用 TLS 1"
+-1112133979="密码"
+-269833206="询问密码"
+-486847814="每次都需要"
+268462382="每次会话只询问一次"
+470118307="设定密码..."
+61648426="警告"
+385257971="在提交不安全的表单之前警告我"
+1693478736="校验页面前警告我"
+
+; Personal certificates
+-1490419489="证书"
+-1485348422="导入..."
+520175649="导出..."
+
+; Cookie security breach
+-1149670446="地址"
+
+; The server wishes to send you a cookie
+-2125062381="地址"
+-203368946="查看注释"
+
+; Language
+1210138155="用户界面语言"
+-1904842103="网页的首选语言"
+-1336632854="添加..."
+-1028888763="删除"
+416197127="上移"
+416196573="下移"
+-25810973="对没有指定编码的网页应用的编码"
+
+; Accept language
+-2008150466="选择 Web 语言"
+-1525378187="用户定义"
+
+; PREFS_STARTEXIT
+-3194516="启动"
+772433964="显示启动对话框"
+1738333564="确认退出"
+-1709448322="退出时断开拨号连接"
+
+; Page style
+-1557869062="默认缩放比例"
+-1353005527="启用框架"
+-1657015726="启用内嵌框架"
+-227434624="总是显示当前框架的边框"
+1395007035="作者模式"
+2008271577="网页样式表"
+1848555975="网页字体和颜色 "
+815498886="我的样式表"
+1141762836="我的字体和颜色"
+-969632386="我的链接样式"
+-239524646="用户模式"
+-430838526="网页样式表"
+-1332666096="网页字体和颜色 "
+-1623611217="我的样式表"
+-2039459235="我的字体和颜色"
+1424221671="我的链接样式"
+1588756261="我的样式表"
+
+; Search
+-1690930933="搜索"
+67443559="为新的窗口选择默认的搜索引擎"
+381856500="搜索结果页面每页显示的命中数"
+-2113105465="帮助"
+
+; TRANSWIN_CLIENT
+-1998478790="源位置"
+-2032666645="目的位置"
+1118241764="大小"
+1727683959="已下载"
+
+; Contact properties
+683448939="名称"
+
+; Net
+1946698160="个人主页"
+
+; Home
+-1997322485="邮政地址"
+-95751100="电话"
+-1063800375="传真"
+
+; Notes
+967347539="注释"
+
+1287164928="打印"
+905368231="证书"
+-621122269="接受语言"
+1074540939="高级启动设置"
+-652008715="应用首选项"
+1022323818="服务器想要发送给您一个 cookie"
+1937225622="快速访问书签"
+168948995="密码"
+2131274965="JavaScript 提示"
+150645968="需要密码"
+-1272161503="自动重新装入页面"
+1534269379="删除私人数据"
+173836213="家庭"
+395724496="常规"
+1447608274="注释"
+-1763467992="确认文件上传"
+654135688="Cookie 安全问题"
+-1704542452="Cookie 安全违约"
+1322117557="Cookie 服务器过滤器"
+1534399195="退出 Opera 吗?"
+2037295635="转到页面"
+280798523="图像属性"
+-2136618481="导入电子邮件"
+-957355101="发送未加密的表单吗?"
+330162258="框架内连接"
+1093317516="服务器名称补全"
+54691309="文件类型"
+-1725157021="个人证书"
+-359938861="请输入您的 PIN 码"
+-234093677="插件"
+294279971="首选项"
+687922277="打印预览"
+623579183="打印选项"
+-1141453357="代理服务器"
+1775785897="保存会话"
+123194780="注册 Opera"
+661020909="链接样式"
+-651058078="国际字体"
+103768470="更新语言文件"
+90438908="窗口"
+90582312="设置首页"
+-23933957="用户名"
+410049262="密码"
+1898978557="用户名和密码"
+-2126225866="选择昵称"
+-93301963="新建账户向导"
+1419869538="真实姓名"
+1775430482="组织"
+-38539477="电子邮件地址"
+-711244042="登录名"
+1924502288="密码"
+343760999="收信服务器"
+1331275615="发信服务器"
+258656003="搜索邮件"
+-423800106="加入聊天室"
+1205964306="快捷栏"
+-66246951="邮件"
+-1356461606="书签"
+-1832881744="联系人"
+-1433740559="聊天"
+316157379="历史"
+130814646="发送"
+36795105="附件"
+130361664="寄件人"
+-2086232177="收件人"
+-2086232750="抄送"
+-1291027524="主题"
+963741860="写邮件"
+-1502184980="接收邮件"
+-1989913697="写邮件"
+609024688="回复"
+-633054391="全部回复"
+; Forward mail
+-415694375="转发"
+
+-1925068745="删除"
+1987282893="快速回复"
+928144058="取消删除"
+; Mark a message as unwanted mail
+148653237="垃圾邮件"
+
+; Mark a message as wanted mail
+1328358662="非垃圾邮件"
+
+; Mark a message as read
+148605312="已阅读"
+
+; Mark a message as not read
+-1248878781="未读"
+
+-1519521597="更换话题"
+-946246097="保存日志"
+1822835501="发送"
+-1471065562="新建书签"
+1695332897="新建文件夹"
+-1300231945="查看"
+699430799="新建联系人"
+810585962="新建文件夹"
+108662882="昵称"
+1676962161="选择 IRC 网络或输入服务器名称"
+-447609479="添加联系人"
+1415876114="未阅读"
+1664487546="收件箱"
+1189434292="待发箱"
+1018758829="已发箱"
+754708919="草稿箱"
+1018770372="垃圾邮件"
+-739058027="回收站"
+340864561="重要"
+1018805321="待做"
+-1602395097="回邮"
+1827310912="回拨"
+1665342300="会议"
+-744394077="聚会"
+-755539101="乐趣"
+-160452737="珍贵"
+-747232396="音乐"
+944456873="图像"
+-737006806="视频"
+-884079419="文档"
+395487417="压缩包"
+70193737="索引"
+-1808668614="全部邮件"
+-1614271604="当前联系人"
+575323265="邮件列表"
+-1718639857="搜索"
+963301518="新闻组"
+-1876656956="标签"
+-1741792339="附件"
+1072512248="当前线索"
+-712616020="房间"
+-712766700="昵称"
+-1253458380="收信人"
+1656979332="主题"
+-1546359922="发送时间"
+501271444="标签"
+782927141="发信人"
+-456987307="主题"
+-583974145="发送时间"
+-2099736283="标签"
+-967688182="连接就绪"
+1227181119="正在连接"
+-483414934="已连接"
+169075727="正在验证"
+530476474="正在收取信头"
+-608225674="正在收取邮件"
+903932286="正在收取新闻组"
+-475056330="正在发送邮件"
+-1276429365="用作电子邮件和 Wand 的主密码"
+-599872740="常规"
+2018182024="服务器"
+-663915022="接收"
+-1545067542="发送"
+-1699026705="过滤器"
+; Error dialog
+-1714897938="常规错误"
+
+-594108235="图像"
+1632572735="下载文件"
+1871831470="更改..."
+-1470387040="打开方式"
+-1440264031="您想要打开还是保存文件?"
+-1734360711="文件扩展名"
+-1776501572="显示下载对话框"
+; New folder button
+-1919674626="新建..."
+
+-1309208407="删除..."
+-340520270="自定义工具栏"
+-1913444467="删除邮件的注释"
+1444256375="删除邮件将从全部视图中移除该邮件。"
+1948572230="从回收站中取消删除将把邮件再次发送到其原始视图。"
+-1736645513="过滤器"
+1181726059="匹配"
+-89018125="内部过滤器"
+-1342334224="将匹配的邮件标为已读"
+-2068041977="过滤已有邮件"
+-1386444087="查找"
+-1554068629="搜索位置"
+2072166786="时间段"
+-1501861780="搜索范围"
+1596476603="包含子视图"
+952764396="记住密码"
+-941157161="选择您想要创建的账户类型"
+-1544517843="使用安全连接(TLS)"
+797029072="在服务器上保留邮件"
+78657381="选择要从什么程序中导入"
+-1651532393="导入联系人"
+-1813576765="导入邮件"
+1845068602="浏览..."
+-1385841870="您是否想要 Wand(密码管理器)保存密码?"
+339628160="您可以下次用 Ctrl+Enter 或单击 Wand 按钮登录。"
+464171249="此页面不再询问"
+462839326="选择您想要使用的用户名。"
+57541395="请输入一个 Web 地址或者从列表中选择一个"
+-1047096046="邮件过滤器"
+-2061349988="欢迎使用 Opera"
+1612275836="继续上次的页面"
+1460510403="继续保存的会话"
+-1760565253="以首页启动"
+-82217585="不打开标签启动"
+-1142227500="姓名"
+1026585507="额外的电子邮件地址"
+1880162529="图片 URL"
+-1142404932="图标"
+-348224542="账户名称"
+-1115791672="全名"
+-39358979="电子邮件地址"
+-255067037="回复到"
+-1840214134="NNTP 服务器"
+-1530318101="服务器"
+-1635866954="端口号"
+278019236="安全连接(TLS)"
+-1213125907="寄出 SMTP 服务器"
+-1940221560="如果邮件已经下载则标为已读"
+-1600034694="收取时下载邮件体"
+68381463="保存邮件体的本地副本"
+82183132="每隔多少分钟检查邮件"
+-1602521967="手动收信时包含此账户"
+292202002="新邮件到达时播放声音"
+-1706007866="IMAP 根文件夹的路径"
+-1726997921="对寄出的邮件自动换行"
+1748463647="队列邮件(不立即发送)"
+-949195674="签名"
+-1147674967="IMAP 已发文件夹"
+-792494751="发送邮件时添加联系人"
+; Manage accounts
+746313816="新建..."
+
+; Manage bookmarks
+-1304949343="新建..."
+
+-113980259="编辑..."
+-1304960797="剪切"
+546567028="粘贴"
+-421823748="将当前页面设为首页"
+228653310="还原到 Opera 自带首页"
+-1430948923="使用在此输入的地址"
+-1135957070="首页地址"
+539821223="出错时打开控制台"
+; MDI/SDI switch
+-145520852="在新窗口中打开标签"
+
+-2084292420="皮肤文件"
+-793134482="启用特殊效果"
+808098795="导入"
+-207624035="下载"
+; Used for outgoing properties in E-mail account properties dialog
+-928603328="收信后发送队列中的邮件"
+
+; Shown if a server message is sent to the authorization dialog in M2
+-1973653085="服务器消息"
+
+1234683260="您确定想要结束本次 Opera 会话吗?"
+906143915="对此页面"
+1966823412="对整个服务器"
+837999419="浏览文件夹"
+-710097434="订阅新闻组"
+1029105296="订阅 IMAP 文件夹"
+603725896="当前下载"
+793558111="如果您关闭 Opera 的话，正在下载的文件也将同时中断。\n您确定想要关闭 Opera 吗?"
+1542282257="属性"
+; What to do when mid clicking outside a link. Currently only used on Linux
+731783015="选择鼠标中键单击操作"
+
+; currently only used on Linux
+875866297="从剪贴板粘贴文本"
+1965323504="开始平移"
+1774522061="允许水平平移"
+
+; What do to when mid clicking on a link.
+1352230307="选择单击链接的操作"
+
+748752984="不打开链接"
+662039849="打开"
+-445280252="在新标签中打开"
+-1592856997="在后台标签中打开"
+704798303="在新窗口中打开"
+1295478975="在后台窗口中打开"
+946460287="选择您喜爱的皮肤和图标大小"
+1205059253="Opera 标准"
+-675042855="传统 Windows"
+-1059799033="我的皮肤"
+-35159543="选择您喜爱的工具栏设置"
+1309858860="标准工具栏"
+-368017326="我自定义的工具栏"
+-2049979925="在 my.opera.com 上还有更多的皮肤和工具栏设置"
+765543097="您想对此 cookie 做什么?"
+; Dialog box title.
+-74943979="中键单击选项"
+
+783261691="查看"
+1549250714="证书管理器"
+350979459="证书颁发机构"
+1212973748="当前密码"
+591201435="新密码"
+675284689="确认新密码"
+1344443447="打开方式"
+177815783="下载"
+523656101="书签"
+-1524059248="管理联系人"
+869886902="默认"
+1593201402="服务器管理器"
+1854106413="Wand 登录"
+284052646="使用普通 Cookies 的默认值"
+1150026095="将这些设置应用到整个域名"
+-1010146047="接受该服务器/域名的 Cookies"
+-1734148758="接受来自该服务器/域名的全部第三方 Cookies"
+-421726267="Cookies"
+-1601094720="服务器属性"
+23986966="管理 Cookies..."
+-465766087="管理 Wand 密码..."
+-1817791195="清除书签的上次访问时间"
+1653710111="选择字体"
+-1680267981="斜体"
+-1859325501="下划线"
+603566913="上划线"
+1883282023="删除线"
+1633756476="颜色"
+-1311010849="范例"
+-421878363="安全协议"
+-265178759="选择要启用的密码编码"
+-1144678240="查找内容"
+-1145004181="查找下一个"
+1358260818="匹配整个单词"
+-1269351212="区分大小写"
+721461702="向上搜索"
+-307830759="向下搜索"
+2061737916="以保存的会话启动"
+795361544="输入“g opera”将使用 Google 搜索引擎搜索 Opera"
+; Setting in dialog for creating new search.
+420293095="用作快速拨号搜索引擎"
+
+-1066839922="皮肤"
+1490925320="大小"
+-1573715592="工具栏和菜单"
+548649135="重命名"
+-977491054="副本"
+686346="删除"
+79996673="进度栏"
+-1230900508="鼠标和键盘"
+-1637909911="编辑..."
+-453803737="显示工具提示"
+-606205635="新建标签"
+-880381345="图像平滑缩放"
+1757193435="隐藏用 Opera 打开的文件类型"
+-1543329359="默认应用程序"
+343300580="Opera 处理的文件类型"
+831880020="Opera 处理的协议"
+; HTML documents
+274605458="HTML 文档"
+
+; Default application
+-1293166674="XML 文档"
+
+; URL shortcuts
+1508498686="URL 快捷方式"
+
+; Default application
+-1293185325="GIF 图像"
+274672707="JPEG 图像"
+-1293175358="PNG 图像"
+-1293190628="BMP 图像"
+-1293166684="XBM 图像"
+-1429363389="mailto"
+
+1866136455="文件    编辑    查看    书签    工具    帮助"
+-1014019772="使用 Opera"
+642269215="输入的地址"
+1873534961="浏览的地址"
+-1579439409="内存缓存"
+801196310="检查文档"
+-675646986="检查图像"
+637653122="检查其它"
+-1428448501="普通 Cookies"
+1433454048="第三方 Cookies"
+-396198455="Wand"
+-1696552840="启用 Wand"
+-1148334="主密码"
+498549961="安全协议..."
+-103159331="管理证书..."
+; Currently only used on Linux
+-947824666="粗细"
+
+; Open application (source viewer etc) in a terminal
+591114908="在终端中打开"
+
+; External news program
+-2089094003="新闻程序"
+
+; Label for image dropdown box
+4560907="图像"
+
+; Label for favicon dropdown box
+1301299569="页面图标"
+
+; Label for java path text field
+-800347417="Java 路径"
+
+; Button text for testing correct Java path
+860203344="校验 Java 路径"
+
+; Dropdown menu string
+-142387607="嵌入的图标和收藏图标"
+-502845958="只有嵌入图标"
+-1172880243="不显示图标"
+
+; String in message box when testing and path is correct
+986517624="Java 路径好像是有效的目录。"
+
+; String in message box when testing and path is not found
+782709632="找不到有效的 Java 安装。"
+
+; String in message box when testing and an alternate path has been found
+-204038994="下面的目录可能更好。换用下面的目录吗?"
+
+; String in message box when testing and all failed
+1709230649="输入另外的目录，然后再试一次。"
+
+; Dialog caption and label string for plug-in path dialog box
+1886033443="插件路径"
+
+; Sub-paths of the plug-in path string
+-1096095128="路径"
+
+; On top of a list showing all detected pug-ins
+-902159324="检测到的插件"
+
+; Button text of a button starting a plug-in search
+1366072352="查找新插件..."
+
+; Button text of a button starting a dialog whe one can change the plug-in
+; path
+-1324863160="更改路径..."
+
+; Dialog title of a dialog that detects plug-ins
+-1022104205="插件关联"
+
+; Text above a list box
+-1696719886="选择您想要关联的插件。"
+
+; filedialog title
+1101996933="选择新的 Opera 书签文件"
+
+; filedialog title 
+-1125805445="选择新的 Opera 联系人文件"
+
+; filedialog title
+102729404="选择 Opera 书签文件"
+145418962="选择 Opera 联系人文件"
+673786110="导出 Opera 书签..."
+1594379476="导出 Opera 联系人..."
+-1686314754="Opera 书签另存为"
+-657378444="Opera 联系人另存为"
+65483378="将 Opera 书签导出为 HTML"
+268402344="Opera 联系人另存为 HTML"
+-1975244422="将选中的 Opera 书签另存为"
+176757744="将选中的 Opera 联系人另存为"
+1538992238="将选中的 Opera 书签另存为 HTML"
+975705252="将选中的 Opera 联系人另存为 HTML"
+1449493677="选择要导入的 Opera 书签"
+-1505726813="选择要导入的 Opera 联系人"
+1074670505="选择要导入的 Netscape 书签"
+890314776="选择要导入的 Internet Explorer 收藏夹"
+-781848516="选择要导入的 Konqueror 书签"
+1959700428="选择要导入的 KDE1 书签文件夹"
+
+; Filedialog title
+13914639="选择声音文件"
+606324906="选择语言文件"
+-1096883633="选择样式表文件"
+
+; Parttern string to be used in a file dialog box
+1292246144="语言文件|*.lng|"
+
+; Dialog title 
+138765038="编辑键盘设置"
+
+; Dialog title
+627005670="编辑鼠标设置"
+-1683022317="编辑语音设置"
+
+; Message box string shown when launching external programs
+-423410334="您尚未指定外部帮手程序。您想要现在修改配置吗?"
+
+; Used in dialog box text
+546926638="电子邮件客户程序"
+
+; Shown in error dialog box
+168337445="无法启动外部帮手程序。您想要现在修改配置吗?"
+
+; One of the authentication methods in M2
+1353894976="自动"
+-1645672767="纯文本"
+
+; Used in first time dialog box
+927730358="更多..."
+
+; Title of first time dialog box
+-2099957441="首次使用设置"
+
+; This string will be used to add custom filter types to filesdialogs.
+; Example: PHP becomes PHP files (*.PHP) Note that %1 and %2 must be used
+-208367524="%1 文件(*.%2)"
+
+; File dialog title
+1683506629="导入证书"
+-77827252="导出证书"
+
+-1869005731="清除"
+1093187033="最小化"
+-1320166808="仅从此视图删除。快捷键: Ctrl+X"
+-565593601="输入管理器"
+263870417="为代理启用 HTTP 1.1"
+181840283="展示模式"
+94784750="平滑滚动"
+1952261132="默认模式"
+-999933412="配置模式..."
+-1632714434="允许表单样式"
+-1129052357="允许滚动条样式"
+2080299295="删除邮件前警告"
+1387547132="语音首选项"
+623308622="谈话按键模式"
+-648174627="谈话键"
+-1054689194="语音日志级别"
+-1452178485="当我单击鼠标按钮时停止计算机语音"
+1713137313="注意: 设置中的更改需要重新启动 Opera 才能生效。"
+; General title in message boxes that tell we could not saved a file
+-435323275="保存失败"
+
+; Messagebox string telling saving failed for a hotlist file
+-169802367="无法保存快捷栏文件。"
+
+; General message box string asking user to try action once more
+1887553789="再试一次吗?"
+
+; Message box text
+1651558381="关闭全部标签吗?"
+865288575="关闭其它标签吗?"
+
+; Dialog title for dialog box that will autoreset opera in kiosk mode
+1933534860="Opera 重置"
+
+; Dialog title string. Keep in sync with corresponding menu entry
+-84340266="管理书签"
+
+; Dialog title used when user wants to do something that requires online
+; mode (eg. fetching mail)
+1122159696="离线"
+
+; General dialog button string 
+-718693395="继续"
+
+; General dialog button string
+1503565286="暂停"
+
+; Caption for Reindex mail dialog box
+-676350439="重建邮件索引"
+
+; Dialog caption javascript options dialog
+-1656874521="JavaScript 选项"
+
+1190570499="对整个服务器从不使用"
+1074068488="正在处理邮件(%li%%)(总计:%li)"
+-547677647="正在处理邮件(%li%%) %li/%li (总计:%li)"
+-649190548="导入完成。共导入了 %li 封邮件。"
+1553657846="选择要导入的文件"
+; for STRICT_CACHE_LIMIT when page is too huge
+1750684824="装入已终止，原因是达到了内存限制"
+
+; Dialog title when downloaded skin can not be used
+1240228837="不兼容的皮肤版本"
+
+; Dialog title when downloaded setupfile can not be used
+-965546431="不兼容的安装程序版本"
+
+; Dialog text when downloaded setupfile can not be used
+179105092="所选的安装程序无法应用。请选择适用于您正在使用的 Opera 版本制作的安装程序。"
+
+1081736327="中键单击选项..."
+; Dialog title for save as file dialog
+1400788506="带图像另存为"
+
+-1371611881="Opera 的免费版本将显示广告。您可以在 Opera 首选项中更改您首选的广告类型。"
+1178722403="显示 Google 提供的相关文字广告及相关搜索"
+-935523602="您的浏览器请求信息，包括您正在浏览的网站的地址，都将发送给 Google 以选择与其相关的广告。Google 和 Opera 会绝对保护我们用户的隐私。"
+841445049="更多内容"
+-2105932865="显示大众内容的图像广告"
+-1956091003="允许脚本检测右键单击"
+-1823538490="自动抄送"
+-47229048="自动暗送"
+; Used in the dialog after having spellchecked the text
+1413665899="拼写检查完成"
+
+; Caption of spellcheck dialog
+-885735258="拼写检查"
+
+; 
+1593001313="订阅 RSS 新闻推送"
+1028884233="聊天室"
+2120209365="名称"
+1742182586="地址"
+1465984542="<新账户>"
+
+218298848="谈话时按住键"
+218298829="按下键，然后谈话"
+-1386615954="谈话无需按键"
+-1491985673="无"
+; The key 'Insert'
+-1471440420="Insert"
+
+; The key 'Scroll Lock'
+-466759489="ScrollLock"
+
+-1697935102="自定义"
+2054073447="日志已禁用"
+2054073448="详细"
+2054073449="信息"
+2054073450="警告"
+2054073451="苛刻"
+1757006830="语音设置"
+; Caption for the Encoding Mismatch dialog
+607478865="编码不匹配"
+
+; Text in the Encoding Mismatch dialog
+-1948757080="您当前的设置无法发送这些字符。您是否想要将此邮件以 Unicode(UTF-8) 编码发送? 如果您选择[否]的话，下面的字符将会被更改为问号。\n\n%s"
+
+; Used in print dialog box for selecting print range
+-41907442="页面范围"
+
+; Name of the month January
+1832952322="一月"
+
+; Name of the month February
+2081226600="二月"
+
+; Name of the month March
+-1386201093="三月"
+
+; Name of the month April
+1486311936="四月"
+
+; Name of the month May
+218294959="五月"
+
+; Name of the month June
+-1386287270="六月"
+
+; Name of the month July
+-1386287316="七月"
+
+; Name of the month August
+1809201313="八月"
+
+; Name of the month September
+557650799="九月"
+
+; Name of the month October
+-214471082="十月"
+
+; Name of the month November
+228168582="十一月"
+
+; Name of the month December
+-1527849153="十二月"
+
+; The error message when a validated field has the wrong type. Any %1 will
+; be replaced by the entered value.
+-1410234807="格式错误!"
+
+; The error message when a validated field is below the specified min value.
+; Any %1 will be replaced by the entered value and any %2 with the min
+; value.
+1357557748="%1 太低，您可以使用的最低值是 %2。"
+
+; The error message when a validated field is above the specified max value.
+; Any %1 will be replaced by the entered value. Any %2 will be replaced by
+; the max value.
+1921772370="%1 太高。您可以使用的最高值是 %2。"
+
+; The error message when a validated field exceeds the specified precision.
+; Any %1 will be replaced by the entered value.
+706455028="数字太精确!"
+
+; The error message when a validated field has a maxlength that's violated.
+; Any %1 will be replaced by the entered text length and any %2 will be
+; replaced by the maxlength value
+1400270323="输入的文本太长! 您使用了 %1 个字母，但长度限制为 %2。"
+
+; The error message when a validated field has a pattern that's violated.
+; Any %1 will be replaced by the entered value.
+1723208773="%1 不是此页面请求的格式!"
+
+; The error message when a required field is left empty.	Any %1 will be
+; replaced by the entered value (which will be empty so it would be
+; useless to include %1.
+1142806355="此项不能为空"
+
+; The error message when a script has set the "doesn't validate" flag on a
+; field. Any %1 will be replaced by the entered value.
+-2131281313="值 %1 不允许页面上的脚本使用!"
+
+; When using file upload fields for multiple files, the button should say
+; "Add" instead of "Browse" so that the user understands that what she
+; selects appends rather than replace the previous files
+1730601711="添加文件"
+
+; Account properties
+-65655351="DCC 端口池起始值"
+-429507502="DCC 端口池结束值"
+754788867="使用服务器进行自身 IP 查阅"
+
+-647383136="浏览器"
+-262871379="占位符"
+-524159221="我的按钮"
+314760960="建议"
+853726507="使用拼写检查器"
+1413844241="拼写检查程序不可用。您是否想要查看关于如何设置拼写检查的信息?"
+794187398="连接后执行命令"
+1409451239="正在获取房间列表..."
+132497810="在后台打开私聊窗口"
+1402382879="加入"
+1818983654="编辑"
+1092515866="刷新"
+267726972="单击此窗口外的任何工具栏可编辑其属性"
+1252634709="放置"
+1188997476="自动换行"
+1830359827="按需显示"
+229965211="自定义时显示隐藏工具栏"
+-538710540="默认"
+1982306332="单击此窗口外的任何工具栏可查看其默认值"
+-151949160="将工具栏重置为默认值"
+748779443="按钮和输入框"
+7907189="将按钮或输入框拖曳到此窗口外的任何工具栏上"
+-1198942416="更新"
+1522105464="规则"
+2014349306="根据从过滤器中添加和删除的邮件加以学习"
+1798229294="新建规则"
+157340274="删除规则"
+-1613937223="将邮件标为已过滤"
+2036309980="限制仅在父项中过滤"
+1393273373="输入新昵称"
+2036801944="需要密码"
+836858572="只有管理员可更改话题"
+1608578327="只有管理员或语音用户可以说话"
+-1786310643="在房间列表中隐藏房间"
+2002114629="被密码保护"
+340060262="用户限制"
+-473551025="编辑规则"
+-486852926="过滤下列邮件"
+775957656="昵称"
+-2139409621="带名称启动命令"
+-18299322="拼写检查"
+-292512771="原始文字"
+1130167323="替换为"
+-1036950648="忽略"
+-1197348448="替换"
+-27950922="学习"
+175198504="语言"
+1470744232="Cookie 信息"
+-2038064953="名称"
+1472820163="值"
+-1992287194="过期"
+1842028817="上次访问"
+1245439693="安全"
+-792642542="仅发送给创建者"
+2041948364="版本"
+1601195281="导入到:"
+-1870439386="昵称"
+; Dialog title for config dialog
+1584126886="保存文件的句柄"
+
+; Dialog title for edit dialog
+-367301013="编辑文件句柄"
+
+640393889="将邮件导出至文件"
+-416439484="允许语音"
+-150274318="使用语音控制 Opera 用户界面"
+776192552="OperaNet, 欧洲"
+-1696783537="Undernet, 欧洲"
+1619131611="Undernet, 北美洲"
+2119891397="IRCnet, 非洲"
+-1015579971="IRCnet, 亚洲"
+-2000738545="IRCnet, 欧洲"
+884003882="EFnet, 亚洲"
+766807996="EFnet, 欧洲"
+-649098072="EFnet, 北美洲"
+-61585840="DALnet, 亚洲"
+1811751778="DALnet, 欧洲"
+914672014="DALnet, 北美洲"
+-397576462="FreeNode, 欧洲"
+-169772258="FreeNode, 北美洲"
+-925702702="FreeNode, 大洋洲"
+315804262="FreeNode, 南美洲"
+-2039057856="不折行"
+-53452101="显示为多行"
+-1281917585="显示扩展器菜单"
+2134178778="浏览器查看"
+1158416313="邮件查看"
+; An outstanding request has been left without response for a period longer
+; than the selected timeout time 
+-1560909860="服务器响应设置的时间失败"
+
+; The HTTP connection has been idle for a period longer than the selected
+; timeout time
+-77029109="连接已中断"
+
+; A message to display when an email field has a validation error. Any %1
+; will be replaced by the entered value.
+1835716664="%1 需要合法的电子邮件地址"
+
+; A message to display when a URI field has a validation error. Any %1 will
+; be replaced by the entered value.
+-1410232701="%1 不是合法的 URI"
+
+; The message to display when a file exceeds the maxlength set for it. Any
+; %1 will be replaced by the name of the file and %2 is replaced by the
+; max length.
+-296109318="文件 %1 太大。文件必须不能超过 %2 字节。"
+
+; The message to display when the user has entered something that is not a
+; number in a number field. Any %1 will be replaced by the name of the
+; file.
+811237145="%1 不是数字!"
+
+; The title for the dialog that says that validation failed.
+-876707285="表单校验失败"
+
+; For license dialog
+1699644116="我同意"
+534677430="我不同意"
+
+904112737="潜在的安全隐患"
+2048468288="您正在安装的文件可能会改变 Opera 的行为方式，这样可能会导致 Opera 变得不稳定或不安全。\n\n只能从您知道并相信的来源中下载和安装控件。您想要继续吗？"
+; Dialog that is shown when Clear private Data is executed when active
+; transfers are kept.
+-1529507154="保留运行中的下载"
+206201073="激活的下载尚未删除。"
+
+1474178780="踢出聊天用户"
+818006780="输入您想要将 %s 踢出聊天室的原因"
+-1164140259="%u 间房"
+-1260964611="从新闻推送获取名称"
+; Dialog shown when Java is needed, but no Java RE is available
+1478264425="Java 没有安装"
+-1390596244="您需要下载并安装 Java 才能查看此页面中的全部内容。您想要现在下载 Java 吗?"
+
+; Text shown when no new plug-ins were detected
+957511760="没有检测到新插件"
+
+; Dialog shown when voice libraries is needed.
+1586776125="语音库未安装"
+
+; Dialog shown when Voice libraries is needed.
+814528064="Opera 需要额外的文件才能启用语音。您大约需要下载 10.5MB 的语音库。您想要现在下载并安装语音库吗?"
+
+; File filter when native save as dialog can save as html and save as html
+; with inline images. Note save with inlines must be the second option.
+-1133894039="HTML 文件|*.htm;*.html|带图像的 HTML 文件|*.htm;*.html|Web 存档（单个文件）|*.mht|文本文件|*.txt|所有文件 (*.*)|*.*|"
+
+; Gender option of TTS engine
+1403275436="性别"
+
+; Button name for going to advanced voice preferences 
+-194548092="高级..."
+
+; Heading for the dialog that prompts for download of a new version.
+1694559576="新版本的 Opera 已经推出"
+
+; The text in the dialog that prompts for download of a new version.
+1226095735="Opera 的新版本 %s 已经推出。您想要现在升级吗?"
+
+; The default text that prompts for download of a new version.
+-127989377="新版本的 Opera 已经推出。您想要现在升级吗?"
+
+; The heading for the dialog that informs the user that no new version has
+; been released.
+-681030092="您的 Opera 已为最新"
+
+; The dialog that informs the user that no new version has been published.
+1874406227="您正在使用最新版本的 Opera。"
+
+; Header for the dialog that informs the user that the version check failed.
+-6600189="无法完成检查"
+
+; Text for the dialog that informs the user that the version check failed.
+1952053638="检查 Opera 的新版本时发生了错误。"
+
+; Part one of a warning string that informs the user that a file is missing
+; and instructs on how to fix it
+-1678483974="文件"
+
+; Part two of a warning string that informs the user that a file is missing
+; and instructs on how to fix it.
+-1678483973=" 可能被过度敏感的反病毒程序所删除。请在关闭此对话框之前恢复此文件，以免丢失电子邮件。"
+
+; The heading for the string that warns a user of a missing file.
+158088994="警告!"
+
+; Header for dialog used to ask confirmation of new subscription
+559835627="新订阅"
+
+; Text for dialog asking confirmation of new subscription.
+1715266015="您想要订阅 %s 吗?"
+
+; Double linebreak, used as spacer.
+-420368612="\n\n"
+
+; Comment that is appended to the new subscription confirmation dialog if
+; the new subscription is of feed type.
+1715266016="新闻推送将会被添加到相应的菜单，并且会自动检查更新。"
+
+; Text used to ask user to change to online mode if the user requests an
+; update check in offline mode.
+-1489814777="已启用脱机工作模式。Opera 需要在联机状态下访问 upgrade.opera.com 上的版本信息。\n\n您是否想要切换为联机模式?"
+
+; Header for the dialog used to ask the user to change to online mode if the
+; user requests an update check in offline mode.
+-57205480="需要访问 upgrade.opera.com"
+
+; Question given to a user who uses functionality that requires a mail/IM
+; account without such an account set up.
+1631718152="在继续之前，您必须首先创建一个账户。您现在想要创建一个吗?"
+
+; Header for a dialog that asks the user if he wants to create an account so
+; that mail/IM functionality can be used.
+-1645859348="需要账户"
+
+; One of the advanced voice options.
+-530853309="非常低"
+119364286="低"
+-1051306963="中"
+-356096596="高"
+-338440751="非常高"
+-153032965="静默"
+867159885="非常小"
+-1818297560="小"
+-392871923="中"
+-1818548640="大"
+866908805="非常大"
+
+; Alternative error message when the version checking fails.
+216227765="无法分析收到的版本信息文档。"
+
+; Alternateive error message when the version checking fails.
+1324867398="无法连接到服务器获得最新版本的信息。"
+
+; Text used to signal a user that an import has finished.
+85274702="导入已完成。"
+
+; An option in the voice section of the preferences that sets the voice
+; gender to male.
+-150812152="男"
+
+; An option in the voice section of the preferences that sets the voice
+; gender to female.
+-1294846189="女"
+
+; An option used in the preferences dialog to select advanced MDI-mode usage
+; of Opera.
+-825311753="高级 Opera 工作区"
+
+; String used in the first time setup to ask the user about how he wants his
+; advertisements.
+689545881="Opera 的免费版本将显示广告。请选择您首选的类型。"
+
+; Header for the customize dialog.
+-1931057420="自定义"
+
+; Text for the Panels tab in the customize dialog.
+-341120270="面板"
+
+; Text used for describing options in the customize dialog.
+906330811="选择您想要显示的面板"
+
+; Text used for describing an option in the customize dialog.
+-2093641328="选择在哪里显示面板"
+
+; Checkbox text for selecting whether to show the panel toggle bar. Used in
+; the customize dialog.
+1177466122="在窗口边缘显示面板切换柄。"
+
+; Text used to explain an option in the customize dialog.
+-1676976079="Opera 可将书签显示为 Web 面板"
+
+; Button text used in the customize dialog.
+1545264142="添加 Web 面板..."
+
+; Nutton text used in the customize dialog.
+-1089223035="获得 Web 面板..."
+
+; Text for the Toolbars tab in the Customize dialog
+31686709="工具栏"
+
+; Text for describing an option in the Customize dialog.
+-1225401794="选择您想要显示的标准工具栏"
+
+; Checkbox text used in the Customize dialog.
+338512283="开始栏"
+
+; Checkbox text used in the customize dialog.
+-1347675637="查看栏"
+
+; The text on the buttons tab in the Custiomize dialog.
+-738069602="按钮"
+
+; Button text for a button in the Clear private data dialog.
+-858999817="高级"
+
+; Checkbox text in the clear private data dialog
+-1073980337="关闭全部标签"
+
+; Checkbox text in the print dialog.
+-1544951481="适合纸张宽度"
+
+; Checkbox text for the print options dialog
+-561487535="纸张和方向"
+
+; Checkbox in the Script options dialog
+-1947317945="允许脚本隐藏地址栏"
+
+; Button to select current page as startpage in Preferences dialog
+658922130="使用当前页面"
+
+; Checkbox text used in Search section of Preferences dialog.
+1645305784="在页面中使用嵌入式查找"
+
+; Label for a dropdown that selects color scheme in the Skins section of the
+; Preferences dialog.
+621616780="配色方案"
+
+; Title for the Advanced voice options dialog
+641258805="高级语音选项"
+
+; Checkbox text in the Advanced voice options dialog
+-273685739="启用高质量的文本到语音转换"
+
+; Label in the Advanced voice options dialog.
+2066485008="音准"
+-119783831="速度"
+804339312="音量"
+1161907270="可信度"
+
+; Title for the Report site problem dialog.
+354948565="报告网站问题"
+
+; Label for the Page address edit field in the Report site problem dialog.
+-919951574="页面地址"
+
+; Label for the Comment edit field in the Report site problem dialog.
+-261638842="评论"
+
+; The label for the configuraton edit field in hte Report site problem
+; dialog.
+826837739="配置细节"
+
+; Message used in profile management.
+-1538800344="Opera 没能将您现有的设置文件(opera6.ini)复制到配置文件目录"
+569805750="Opera 没能升迁下列会话文件:\n\t源文件: %s\n\t目的文件: %s\n\n将会在以后的会话中跳过。"
+
+; Notification for display on the clear private data dialog
+932967191="继续进行将会执行下面指定的操作。如果您未更改默认操作，打开的全部标签都将关闭，进行中的文件下载也将中断。"
+
+; The title of the Add bookmark dialog.
+-1486497369="添加书签"
+
+; The label for the create in folder selector in the Add bookmark dialog.
+-764386606="创建于"
+
+; Text for the "New folder..." button in the Add bookmark dialog.
+1124973637="新建文件夹..."
+
+; The "Show in panel" checkbox in the "Add bookmark" dialog. (Also in the
+; "Bookmark properties" dialog.)
+1585107057="在面板中显示"
+
+; Title for the "Folder properties" dialog.
+-1636606016="文件夹属性"
+
+; The expand button that opens the advanced delete private data section.
+1947781954="高级 >>"
+
+; The collapse button that hides the advanced delete private data section.
+1621400992="高级 <<"
+
+; Used in the bookmark properties dialog when creating a new folder.
+384175349="输入即将创建于“%s”中的新文件夹名称。"
+
+; Dialogue shown when a plug-in is needed, but the plug-in is unavailable.
+; Input string: plug-in name or empty string
+-1078185962="%s 插件未安装"
+
+; Dialogue shown when a plug-in is needed, but the plug-in is unavailable.
+; Input string 1: plug-in name or empty string. Input string 2: mimetype
+; or filename or empty string. Redirection goes to the PLUGINSPAGE site as
+; specified by the web site.
+2068707417="您需要 %1 插件才能查看此 %2 内容。\n\n您想要现在下载插件吗?"
+
+; Dialogue shown when a plug-in is needed, but the plug-in is unavailable.
+; Input string 1: plug-in name or empty string. Input string 2: mimetype
+; or filename or empty string. Redirection goes to Opera's plugin support
+; site.
+1008096029="您需要 %1 插件才能查看此 %2 内容。\n\n您想查看更多插件安装信息吗?"
+
+; Shown as tooltip and status information. Input string: plug-in name or
+; empty string
+-1247162120="%s 插件未安装。\n单击插件内容区域可获得更多信息。"
+
+-1094853110="可接受的连入连接数"
+; Security
+327043006="启用 TLS 1.1"
+
+; Displayed when trying to save to a directory not found
+2134500599="目录 %s 不存在，您是否想要创建?"
+
+1295587160="找不到目录"
+-887232073="创建目录失败。"
+-1732400104="目录错误"
+; Save mail attachments dialog
+1951656416="保存附件"
+-1582395123="保存到"
+926316730="选择"
+
+; Notification message when deleting an IMAP folder
+51027645="连同邮件一起删除 IMAP 文件夹"
+1313469845="您确定想要从服务器上删除文件夹吗?"
+
+; Error message for version checking when the language was not found.
+-299853883="当前设置的语言不在支持的语言列表中。因此，Opera 无法确定哪一个是适用于您的语言的最新版本。"
+
+; Image properties dialog
+894758644="图像输入设备制造商: "
+-537240249="图像输入设备型号: "
+1782090563="文件更改日期和时间: "
+
+; image properties dialog
+1426775258="图像描述: "
+
+; Image properties dialog
+1479283073="使用的软件: "
+-1014546323="图像创建人："
+587273903="版权持有人: "
+
+; New prefs dialog
+869477488="广告"
+-786929893="浏览"
+1382228678="搜索"
+155853738="通知"
+-412899669="内容"
+998762834="Java"
+-71786703="插件"
+-1404813414="字体"
+1789955483="下载"
+-1148201765="程序"
+1520601154="历史"
+-412033123="Cookies"
+2090848296="安全性"
+524226522="网络"
+-2047203530="工具栏"
+-1396871304="菜单"
+1782291871="快捷键"
+-1396504391="鼠标"
+-1385844698="语音"
+
+; Save attachments dialog
+-1694076281="附件"
+-671940693="将附件保存到文件夹"
+
+; Security information dialog. Warning message
+-1378043666="您与服务器 %s 的通讯已加密，但是出示的证书存在错误:"
+
+; Security information dialog,
+-428749323="Opera 检测到服务器证书的问题:"
+
+; Security information dialog
+-1064565279="您已经要求使用来自此颁发者的证书时给出警告"
+
+; Security information dialog.
+-636929872="服务器名称与证书名称不匹配。"
+
+; Security information dialog
+-1023477417="证书不是由信任的颁发机构签名的。"
+
+; Security information dialog.
+-1513738731="证书已过期。"
+213526677="证书尚未生效。"
+-491206259="服务器请求了匿名连接。服务器的身份无法验证。"
+-1051855115="您与服务器的通讯未加密，也可能出现安全隐患。"
+
+; Security information dialog
+-152791040="服务器请求了不安全的加密级别。"
+181229703="缺少错误规范。"
+
+; Security information dialog.
+2048879037="\n通过此连接发送敏感信息不安全!"
+-1975500735="您与服务器 %s 的通讯已加密。Opera 确定加密程度为强 (3)。"
+2066355973="您与服务器 %s 的通讯已加密。Opera 确定加密强度为中强 (2)。"
+1520679532="您与服务器 %s 的通讯已加密。Opera 确定加密程度为弱 (1)。"
+343673090="Opera 已将与服务器 %s 的连接确定为不安全。"
+1184910970="\n\n未找到证书数据。\n身份验证信息不可用。"
+449890415="\n\n服务器 %s 已通过电子证书表明自己的身份。签名并验证该证书的签发者包含在此浏览器的可信任机构列表中。"
+
+; Security information dialog
+-960137523="%s 的安全信息"
+
+; Security information dialog.
+-1992432="安全信息"
+
+; Setup apply dialog.
+-1330746855="下载 Opera 设置"
+-2031478350="正在下载设置..."
+
+; setup apply dialog
+-1877408056="安装设置时发生了错误"
+
+; Setup apply dialog.
+-38727426="您仍然想要保留此设置吗?"
+
+; Setup apply dialog
+780004635="应用下载的设置"
+23632286="您想要保留此设置吗?"
+2146847918="设置名称:"
+
+; Customize toolbars
+-1410224289="外观"
+339021751="显示已安装的皮肤"
+-1319908649="查找更多皮肤"
+
+; Customize toolbars.
+-918901646="图标大小"
+
+; Proxy servers dialog
+-257861009="本地服务器使用代理服务器"
+
+; New preferences dialog.
+-1488250464="常规"
+1696547221="启动"
+-1451906422="Opera 可以以您喜爱的网页启动，也可以继续上次的浏览过程"
+159373703="主页"
+309358858="选择您想如何处理弹出窗口"
+1610401138="标签"
+1571683603="使用标签式浏览"
+484695957="每个标签显示关闭按钮"
+1939690568="弹出窗口"
+-97232698="语言"
+1561650147="选择 Opera 和网页的首选语言"
+-992152372="Wand"
+-1630399912="单击 Wand 按钮即可填入已存的用户名和密码"
+-1501902822="让 Wand 记住密码"
+-1346479576="密码"
+514143411="Opera 可以用您的个人信息自动补全表单"
+2086682696="主页"
+1502651226="移动"
+-1895425041="网页"
+-381275657="选择新标签的图像和缩放设置"
+1343699480="图像"
+-202241757="页面缩放"
+-1728577538="适合宽度"
+1663560460="选择未指定样式的页面所用的字体和颜色"
+620509537="普通字体"
+1820494909="等宽字体"
+-336554944="背景颜色"
+1600108886="普通链接颜色"
+1325017104="对普通链接加下划线"
+-1898094009="已访问链接的颜色"
+418045164="对已访问链接加下划线"
+-863515400="高级"
+-1630992624="免费使用 Opera，但显示您首选的广告类型"
+146645394="选择设置，或从 my.opera.com 下载更多设置"
+1302976222="启用语音控制浏览"
+-1060724728="细节..."
+-377368106="显示新邮件的通知"
+603084706="显示屏蔽弹出窗口的通知"
+1546458710="显示已完成下载的通知"
+-86060268="详细选择字体"
+-526536797="用户 JavaScript 文件"
+281957860="样式选项..."
+1070665610="电子邮件应用程序"
+673600661="选择其它协议的帮手程序"
+-1653108728="Cookie 是在您计算机上存储的小文件。它们可允许网站记住您的某些信息。"
+1424359680="选择一个主密码，以便保护您的个人证书"
+-179853799="设定主密码..."
+-1898509779="如果您不是直接连接到 Internet，请配置代理服务器"
+
+; Report site problem dialog.
+-1913876324="将有问题页面的信息发给 Opera"
+
+; Report site problem dialog
+-1888582903="问题类型"
+
+; Security information dialog
+323109026="常规"
+637320366="证书持有者:"
+1156605963="证书发行者:"
+-316384395="生效时间:"
+260004291="过期:"
+1129088703="加密协议:"
+1889240873="细节"
+-1763615587="服务器证书链"
+-1971831697="客户证书"
+886494597="客户证书链"
+
+; Option in the progress bar type dropdown in the customize dialog
+274728955="简单"
+
+; Fallback name for the server when a url is not avilable.
+115772028="<未知服务器>"
+
+; Test shown in message box when downloading an executable file
+-651180256="警告\n文件为可执行的或者包含可执行的脚本。\n您可能想要在使用该文件之前先将其保存到磁盘中。\n\n"
+
+; Text shown in a message box on startup if KDE window manager is running
+1469517564="Opera 检测到 KDE 正在运行。\n\nOpera 的某些快捷键(如 Ctrl+F8)可能无法工作，因为 KDE 已经将这些快捷键占用。\n\n您可以在 KDE 控制中心中修改 KDE 的快捷键。"
+
+-421550874="未指定"
+-739597572="小问题"
+-739889424="大问题"
+-1869629674="站点不可用"
+; Button text in preference dialog
+-1199369534="插件选项..."
+1579098901="Java 选项..."
+
+; New preference dialog
+1609899108="其它"
+
+; Setup apply dialog
+7772866="下载语言"
+
+; Setup apply dialog.
+-377415525="正在下载语言..."
+
+; Setup apply dialog when downloaded file does not contain our header
+-94115010="下载的文件似乎已经损坏，或者不是设置文件"
+917927647="文件不可识别"
+
+; The session manager dialog
+-1610150922="管理会话"
+-829868154="打开"
+-889088669="在当前窗口中打开标签"
+
+; Save session dialog
+1994280492="会话名称"
+
+; The report site problem dialog.
+-1460294050="细节 >>"
+-959427070="细节 <<"
+
+; Ask if user wants to hand over an unknown protocol to external helper
+; application
+-182474166="未知协议"
+-786436883="必须启动应用程序 "%1" 才能打开链接：\n%2\n\n您想要继续吗？"
+
+; Import wizard: move-to-sent-dropdown
+1808463049="移至已发:"
+
+; Optional server name completion via Web search
+1219869690="站点找不到时搜索 Web"
+
+; Text showed in confirm dialog which asks user whether to call telephone
+; number clicked on
+-629745579="拨打 %s 吗?"
+
+; Filter string for the open / save dialog box that is shown when choosing
+; to import / export a newsfeed list
+-1648280647="OPML 文件(*.opml; *.xml)|*.opml;*.xml|全部文件(*.*)|*.*|"
+
+; Title for the open dialog shown when choosing which newsfeed list file to
+; import
+-814947116="导入 OPML 文件"
+
+; Title for the save dialog shown when choosing which file to export the
+; list of newsfeeds to
+-2065994088="导出 OPML 文件"
+
+1384330107="已经成功导入 %u 个新闻推送。Opera 现在将检查推送的内容。"
+-264471486="已经成功导出 %u 个新闻推送。"
+; Dialog title for customizing mail headers
+1957818719="自定义邮件头"
+
+; Title of the header list in the customizing headers dialog.
+295523494="邮件头"
+
+; Button text for moving a mail header up in the list
+158855493="上移"
+
+; Button text for moving a mail header down in the list
+1194330968="下移"
+
+; Option in header properties dialog.
+1874915862="显示联系人的姓名和地址"
+
+; Label in add custom header dialog.
+1581692330="信头名称"
+
+; Dialog title for adding custom mail headers
+1217197100="添加自定义信头"
+
+; Caption of the dialog which asks the user if voice should be enabled
+2143787877="启用语音"
+
+; This is asked when the user activates a voice function while voice
+; controlled browsing is currently switched off
+1209875579="您想要启用语音吗?"
+
+; Message that is displayed when a user tries to give a bookmark a nickname
+; that already is assigned to another bookmark
+73729813="昵称 %s 已经被其他人使用。请输入新昵称。"
+
+; A message to be displayed when a file value is not correct. %1 will be
+; replaced by the filename.
+706412336="无法找到指定文件 %1"
+
+; Title for the SI_ERR_REQUIRES_PROXY_SERVER_TITLE dialog
+545849272="需要代理服务器"
+
+; The title of the messages console window
+332672256="错误控制台"
+
+; Button which expands all nodes in the tree of the message console
+325114080="全部展开"
+
+; Button which collapses all nodes in the tree of the message console
+-826812429="全部折叠"
+
+; Download speed unit shown in the speed column of the transfer manager and
+; the transfer panel
+-1942726829="KB/秒"
+
+; SSL Certificate variation Allow Java applet requesting extended privileges
+-675488447="允许"
+
+; Dialog title for security warnings
+-362105899="安全警告"
+
+; Insecure form submit from http to http warning message
+-191381779="提交未加密的表单吗?"
+
+; Insecure form submit from https to http warning message
+1831556320="来自此 HTTPS 页面的信息将被提交到 %s 上的某个未加密页面。\n\n数据将在没有任何安全保护的情况下传输。强烈建议不要提交敏感信息。"
+
+; Insecure plugin submit from https to http warning message
+-1215948837="来自此 HTTPS 页面的信息将被提交到某个未加密页面。\n\n数据将在没有任何安全保护的情况下进行传输。强烈建议不要提敏感信息。"
+
+; Dialog shown when a plug-in is needed, but not available.
+1676586184="您需要安装 %s 插件才能查看此页面中的全部内容。您想要现在下载此插件吗?"
+
+213700059="显示空主题警告"
+464039118="站点首选项"
+-1385976707="站点"
+844988740="接受 cookie"
+427617941="仅接受来自我访问的站点的 cookie"
+1729617507="从不接受 cookie"
+-799585134="接受 cookie 之前先询问我"
+708504942="脚本"
+-238211726="允许移动窗口并更改其大小"
+-1304628437="允许提高和降低窗口"
+-454827644="样式选项"
+1786069741="管理您的搜索引擎"
+-651035234="允许不带选项卡的窗口"
+1157593703="单击选项卡以便最小化"
+-123590889="打开窗口而不是选项卡"
+-1256515340="显示窗口菜单"
+-493686618="可以针对每个站点调整内容设置"
+-106573980="管理站点首选项..."
+920136405="阻止的内容..."
+1402552211="记住访问过的地址以便填写历史记录并自动完成"
+277240996="地址"
+-1508215371="Opera 将在缓存中存储页面，以便下一次访问该站点时更快地显示"
+-1159152198="检查缓存页面是否已在服务器上更新"
+1649892997="可以针对每个站点调整 Cookie 设置"
+1722883836="选择在地址字段中输入一个单词时，Opera 应该进入何处"
+-803417268="BitTorrent 配置"
+-380065806="自动带宽限制"
+699961077="最高下载速度(KB/秒)"
+1962916322="最高上载速度(KB/秒)"
+-1899884434="来信监听端口"
+2122356204="测试"
+; Used when editing/adding search engine in preferences dialog
+819599123="搜索引擎"
+
+; Name of new search being added, used in dialog for creating new search.
+359962014="名称"
+
+; Used in dialog for creating new search.
+-458107340="查询字符串"
+-1853882022="使用 POST"
+217241825="用作默认搜索引擎"
+
+; Title of blocked content dialog.
+-1425675157="阻止的内容"
+
+1014798767="现在阻止"
+123654958="所有阻止的内容"
+; Dialog when deleting incomplete BT downloads from transfer manager.
+992581282="此 BitTorrent 存档未完全下载。您想要删除部分下载的数据文件和 torrent 文件？"
+
+; Part of the wand dialog, describes option to never save login for this
+; site.
+404929920="从不"
+
+; Part of the wand dialog, describes option to save login for this site.
+-2068167264="保存"
+
+; Part of the wand dialog, describes option to not save now, but be asked
+; again next time site is visited.
+-1850420842="现在不行"
+
+; Warning dialog when attempting to use incompatible language file.
+-818471807="语言文件与此版本的 Opera 不兼容"
+
+; Dialog when deleting search engine from preferences.
+1046540965="您确定想要删除此搜索引擎吗?"
+
+; Title for dialog when deleting search engine from preferences.
+950223247="删除搜索引擎"
+
+; Heading for cycle order preference.
+1497764988="在循环浏览选项卡时 "
+
+; Added to list entries in (network) preference dialogs so the user knows
+; the default value
+434848766=" (默认)"
+
+; Chosen keyword for edited search engine already used
+1014003663="关键字已被使用"
+
+; Warning dialog when saving a session file that overwrites previous file.
+-1486070297="您确定想要覆盖现有会话文件吗?"
+
+; Title for warning dialog when saving a session file that overwrites
+; previous file.
+-34147247="覆盖文件吗？"
+
+; Error message category used in error console.
+6251150="邮件和聊天"
+
+; 
+1742891967="控件"
+
+; Heading in blocked content dialog.
+1739305622="已在当前页面上阻止"
+1079802683="所有已阻止站点"
+
+; Display warnings. Used in console to determine verbosity.
+-711257433="警告"
+
+; Display messages. Used in console to determine verbosity.
+-583137002="邮件"
+
+; Display errors only. Used in console to determine verbosity.
+-486775461="错误"
+
+; Display information about all components. Used in error console drop-down.
+-1616093736="全部"
+
+2129648357="您的 IP: %s"
+-466765485="监听端口测试"
+; Connection test result.
+-1775012067="您可以在配置的端口上成功接受连入连接。"
+-839644512="当您测试是否可以在配置的端口上接受连入连接时，服务器返回以下错误：\n\n%s\n\n请检查您的防火墙和路由器配置。"
+
+-1027366453="该服务器的证书属于已过期的无效证书。"
+-18617160="该服务器的证书不再有效。"
+-106312803="在线验证(OCSP)请求失败。"
+-513754602="任务"
+-280506642="查看页面源代码"
+; Image properties dialog
+1961337186="图像的方向"
+42885216="曝光时间: "
+-1408115867="F 编号: "
+-1243402679="曝光程序: "
+46929343="光谱灵敏度: "
+2128426007="ISO 速率: "
+-766620010="快门速度: "
+101362878="光圈: "
+-425666545="亮度: "
+42237968="曝光偏差: "
+-1075262652="最大镜头光圈: "
+-153962479="物体距离: "
+-1771776938="测量模式: "
+1757761567="光源: "
+-545652316="闪光: "
+-1606752643="镜头焦距长度: "
+691400959="主题区域: "
+69489614="闪光灯能量: "
+1015506133="焦距平面 X 分辨率: "
+1836761654="焦距平面 Y 分辨率: "
+-1193463137="焦距平面分辨率单位: "
+2017151="主题位置: "
+1402336969="曝光指数: "
+-819736914="传感方法: "
+-431444582="自定义渲染: "
+42639894="曝光模式: "
+2124698941="白平衡: "
+1207330168="数码缩放比例: "
+2028400286="35 毫米底片上的焦距长度: "
+718779802="场景捕获类型: "
+-98579082="增益控制: "
+-1498068284="对比度: "
+-510422560="饱和度: "
+1641819821="锐度: "
+1826504158="物体距离范围: "
+
+; Title of dialog when user tries to send message with empty subject field.
+-903341252="缺少主题"
+
+; Dialog when user tries to send message with empty subject field.
+-798931713="您忘记了在邮件中添加主题。仍然要发送吗？"
+
+; Description for program preferences dialog.
+1071148326="选择用于查看源代码的应用程序"
+
+; Title for header properties dialog.
+1273725727="信头属性"
+
+; Option in header properties dialog.
+-2064944333="显示信头名称"
+1231719194="信头右对齐"
+1725152460="新建信头行"
+-1873099437="使用大字体"
+
+; Used in plug-in check dialog.
+721466468="选择要随插件显示的 MIME 类型"
+
+; Option in Wand dialog.
+-1112171041="仅为此页面保存选定内容"
+
+; The title of the widget properties dialog
+-616285128="控件属性"
+
+; Used for dialog tabs/categories
+-1404260782="显示"
+
+; Option in server name completion dialog, triggers search with specified
+; Web service if no domain is found.
+542670714="找不到域时搜索 Web"
+
+; Prompt when user has enabled userjs on https pages to verify that setting
+; was intentional.
+1540189008="您想要允许本地 JavaScript 文件控制安全页面吗？只有当您确知 JavaScript 文件包含的内容并了解安全性时，才能允许这样做。"
+
+; Error message shown if a user tries to upload too many files at once. %1
+; is what the user wrote. %2 is the max.
+413993042="指定了太多的文件。您列出了%1，而上限是2%。"
+
+; Error message shown if a user tries to upload too few files at once. %1 is
+; what the user wrote. %2 is the min.
+-1211817057="至少需要指定 %1 个文件，但您只列出了 %2 个。"
+
+; Tooltip shown when a plug-in is displayed but not activated for
+; interactive usage.
+-191213401="单击以激活并使用此控件"
+
+; Dialog shown when user enters access key mode on page with no defined
+; access keys.
+-1678005998="没有为此页面定义访问键。"
+
+; Description of ordinary http connection with no security used for the
+; security information dialog.
+1778300634="连接到 %s 的连接是不安全的，请不要用来交换敏感信息。\n\n通信是通过纯文本进行的，而且无法保证服务器的身份。"
+
+; Description of failed certificate checking. Used to describe the problem
+; in the new security information dialog.
+-99260926="连接到 %s 的连接是不安全的，请不要用来交换敏感信息。\n\n发现以下问题:"
+
+; Description that makes it clear that the connection is secure.
+1363485726="连接到 %s 是安全的。"
+
+; Description that explains high assurance certificates for use in the
+; security information dialog.
+-409006525="连接到 %s 的连接是安全的。您可以用它来交换敏感信息。通信是经过加密的而且可以确保您正在和 %s 进行连接。网站证书也说明了签名的公司做过很多努力来确保证书中的信息是正确的。"
+
+; Description for the security information dialog for known phishing sites.
+-949113470="此站点是已知的欺诈性站点。即使是您看起来熟悉并信任的网页，也请不要输入任何信息。"
+
+; Text for the trust and security button in the address bar for known
+; phishing sites.
+-838985197="欺诈性站点"
+
+; List item for low security explanation.
+-63042425="弱的或已经过时加密方法。"
+
+; Use when the page has low security reason weak key or slightly weak key.
+1630403279="弱的加密钥。"
+
+; List item for low security explanation.
+-1499643944="弱的加密协议。"
+
+; Low security reason explained.
+-2035686440="在线验证(OCSP)失败。"
+
+; Checkbox used to enable and disable the anti-phishing trust information.
+1544296322="启动欺诈保护。"
+
+; Header on the certificate summary page that displays whether the page is
+; secure or not.
+-1387277883="安全站点"
+-554811332="不安全站点"
+
+; Security information dialog
+1505397339="安全"
+1027897775="欺诈保护"
+-152087919="证书"
+
+; Cert summary page label
+-260991968="证书摘要"
+-740154740="持有者:"
+-165146092="发行者:"
+2122416462="过期:"
+-1508336832="加密协议"
+
+; Used when download of anti-phishing page fails.
+-554852346="欺诈保护错误"
+
+; Describes anti-phishing page failure.
+-1991367196="下载失败。无法连接到 sitecheck.opera.com。"
+
+; Use when fraud protection is off.
+-156302183="禁用欺诈保护。"
+
+; Describe what the button is for.
+1249344297="按此键可获得本页面的信任信息。"
+
+; Describe what is happening while the anti-phishing page is being
+; downloaded.
+39445484="欺诈检测中 ..."
+
+; Describe what anti-phishing is doing.
+1221197419="正在连接到 sitecheck.opera.com ..."
+
+; Text on button that checks this one site if the filter is off.
+1094247969="开始欺诈检测"
+
+; E-mail choice for the new account wizard
+-166142939="电子邮件"
+
+; This is a label for the choice between POP and IMAP e-mail account type
+-677317675="选择电子邮件帐户类别"
+
+; Message that is shown when a user tries to check spelling, having aspell
+; installed without any dictionaries
+107713242="无法进行拼写检查，因为您没有安装字典。是否需要更多关于如何安装字典的信息？"
+
+; Title of an error dialog that is shown when spell checking fails because
+; no dictionaries are available
+-1378877958="没有字典"
+
+; The dialog title for the Java Console
+-1079506468="Opera - Java 控制台"
+
+; Dialog title for m2 news dialog asking how many messages to download
+-1139888998="检测到许多新消息"
+
+; Dialog question on how many new messages to download from a certain group
+; Untranslated string
+1264509542="There are %d new messages available in %s. How many messages would you like to download?"
+
+-931412836="最新消息"
+; Answer to question on how many messages to download
+-1050726220="全部消息"
+
+; Checkbox for question on how many new messages to download
+-1851190890="下次不再询问此新闻组帐户"
+
+; Title of the e-mail client selection dialog
+226531271="电子邮件客户端选择"
+
+; Label to ask which mailer to use
+-2131152474="选择要使用的电子邮件客户端"
+
+; Text to indicate to use the system default mailer
+-1733840118="使用系统默认的客户端"
+
+; Indicates that the mailer choosen is Opera M2
+1187954336="创建 Opera 邮件帐户"
+
+; Title in usage report information dialog
+-1540426684="使用统计"
+
+; Text in usage report information dialog
+1760538024="为了对 Opera 的将来的版本进行改进，Opera 可以统计您对 Opera 的各种特性的使用情况。敏感信息不会被收集。您是否愿意贡献您的使用统计？"
+
+; Menu strings
+
+-633698310="浮动"
+1878789310="添加面板..."
+-231322917="编辑面板..."
+-1068053848="获得面板"
+2030504171="在新窗口中打开"
+-1907854262="在个人栏上显示"
+-226927721="添加页面"
+-1543023328="全部添加"
+-436354111="剪切"
+-1514790352="复制"
+1566442962="粘贴"
+-312138168="删除"
+375601166="全选"
+-837957927="文件"
+797908784="新建..."
+1092864039="打开..."
+1370037304="另存为..."
+774804532="将选定项目另存为..."
+-653075326="属性..."
+-395925347="新建窗口"
+432398846="新建标签"
+1349063959="关闭窗口"
+-1673433210="关闭标签"
+-180551227="打开..."
+1087565558="另存为..."
+-1113396571="带图像另存为..."
+1509605465="导入"
+-1169569616="邮件..."
+1293223500="Opera 书签..."
+329820130="Opera 联系人..."
+-1733570712="Netscape 书签..."
+-91534407="Internet Explorer 收藏夹..."
+1719755164="导出"
+-34431149="Opera 书签..."
+-1792820215="Opera 联系人..."
+-1661960928="打印..."
+411238961="打印设置..."
+2095746136="打印选项..."
+-721728027="打印预览"
+-455450218="脱机工作"
+765077890="删除私人数据..."
+1382818662="快速参数"
+-916967331="打开全部弹出窗口"
+-957900713="屏蔽全部弹出窗口"
+-680898540="在后台打开弹出窗口"
+-758196851="允许播放 GIF/SVG 动画"
+942597151="允许网页中的声音"
+419317359="允许使用 Java"
+1851130415="允许使用插件"
+-215880732="允许使用 JavaScript"
+-1942617190="允许使用 Cookies"
+-744114934="允许进行引用者记录"
+960290639="允许使用代理服务器"
+106263513="识别为 Opera"
+-1165647451="首选项..."
+-180901747="退出"
+-180337815="撤消"
+-395935713="剪切"
+-180983186="复制"
+-1662560784="粘贴"
+504920646="删除"
+-1673201780="全选"
+1091569833="查找..."
+-437077944="查找下一个"
+720110694="查找上一个"
+1585544368="嵌入式查找"
+1665544840="主工具栏"
+-1841728421="个人栏"
+72866546="顶部"
+-2029186124="底部"
+-1890669910="左边"
+2039662461="右边"
+72860794="关闭"
+-1865035718="状态栏"
+-769955148="标签栏"
+964890300="地址栏"
+-388572737="滚动条"
+-2022350619="缩放"
+1228746428="50%"
+1228746527="80%"
+1228746560="90%"
+1893922152="100%"
+1893922218="120%"
+1893922317="150%"
+1893923241="200%"
+1405813075="-100%"
+-374563135="+100%"
+302901443="-10%"
+509251697="+10%"
+-935569335="编码"
+1648324256="自动检测"
+1234417673="Unicode"
+-209254816="UTF-8"
+1684525487="UTF-16"
+-1553506677="UTF-32"
+-1739032771="UTF-7"
+453393450="美国 ASCII"
+1311766747="西欧"
+1972531058="ISO-8859-1"
+-1401263115="Windows-1252"
+669015527="ISO-8859-15"
+980536764="中欧"
+1972531059="ISO-8859-2"
+-964650747="ISO-8859-1"
+-1401263117="Windows-1250"
+649306781="南欧"
+1972531060="ISO-8859-3"
+492357614="波罗的语"
+669015525="ISO-8859-13"
+-1401263110="Windows-1257"
+1972531061="ISO-8859-4"
+1486047563="日耳曼语"
+669015522="ISO-8859-10"
+774564213="Windows-Sami-2"
+161127631="凯尔特语"
+669015526="ISO-8859-14"
+-1338073117="土耳其语"
+1972531066="ISO-8859-9"
+-1401263113="Windows-1254"
+402612548="越南语"
+-1401263109="Windows-1258"
+-218656032="VISCII"
+-1744653808="VPS"
+-13153185="斯拉夫语"
+1972531062="ISO-8859-5"
+-642400443="KOI8-R"
+-642400440="KOI8-U"
+-1401263116="Windows-1251"
+-735945835="代码页 866"
+-675613151="希腊语"
+1972531064="ISO-8859-7"
+-1401263114="Windows-1253"
+-344383168="阿拉伯语"
+1972531063="ISO-8859-6"
+-1401263111="Windows-1256"
+-1006843134="希伯来语"
+1972531065="ISO-8859-8(逻辑)"
+-1586430102="ISO-8859-8(可视)"
+-1401263112="Windows-1255"
+1154817580="泰语"
+669015523="ISO-8859-11 (TIS-620)"
+-458713870="中文"
+-209949568="Big5 (繁体)"
+188575321="Big5-HKSCS (繁体)"
+-870270784="EUC-TW (繁体)"
+-815192534="GBK/GB2312 (简体)"
+1782001291="HZ-GB2312 (简体)"
+-1181501188="GB18030 (简体)"
+-1069175304="ISO-2022-JP"
+2104651194="日语"
+; Auto detect for Russian, Chinese and Japanese
+1008349489="自动检测"
+
+1716574429="Shift-JIS"
+1193250691="ISO-2022-JP"
+-870271121="EUC-JP"
+85449979="朝鲜语"
+-870271086="EUC-KR"
+-914937566="从缓存中重新装入"
+-1668211044="源代码"
+427499822="框架源代码"
+-1805607800="全屏"
+-180513104="后退"
+; Next
+-180598510="前进"
+
+-180402791="停止"
+-180839556="首页"
+1052826410="重新装入"
+-1213380875="重新装入框架"
+418061858="重新装入全部标签"
+245903149="重新装入页面间隔"
+2003500548="启用"
+1338449240="自定义..."
+1683102600="设定首页..."
+1226234904="转到网页..."
+221321741="转到相似的网页"
+-2105180436="添加到书签..."
+-956942954="写邮件..."
+; Send menu, Mail
+-1554664376="发送链接"
+
+1126594337="收信"
+; Check menu, Mail
+1312414769="全部接收"
+
+; Send menu, Mail
+-1766451109="发送待发邮件"
+
+931044940="过滤器..."
+-502647831="新建账户..."
+-1067512219="管理账户..."
+1120067022="标记为已读"
+110969681="标记为未读"
+-1740944157="下载"
+499627997="历史"
+-939867699="插件"
+1626648703="缓存"
+889870952="Java 控制台"
+476653883="副本"
+-1410423340="创建链接窗口"
+-1957288457="层叠"
+-180378943="垂直平铺"
+-583630005="水平平铺"
+1335112968="全部还原"
+-282757146="全部最小化"
+-324437720="全部最大化"
+1017775266="全部关闭"
+-1379588124="键盘"
+519884260="鼠标"
+-1014312730="Opera 在线"
+; Opera on the Web menu
+1686572509="首页"
+1871419988="在线支持"
+-1427075788="社区"
+-34421196="Opera Web 邮件"
+
+-1680317970="关于 Opera"
+; link menu
+-1258333535="在新标签中打开"
+-1131986336="在后台标签打开"
+1815400486="添加链接到书签..."
+-1772975815="复制链接地址"
+924948442="目标另存为..."
+
+; mailto: link menu
+-1922701942="发电子邮件(&S)..."
+2079847218="复制电子邮件地址"
+
+; mailto: image link menu and image link menu
+104739523="保存图像..."
+-1556035057="复制图像"
+552088744="复制图像地址"
+1958900257="图像属性..."
+-352761190="把图像作为"
+327272977="前景皮肤"
+288892246="背景皮肤"
+-903664585="桌面背景"
+-1799455182="移除前景皮肤"
+-1837835913="移除背景皮肤"
+
+; Default page menu
+-1698695316="后退"
+-472963442="前进"
+-2029344331="停止"
+745933080="首页"
+1055891878="重新装入"
+-720905500="添加到书签"
+1029895756="复制地址"
+1254394198="用电子邮件发送链接"
+1497519588="背景"
+
+; Default page menu and image link menu
+804082843="显示图像"
+
+; Default page menu
+311387713="保存图像"
+310827789="复制图像"
+1930852658="复制图像地址"
+894736321="图像属性"
+-332858198="把图像作为"
+1642593144="副本"
+
+; Select menu
+-1428352028="复制"
+1217090669="搜索"
+-1793544707="选择搜索引擎"
+-1539396211="字典"
+1634087069="百科全书"
+-1567414664="货币兑换"
+1104168855="翻译"
+1208490414="英语译法语"
+1208490335="英语译德语"
+1208490515="英语译意大利语"
+1208490746="英语译葡萄牙语"
+1208490382="英语译西班牙语"
+1209820046="法语译英语"
+1209820004="法语译德语"
+1209820184="法语译意大利语"
+1209820415="法语译葡萄牙语"
+1209820051="法语译西班牙语"
+1206981023="德语译英语"
+1206981060="德语译法语"
+1213449683="意大利语译英语"
+1213449720="意大利语译法语"
+1221751130="葡萄牙语译英语"
+1208670062="西班牙语译英语"
+1208670099="西班牙语译法语"
+1208490529="英语译日语"
+1213952801="日语译英语"
+383461562="用电子邮件发送"
+
+; Image link menu
+122909516="添加链接到书签"
+
+-1873877784="编辑"
+; File menu
+-1486159215="文件"
+
+2112383807="编辑"
+; Navigation menu
+-1986070207="导航"
+
+1145799194="编辑"
+; Menu string, used for reverting the last change
+448997294="撤消"
+
+; Menu string, used for cutting text
+-1287918620="剪切"
+
+; Menu string, used for copying text
+448351923="复制"
+
+; Menu string, used for pasting text
+1925628597="粘贴"
+
+-1343914101="删除"
+; Menu string, used for selecting all text
+-103436687="全选"
+
+1468564474="获得新皮肤"
+; Transfers view
+1810947741="显示细节"
+-1599101137="在顶部显示新项目"
+
+1995842756="框架"
+-972152965="查看源代码"
+675445919="另存为"
+786207879="校验源代码"
+1968963534="添加到书签"
+-2082147073="复制地址"
+2037384257="用电子邮件发送链接"
+-55907705="重新装入"
+1590095874="装入全部图像"
+-1410331935="最大化"
+335470109="快速下载"
+-640773271="锁定面板"
+1616191563="获得全部账户"
+-390584935="阅读邮件"
+-1109316548="标记并转到下封未读邮件"
+; Cancel newsmessage
+-800478102="取消投递"
+
+-1889494318="加标签"
+-952082595="显示于"
+1825320888="转到"
+-1725419365="标记全部邮件为已读"
+965956877="清空回收站"
+882598927="重发"
+1065300918="下封未读"
+-1308015724="上封未读"
+-1846732047="线索"
+; noun (in 'Go to' menu)
+-1022991227="联系人"
+
+-77156191="平坦"
+-1727144805="线索"
+-1771443114="来往"
+1838696505="缩略图"
+-732047787="显示已读"
+1615066395="显示回收站中的邮件"
+-731999862="显示垃圾邮件"
+755143478="显示邮件列表"
+1508144815="显示新闻组"
+-1313644446="显示快速回复"
+-808796176="从视图中移除"
+; Forward mail
+-763835876="转发"
+
+513552599="优先级"
+-2002888889="按我的顺序排序"
+-430535513="按名称排序"
+-430527125="按昵称排序"
+-430999711="按地址排序"
+-1334478953="按描述排序"
+1946955422="按创建时间排序"
+379714910="按最近访问时间排序"
+1487813592="升序排序"
+832816672="降序排序"
+-222381009="打开"
+1474179529="查看"
+646983333="打开首页"
+498337011="转到 URL"
+; Help menu
+1856326853="帮助"
+
+; Window menu
+-797817420="窗口"
+
+; Mail menu and button
+1856502079="邮件"
+
+; Bookmarks menu
+-773844987="书签"
+
+826658526="会话"
+-1005370522="导航栏"
+681424016="锁定按钮"
+-1806356542="自定义工具栏..."
+1359197559="皮肤"
+1359895669="配色方案"
+; Browser View Menu
+1904187347="样式"
+
+1109112346="小屏幕"
+55084859="网站导航"
+; Send mail menu
+-912591468="发送"
+
+-912627834="阅读"
+-1675112928="搜索..."
+2051403335="新闻组..."
+752353280="IMAP 文件夹..."
+-547860749="关闭其它窗口"
+; Bookmark Item File menu
+699316252="导入 Opera 书签..."
+-782322718="导入 Netscape/Firefox 书签..."
+1481843845="导入 Internet Explorer 收藏夹..."
+676559619="导出 Opera 书签..."
+
+; Contact Item File menu
+2143265210="新建..."
+
+; File/Session menu
+1324632620="打开会话..."
+-522046225="插入会话..."
+1353330729="保存此会话..."
+
+; Quick Preferences
+73973191="屏蔽不想要的弹出窗口"
+
+; View Hotlist Menu
+455088957="书签"
+-115980088="邮件"
+
+-1063662972="联系人"
+; View Hotlist Menu
+599768087="历史"
+1601122237="下载"
+466731462="链接"
+-1509553296="窗口"
+
+-606317279="无配色方案"
+-1477627959="系统配色方案"
+-600650118="流金岁月"
+-600234054="炽热沙滩"
+-1148350087="满园春色"
+-1319694035="天海一片"
+-600832772="蓝调情怀"
+-1196144274="葡萄熟了"
+-913384180="紫荆吐蕊"
+185699471="心跳回忆"
+-1319695121="红粉佳人"
+1256282026="特殊效果"
+-1291441751="作者模式"
+-2101137707="用户模式"
+; Reload Menu
+-2076800822="5 秒"
+-20854021="15 秒"
+51487160="30 秒"
+-2081550897="1 分钟"
+-2080364976="2 分钟"
+-2076807213="5 分钟"
+-20860412="15 分钟"
+51480769="30 分钟"
+
+; Site Navigation Menu
+1148359889="首页"
+-757689056="索引"
+413479478="目录"
+1146651294="搜索"
+-452438692="术语"
+1148348977="帮助"
+-761410800="第一页"
+-367808219="上页"
+1148564999="下页"
+1148488604="末页"
+-1899931507="向上"
+-741210655="版权"
+461861275="作者"
+
+1802281339="错误控制台"
+-2026256740="重新下载"
+1823884773="删除下载"
+857925912="样式"
+-1894118679="删除面板"
+1412426450="从工具栏删除"
+-1018189133="音频"
+45131127="全部关闭"
+2037617116="关闭其它窗口"
+242581288="大图像"
+-295627394="开始下载时显示下载窗口"
+; Right-click on address field
+-541472843="粘贴并转到"
+
+; Links Panel Toolbar
+482167611="锁定"
+
+466504196="全屏"
+-1571956663="安全性"
+1416233287="显示图像"
+; New page
+228969467="新建"
+
+; Used in menus to show the keyboard shortcut, typically Ctrl+T
+1950193902="Ctrl"
+-49577097="Shift"
+-591658278="Alt"
+1950536992="Meta"
+1950367970="Home"
+-591653872="End"
+-1761824677="PageUp"
+1222698990="PageDown"
+-798831522="Up"
+1950224561="Down"
+1950500612="Left"
+-50729193="Right"
+2123851594="Esc"
+-2019924306="Ins"
+2068441228="Del"
+-514501226="Backspace"
+-591637968="Tab"
+-49298427="空格"
+-65952425="Enter"
+
+1728016260="此过滤器"
+139232325="更多项目"
+-1139380999="在后台窗口打开"
+-893100857="布局"
+-25599948="手动"
+-565199379="1 秒后"
+-564013458="2 秒后"
+-562827537="3 秒后"
+-560455695="5 秒后"
+-1527001987="10 秒后"
+-678879540="首选纯文本"
+-195032599="首选 HTML"
+2074453928="阻止外部元素"
+1720997374="完全查看"
+659347127="拆分查看"
+-1586511026="单个文件夹"
+878623088="新建笔记"
+-524979846="快退"
+-1854776909="快进"
+115649267="装入图像"
+978223717="打开图像"
+-1165063613="复制到笔记"
+1401135785="插入个人信息"
+-1633958213="插入笔记"
+-2056802672="全部清除"
+-1850093723="粘贴到笔记"
+2139309562="菜单栏"
+-530514694="链接..."
+2086062440="在此添加联系人"
+1313631777="将全部联系人添加到文件夹"
+-349722280="导入 KDE1 书签..."
+-272098951="导入 Konqueror 书签..."
+-373039006="导出为 HTML..."
+-673491742="将选定项目另存为 HTML..."
+1859393216="导入 Opera 联系人..."
+-263247129="导出 Opera 联系人..."
+-1177883335="将选中的联系人另存为..."
+281256766="KDE1 书签..."
+-1152765153="Konqueror 书签..."
+400515521="书签为 HTML..."
+-116109775="信息"
+469325262="笔记"
+478800571="语音"
+-187157704="语音首选项..."
+249480167="语音"
+974065854="监听中"
+-196410301="讲话中"
+; Revert an undo operation
+-1033798981="重做"
+
+; Edit popup menu string. Translate with ampersand
+541283329="撤消(&U)"
+541165717="重做(&R)"
+-764519977="剪切(&T)"
+540637958="复制(&C)"
+676100456="粘贴(&P)"
+661062930="清除(&L)"
+-739408220="全选(&A)"
+
+; Workspace popup menu string. Translate with ampersand
+278512847="还原(&R)"
+540997506="移动(&M)"
+541206726="大小(&S)"
+-1375726451="最小化(&M)"
+1568785615="最大化(&X)"
+661074401="关闭(&C)"
+541022634="下一个(&N)"
+1749943804="标准(&S)"
+-1661068211="经典(&C)"
+-366629677="装饰(&D)"
+
+; Fast forward
+1024210290="下页"
+-822252908="下张图"
+-1393499189="登录"
+392962037="Wand 登录"
+1024392948="显示"
+-649736810="显示图像"
+
+; Menu entry for adding a mailto link to the contact list
+-1550016441="添加为联系人..."
+
+468353990="音乐"
+; Page menu string
+-1203957437="关闭"
+-1691269026="激活"
+-1283528079="还原"
+1891222959="最小化"
+-1448969007="最大化"
+
+; Used in M2 menus (in the show account menu)
+-1981712151="全部账户"
+953939731="邮件账户"
+-1285269619="新闻账户"
+
+; General menu string 
+-1011452333="导出..."
+
+; m2 submenu string (in hotlist)
+1655539102="显示账户"
+
+; Submenu that hold all closed window entries
+-1103986197="已关闭"
+
+; Main help entry (F1 action)
+700981616="Opera 帮助"
+
+; Contents sub menu in help menu
+-1639475321="主题"
+
+; Help topic
+1349075551="工具栏"
+749810497="菜单"
+1902334396="对话框"
+-165862453="首选项"
+
+; On the web menu entry
+-1809928719="特性和教程"
+195584500="辅助功能"
+1802679105="安全和隐私"
+
+; Menu string in transfer panel
+-375652521="删除已完成的全部下载"
+
+-512239998="适合宽度"
+; Displayed user css file name
+1490680840="模拟文本浏览器"
+1490680841="怀旧"
+1490680842="带辅助功能的布局"
+1490680843="仅显示图像和链接"
+1490680844="高对比度(黑底白字)"
+1490680845="高对比度(白底黑色)"
+1490680846="隐藏无链接的图像"
+1490680847="隐藏特定大小的元素(不推荐)"
+1490680848="禁用表格"
+1947827512="显示结构化元素"
+1947827513="带外框调试"
+
+; User style sheet menu: Debug ALT attributes for AREA and IMG tags.
+-332511012="Alt 调试器"
+
+; User style sheet menu: Display structure of block elements.
+-686521710="Block 结构"
+
+; User style sheet menu: Display class and id for elements.
+837256235="Class 和 id"
+
+; User style sheet menu: Remove line breaks from the document.
+-2051949502="禁止换行"
+
+; User style sheets menu: Reset "float" property to "none" for all elements.
+-1902163789="禁止 float"
+
+; User style sheets menu: Remove forms and form controls.
+1504276433="禁止 form"
+
+; User style sheets menu: Reset position property to "static" for all
+; elements.
+-2094734467="禁止 postion"
+
+; Disable tables for user style sheets menu item
+-1367769115="禁用 table"
+
+; User style sheets menu: Applay fixed table layout.
+-825542133="固定 table 布局"
+
+; User style sheets menu: Display structure of inline elements.
+1576075846="Inline 结构"
+
+; User style sheets menu: Add visual outline to structural elements.
+1693283863="大纲"
+
+; User style sheets menu: Display table of contents based on HTML structure.
+922536704="目录"
+
+; User style sheets menu: Display structure of table elements.
+1457933711="Table 结构"
+
+1825521194="标记"
+202463533="标记为垃圾邮件"
+1036476413="标记为非垃圾邮件"
+-1033759406="显示"
+-1297624400="显示快速查看"
+6332797="显示新闻推送"
+488600680="显示过滤的邮件"
+1647951654="只有列表"
+1211806319="只有邮件"
+-937510413="列表在上邮件在下"
+-2114247916="列表在左邮件在右"
+-1402422468="清空垃圾邮件"
+-1014114388="新建过滤器"
+1231853902="新闻推送..."
+-345125667="启用表情"
+55270379="新建分隔线"
+-504023100="在线"
+791812866="忙"
+-795122829="马上回来"
+791778513="离开"
+542781365="接电话中"
+-1352477070="外出就餐"
+-840031526="隐身"
+227010946="离线"
+-933464272="列出房间..."
+-1507087861="新建房间..."
+2010601265="加入房间"
+-1207633810="离开房间"
+802041291="资料"
+-1702962564="私聊..."
+910379491="控制"
+329917149="将昵称添加为联系人"
+-1999862341="管理"
+-1473509284="解除管理"
+-1704192350="语音"
+245479301="关闭语音"
+216369028="踢出"
+247115170="工具"
+-1726668283="面板"
+476738568="工具栏"
+-24942707="面板放置"
+-1492318387="面板选择器放置"
+-924065418="显示面板显隐把手"
+740709416="全部图像"
+2078369352="只显示已缓存的图像"
+480957484="无图像"
+-913412452="面板"
+-1799349578="新闻"
+-1799742343="聊天"
+1789573805="术语"
+-1291243751="打开"
+827467700="打开文件夹"
+-1765624737="显示下载"
+71017590="漂移"
+1946828818="显示“新建标签”按钮"
+985451769="打开 Opera"
+-707204186="Cookies..."
+1643742408="Wand 密码..."
+-476548985="高级"
+1308477025="隐藏 Opera"
+1856150076="聊天"
+1002421702="有原因踢出"
+-2075861805="屏蔽"
+1377830109="标记线索并转到下封未读邮件"
+; Text for a menu option that allow the user to run a check for new updates
+; without visiting opera.com
+-1686497347="检查更新"
+
+; Right click menu item in the links panel.
+-273323133="将链接加入书签..."
+
+; Item on the document popup menu
+-1183760952="将页面加入书签..."
+
+; Item on the Document popup menu.
+262284064="校验"
+
+; Item om the Document background menu.
+-2143886002="将图像复制到剪贴板"
+
+; Item on the Document background menu.
+-950110492="在桌面使用图像"
+
+; Item on the Frame menu
+359283713="打开"
+
+; Item on the File menu
+1326919570="导入和导出"
+
+; Entry on the Toolbars menu.
+1010344045="自定义..."
+
+; Item on the Feeds menu
+-483882041="阅读新闻推送"
+
+; Item on the Feeds menu.
+1133480436="管理新闻推送..."
+
+; Item on the Chat connect menu
+-675993705="全部断开"
+
+; Item on the Chat menu
+1351031184="连接到"
+
+; Item on the Tools menu.
+-1174342411="邮件和聊天账户..."
+
+; Item on the ImportExport menu.
+-471823510="导入邮件..."
+
+; Item on the Importexport menu.
+-480684226="将书签导出为 HTML..."
+
+; Item on the Identify as menu.
+590106237="识别为 Firefox"
+344289886="识别为 Internet Explorer"
+
+; Item on the Korean encoding menu.
+-1648789598="ISO-2022-KR"
+
+; Menu item on the Pagebar popup menu.
+-352842957="排列"
+
+; Item on the Closed pages menu
+1528103915="屏蔽的弹出窗口"
+
+; Item on the Closed pages menu.
+1507601038="清空回收站"
+
+; A menu item in the Image link popup menu.
+759751550="重新装入图像"
+
+; A menu item on the bookmark popup menu.
+-600815674="将打开的全部页面加入书签"
+
+; The "Feeds" main menu item.
+-617989186="新闻推送(&S)"
+
+; Mail popup menu item
+-786490390="显示邮件来自"
+
+; Help menu item
+1950816291="语音"
+
+; Hotclick menu item speak
+764933719="读出"
+
+2012606042="标记线索为已读"
+; Mail attachments popup menu entry
+-479928419="保存附件..."
+
+; SVG popup menu
+1367653122="放大"
+-2112080381="缩小"
+-298073704="恢复原图大小"
+-1573288049="高质量"
+256765524="开始动画"
+1403312836="暂停动画"
+1779715500="停止动画"
+
+; Browser tools menu entry
+1214667496="外观..."
+
+; Entry in the browser help menu
+-651452180="报告网站问题..."
+
+; Entry in the sessions menu
+995766100="管理会话..."
+
+; Entry in the transfers view popup menu
+410382762="开始下载时在后台显示下载窗口"
+
+; Entry in the transfers view menu
+-1607101803="开始下载时从不显示下载窗口"
+
+; Option for the image toolbar items/dropdown menus.
+-1320335960="显示图像"
+333270751="缓存的图像"
+-383776252="无图像"
+
+; Load original image, not a low-quality one served by proxy (typically
+; SlipStream)
+-1580772985="装入原始图像"
+2088683986="装入原始图像"
+
+; Menu item for adding attachments when right clicking in attachment window
+-17191327="添加附件"
+
+; Menu item for removing attachments when right clicking in attachment
+; window
+-1943095130="删除附件"
+
+1782149687="导入新闻推送列表..."
+-755032706="导出新闻推送列表..."
+; Name of "Time and Site view" in view dropdown in history panel/page
+817518784="按时间和站点"
+
+; Name of "Site view" in view dropdown in history panel/page
+1825780288="按站点"
+
+; Name of "Time view" in view dropdown in history panel/page
+1366023738="按访问时间"
+
+; Info dialog header, bcc recepients not supported
+1895070662="不支持密件抄送。将密件抄送按抄送发送吗?"
+
+; Mail context menu option to display message source.
+-1107090027="查看所有信头和邮"
+
+; Menu option for files.
+581357748="保存到下载文件夹"
+
+; Tab context menu option.
+765050320="锁定选项卡"
+
+; Page context menu option for blocking content on current page.
+-1745751818="阻止内容..."
+
+; Page context menu option to edit preferences for current site.
+385004252="编辑站点首选项..."
+
+; Search filed context menu option for adding search to Opera.
+1560773594="创建搜索..."
+
+; Menu option to switch to viewing widgets.
+238756904="显示控件"
+
+1731356187="Pin"
+-582071422="删除"
+234772830="Unpin"
+-214002413="总是在顶部"
+; Menu option indicates that the user has already dragged the widget tab to
+; a custom position
+-601444231="自定义位置"
+
+; Menu option to center the widget tab on (the top of) the screen
+-460214741="居中"
+
+; Used in View menu, under Style.
+-926762484="管理模式..."
+
+; Option indicating that the (gadget) window should be positioned below all
+; other windows, ie. on the desktop
+-1063450371="总是在下面"
+
+; Option indicating that the (gadget) window behaves like a normal window
+1684925437="普通"
+
+; Caption for the list of possible widget positions (on top, below, normal
+; ...)
+-752705216="位置"
+
+; Widgets menu
+-895653680="管理控件..."
+
+; Widget main menu entry.
+-235137047="控件(&G)"
+
+; Menu entry that links to dev.opera.com
+800491965="开发者工具"
+
+; Configure the speed dial entry
+-456197667="编辑..."
+
+; Reload the current speed dial entry
+1578896085="重新载入"
+
+; Remove the current speed dial entry
+-1520745903="清除"

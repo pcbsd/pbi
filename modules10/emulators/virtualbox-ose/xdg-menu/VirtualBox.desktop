@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Oracle VM VirtualBox
+GenericName=Oracle VM VirtualBox
+Exec=pc-su %%PBI_EXEDIR%%/VirtualBox-wrapper
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/virtualbox.png
+StartupNotify=true
+Categories=Utility;

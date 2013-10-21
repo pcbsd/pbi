@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Kid3
+GenericName=Kid3
+Exec=%%PBI_EXEDIR%%/kid3
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/kid3-kde4.png 
+StartupNotify=true

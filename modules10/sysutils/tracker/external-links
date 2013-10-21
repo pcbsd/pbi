@@ -1,0 +1,17 @@
+# Files to be Sym-Linked into the default LOCALBASE
+# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
+# Defaults to keeping any existing files in LOCALBASE
+# Use action binary for binaries that need wrapper functionality
+
+# TARGET             LINK IN LOCALBASE         ACTION
+bin/tracker-files     bin/tracker-files     binary,nocrash
+bin/tracker-info     bin/tracker-info     binary,nocrash
+bin/tracker-meta-folder     bin/tracker-meta-folder     binary,nocrash
+bin/tracker-processes     bin/tracker-processes     binary,nocrash
+bin/tracker-query     bin/tracker-query     binary,nocrash
+bin/tracker-search     bin/tracker-search     binary,nocrash
+bin/tracker-services     bin/tracker-services     binary,nocrash
+bin/tracker-stats     bin/tracker-stats     binary,nocrash
+bin/tracker-status     bin/tracker-status     binary,nocrash
+bin/tracker-tag     bin/tracker-tag     binary,nocrash
+bin/tracker-unique     bin/tracker-unique     binary,nocrash

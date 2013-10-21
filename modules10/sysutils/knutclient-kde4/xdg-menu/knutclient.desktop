@@ -1,0 +1,11 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=KNutClient
+GenericName=knutclient
+Exec=%%PBI_EXEDIR%%/knutclient
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/knutclient.png
+StartupNotify=true
+Categories=System

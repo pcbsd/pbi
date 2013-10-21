@@ -1,0 +1,11 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=MTR
+GenericName=mtr
+Exec=pc-su %%PBI_EXEDIR%%/mtr
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/mtr.png
+StartupNotify=true
+Categories=Network

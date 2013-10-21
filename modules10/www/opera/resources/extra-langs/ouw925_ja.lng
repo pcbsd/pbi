@@ -1,0 +1,6477 @@
+; Opera language file version 2.0
+; Copyright © 1995-2007 Opera Software ASA. All rights reserved.
+; Translated by Hiroki Takemoto
+; Created on 2007-04-10 14:58
+; Lines starting with ; (like this) are comments and need not be translated
+
+[Info]
+Language="ja"
+; The string below is the language name in its own language
+LanguageName="日本語"
+Charset="utf-8"
+Build.Linux=638
+Version.Linux=9.20
+DB.version=869
+
+[Translation]
+
+; General strings
+
+; Used in a popup error message when Opera can't connect to the remote
+; server due to other phenomena than the one stated in 32873.
+-303587263="リモートサーバーに接続できません"
+
+; The error code corresponding to this string is used in a number of
+; situations when the server has abruptly closed the connection, and then
+; the string can be used in a popup error message.
+406813980="リモートサーバーから切断されました"
+
+; Used in a popup error message when Opera has failed to load a requested
+; page more than once.
+-767243423="このページを読み込もうと何度か試みましたが、完全には読み込むことができませんでした。\r\n\r\nサーバーに問題がある可能性があります。"
+
+; Used in a popup error message when Operas request to connect to a server
+; is refused. (For example when the server exists but does not answer on
+; the specified port.)
+-1847391312="リモートサーバーに接続できません"
+
+; Used in a popup error message when Opera has tried to resolve a server
+; name with the DNS to fetch a requested document from it, and the server
+; domain exists but the server itself does not (for example
+; http://fff.example.com).
+-467236228="リモートサーバーが見つかりません"
+
+; Used in a popup error message when Opera has tried to resolve a server
+; name with the DNS to fetch a requested document from it, and the server
+; domain doesn't exist (for example http://invalid).
+-1504149836="このアドレスはお使いのコンピュータからは利用できません"
+
+; Used as default error message in a popup error message, when no other
+; network error message applies.
+-1467543495="内部通信エラー"
+
+; Used in a popup error message when there is no route from the client's
+; subnet to the server's subnet, likely due to a badly configured network.
+948480566="ネットワークが利用できません。システム管理者に連絡してください"
+
+; Used in a number of error situations, when the user has entered a
+; malformed URL, such as opera:nonexistant, into the URL field. The http
+; respose error code 400 (Bad request), and some other http error codes
+; between 400 and 500 (signifying client errors) also give the same
+; result.
+-14659052="有効でないアドレスです"
+
+; Used in a popup error message when the network of the underlying system is
+; down. This could be due to errors in the protocol stack, network card or
+; driver, or in the physical network outside of the system.
+1420893634="ネットワークに問題があります"
+
+; Used in a popup error message when the server has tried to redirect a
+; document request from Opera to an adress and Opera fails to connect to
+; that server.
+890657822="サーバーが不正なアドレスに転送しようとしました。\r\nサイトの管理者に報告してください。"
+
+; Used in a popup error message when a proxy server has been specified for a
+; specific request type, and the proxy server doesn't answer when an URL
+; of that type is entered in the URL field.
+966887426="プロキシサーバーに接続できませんでした"
+
+; Used in a popup error message when Opera has tried to resolve a proxy
+; server name with the DNS to fetch a requested document from it, and the
+; server domain exists but the server itself does not (for example
+; fff.opera.com).
+803238461="プロキシサーバーが見つかりませんでした"
+
+; Used in a popup error message when Opera has tried to resolve a proxy
+; server name with the DNS to fetch a requested document from it, and the
+; server domain doesn't exist (for example fjdlsakhngfjf).
+-936682827="プロキシサーバーに接続できませんでした。サーバーが使用不可にされています"
+
+; Used in a popup error message when Operas request to connect to a proxy
+; server is refused. (For example when the server exists but does not
+; answer on the specified port.)
+1943858161="プロキシサーバーに接続できませんでした。アクセスが拒否されました"
+
+358460907="エンドポイントが不正な状態でした"
+; Used on Macintosh as a default network error message.
+740291732="オープントランスポートエラー"
+
+; Used when Opera has tried to open a network socket to a server and the
+; socket is busy. This message should be handled internally most of the
+; time.
+-1157672946="ネットワークソケットがブロックされました"
+
+; Used in a popup error message when a non-recoverable error has occurred in
+; the network protocol stack or network drivers of the system.
+182377296="ネットワークソケットに問題があります。ネットワークドライバを確認してください。"
+
+; 
+799744891="リモートサーバーがタイムアウトしました。時間をおいて再試行してください。"
+
+; Used in a popup error message when not enough socket resources (file
+; handles, network buffers) are free.
+-1550530872="ネットワークソケットのリソースに問題があります。再試行してください。"
+
+; Used in a popup error message when Opera discovers that the network
+; implementation lacks functionality needed to handle the protocol that is
+; needed to fulfill a request.
+-964370023="この Winsock の完了に重要な機能が不足しています。"
+
+-377063689="Winsock のバージョンが正しくありません"
+; The default error message, used in any situation where no more specific
+; error message can be created.
+109608805="プログラムの内部エラーが発生しました。"
+
+-352821964="現在の印刷ジョブが完了するまでお待ちください"
+575013369="新しいウィンドウを作成できませんでした。メモリまたはリソースが不足しています"
+; Used in a popup error message when the address type is unknown or
+; unsupported.
+1118839518="アドレスタイプが不明であるか、サポートされていません"
+
+; Might be used in a popup error message when the user has clicked the Home
+; button and no home page is set in preferences and we don't have a quick
+; UI (if we have Quick we use the Set homepage dialog).
+2075232397="ホームページが設定されていません"
+
+2050542879="プリンタとの接続を確立できません"
+; Used in an error popup message when the printer has encountered an error
+; while printing (as opposed to 20013 which pops up if the printing can't
+; even start, which is more likely.)
+1725016247="ページを印刷できませんでした。プリンタが接続されてるかどうか確認してください"
+
+156962827="印刷中…"
+; Used in a popup error message when the user has requested a file from the
+; server that it's not allowed to fetch (HTTP response code 4?? unless
+; handled specifically), if the user has set the Network/Server
+; errors/Always show dialog box preference.
+821358772="リモートサーバーがリクエストの実行を拒否しました。\r\nこのアドレスは利用できません。 "
+
+; Used in a popup error message when the user has requested a file from the
+; server that does not exist (HTTP response code 404), if the user has set
+; the Network/Server errors/Always show dialog box preference.
+-1304259437="アドレスが見つかりませんでした:"
+
+; Used in a popup error message as a default message when the user has made
+; a valid request for a file from the server, and the server encounters an
+; error that prevents it to fulfill the request (HTTP response code 5xx
+; and 6xx), if the user has set the Network/Server errors/Always show
+; dialog box preference.
+-1534197113="リモートサーバーまたはファイルが見つかりませんでした。"
+
+; Used in a popup error message when the user has requested a file from the
+; server, and the server could not fulfill the request since this
+; functionality wasn't implemented (HTTP error code 501), if the user has
+; set the Network/Server errors/Always show dialog box preference.
+692443531="リモートサーバーに必要な機能が不足しています"
+
+; Used in a popup error message when the user has requested a document from
+; the server, the server sends the document using HTTP compression, and
+; the document decoder couldn't decode the data properly.
+324835147="データのデコード中に問題が発生しました。データが壊れているかもしれません。"
+
+; Used in a popup error message when the user has submitted a form using a
+; HTTP request method (specified with the METHOD attribute to the FORM tag
+; in the HTML form) that the server does not accept (HTTP error code 405),
+; if the user has set the Network/Server errors/Always show dialog box
+; preference.
+1580841951="HTTP リクエストメソッドがサーバーに受け入れられませんでした。"
+
+; Used in a popup error message when the user tries to fetch a document by
+; clicking a link, and the server cannot send the requested document in a
+; format that matches the content of the HTTP accept headers sent in the
+; request (HTTP error code 406), if the user has set the Network/Server
+; errors/Always show dialog box preference. However, Opera accepts all
+; document formats and sends *.* in its accept header, so this is unlikely
+; to happen.
+1149298043="サーバーが受け入れ可能なデータを送信できませんでした"
+
+; Used in a popup error message when the user has requested a document from
+; the server, the server needs more data from Opera to fulfill the
+; request, and Opera fails to deliver the data before the server times out
+; and cancels the request (HTTP error code 408). Unlikely to happen very
+; often. Visible if the user has set the Network/Server errors/Always show
+; dialog box preference
+-751126418="サーバーがタイムアウトしました"
+
+; Used in a popup error message when Opera has sent a HTTP request to fetch
+; or send a document to the server, and the server determins that there's
+; a conflict with a third part regarding the document, that can be solved
+; by the user (HTTP error message 409). This could happen when the user
+; submits a form that leads to a change of an online document, and the
+; server detects that the changes conflicts with other changes already
+; made to the document. Visible if the user has set the Network/Server
+; errors/Always show dialog box preference
+1517647577="サーバー上の既存リソースとの衝突が発生しています"
+
+; Used in a popup error message when the user has requested a document and
+; the server answers that the document has been there, but has been
+; permanently removed (HTTP error code 410). Visible if the user has set
+; the Network/Server errors/Always show dialog box preference.
+-711230064="このアドレスはもう利用できません"
+
+; Used in a popup error message if the user has sent a request to the
+; server, and the server answers that it needs a Content-Length header to
+; process the request (HTTP error code 411). Opera never sends requests
+; without a valid Content-Lenght header. Visible if the user has set the
+; Network/Server errors/Always show dialog box preference.
+758757449="HTTP content length が要求されました"
+
+; Used in a popup error message if the user has sent a request to the server
+; containing one or more precondition headers, and one or more of these
+; preconditions evaluated false on the server (HTTP error code 412). The
+; precondition headers could be If-Range and If-Modifified-Since, that
+; could be used to fetch the missing parts of a earlier partially fetched
+; documents, if the document is still the same. Unlikely to happen.
+; Visible if the user has set the Network/Server errors/Always show dialog
+; box preference.
+329914774="HTTP 条件整備に失敗しました"
+
+; Used in a popup error message when the user has sent a request to a
+; server, and the server signalled that the request entity (the actual
+; request data) was too large (HTTP error code 413). Visible if the user
+; has set the Network/Server errors/Always show dialog box preference.
+-1058835823="HTTP リクエストデータが長すぎます"
+
+; Used in a popup error message when the user has sent a request to a server
+; and the URL is longer than the server can handle (HTTP error code 414).
+; Visible if the user has set the Network/Server errors/Always show dialog
+; box preference.
+-1079658918="HTTP アドレスが長すぎます"
+
+; Used in a popup error message when the user has sent a request to a server
+; and the server didn't recognize the content type of the request entitiy
+; (HTTP error code 415). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+-1140372240="サーバーがコンテントタイプを認識できませんでした"
+
+; Used in a popup error message if Opera has requested a part of a file that
+; does not exist (HTTP error code 416). This shouldn't happen. Visible if
+; the user has set the Network/Server errors/Always show dialog box
+; preference.
+-616120726="サーバーがファイルのリクエストされた部分を送信できませんでした"
+
+; Used in a popup error message if Opera has sent a request with certain
+; expectations in the HTTP header 'Expect', and the server can't meet that
+; expectation because vital features are not implemented. For example, the
+; server can be expected to handle HTTP_CONTINUE (HTTP reply code 100)
+; when sending in forms (HTTP error code 417). Visible if the user has set
+; the Network/Server errors/Always show dialog box preference.
+857450575="HTTP 予測に失敗しました"
+
+; Used in a popup error message when Opera has sent a request to a HTTP
+; proxy server, and the upstream server returned an invalid response code
+; (HTTP error code 502). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+-1195254785="HTTP ゲートウェイに失敗しました"
+
+; Used in a popup error message when the user has requested a document and
+; the server can't fulfill the request since it's overloaded or offline
+; (HTTP error code 503). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+1578430811="サーバーが高負荷であるかオフラインになっています。時間をおいて再試行してください"
+
+; Used in a popup error message when the user has sent a request to a proxy
+; server, and the upstream server did not answer before the proxy server
+; timed out (HTTP error code 504). Visible if the user has set the
+; Network/Server errors/Always show dialog box preference.
+-1311914337="HTTP ゲートウェイがタイムアウトしました"
+
+; Used in a popup error message when the user has requested a document from
+; a server, and the server doesn't support the HTTP version used (HTTP
+; error code 505). Visible if the user has set the Network/Server
+; errors/Always show dialog box preference.
+1531026242="HTTP のバージョンが受け入れられませんでした"
+
+; Used in a warning popup message when the user has tried to fetch a
+; document from a server, using HTTP digest authentication to check the
+; documents integrity, and the authentication failed.
+-740353027="認証に失敗しました。コンテンツが信頼できない可能性があります"
+
+; Used in a warning popup message when the user has tried to fetch a
+; document from a proxy server, using HTTP digest authentication to check
+; the documents integrity, and the authentication failed.
+-1145474466="プロキシの認証に失敗しました。コンテンツが信頼できない可能性があります"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the server answered that the ftp service was not
+; currently available (FTP error 421).
+620822149="FTP サーバーが利用できません"
+
+; Used in a popup error message as a default error message when the user has
+; entered an FTP URL into the URL field and an error has occurred.
+195626167="FTP モジュール内の内部エラー"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the server has rejected the connection.
+-1924345111="接続できませんでした。FTP サーバーが混雑しているようです。"
+
+; Can be used when the the user has entered an FTP URL into the URL field,
+; and the server has rejected the connection because the provided user
+; name didn't exist. Normally an authentication dialog is shown instead.
+-1848604135="FTP サーバーにアカウントが見つかりませんでした"
+
+; Can be used when the the user has entered an FTP URL without user name and
+; password into the URL field to do an anonymous login, and the server did
+; not accept anonymous logins. Normally an authentication dialog is shown
+; instead.
+1189442079="この FTP サーバーへの接続にはユーザー名とパスワードが必要です"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the directory did not exist
+1347458739="FTP ディレクトリが見つかりませんでした"
+
+; Used in a popup error message when the user has entered an FTP URL into
+; the URL field, and the file did not exist.
+677350004="ファイルが見つかりませんでした"
+
+; Used in a popup error message when an initiated FTP file download is
+; interrupted by the server, either by the connection being closed (FTP
+; error 426) or the download action being aborted (FTP error 451).
+749039349="リモート FTP サーバーにより接続が切断されました"
+
+; Used in a popup error message when the user has entered an FTP URL in the
+; URL field to request a file download, and the server signals that it
+; can't set up a passive data channel to transfer the file (FTP error
+; 425).
+114420836="リモート FTP チャンネルを開けませんでした"
+
+; Used in a popup error message when the user has entered a file URL
+; pointing to a file that does not exist in the URL field.
+1341715899="ファイルを開けませんでした"
+
+29719148="プリンタのサイズ設定は 20% から 400% である必要があります。正しい数値を入力してください"
+-1531609405="一つのサーバーに対する最大接続数は 1 から 99 である必要があります。"
+1990780688="最大接続数は 1 から 999 である必要があります。"
+-841488811="履歴の行数設定は 0 から 999 である必要があります。"
+; Used in a popup error message when the user has requested a file from the
+; server, and the server recieves the request but no data exists to return
+; (HTTP error code 204), if the user has set the Network/Server
+; errors/Always show dialog box preference.
+-889828450="リモートサーバーはリクエストに応答しましたが、コンテンツがありませんでした"
+
+; Used in a popup error message when the user has entered a file URL in the
+; URL field and the file is read-protected.
+-308415646="このファイルへのアクセスが拒否されました"
+
+; Used in a popup error message when the user has entered a file URL in the
+; URL field and the file does not exist.
+1307823342="ファイルが存在しませんでした"
+
+; Used in a popup error message when Opera has tried to write a file to disk
+; and there was not enough disk space left. This happens for example when
+; trying to save a page to disk, but also in many other places and
+; situations, not always connected with something that the user does.
+-741209408="ファイルに書き込めませんでした。ディスクが一杯です。"
+
+; Used in a popup error message when Opera has failed to write data into the
+; cache, for example when fetching a document.
+435718529="内部キャッシュエラー"
+
+520154852="リソースが不足しています。文字列を読み込めませんでした"
+; Used as default text on file upload input elements in forms in HTML
+; documents.
+-1783794762="選択"
+
+; Used in a popup error message when the user has entered a telnet URL
+; (starts with 'telnet:') in the URL field to start a telnet session, and
+; no telnet application is specified in preferences.
+-510694030="Telnet プログラム名が指定されていません。設定から Telnet アプリケーションのフルパスを入力してください。"
+
+; Used in a popup error message when the user has entered a telnet URL
+; (starts with 'telnet:') in the URL field to start a telnet session, and
+; no hostname has been specificed in the url.
+426171406="ホスト名が指定されていません"
+
+; Used in a popup error message when the user has entered a TN3270 URL
+; (starting with tn3270:) in the URL field, to connect to a server with
+; TN3270, and no path to a TN3270 terminal application has been specified
+; in the preferences. (TN3270 is a variant of telnet used mainly on IBM
+; mainframes).
+-1755894156="TN3270 プログラム名が指定されていません。設定から TN3270 アプリケーションのフルパスを入力してください。"
+
+; Used in a popup error message when the user has entered a TN3270 URL
+; (starting with tn3270:) in the URL field, to connect to a server with
+; TN3270, and no hostname has been specified. (TN3270 is a variant of
+; telnet used mainly on IBM mainframes).
+-819028720="ホスト名が指定されていません"
+
+-1072146715="スキンファイル (*.zip)|*.zip|すべてのファイル (*.*)|*.*|"
+-1005530747="HTML ファイル|*.htm;*.html|Web アーカイブ|*.mht|テキストファイル|*.txt|GIF ファイル|*.gif|PNG ファイル|*.png|JPEG ファイル|*.jpg;*.jpeg|BMP ファイル|*.bmp|SVG ファイル|*.svg;*.svgz|サウンドファイル|*.wav|AVI ビデオファイル|*.avi|MIDI 音楽ファイル|*.mid;*.midi|Opera ウィンドウ設定|*.win|XML ファイル|*.xml|スタイルシート|*.css|すべてのファイル (*.*)|*.*|"
+; Used in the File/Open dialog to let the user select what type of files the
+; dialog should show. The labels are visible in the File type dropdown
+; list.
+1697415490="HTML ファイル (*.htm;*.html)|*.htm;*.html|テキストファイル (*.txt)|*.txt|GIF ファイル (*.gif)|*.gif|PNG ファイル (*.png)|*.png|JPEG ファイル (*.jpg*.jpeg)|*.jpg;*.jpeg|BMP ファイル (*.bmp)|*.bmp|SVG ファイル|*.svg;*.svgz|すべてのファイル (*.*)|*.*|"
+
+1485048895="プログラムファイル (*.exe)|*.exe|すべてのファイル (*.*)|*.*|"
+-1970773635="サウンドファイル (*.wav)|*.wav|すべてのファイル (*.*)|*.*|"
+592736239="X509 (*.usr)|*.usr|PKCS #7 signed (*.p7s)|*.p7s|PKCS #7 (*.p7)|*.p7|PKCS #12 (プライベートキー含む) (*.p12)|*.p12;*.pfx|PEM ファイル(*.pem)|*.pem|すべてのファイル(*.*)|*.*|"
+1738062614="X509 (*.usr)|*.usr|PKCS #7 signed (*.p7s)|*.p7s|PKCS #7 (*.p7)|*.p7|PKCS #12 (プライベートキー含む) (*.p12)|*.p12;*.pfx|PEM ファイル(*.pem)|*.pem|"
+-1668392241="X509 (*.ca)|*.ca;*.crt;*.cer;*.509;*.der|PKCS #7 signed (*.p7s)|*.p7s|PKCS #7(*.p7)|*.p7|PEM ファイル(*.pem)|*.pem|すべてのファイル(*.*)|*.*|"
+1902934622="CSV (カンマ区切り)(*.csv)|*.csv|すべてのファイル (*.*)|*.*|"
+; Used in the authentication dialog when the user tries to access a password
+; protected document.
+190440433="このページのユーザー名とパスワードを入力してください｡"
+
+; Used in the authentication dialog when the user has tried to access a
+; password protected HTML page and authentication has failed.
+1179984052="このページの認証に失敗しました｡ユーザー名とパスワードを再入力してください｡"
+
+; Used when the user has tried to access an URL type that according to the
+; settings in preferences should be accessed through a proxy server, and
+; the proxy server requires authentication.
+-877069358="このプロキシサーバーのユーザー名とパスワードを入力してください。"
+
+; Used when the user has tried to access an URL type that according to the
+; settings in preferences should be accessed through a proxy server, and
+; the authentication to the proxy server fails.
+1607302869="プロキシサーバーへの認証ができませんでした。ユーザー名とパスワードを再入力してください"
+
+-1381160483="CSS ファイル (*.css)|*.css|HTML ファイル (*.htm,*.html)|*.htm;*.html|すべてのファイル (*.*)|*.*|"
+-1548879258="画像ファイル|*.gif;*.png;*.jpg;*.jpeg;*.jpe;*.bmp|すべてのファイル|*.*|"
+-1764642929="メッセージが送信されました"
+; Used in a popup error message when Opera finds that the document type is
+; unknown, or no document exists. This is hard to produce, though, since
+; handle all unknown file/mime types by letting the user decide what to do
+; with them - save, open or other alternatives, and empty documents are
+; just ignored.
+-1334353290="不明なドキュメントであるか指定されたドキュメントが存在しません"
+
+-2107080074="Opera ディレクトリを作成できませんでした。正しいディレクトリ名を入力して再試行してください。"
+; Used in an error popup dialog when the user has entered a gopher or WAIS
+; url in the URL field, and no corresponding proxy has been set in
+; preferences.
+1915388591="このアドレスタイプにはプロキシサーバーの使用が必要です。設定でプロキシサーバーを指定してください"
+
+; Used as the default text to substitute an image in an HTML document, if
+; the image can't be loaded (or viewing of images is turned off) and the
+; images alt attribute is empty.
+-1548171291="画像"
+
+; Used as the default prompt string to a searchable index specified with the
+; ISINDEX tag (an early form of forms functionality, deprecated in HTML
+; 4.X) in a HTML document, and is rendered in the document above an input
+; text area. (The label can be changed from this default with the PROMPT
+; attribute to the ISINDEX tag.)
+257961784="これは検索可能な索引です"
+
+; Used at the end of an HTML document that has not been fully loaded because
+; the user has cancelled the request with the Stop button.
+729579061="転送が中断されました！"
+
+-1291368336="このファイルタイプは現在使用されているため削除できません。"
+1761196910="ファイルタイプの削除"
+-349261683="本当にファイルタイプ情報:[%s]を削除してよろしいですか？\n\n 削除すると Opera はこのタイプのファイルの処理方法を判断できなくなります。"
+-550180835="システムファイル WSOCK32.DLL の場所を特定できませんでした。ネットワークドライバの(再)インストールが必要かもしれません。"
+-272576070="Opera E-mail"
+-1869569473="これらのオプションを設定することで、特定の種類の広告を見ることができるようになります。"
+; Search strings
+1731818968="検索エンジン設定"
+143957063="キー"
+-475340800="<サイトの標準>"
+
+; Search with x
+-1988219522="%s で検索"
+
+-1453252862="システムのリソース不足のため、Opera がウィンドウを作成できませんでした｡\nOpera のウィンドウを閉じるか実行中のプログラムを終了して、空きリソースを確保してください｡"
+-2072462430="Windows のリソース"
+-965895029="システムのリソースが低下しています"
+943043206="イベント"
+2018876050="サウンドファイル"
+69268550="ファイルを開く(&O)"
+-1294999549="ファイルを %sで開く(&O)"
+-826112101="どのように処理しますか?"
+-691888469="警告！　ファイルを開く前には必ずウイルスをチェックしてください"
+912272472="不明なサーバー"
+1849271768="文書:"
+-191591729="画像:"
+527933789="総数:"
+526767594="速度:"
+1838098568="時間:"
+; Used in the dialog title when user tried to download file to an invalid
+; directory.
+-1233519848="ダウンロードディレクトリが不正です"
+
+; The user tried to download a file to an invalid directory.
+-510986057="不正なダウンロードディレクトリからダウンロードしようとしました。"
+
+1900489595="余白サイズが不正です。0 から 5 cm (2 inch) の間で設定しなおしてください。"
+1484203207="宛先が指定されていません。宛先または ニュースグループを設定してください。"
+1448953232="マルチメディアファイルを再生できませんでした。デバイスが正しくインストールされているか確認してください。"
+1323471366="登録されたアプリケーションを開始できませんでした。Windows のメモリが不足しているかアプリケーションのプログラムファイルが不正です。"
+22184271="ファイルが見つかりません。"
+-292716452="パスが見つかりません。"
+1485863656="登録されたアプリケーションを開始できませんでした。メモリ不足です。"
+-1112644250="登録されたアプリケーションを開始できませんでした。ライブラリ (DLL ファイル) が正しくないようです。"
+-981866121="登録されたアプリケーションを開始できませんでした。アプリケーションは32ビット Windows 対応である必要があります。"
+1960318198="この拡張子に登録されているアプリケーションがありません。"
+-1388946625="登録されたアプリケーションを開始できませんでした。"
+1544915868="アプリケーションを開始できませんでした。Windows のメモリが不足しているかアプリケーションのプログラムファイルが不正です。"
+1669329573="プログラムが見つかりません。"
+1354428850="プログラムパスが見つかりません。"
+1535777150="アプリケーションを開始できませんでした。メモリ不足です。"
+2137220732="アプリケーションを開始できませんでした。ライブラリ(DLL ファイル)が正しくないようです。"
+665279181="アプリケーションを開始できませんでした。アプリケーションは32ビット Windows 対応である必要があります。"
+-1339033131="アプリケーションを開始できませんでした。"
+-1880596941="MIME タイプの指定が必要です。"
+-104559212="MIME タイプが指定されていません"
+-591099552="この MIME タイプはすでに存在します。\n\n%s\n\n上書きしてよろしいですか？"
+198289025="MIME タイプを上書きしますか？"
+; Popup error message when the user has tried to print a document and the
+; printer signals that it's out of paper. Currently unsorted.
+-1136487989="ページを印刷できません。プリンタの用紙切れです。"
+
+; Used in the document window when showing an ftp file listing. 
+236947530="親ディレクトリ"
+
+; Used in the 'type' column of the created directory listing when a file URL
+; pointing to a directory (for example file://localhost/C:/) has been
+; entered in the URL field, when the list item type is a directory.
+1655346089="ディレクトリ"
+
+; Used in the column titles of the created directory listing when a file URL
+; pointing to a directory (for example file://localhost/C:/) has been
+; entered in the URL field.
+-1886208143="ファイル名"
+-1885966286="ファイルタイプ"
+-1886019317="サイズ"
+-1885983809="更新日時"
+
+-1603847837="ウェブページ 通常のテキスト"
+1996324275="ウェブページ 見出し 1 <h1>"
+1996324276="ウェブページ 見出し 2 <h2>"
+1996324277="ウェブページ 見出し 3 <h3>"
+1996324278="ウェブページ 見出し 4 <h4>"
+1996324279="ウェブページ 見出し 5 <h5>"
+1996324280="ウェブページ 見出し 6 <h6>"
+1454201505="ウェブページ <pre>"
+581096763="リンク <a>"
+148398850="シングルラインテキスト入力"
+1826320747="マルチラインテキスト入力"
+-1626533879="フォーム ボタン"
+1650965499="フォントファミリー セリフ"
+941022991="フォントファミリー サンセリフ"
+-251987805="フォントファミリー カーシブ"
+-1459975592="フォントファミリー ファンタジー"
+-496949433="フォントファミリー モノスペース"
+1628598700="アドレスが長すぎます。"
+; Used in a popup error message when there is not enough free memory for
+; Opera to complete the current task.
+1037842700="メモリ不足です。"
+
+-1288121764="検索結果"
+1556424467="パーソナルバー"
+-1352710556="空白のページ"
+-1759909084="新規フォルダ"
+906850014="追加"
+1325210100="追加"
+606160820="メニュー"
+377181184="検索"
+1647828869="新しいタブ"
+-918088919="新規ブラウザ"
+-4062831="開く"
+-1001150226="保存"
+880020204="印刷"
+-1093357638="コピー"
+197832810="ページ検索"
+-847360260="戻る"
+-1705826954="更新"
+830055518="進む"
+380699176="ホームページ"
+-2061425340="移動"
+1380682310="ブックマーク"
+-1706951539="並べて表示"
+-1635182269="重ねて表示"
+-101179097="ホットリスト"
+278263762="全画面表示"
+870715797="移動"
+-913592259="検索"
+790656628="再開"
+-607245441="再ダウンロード"
+-1478706519="中止"
+879407488="すべてのウィンドウを閉じますか?"
+; Used in the progress bar when a request for fetching a document has been
+; enqueued for sending to the server.
+837164424="%s にリクエストを要求しています..."
+
+; Used in the progress bar when Opera is looking up the name for the host to
+; fetch a document from.
+66074078="%s のホスト名を検索しています..."
+
+; Used in the progress bar when connecting to the host to fetch the
+; requested document.
+-1971575858="リモートホスト %s に接続しています..."
+
+; Used in the progress bar when sending a document request to the server.
+1773355565="%s にリクエストを送信しています..."
+
+; Used in the progress bar when receiving data from the requested document
+; from the server.
+1021730588="%s のデータを受信しています..."
+
+; Used in the progress bar when starting the network before fetching a
+; requested document.
+-123330029="ネットワーク/モデムに接続しています..."
+
+; Used in the progress bar (often too briefly to be seen, before the
+; hostname lookup) when searching for a complete name for the server to
+; fetch a requested document from.
+-312841378="正しいサーバー名を検索しています..."
+
+; Used in the progress bar when setting up an encrypted connection with the
+; server before fetching a requested document.
+242456090="セキュア接続を設立しています..."
+
+; Used in the progress bar when connecting to a proxy server to fetch a
+; requested document.
+-289213041="プロキシサーバーに接続しています..."
+
+; Used in the progress bar when waiting for a connection to the server to be
+; set up, to fetch a requested document.
+94677311="しばらくお待ちください(#%2)。 %1へ接続中です。"
+
+; Used in the progress bar when a requested file has been loaded from the
+; server.
+-128287927=" %s へのリクエストが完了しました"
+
+; Used in the progress bar when waiting for a reply from the server after
+; requesting a document.
+-478562659="タイムアウトを40秒に設定しました。データを待っています..."
+
+; Used in a popup warning message when the user has submitted a HTML form to
+; a server, which accepts the request, but never sends an HTTP_CONTINUE
+; (HTTP response code 100) to tell Opera to send the forms data. Opera
+; waits for 40 seconds before showing the warning message.
+-1149141658="このサーバーには問題があるようです。\n\n読み込みが正しく完了しない場合は、リクエストを中止しフォームを再送信してください。"
+
+; Used in the progress bar while the user selects to accept or reject a
+; cookie in the cookie warning/confirmation dialog, when accessing a site
+; that requires the server to set client cookies, and Opera is not set to
+; automatically receive this kind of cookie.
+2096696774="Cookie の取り扱いに関するユーザーの確認を待っています..."
+
+; Used in the progress bar while Opera checks that the domain stated in the
+; cookie exists.
+1256965226="Cookie ドメインの DNS 確認を待っています..."
+
+; Used in a popup error message if the user has entered an URL with a port
+; specification that is not the default port for that protocol, and is
+; among the ones that Opera uses internally (for example
+; www.example.com:25) in the URL field.
+-483931386="セキュリティ上の理由により、このポートへのアクセスは無効にされています。"
+
+; Used in a popup error message, along with the complete cookie data, when
+; the server wants to set an HTTP cookie with a domain attribute that does
+; not match the server name.
+874543792="サーバーが不正な Cookie を設定しようとしました。サーバーのホスト名は Cookie が設定しようとしているドメイン属性と一致しません。Cookie は拒否されました。\r\n\r\nこのウェブサイトの信頼性に疑いがあります。"
+
+; Used in a popup error message, along with the complete cookie data, when
+; the server wants to set an HTTP cookie, and Opera fails to look up the
+; domain stated in the cookie in the DNS.
+1084336304="サーバーが IP アドレスが登録されていないドメインに Cookie を設定しようとしました。セキュリティ上の理由により、この処理は受け入れられません。このため、Cookie は拒否されました。\r\n\r\nサイトの管理者に、Cookie において指定されたドメインの IP アドレスを作成するよう要望してみてください。"
+
+; Used in about page.
+-128069365="  このプラグインは無効です"
+
+558880268="Opera の起動"
+519664501="Opera を終了"
+115269511="ページの読み込み完了"
+-544479256="ダウンロードの完了"
+-705946906="失敗"
+-516179123="リンクをたどる"
+1787559867="なし"
+-497527115="スキンを使用しない"
+-129095232="%s-ファイルに登録されたビューアがありません。ファイルを開くアプリケーションを指定してください。\n [詳細設定]ボタンを押して使用するアプリケーションを特定してください。"
+1573133838="アプリケーションが見つかりません"
+1699014693="イベント時に再生するサウンドファイルを選択してください"
+1554210286="Windows のシステムリソースが不足しています。幾つかのウィンドウやアプリケーションを閉じ、問題を解決してください。"
+1540414467="Windows のシステムリソースが不足しています。幾つかのウィンドウやアプリケーションを閉じ、問題を解決してください。"
+-713481087="保存したウィンドウ設定ファイルが壊れていると思われます。使用できません。"
+-1559500272="Opera ウィンドウ設定ファイル (*.win)|*.win|すべてのファイル (*.*)|*.*|"
+-1466343430="表示"
+591882635="送信"
+-1393253531="中止"
+599857409="ページ %d"
+; Used in an warning/confirmation dialog when the user has submitted a form
+; via email.
+1934568974="このフォームの内容はメール経由で送信されます。あなたの名前とメールアドレスが送信相手に通知されます。続行しますか"
+
+; Used in an warning/confirmation dialog when the user has tried to submit
+; an HTML form insecurely.
+-2067346554="このフォームの内容は暗号化されることなく送信されようとしています。続行しますか？ "
+
+; Used in a warning/confirmation dialog when the user has submitted an HTML
+; form, and the server wants to redirect the submitted data to another
+; server. GET and POST refers to HTTP commands. POST is to send the form
+; data again to the new destination, GET discards the data, but continues
+; to to the new destination.
+-2108836572="入力フォームの内容が転送されようとしています。\n\n｢はい｣を押すと新たな送信先に再送信され、 \n\n｢いいえ｣を押すと再送信せずに続行します。 \n\n続行したくない場合は｢キャンセル｣を押してください。"
+
+1586230699="非セキュリティ"
+-546753258="低セキュリティ"
+1585999766="中セキュリティ"
+1585949678="高セキュリティ"
+2024554106="サーバー上にセキュリティが設定されていません。"
+-1343029723="サーバー上に低い(最小限の)セキュリティが設定されています。 "
+2024323173="サーバー上に中程度のセキュリティが設定されています。 "
+2024273085="サーバー上に高度なセキュリティが設定されています。"
+1343545735="サーバー上に低い(最小限の)セキュリティが設定されています。画像ファイルは暗号化されていません。"
+-1784824889="サーバー上に中程度のセキュリティが設定されています。画像ファイルは暗号化されていません。"
+-1055693793="サーバー上に 高度なセキュリティが設定されています。画像ファイルは暗号化されていません。"
+; Used in the title bar of the Certificate authorities dialog in the network
+; security preferences.
+-787920615="認証機関"
+
+; Used in the title bar of the Personal certificate dialog in the network
+; security preferences.
+-615416248="個人証明書"
+
+; Used in a popup error message when the client was unable to connect to the
+; server.
+-609046020="サーバーへの接続に失敗しました。おそらくサーバーがサポートしている暗号化方式がセキュリティの設定で有効にされていないためです。"
+
+; Used in a poup error message to inform about a transmission failure.
+-987128712="送信に失敗しました。"
+
+; Used in a popup error message when the certificate is invalid or
+; non-verifiable.
+-573306081="不正または認証不可能な証明書です。"
+
+; Used in a popup error message when the certificate is unsupported.
+2063851617="サポートされていない形式の証明書です。"
+
+; Used in a popup error message when the certificate has been revoked by its
+; issuer.
+912684264="証明書が発行人により無効にされています。"
+
+; Used in a popup error message when the certificate has expired.
+2039718793="証明書の有効期限が切れています。"
+
+; Used in a popup error message when the certificate is unknown.
+831263304="不明な証明書です。"
+
+; Used in a popup error message, when the certificate is valid, but
+; permission denied.
+-2004784560="証明書は有効ですが、認証を拒否されました。 "
+
+; Used in a popup error message when an internal error has occurred.
+-598522595="内部エラーが発生しました。"
+
+; Used in a popup error message when the certificate's chain was not ordered
+; properly.
+-970675139="証明書チェーンが正しく順序付けられていません。"
+
+; Used in a popup error message when no acceptable SSL 2 encryption methods
+; have been found.
+-512986067="受信不可能な SSL 2 の暗号化方法が見つかりました。"
+
+; Used in a popup error message when an unknown error has been detected.
+-1248952938="原因不明のエラーが発見されました"
+
+; Used in a popup error message when the server only supports SSL 2, and SSL
+; 2 is not enabled in preferences.
+731403204="このサーバーは SSL 2 のみをサポートしています。サイトの管理者はサーバーを更新するべきです。接続したい場合には、設定から SSL 2 を使用可能にする必要があります。"
+
+; Used as a title of a warning dialog.
+1948946636="セキュリティ接続: 警告 (%u)"
+566511154="セキュリティ接続: サーバーからの警告 (%u)"
+
+; Used as a title of a error dialog.
+-1087181122="セキュリティ接続: 致命的なエラー (%u)"
+-25004956="セキュリティ接続: サーバーからの致命的なエラー (%u)"
+
+; Indicates that something went wrong with the OCSP validation request
+-2111822686="サーバー証明書のオンライン検証 (OCSP) に失敗しました。"
+
+; Used in the security password dialog.
+201826749="マスターパスワードを入力してください"
+1101329179="現在のマスターパスワードを入力してください"
+-1208916378="新しいマスターパスワードを入力してください"
+1794405509="マスターパスワードを再度入力してください"
+674909923="パスワードが間違っています。正しいマスターパスワードを入力してください"
+
+; Error message during changing of password.
+1551983116="マスターパスワードの変更に失敗しました。 "
+
+; Information to the user about requirements on security password.
+1530501215="パスワードは6文字以上で、アルファベットと数字の両方が含まれている必要があります。"
+
+; Used in the security password dialog.
+664671332="個人証明書を保護するためのマスターパスワードを入力してください"
+
+; Used in a text label in the view certificates dialog.
+-402560894="個人証明書がデータベースに登録されています。 "
+1050252930="認証機関がデータベースに登録されています。 "
+
+; Message during installation of certificate.
+708880179="データベースにこの認証機関の証明書チェーンをインストールしますか？"
+-574001618="データベースにこの個人証明書チェーンをインストールしますか？ "
+2106774225="データベースにこの PEM エンコードした証明書チェーンをインストールしますか？ "
+
+; Used in a popup error dialog when there is problem with the server's
+; certificate and the user is about to send a request to the server.
+-1995146316="このサーバーへリクエストを送信します。続行しますか？"
+
+; Used in a popup error dialog when there is problem with the server's
+; certificate, it did not match its hostname.
+84333047="サーバーの証明書はホスト名と一致しません。承認しますか？ "
+
+; Used as a dialog text when one of the certificates presented by the server
+; has expired.
+870472473="サーバーから提供された証明書の1つが有効期限切れです。証明書を承認しますか？"
+
+; Used in a dialog text when the user is prompted to select a certificate
+; for the server.
+301488599="サーバーが証明書を要求しています。次の証明書の中から1つを選択するか、何も送信しない場合には[キャンセル]を押してください。"
+
+; Used in a popup error message when the signatures of the certificate could
+; not be verified.
+841952790="証明書の署名が認証されませんでした。発行者の署名の手順が間違っている、証明書に変更が加えられた、もしくは偽の証明書である可能性があります。"
+
+; Used in a popup error message when the certificate cannot be used for the
+; intended purpose.
+1568984207="この証明書はこの目的には使用できません。"
+
+; Used as a dialog title when installing certificates.
+1553324179="認証機関の証明書のインストール"
+1432740334="個人証明書のインストール"
+-825617807="PEM 証明書のインストール"
+
+; Used as a dialog title when the user should select a client certificate..
+-1705818569="個人証明書を選択してください"
+
+; Used as a dialog title when there is a problem with the certificate.
+1218347377="証明書の警告"
+-883789402="証明書の名前が間違っています"
+844278570="証明書の有効期限切れです"
+-1617071296="サーバー証明書の有効期限切れです"
+
+; Used in a popup error message when the certificate has expired.
+-96444861="この証明書は有効期限切れです。削除した上でアップデートされた証明書をインストールしてください。"
+
+; Used in a dialog title when the server's certificate chain is incomplete.
+1271662468="証明書の署名者が見つかりませんでした"
+
+; Used in a dialog when the server's certificate chain is incomplete, during
+; certificate installation.
+1008146677="サーバーの証明書チェーンが不完全です。署名者が登録されていませんでした。承認しますか？"
+-2078780637="このサーバーのルート証明書が登録されていません。この証明書のインストールをお勧めします。承認/インストールを行いますか？"
+
+; Used in a dialog during certificate installation. The certificate has been
+; installed and is usable, but Opera couldn't verify it, because the the
+; signer of certificate is missing.
+-1090846694="この証明書の署名が欠けています｡署名者の証明書をインストールしてください。この証明書はインストールされ、使用することはできますが、Opera による確認はできません。"
+
+2025255719="インストール"
+; Error message during changing of password.
+-111701802="マスターパスワードの設定に失敗しました。"
+
+; Used in a popup error message when the installation of a certificate
+; failed.
+138106567="証明書のインストールに失敗しました。"
+
+; Used in a dialog during certificate installation, when the client
+; certificatea had no matching private key in the database.
+2076883697="個人証明書がデータベースのプライベートキーと一致しません。"
+
+; Used in a dialog during certificate installation, when the certificate's
+; chain was not ordered properly.
+2096450965="証明書チェーンが正しく順序付けられていません。"
+
+; Used in a popup error message when the installation of a certificate
+; failed, because there was a different client certificate already
+; installed.
+-1973969022="このキーにはすでに別の個人証明書がインストールされています。インストールに失敗しました。"
+
+; Used in a popup error message when a different certificate already exist
+; for at least one of the installed certificate authorities.
+623132391="インストールされた認証機関発行の別の証明書が、すでに少なくとも1つ存在します。これらは無視されます。"
+
+-781353367="キーの作成中"
+1979093832="お待ちください。Opera はプライベートキーを作成しています。"
+; Error message when encryption is disabled.
+-267159947="すべての暗号化の方法が設定で無効にされています。"
+
+; Used in a dialog during certificate installation, when the certificate is
+; unknown or has an invalid format.
+1515187534="不明な証明書または不正なフォーマットです。"
+
+; Error message when encryption is disabled.
+1207224929="セキュリティオペレーションは利用できません。"
+-1629273963="セキュリティが無効です。"
+
+77600876="このセキュリティオペレーションは無効です。"
+1383055937="このセキュリティ DLL がないと、Opera のセキュリティ機能は使用できません。"
+1552880124="承認する"
+; Used in a popup error message when the server's certificate held an
+; invalid name expression.
+-1089784783="サーバーの証明書が不正な名前の表現で実行されました"
+
+; Header for description of encryption type in certificate dialogs. Max 30
+; characters.
+-206988917="接続"
+
+; IMPORTANT!!!! Do not change %u, %ld or \r and \n !!!!
+-1808442172="モジュール:"
+863827172="モジュール:"
+-1993303540="発行者:"
+122085675="パブリック発行者:"
+1442439783="プライベート発行者:"
+-373290903="prime1:"
+-373290902="prime2:"
+1053948893="発行者1:"
+1053948894="発行者2:"
+1563762202="係数:"
+1409753599="サポートされていないキーアルゴリズムです "
+-1179958636="拡張子のオブジェクト ID が不明です "
+1184375241="署名アルゴリズムが不明です "
+
+; Followed by the version of the certificate format. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+-2026063377="証明書のバージョン"
+
+; Followed by the certificate's serial number. !!IMPORTANT!! No HTML special
+; characters are allowed !!
+1787377060="シリアルナンバー"
+
+; Followed by the date the certificate became valid. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+157557903="有効期間の開始: "
+
+; Followed by the certificate's expiration date. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+-907414258="有効期間の終了: "
+
+; Followed by the certificate's fingerprint. !!IMPORTANT!! No HTML special
+; characters are allowed !!
+-188195677="フィンガープリント: "
+
+; Followed by the certificates's public key name. !!IMPORTANT!! No HTML
+; special characters are allowed !!
+1637190079="パブリックキーアルゴリズム: "
+
+; Followed by the algorithm used to sign the certificate. !!IMPORTANT!! No
+; HTML special characters are allowed !!
+-1519010094="署名アルゴリズム: "
+
+; Followed by a list of extensions. !!IMPORTANT!! No HTML special characters
+; are allowed !!
+-874459112="拡張子: "
+
+; The exension is critical. !!IMPORTANT!! No HTML special characters are
+; allowed !!
+-757917242=" (Critical)"
+
+; IMPORTANT!!!! Do not change %u, %ld or \r and \n !!!!
+393005854="\r\n\r\nパブリックキーのフィンガープリント (SHA-1):\r\n  "
+
+; Max 199 chars 
+-1466464979="%u ビットのプライベートキーです。作成日 %s \r\nURL: %s"
+
+-516230462="この証明書は SSL の認証または SSL 証明書の編集には使用されません。"
+-516230468="この証明書は SSL クライアントの認証に使用されます。"
+-516230467="この証明書は SSL サーバーの認証に使用されます。"
+-516230466="この証明書は SSL クライアントとサーバーの認証に使用されます。"
+-516230465="この証明書は SSL 証明書の編集に使用されます。"
+-516230464="この証明書は SSL クライアントの認証と SSL 証明書の編集に使用されます"
+-516230463="この証明書は SSL サーバーの認証と SSL 証明書の編集に使用されます。"
+-516230461="この証明書は SSL クライアントとサーバーの認証および SSL 証明書の編集に使用されます。"
+; Used in a popup error message when the server has requested an
+; authentication method that Opera does not support, when fetching a
+; document.
+1801081976="サーバーがサポートされていない認証方法によるログインをリクエストしました。"
+
+; Used in a popup error message when a proxy server has requested an
+; authentication method that Opera does not support, when fetching a
+; document.
+86761315="プロキシサーバーがサポートされていない認証方法によるログインをリクエストしました。"
+
+; Used in a popup error message when the user has tried to authenticate to a
+; page outside of the given security realm.
+90474365="この URL は認証された領域内の URL リストにありません。\r\n認証証明書を送信できません。"
+
+; Used in the progress bar while Opera is uploading a file to the server.
+-82082389="サーバーへファイルのアップロード中"
+
+1596445137="この機能はこの Opera スペシャルバージョンでは使用できません。"
+-153395454="この機能は使用不可にされています"
+; Used as a title of the generated drives list page (opera:drives) on some
+; platforms.
+1395472123="ドライブ"
+
+; Used as title of the generated plug-in list page (opera:plugins) on some
+; platforms.
+-1303632626="プラグイン"
+
+; Used as title of the generated history list page, when the user has
+; selected Windows/Special/History, or entered the URL opera:history.
+-2050389743="履歴"
+
+-1331726731="プラグインディレクトリがスキャンされました。\n新たなファイルタイプに対応したプラグインがアクティブにされました。\n既知のファイルタイプに対応したプラグインも追加されましたが、アクティブにはなっていません。"
+; Used as title of the generated cache list page, when the user has selected
+; Windows/Special/Cache, or entered the URL opera:cache.
+-1429037863="キャッシュ"
+
+; Used in the Filename column of the created cache listing (created by
+; entering the special URL opera:cache into the URL field) when the file
+; is cached in memory and not to a file.
+-1068073072="(メモリ)"
+
+; Used in about page.
+1599373481="ソース"
+
+; Used as page title in a blank page created by entering the special URL
+; opera:blank in the URL field.
+-592232182="空白のページ"
+
+; Used as column titles in the generated cache list page, when the user has
+; selected Windows/Special/Cache, or entered the URL opera:cache.
+-524571995="ファイル名"
+-299260835="アドレス"
+-1713924769="サイズ"
+
+-455242895="本当にダウンロードをキャンセルしますか？"
+; Used in a popup confirmation dialog when the user has gone to
+; Preferences/Multimedia, enabled plug-ins and pressed the 'Find plug-ins'
+; button, and new plug-ins needs to be activated.
+946913177="プラグイン "%1" にファイルタイプ"%2"を関連付けますか？"
+
+837228054="未ライセンスバージョン"
+-1258367437="ページをここに追加..."
+1736509033="フォルダ内のすべてを開く"
+; Docked hotlist window
+1018760425="タイトル"
+
+-1506826399="ブックマークの編集..."
+1378247789="ニックネームにピリオド、クエスチョンマーク、コロン、スラッシュ、バックスラッシュを含める事はできません。"
+-501173777="不正なニックネームです"
+-1149995204="マウスジェスチャー"
+619665011="Opera のマウスジェスチャーを初めて使用しようとしています\n\nマウスジェスチャーとは、マウスの右クリックボタンを押しながら移動する動作によりシンプルな操作を実現する機能です。\n\n利用できるコマンドの一覧については  [ヘルプ] を参照してください。\n\nマウスジェスチャーを有効にしますか？"
+; Use skin from button set (buttons.ini)
+-1626082655="ボタンセットからスキンを使用しますか？"
+1409876984="ボタンセットの中にはスキンの画像も含まれています。\nスキンも使用しますか？"
+
+-403001992="ショートカット"
+-2008564385="目次"
+1824635302="Opera の終了時"
+-1681190725="この Cookie はドメイン内のセキュアサーバーにのみ送信されます。"
+1496650930="この Cookie はドメイン内のすべてのサーバーに送信されます。"
+-1504688269="この Cookie はこのセキュアサーバーにのみ送信されます"
+39944970="この Cookie はこのサーバーにのみ送信されます。"
+-507328659="この Cookie はデータベースから削除されます。"
+-533070172="コマンドラインにて選択された設定ファイルがこのバージョンの Opera で動作するには、アップグレードの必要があります｡アップグレードすると、以前のバージョンの Opera と互換性がなくなります。アップグレードを実行しますか？ [キャンセル]を押すと、標準の設定ファイルが代わりに使用されます｡"
+-1598715159="ファイルのダウンロード"
+332683195="ユーザー定義"
+; Used in a popup error dialog during loading of global history list.
+1166471331="履歴ファイルが不正です。クリアされます"
+
+; Probably deprecated. On O7 and O6 Win, the JavaScript error dialog is
+; popped up instead, if the user has requested in preferences/Multimedia
+; to be alerted of JavaScript errors.
+1581708385="JavaScript の実行に失敗しました"
+834340559="スクリプトの実行に失敗しました。"
+-1161598097="スクリプトのコンパイルに失敗しました。"
+
+; Used if Opera for some reason tries to run JavaScript in a non-HTML
+; document. This is not likely to happen.
+66541742="javascript: URL は HTML との組み合わせによってのみ実行できます。"
+
+; Used in a popup error message when the Opera fails to load the JavaScript
+; library at startup.
+-1112225044="システムファイル ES262-32.DLL を読み込めませんでした。JavaScript は実行されません。"
+
+; Used in the progress bar while Opera is busy running a JavaScript program.
+-466995444="JavaScript の実行中..."
+
+-62827592="ファイル名"
+531591762="サイズ"
+-1002341127="ファイルタイプ"
+-227119188="進行状況"
+-308398330="残り時間"
+956966280="転送速度"
+-1127055485="完了"
+-1592207656="中断"
+1463173159="エラー"
+1193666106="ファイルの情報をコピー"
+-39632401="エラー"
+-38776776="ファイル"
+2050033290="すべてのファイル(*.*)"
+1228940699="このページのスクリプトの実行を中止する"
+1984544987="次回からこのダイアログを表示しない(&D)"
+-1174213301="新しいフォルダ"
+; Used in the title bar of a warning/confirmation dialog when a script tries
+; to read the content of a password input element in a form in a HTML
+; document.
+1411382162="JavaScript セキュリティの警告"
+
+; Used in a warning/confirmation dialog when a script tries to read the
+; content of a password input element in a form in a HTML document.
+1932185442="スクリプトがフォームからパスワードの読み込みを求めています。\n\nスクリプトにパスワードを読み込ませてもよろしいですか？"
+
+-185022905="ダイヤルアップを切断できません（タイムアウトしました）"
+613028583="ダイヤルアップを切断しますか？ "
+50119801="現在 %s に接続しています。ダイアルアップ接続を切断しますか "
+-972259686="ブックマークのプロパティ"
+-1968570497="ブックマーク"
+-1727569741="PIN コードが正しくありません"
+363197295="署名が確認できません"
+2024735571="カードリーダはすでに使用中です"
+-1032461966="カードに問題があります"
+673183128="あなたのカード番号は、電子メールにリストされた受取人のうちの誰とも一致しません。"
+-94409337="暗号化できません(未定義のエラー)"
+1243273713="名前"
+-1489393778="オンライン"
+-1489393777="応答不可(Away)"
+-1489393776="離席中"
+-1489393775="取り込み中"
+-1489393773="不可視"
+-1489393772="電話中"
+-1905354370="食事中"
+-942346389="芸術 / 文化"
+1954373870="自動車"
+-74993178="本 / 雑誌"
+-1036582212="コンピュータ / ゲーム"
+1791166963="コンピュータ / テクノロジー"
+-828361781="料理"
+-1792184759="ファッション / 買物"
+-1485277739="金融 / 経済"
+1177593467="食べ物 / ワイン"
+-385208199="健康 / フィットネス"
+-461366283="日曜大工 / ガーデニング"
+-1455606028="映画"
+1127457794="音楽"
+-367470990="ニュース / 出来事"
+268274424="科学 / 教養"
+-1219849012="スポーツ / ホビー"
+-1178841041="旅行 / レジャー"
+-514635255="指定なし"
+-1123409232="$25,000 未満"
+-1123409231="$25,000-35,999"
+-1123409230="$36,000-49,999"
+-1123409229="$50,000-75,999"
+-1123409228="$76,000-99,999"
+-1123409227="$100,000 以上"
+1363536868="1900-1929"
+942973545="1930-1949"
+-769057780="1950-1959"
+522410222="1960-1969"
+1813878224="1970-1979"
+-1189621070="1980-1989"
+101872738="1990 以降"
+-1915930440="男性"
+636686787="女性"
+88507216="独身"
+1866942201="片親"
+-841049742="既婚"
+515098780="子供連れの既婚"
+825725929="中学卒"
+224649322="高校卒"
+-149584163="専門学校卒"
+-538735653="準学士"
+-1567718846="学士"
+1468766223="大学院卒"
+-304568432="ページが Cookie を設定しようとしています。\r\n   %s="%s"\r\n\r\nこの値は以下の範囲のドキュメント%s%sに送信されます｡ \r\n%s%s%s%s \r\nパス: /%s\r\n\r\n"
+-35945185="のみ"
+1530389153="(セキュアページのみ)"
+-29215723="サーバー: "
+-1048672320="ドメイン: "
+-1184962795=" ポート "
+-692607805="Opera のアップグレード"
+-650613995="Cookie は Opera の終了時に削除されます。"
+4574694="、ただし上書きしなければ、Cookie は Opera の終了時に削除されます。"
+-1178357299="この Cookie の有効期限は %s%s です\r\n\r\n"
+1751362522="この Cookie の有効期限は %s です。有効期限を過ぎた後、同じ名前の Cookie はすべて削除されます。\r\n\r\n"
+1594070323="サービスが Cookie を目的として以下のメッセージを送信しています: "%s"\r\n"
+-1738967699="\r\nより詳細な情報が以下の場所にあります <%s>\r\n%s\r\n\r\n"
+-1738967698="サービスが Cookie についての情報を下記の場所に表示しています <%s>\r\n%s\r\n\r\n"
+338431595="\r\n下の"コメントを見る"ボタンをクリックすると、ページを見ることができます。\r\n"
+-1137274796="受け入れ、終了までの変更も許可する。"
+-198630078="受け入れるが変更は許可しない"
+2042782064="受け入れ、Opera の終了時に削除する"
+-2106201915="受け入れ、Opera の終了時に保存する"
+1552935675="このサーバーからの Cookie を受け入れる"
+613795125="このサーバーからの Cookie を拒否する"
+-1461454532="このドメインからの Cookie を受け入れる"
+1894372214="このドメインからの Cookie を拒否する"
+-833137654="\r\n----------------------\r\nCookie リクエスト:\r\n\r\n"
+2114766269="このサーバーからのサードパーティの Cookie を受け入れる"
+1175625719="このサーバーからのサードパーティの Cookie を拒否する"
+-899623938="このドメインからのサードパーティの Cookie を受け入れる"
+-1838764488="このドメインからのサードパーティの Cookie を拒否する"
+-1775826046="すべての Cookie を拒否する"
+-1448442579="Cookie を受信するごとに処理方法を決定する"
+1325388160="サーバーマネージャーの指定に従って処理する"
+1907518502="すべての Cookie を受け入れる"
+2049407228="サーバーにセットされる Cookie のみ受け入れる"
+2015705380="すべての Cookie を拒否する"
+-1586994401="Cookie を受信するごとに処理方法を決定する"
+1826551691="すべての Cookie を受け入れる"
+1432967109="変更を反映させるには Opera を再起動する必要があります。\n\nOpera を終了しますか？"
+722660518="Opera を終了しますか？"
+1392615723="標準の言語（英語）"
+1656750584="サポートされたバージョンの Java ランタイム環境が見つかりませんでした\nVersion 1.2 以降のランタイム環境を Sun よりインストールする必要があります。\nJava は自動的にこのセッションでは無効にされます。\n以降のセッションでも Java を無効にしますか？"
+-1908513205="Opera Java classes には実行に必要な許可がありません。\nOpera.policy ファイルが見つからないか、Opera.policy ファイルが\nOpera.jar ファイルに許可を与えませんでした。Java アプレットは動作しません。"
+-978296662="インストールされているバージョンの Java ランタイム環境は、Opera では使用できません。<http://www.javasoft.com> より JRE 1.2 またはこれ以のバージョンをダウンロードしてください。"
+-650026867="Java DLL がレジストリの指定する場所に見つかりませんでした。\nJava のインストールが正しく行われていないと思われます。\nJava アプレットは動作しません。"
+1667549552="Java 仮想マシンの作成に失敗しました。"
+1941809035="Java 仮想マシンが終了されました。\n\nJava はこのセッションの間は無効にされています。"
+-2069634423="Java 仮想マシンが中止されました。\n\nJava はこのセッションの間は無効にされています。"
+1913846319="Java ネイティブメソッドの登録に失敗しました。\n\n古い Opera.jar ファイルを使用しているか、\nOpera Classpath の中に存在しません。Java アプレットは動作しません。"
+-1830611236="Java ランタイム環境のインストール内容を確認しますか？"
+-1094361596="Opera.jar ファイルが見つかりません\nOpera6.ini ファイルの [JAVA] セクション内 'OPERA CLASSPATH' に値が登録されていないか、\n値が誤ったパスになっています。\nJava アプレットは動作しません。"
+1400974046="Opera.policy ファイルが見つかりません。\nOpera6.ini ファイルの 'SECURITY POLICY' の [JAVA] セクションに値が登録されていないか、\n値が誤ったパスになっています。\nJava アプレットは動作しません。"
+; Dialog title for signed Java applets certificate dialog.
+469712059="Java セキュリティ"
+
+; Used in dialog for signed Java applets.
+2030873128="Java アプレットはコンピュータに影響を与えかねない操作を許可する権限を要求しています。\n\n信頼できるウェブサイトのみ許可してください。"
+
+-1872720="見つかりません"
+1893273179="メールの送信エラー"
+1893292455="外部メールアプリケーションが指定されていません。"
+-185484224="メールの送信エラー"
+-185464948="外部メールアプリケーションを起動できません。"
+-1367350697="メール"
+-2097859181="Opera メールアカウントのプロパティが正しくセットアップされていません。\n今すぐメールの設定を編集しますか？"
+-147109579="選択されたメールクライアントが指定されていません。\n今すぐメールの設定を編集しますか？"
+1408010931="標準で使用するメールクライアントがコンピュータに登録されていません。\n今すぐメールの設定を編集しますか？"
+-752244387="警告"
+-752225111="選択された外部メールクライアントが存在しないか\nまたは正しいアカウントが設定されていません。\n\nいずれかの設定を変更しますか？"
+-924276195="Opera として認識させる"
+-985287404="不正なパスを受け入れる"
+1993345890="拒否する(&F)"
+1325547048="受け入れる(&C)"
+1264569138="言語ファイルの含まれているディレクトリを選択してください"
+639348246="ユーザー定義"
+; Used as default text on submit input elements in forms in HTML documents.
+1356785972="送信"
+
+; Used as default text on reset input elements in forms in HTML documents.
+169522595="リセット"
+
+; Used as default text on button input elements in forms in HTML documents.
+692138972="ボタン"
+
+; Used at top of the document when trying to show an malformed XML document.
+; Followed by a more specific XML error message.
+-2021978484="XML の解析に失敗しました"
+
+; Used in a popup error message when the user has entered input in a text
+; input element in a WML document, and the input did not match the format
+; specification.
+44999632="入力内容が正しくありません"
+
+432512663="タブバー(&T)"
+-269674069="検索エンジンを表示"
+-2011196507="タブの使用順に切替える"
+979995915="タブの表示位置順に切替える"
+-360753815="一覧を表示しない"
+; Preferences dialog options
+1747247047="広告"
+-1305813132="ユーザー補助"
+-634691627="標準ブラウザ"
+33470825="フォント"
+-219837233="メール"
+-478760061="ファイルタイプ"
+1341372032="履歴とキャッシュ"
+452600415="ブラウザの外観"
+264817555="ページスタイル"
+-207454098="言語"
+39813015="マルチメディア"
+2004623204="ネットワーク"
+-1301854420="プログラムとパス"
+1693953724="個人情報"
+272486666="プライバシー"
+-1941436581="セキュリティ"
+122528232="サウンド"
+1824812073="起動と終了"
+109954594="ネットサーチ"
+-254407842="ウィンドウ"
+
+-1381406774="カテゴリー"
+1325603600="新たな設定を適用しています。しばらくお待ちください..."
+2119218620="名前"
+2118863802="説明"
+2119290728="パス"
+-299716555="MIME タイプ"
+-860666646="拡張子"
+; Unicode block names for the international font preferences
+1339762897="自動選択"
+1278504860="使用できるフォントがありません"
+1967748952="アラビア文字"
+163298945="アルメニア文字"
+1399722224="基本ラテン文字"
+1309502152="ベンガル文字"
+-826566756="チェロキー文字"
+-1843399734="通貨記号"
+-501441828="中国語(簡体字)"
+2037662161="中国語(繁体字)"
+151532465="キリル文字"
+1254587015="デーヴァナーガリー文字"
+1230425483="エチオピア文字"
+2011575273="一般句読点"
+-1339859166="グルジア文字"
+-1104605980="ギリシア文字"
+-1809700844="ギリシア文字 拡張"
+1928308749="グジャラート文字"
+-2039226046="グルムキー文字"
+-832995011="半角・全角形"
+-2072958219="ハングル文字"
+-2068634317="ヘブライ文字"
+-702947343="日本語(ひらがな)"
+58130102="CJKの記号及び句読点"
+-1100463261="日本語(漢字)"
+-108478300="カナラ文字"
+934935378="日本語(カタカナ)"
+-1100212947="クメール文字"
+-789800494="ラオ文字"
+-1916199105="ラテン1 補助"
+-425125506="ラテン文字 拡張A"
+-425125505="ラテン文字 拡張B"
+-1234848386="ラテン文字 拡張追加"
+-1323454363="マラヤーラム文字"
+1140574298="モンゴル文字"
+-896664213="ミャンマー文字"
+-907027258="数字に準じるもの"
+-1095510782="オガム文字"
+-1095113606="オリヤー文字"
+-1091443113="ルーン文字"
+1946198646="シンハラ文字"
+-1613861535="シリア文字"
+-1089791091="タミル文字"
+-1598646900="テルグ文字"
+-1595506013="ターナ文字"
+-293317796="タイ文字"
+-1071619203="チベット文字"
+-945247675="統合カナダ先住民音節"
+
+; About page
+1374863234="Opera について"
+-1129922063="ライセンス情報"
+-1176349515="ライセンス登録"
+-1779978808="名前"
+-1903611012="所属"
+-1529335185="試用"
+962024521="パス"
+-1004908702="システム"
+1557681688="設定"
+-33068845="Opera ディレクトリ"
+92075738="保存されたセッション"
+-1795415314="ブックマーク"
+455019715="プラグインのパス"
+1011802234="キャッシュ"
+-1153529489="ヘルプファイル"
+-248109233="Java"
+163333106="サードパーティ"
+1463797622="Opera Software は、貢献いただいた個人ならびに団体に心より感謝いたします。"
+-544464384="インストールされている Java ランタイム環境はこのバージョンの Opera ではサポートされていません"
+-509660262="Java ランタイム環境がインストールされていません"
+857127032="ライセンス済"
+1197327908="未ライセンス"
+1197327894="N/A"
+
+-887848582="ピクセル"
+1995601639="ビット/ピクセル"
+-42936756="バイト"
+-1003188973="エラーメッセージ"
+-733307256=": %i個のフレームで動作"
+-2040260108="ファイルが見つかりません"
+-1008231729="ファイル名が不正です"
+-2099097547="パスとファイル名が正しいかどうか確認してください。"
+-63918038="バイト"
+1430354649="B"
+; Short for kilobyte
+698570216="KB"
+
+-1047074189="MB"
+1811210289="GB"
+1359772549="TB"
+-892792889="/秒"
+; Used in about page.
+-1573886397="Java がインストールされていません"
+
+-63928757="ファイルを保存するフォルダの選択"
+; Used in about page.
+80168480="バージョン"
+468601187="Build"
+1813791800="プラットフォーム"
+-1908045493="バージョン情報"
+1523437109="システム"
+-902935139="パートナー"
+
+-1360722636="プリンタに接続する際に問題が発生しました。プリンタの設定を確認してください。ネットワークプリンタを使用している場合は、ネットワーク接続も確認してください。"
+533855858="プリンタの問題"
+1100529353="プリンタ"
+-698447941="このウィンドウのソースコードは変更されています。保存しますか？"
+; Used in the window title when the page has been edit using the internal
+; source viewer.
+-603163635="(編集済) "
+
+-868248807="ページメニュー"
+; Used in a warning/confirmation dialog when the user has activated offline
+; mode and then requested Opera to access information that is only
+; available online.
+-280397314="オフラインモードが有効にされています。\n\n%s\n\nを開けません。オンラインモードに切り替えますか？"
+
+-1971676029="分"
+-1154860362="分"
+-383601203="秒"
+-287998656="秒"
+-1981013995="最終使用"
+-286978725="不正なリロード値が入力されています。\n\nリロード値には数字のみが使用でき、また 0 は使用できません。"
+; XML error message used at top of the document, following string 13046,
+; when trying to show an malformed XML document. Followed by a line and
+; character count to help finding the error in the XML file.
+-295491426="メモリ不足"
+-1893261847="構文エラー"
+1539802399="要素が見つかりません"
+1758868602="フォームが不正です"
+1063248502="トークンが閉じられていません"
+624633491="タグの不一致"
+1137328231="属性の重複"
+106859500="要素の外にあるゴミ"
+540342028="不正なエンティティ参照のパラメーター"
+-724128281="未定義のエンティティ"
+-1253933171="エンティティの反復参照"
+1558453403="非同期のエンティティ"
+-1479977094="無効な文字列を参照する"
+-344302473="バイナリエンティティを参照する"
+-670773483="属性中の外部エンティティを参照する"
+-1837298787="外部エンティティを開始しない xml 処理構成"
+-1206748514="不明なエンコード形式です"
+158082984="XML 情報に指定されたエンコーディングが不正です"
+1042682130="CDATA セクションが閉じられていません"
+1847016194="外部エンティティ参照中のエラー"
+735688169="ドキュメントがスタンドアロン形式ではありません"
+111023602="不明なエラー"
+
+; Error messages from XML
+996630135="行:"
+67277308="文字: "
+
+374657940="'%s' の不正な値"
+1871357318="'%1' に不正な値が含まれています。\n数値は %2 から %3 の間であることが必要です。\n\n"
+1871357319="この値をリセットしますか？"
+1871357320="最終の有効値へリセット中。"
+-388170568="不明"
+; Used in a warning/confirmation dialog when an URL with a user name (like
+; http://username@www.example.com) is entered in the URL field.
+-261225755="セキュリティ警告:\n\nユーザー名を含むアドレスへ移動しようとしています。\n\nユーザー名 : %s \nサーバー : %s\n\nこのアドレスへ移動してよろしいですか？"
+
+570146371="見つかりません"
+1279544764="以下のテキストは見つかりません: "
+303768058="すべてのヘッダを表示"
+; Label in the displayed header of a news/mail/MIME/MHTML message.
+941300722="日付"
+941390952="送信者"
+-979575324="件名"
+742328503="宛先"
+742327930="Cc"
+-1272983108="Bcc"
+
+; Displayed in-line when an attachment could not be decoded.
+-1634617399="警告: ファイルのデコード中にエラーが発生しました。"
+
+886033966="画像のみ表示する"
+1991895613="テキストのみ表示する"
+1292305140="画像の下にテキストを表示する"
+1311417945="画像の右にテキストを表示する"
+-1014852471="すべてのポップアップを有効にする"
+1806518680="すべてのポップアップを無効にする"
+-1714620648="ポップアップをバックグラウンドで開く"
+596453194="要求しないポップアップを無効にする"
+1532045500="削除の確認"
+1470333716="このパネルを完全に削除してもよろしいですか？\n\n%s"
+562779722="ホットリストパネルを追加しますか？"
+603779600="モード選択"
+791451177="Opera は起動時に保存したセッションを開くように設定されています"
+715557440="Opera は起動時にホームページを開くように設定されています"
+967211196="Opera は起動時に前回終了時の状態を復元するように設定されています"
+2145685666="Opera はタブを開かずに起動するように設定されています"
+1648574141="変更するにはここをクリックしてください"
+1632215285="&Google"
+1632215286="AllTheWeb"
+1632215287="Super"
+1632215290="Price &comparison"
+1632215292="ドメイン名"
+1632215293="画像"
+-1971470395="ビデオクリップ"
+-1971470393="Google G&roups"
+-1971470392="&Opera サポート"
+-1971470391="&BitTorrent"
+-1971470390="Google &News"
+-1752296930="Yahoo!(&Y)"
+; Prompting the user to enter the password protecting the key when importing
+; PKCS #12 key/certificate.
+2000211780="キーを保護するためのパスワードを入力してください"
+
+; Prompting the user to enter the password protecting the key when exporting
+; PKCS #12 key/certificate.
+1977455147="エクスポートされたプライベートキーを保護するためのパスワードを入力してください"
+
+; Prompting the user to re-enter the password protecting the key when
+; exporting PKCS #12 key/certificate.
+782606346="パスワードを再入力してください"
+
+; Used when importing private PKCS #12 key.
+1770057013="プライベートキーをインポートしてください"
+
+1079526121="キーと証明書をインポートしてください"
+-1817811090="プライベートキーとこれらの付属証明書をインポートしますか？"
+; Ask the user if to import the private PKCS #12 key.
+1514024393="このファイルに格納されたプライベートキーをインポートしますか？"
+
+; Error messages when importing PKCS #12 key/certificate.
+2139736887="プライベートキーと証明書のインポートに失敗しました"
+-970642115="ファイルにプライベートキーがありません"
+2105370925="インポートされたプライベートキーが証明書に付属するキーと一致しません。オペレーションに失敗しました。"
+
+-1769113189="プロキシの自動設定に失敗しました｡\nプロキシ設定はこのセッションの間、自動的に無効にされます。"
+857858150="アドレスフィールドから直接ウェブ検索を実行できます"
+; Strings for suppressed e-mail frames and generated download pages.
+-953386095="フレームのコンテンツは表示されません。"
+958355689="コンテンツを表示できません。<a href="%s">%s をダウンロード</a>"
+-1956656936="外部フレームソース <a href="%s">%s</a> の読み込みを中断しました（クリックすると表示します）。"
+1236894590="外部メールフレーム"
+948531105="外部フレームソースの読み込みを中断:"
+-456131578="(クリックすると表示)"
+
+10884003="新しいブラウザウィンドウを開きます"
+447125422="ダウンロードを再開"
+-1955739101="ダウンロードを中止"
+; Button for accessing the BitTorrent preferences
+-1003277204="BitTorrentの設定..."
+
+; Folder to be used for BitTorrent downloads
+856927944="ダウンロードディレクトリ"
+
+-1025687219="サイズ"
+-119414254="認証管理"
+; Message shown in the status bar when Java Virtual Machine is
+; loading/starting up.
+1819744776="Java 仮想マシンを起動しています..."
+
+; Attribution-line when replying to a mail
+-740066405="On %:Date:, %f wrote:"
+
+; Attribution-line when forwarding a mail
+-71505916="\\n\\n------- Forwarded message -------\\nFrom: %:From:\\nTo: %:To:\\nSubject: %:Subject:\\nDate: %:Date:\\n"
+
+; Attribution-line when followup to a news message
+1026907201="On %:Date:, %f wrote:"
+
+; Attribution-line when replying by mail to a news message
+-1619530923="On %:Date:, you wrote in %:Newsgroups::"
+
+; Attribution-line when forwarding by mail a news message
+-30659010="\\n\\n---- Forwarded Usenet-message ----\\nFrom: %:From:\\nNewsgroups: %:Newsgroups:\\nSubject: %:Subject:\\nDate: %:Date:\\nURL: news://%:Message-Id:\\n"
+
+1007470475="認証管理"
+-753084428="フォルダのチェック中"
+1466582899="フォルダの受信中"
+359274802="本文の受信中"
+-430971379="添付ファイルの受信中"
+1912257733="フォルダの作成中"
+40236388="フォルダの削除中"
+1412476976="フォルダ名の変更中"
+964207037="フォルダの購読中"
+1395623917="メッセージの削除中"
+-1130206281="メッセージの添付中"
+-1979469956="フラグを保存中"
+750104871="サーバーに接続中"
+-845210771="不正なメールサイズ"
+768185520="不正なユーザー名"
+1202168739="不正なパスワード"
+322602986="内部エラー"
+-1085695999="メッセージが存在しません！"
+1320499655="サーバー上のメッセージを削除する際に問題が発生しました"
+-1203615035="TLS はこのサーバーでは利用できません。このサーバーからメールを受信するにはセキュア接続を無効にする必要があります。"
+1314360083="指定なし"
+-1246331938="POP3 サーバーが利用できません。ネットワークの問題かもしれません。"
+; About page
+1596479526="メールディレクトリ"
+
+358598191="サーバーが不正なリダイレクトを実行しようとしました"
+; Used in index category in M2
+-1392548564="IMAP フォルダ"
+-502651701="フィルタ"
+
+; Used while M2 is searching. Padded by ' <search>...'
+957688689="検索中: "
+
+; Formats the M2 display of time today
+-502148434="今日 %X"
+
+; Used in M2 when a message has no label
+1605277971="ラベルなし"
+
+; Priority of a M2 message
+-140659036="優先度: 最高"
+1424414712="優先度: 高"
+753169386="優先度: 低"
+2147362134="優先度: 最低"
+
+; Used in Mail|Manage Account
+142847632="アカウント"
+-963096793="状態"
+
+; Used in Mail|Newsgroups
+839457469="購読"
+1838753371="状態"
+-609320476="ニュースグループ"
+
+; Received news index in m2
+483845434="受信済ニュース"
+
+; Received list index in m2
+483777785="受信済リスト"
+
+; Clipboard index in m2
+-78645977="クリップボード"
+
+; Prefix for newsservers in serverlist in m2
+85627416="ニュース: "
+
+; Prefix for mailservers in serverlist in m2
+-1262320482="メールサーバー"
+
+; Name for a new Imap folder in M2
+2065642310="新規作成"
+
+; Status-message when done fetching messages in M2
+-2101352284="%u通のメッセージを受信しました"
+
+; Status-message when no messages was fetched in M2
+624518676="送受信したメッセージはありません"
+
+; Error-message if setting From or Organization in M2 failed
+1487413443="差出人("%s")/組織("%s")ヘッダの設定に失敗しました"
+
+; The From-address is not given according to standards
+-1379600151="不正な送信者アドレス"
+
+; M2 was unable to mime-encode a message
+-512944663="MIME エンコーディングに失敗しました"
+
+; Store::AddMessage failed
+1505623305="メッセージの保存に失敗しました"
+
+; M2 needs Drafts and Outbox to store messages
+-661079866="草稿/送信ボックスに保存できませんでした"
+
+; M2 will move a message to Outbox when sending or queueing it
+-986422451="送信ボックスへのメッセージ移動に失敗しました"
+
+; M2 will move a message from Drafts when it is sent or deleted
+1646979425="草稿ボックスからのメッセージ移動に失敗しました"
+
+; M2 got an error-message while sending a message
+484291495="メッセージの送信に失敗しました"
+
+; Default name for new indexes in M2
+-643484333="新規フィルタ"
+
+; Used for invalid mbox files in M2
+-106198979="ファイルが不正です"
+
+; Used various places in the import-code in M2
+95649339="インポートされました"
+
+; Progress-information in M2 import-code
+-1019061060="インポート済"
+
+; Used in the M2 Import Mail wizzard
+1407566304="インポート項目"
+
+; Marks where quoted text has been removed when replying to a mail
+-287776209="<略>"
+
+; The file being downloaded is already being written to the selected file,
+; this is not possible!
+1607346661="このファイルは既に読み込んでいます"
+1439074736="このファイルは書き込み中です。別のファイル名を選択してください"
+
+; Period to view e-mails from
+-220518426="今日"
+253715633="今週"
+-228808373="最近1ヶ月"
+1552729014="最近3ヶ月"
+253787382="最近1年"
+-510333986="すべて表示"
+
+; Remove folder warning dialog title
+-1983638368="%s を削除"
+
+500015002="このニュースグループの購読を中止します。よろしいですか？"
+1968003002="'%s' を削除します。よろしいですか？"
+-2044617545="この IMAP フォルダの購読を中止します。よろしいですか"
+; Start a full search from the mail hotlist panel
+-1955384806="メッセージ検索"
+
+-1376278688="メッセージが選択されていません"
+1626290358="フォルダが選択されていません"
+; Title of button in compose window
+-209306281="Bcc"
+1911004990="ReplyTo"
+-1808671865="フォロー"
+-499146279="ニュース"
+
+903567712="(%d件の未読)"
+-1713938763="(%d件の未読、全%d件)"
+-1869847336="添付ファイル"
+1683445610="サイズ"
+-1605237264="メールアドレスが設定されていません。アカウントを編集してください"
+1809943622="サーバーの設定が不十分です"
+713023156="アカウントに送信メールサーバーが設定されていません"
+-1909264106="不正な送信者アドレス"
+2145727896="アカウントにメールアドレスが設定されていません"
+; Title of error dialog when user tries to send message where recipient
+; fields are empty or contain invalid addresses.
+2055895202="不正なアドレス"
+
+; Error dialog when user tries to send message where recipient fields are
+; empty or contain invalid addresses.
+-58137115="送信者が指定されていないか、不正な e-mail アドレスが指定されています。"
+
+-346006943="メッセージのキャンセル"
+536265206="このメッセージをキャンセルします。よろしいですか？"
+; Priority of a M2 message
+1081308353="優先度: 通常"
+
+-618477900="ウェブアドレスをここに入力します"
+-475005964="クイック検索"
+-1968343740="ズーム"
+-1791459201="ステータス表示欄"
+617152721="アカウントを削除"
+1785796486="このアカウントを削除します。よろしいですか？"
+1914986335="アカウントの編集"
+-2008263792="アカウントのプロパティ"
+1015848901="%s サーバー "
+-2074227911="受信 %s サーバー"
+-1086713295="送信 %s サーバー"
+-742714718="標準のエンコーディング"
+711841783="サーバーのクリーンアップ"
+-1586121556="サーバー上の既読メッセージを削除します。よろしいですか？"
+-1113037915="タイプ"
+; General Do-not-show-this-dialog-again text for use in most new dialogs
+-1552385912="次回からこのダイアログを表示しない"
+
+-959045886="次へ >"
+-46227616="< 戻る"
+-1460731384="完了"
+334337687="無効"
+1990484605="中"
+-2051372103="強"
+-2072276931="または"
+334322703="かつ"
+1044168460="件名"
+919146328="送信者ヘッダ"
+1594319559="宛先ヘッダ"
+-1884428502="Cc ヘッダ"
+-937386061="Reply-to ヘッダ"
+-182573343="ニュースグループヘッダ"
+-421187988="すべてのヘッダ"
+686063303="メッセージ全体"
+-1869960677="が次を含む: "
+1846164898="が次を含まない: "
+642672715="正規表現で一致:"
+261670970="[一致条件] "
+1125071290="[または] "
+-744284980="[かつ] "
+-144367921="件名"
+1119732308="送信者名"
+596646735="すべてのヘッダ"
+1764828458="メッセージ全体"
+1858011710="が次を含む: "
+-199620411="が次を含まない: "
+; Used to format the title of a dialog, contact properties and similar
+-1932212490="%s のプロパティ"
+
+2115379161="Opera スキンのダウンロード"
+683774433="スキンのダウンロード中..."
+-1383512975="ダウンロードしたスキンの適用"
+-794168025="このスキンを適用しますか？"
+1412896940="スキン名: "
+561691518="作成者:"
+-1411554329="ダウンロードに失敗しました"
+256547938="前回のセッション（自動保存）"
+-731299598="%d バイトダウンロードしました"
+1234312586="削除"
+; Status-message when messages was sent in M2
+-979626360="%u 通のメッセージを送信しました"
+
+-1539668999="メッセージ本文がダウンロードされていません"
+312861595="通常のメール(POP)"
+1734243891="IMAP"
+1734415593="ニュースグループ"
+-1193472185="メールをインポート"
+651577126="Opera Web Mail"
+-16709871="Opera 5/6 からインポート"
+-402172828="Eudora からインポート"
+421179725="Netscape 6/7 からインポート"
+-2060287496="Outlook Express からインポート"
+-1680227078="一般的な mbox ファイルをインポート"
+; 'prefs' is the base name of the file, and should probably not be
+; translated
+1406278082="Netscape の prefs ファイル(prefs.js):"
+152179497="Netscape の prefs ファイル(prefs.js)|prefs.js|"
+1058447946="Thunderbird の prefs ファイル(prefs.js):"
+-610822223="Thunderbird の prefs ファイル(prefs.js)|prefs.js|"
+
+-2131422728="メールボックスフォルダ:"
+1529096418="一般的な mbox ファイル:"
+1966855692="一般的な mbox ファイル (*.mb*)|*.mb*|すべてのファイル (*.*)|*.*|"
+1356219640="受信"
+; Added in front of server response when POP server returnes an error
+231313436="サーバーレスポンス:"
+
+; Used when IMAP folder subscription fails
+1732530625="IMAP フォルダの設定は失敗しました。既に設定されているため、サーバーによって取り消されました"
+
+; Used when mailserver reports that it does not support TLS
+1515019770="このサーバーでは TLS をサポートしていません"
+
+; Generic error when connection to IMAP server failed
+-1959866031="IMAP サーバーへの接続に失敗しました"
+
+; Precedes IMAP alert messages
+1146409497="IMAP サーバーからの警告メッセージ"
+
+; Used when IMAP-server notifies that folder has been renamed on server
+-401195818="フォルダ名を"%s"から"%s"に変更しました"
+
+; Used when appending a message to an IMAP folder
+776466772="フォルダへのメッセージの追加に失敗しました"
+
+; Used when copying an IMAP message failed
+-6091572="メッセージのコピーに失敗しました"
+
+; Used when local storing of IMAP message failed
+-469992771="取得したメッセージの保存に失敗しました。失敗したメッセージは次回新着メッセージチェック時に取得します。"
+
+; Used by M2 POP backend when storing a message fails
+-326197847="POP3 サーバーからメッセージ %d (UIDL %s )を取得しようとしましたが、保存できませんでした。"
+
+; Generic message when a M2 backend fails to connect to its server
+1835843551="サーバーに接続できませんでした"
+
+; M2 SMTP error message
+1953696758="メッセージは送信されましたが送信済に移動することができませんでした。"
+-784456562="メールの送信に失敗しました。\nおそらく SMTP サーバーが正しく設定されていないと思われます。\nメールは送信箱に保存してあります。"
+41975382="SMTP サービスが利用できません。"
+352591336="内部エラー"
+498065860="テンポラリーサーバーエラー"
+-1044511774="サーバーエラー"
+933936372="宛先構文エラー"
+1026826696="宛先利用不可能"
+-800940705="送信者がサーバーによって拒否されました。"
+-447630176="サーバー名が指定されていません"
+-2076034012="SMTP エラー"
+1422394318="宛先エラー"
+408051755="SMTP 認証エラー"
+-1528356310="TLS はサーバーでサポートされていません"
+372184460="SMTP 認証はサーバーでサポートされていません"
+-1899843119="不明な SMTP エラー"
+
+; Used when M2 for some reason isn't able to flush a message to disk
+-542134600="おそらくファイルシステムの問題か、ウイルスチェック実行中のため、保存に失敗しました。 (%i)"
+
+; String used in customize toolbar box
+-2104869557="文書:"
+-1125996158="画像:"
+1280521648="総数:"
+1279355453="速度:"
+587130762="経過:"
+-726326096="プログレスバー"
+-1383827894="一般"
+1260247800="時計"
+23652165="ブラウザ識別"
+
+; Imported bookmarks are stored in this folder
+668597205="Netscape ブックマーク"
+-1089962701="Internet Explorer お気に入り"
+-2127349657="KDE1 ブックマーク"
+-1184732696="Konqueror ブックマーク"
+
+; String to be used in preference font list for UI fonts
+1522165030="ブラウザ表示欄"
+367662404="ブラウザツールバー"
+282774721="ブラウザダイアログ"
+648422881="ブラウザパネル"
+
+; Used in preference font list for UI fonts
+25135132="ブラウザツールチップ"
+
+; String to be used in preference font list
+406642990="メール作成"
+
+; String to be used in preference font list to identify a system default
+; font
+137662006="(標準)"
+
+; When a SMTP server drops the connection when MAIL FROM is sent, it usually
+; is because needed authentication isn't fulfilled.
+1240511189="サーバーが接続を中止しました。認証が必要なサーバーではないでしょうか？"
+
+; String that is displated on about page when java is installed
+-630614510="Java ランタイム環境がインストールされています"
+
+; Version of Qt library that Opera uses. Shown on About page
+658508522="Qt ライブラリ"
+
+; Text to be used on the menubars. Some languages need a separate string
+; here
+1409512585="巻き戻す"
+
+; Used when saving a printer file to disk (from a filedialog box)
+-402829326="ポストスクリプトファイル (*.ps)|*.ps|すべてのファイル (*.*)|*.*|"
+
+; Label in the displayed header of a news/mail message
+367751872="所属"
+-1275015800="ニュースグループ"
+299353252="Followup-To"
+-1023973383="Reply-To"
+-1398981521="Resent-From"
+
+; Title string of the HTML text that displays certificate data
+-1041039008="証明書の情報"
+
+; Header string for the detailed listing of certificate data
+2043360159="詳細"
+
+; DSA Private Key key list item
+-1229363551="プライベートキー (X)"
+
+; DSA Public Key list item
+-1229363550="パブリックキー (Y)"
+
+; Component P of DSA key
+-1229363559="DSA コンポネント P"
+
+; Component Q of DSA key
+-1229363558="DSA コンポネント Q"
+
+; Component G of DSA key
+-1229363568="DSA コンポネント G"
+
+; Diffie Hellman Private Key component
+857434526="DH プライベートキー"
+
+; Diffie Hellman Public Key Component
+-1926274908="DH パブリックキー"
+
+; Diffie Hellman Modulus Key component
+613488173="DH モジュール"
+
+; Diffie Hellman Generator Key component
+613488164="DH ジェネレイター"
+
+; Add characters here that can be used as fallback shortcuts (eg: of the
+; kind "File (A)"). An empty string will disable fallback shortcuts.
+-377009404="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+-1296291032="Opera ツールバー設定のダウンロード"
+-425908944="ツールバー設定のダウンロード中..."
+1324771264="ツールバー設定の適用"
+-264278410="このツールバー設定を使用しますか？"
+1488441578="Opera メニュー設定のダウンロード"
+1694746610="メニュー設定のダウンロード中..."
+-806672648="このメニュー設定を使用しますか？"
+-1196191202="Opera マウス設定のダウンロード"
+1316907558="マウス設定のダウンロード中..."
+374450668="このマウス設定を使用しますか？"
+736588742="Opera キーボード設定のダウンロード"
+-605573426="キーボード設定のダウンロード中..."
+433266900="このキーボード設定を使用しますか？"
+-1097377482="(コピー) "
+93189975="この発行者を信頼しますか？"
+; Open file dialog
+-797806689="Opera ブックマークファイル(*.adr)|*.adr|"
+1117324125="HTML / Netscape ブックマークファイル (*.htm, *.html)|*.htm;*.html|"
+-1411735922="Konqueror ブックマークファイル (*.xml)|*.xml|"
+
+; InputAction treeview header
+-1865438968="処理"
+-136521655="入力内容・ショートカット"
+
+1199718168="キーボード設定"
+-1728342704="マウス設定"
+-1749151654="ツールバー設定"
+-1066549444="メニュー設定"
+-595347745="スキン"
+; Fonts and colors preferences
+-1445821585="項目"
+-799406642="フォント"
+
+; Cache preferences
+-689135061="自動"
+
+; string appended to setupfilename if this is modified, in preferences
+; dialog
+-1492831544="(変更済)"
+
+; Info panel
+-740715055="- タイトル無し -"
+1197560677="URL"
+-1937922503="サーバーエンコード（Opera表示エンコード）"
+864499482="サーバーMIMEタイプ"
+864715533="ページのサイズ"
+1343250180="インライン要素数"
+-228112001="インライン要素サイズ"
+-1548445594="ローカルキャッシュファイル"
+-761181853="- キャッシュファイル無し -"
+-1010865942="セキュリティ"
+1648291680="要約:"
+1425344006="- 安全ではありません -"
+918667752="詳細情報"
+578403440="フレーム"
+-1544278915="フレーム:"
+1036993977="インラインフレーム"
+682176678="インラインフレーム:"
+
+-108388079="早送り"
+711342150="名前を付けて保存"
+830950105="セッションファイルの選択"
+-1535219881="ウィンドウ"
+155743609="ここに新しいメモを記入します"
+739612478="添付ファイル"
+1604859069="バージョン"
+-299829102="暗号"
+-477544027="細字"
+1506702806="通常"
+-1446479474="太字"
+1658037448="空白のページを表示する"
+584306170="%d個のアドレスを開こうとしています\n続行しますか？"
+; History and cache preferences
+60437277="%d分に一度"
+511007177="%d時間に一度"
+435767103="1時間に一度"
+436294733="1週間に一度"
+
+1101328228="%d個のブックマークを開こうとしています\n続行しますか？"
+1146664644="初めてアカウントが設定されました。\n\nOperaのメール・ニュースクライアントは通常のメールクライアントと比べ、操作方法が大きく異なります。\nそのためチュートリアルをご覧になることをお勧めします。\nチュートリアルを今ご覧になりますか？"
+-700786693="Opera Mail を使用"
+-700155865="ページの下部にポップアップ表示"
+21275667="前回終了時のサイズで表示"
+1672119243="常に最大化して表示"
+14733995="常に重ねて表示"
+; Checkbox string in filetype dialog box
+-1117577968="ウェブアドレスを直接アプリケーションに渡す"
+
+; Used in preference dialog box (window page)
+1747305600="新しいタブをアクティブなタブの隣に開く"
+
+; Info panel. When server does not supply an encoding
+-224998054="- 情報なし -"
+
+; Checkbox in download dialog for saving action
+1137266026="選択を記憶して、次回からこのダイアログを表示しない"
+
+; Certificate verification servername mismatch
+-625958927="サーバー名 "%1" と証明書名 "%2" は一致しません。誰かが通信を傍受しようとしているかもしれません。"
+
+; Certificate not yet valid
+-1263224075=""%1" に対する証明書は、%2 以前は有効ではありません。コンピュータの時計は合っていますか？"
+
+; The certificate expired on the given date
+-221013334=""%1" に対する証明書は %2 に有効期限が切れています。サイトの管理者が証明書を更新する必要があります。"
+
+; Certificate warning
+1076459478=""%1" からの証明書について警告を表示するようにしています"
+
+; Unknown certificate authority
+-1998870601=""%1" に対する証明書は、不明の証明書認証機関 "%2" によって署名されています。この証明書は正当な証明書であるとは証明できません。"
+
+; Unknown root certificate authority
+2104370139=""%1" からのルート証明書は Opera には未知の証明書です。Opera はこの証明書が信頼できるものかどうか判断できません。"
+
+-1243033219="認証中にサーバーが接続を中止しました。"
+1790168951="新しい Opera が利用できます"
+-119907268="新しいバージョンの Opera が利用できます。\n更新されたバージョンを今すぐダウンロードしますか？"
+1882483772="MP3 ファイル |*.mp3|"
+; Typically telnet, tn3270, news, mailto
+-93919767="プロトコル"
+
+907743631="プログラム"
+; Voice XML related message from the Voice log panel
+2033395953="ボイスステータスのログ..."
+
+1949547324="次の機能のボタンを新しく追加します\n\n%s\n\nよろしいですか？"
+-1165861871="新規ボタン"
+855179963="ボイスログ"
+919933899="Opera の革新的メールクライアント: http://jp.opera.com/mail/"
+; Status message when M2 is emptying trash
+1606080971="ごみ箱を空にしています"
+
+; Message string shown in dialog box before auto reset in kiosk mode
+-1460323384="入力がなかったため、Opera は%d秒後にリセットされます"
+-825155371="入力がなかったため、Opera は1秒後にリセットされます"
+
+; Text for button in toolbar that can clear contents if edit field
+-1877498682="クリア"
+
+; Message string used in a dialog box when user wants do do something that
+; requires online mode (eg. fetching mail)
+924255680="オフラインモードです。\n\nオンラインモードに切り替えますか？"
+
+; Used in a popup error dialog when the certificate authority os unknown for
+; the presented certificate.
+-1490416928="証明書の発行者が不明です。"
+
+; Used in a popup error dialog when handshake faild due to export
+; restrictions.
+164301828="エクスポート制限のため、ハンドシェイクに失敗しました。"
+
+; Used in a popup warning dialog when handshake faild because the server
+; does not want to accept the enabled SSL/TLS protocol versions.
+1578580827="サーバーが有効にされている SSL/TLS のバージョンを受け入れようとしないため、ハンドシェイクは失敗しました。"
+
+; Used in a popup error dialog when handshake failed because the server
+; requires encryption methods more secure than those enabled.
+1390989995="サーバーが有効にされているものよりも安全な暗号化方式を要求したため、ハンドシェイクは失敗しました。"
+
+; Used in a popup warning dialog when the server wants to negotiate a
+; connection that does not encrypt the data, but only verifies integrity.
+574018254="サーバーはデータを暗号化「しない」で接続しようとしていますが、これはサーバーが状態を検証するためのものです。処理を継続すると、誰でもデータを読むことができますが、書き換えられることはありません。"
+
+; Used in preference dialog box to control page redrawing
+1427179905="すぐに描画する"
+550719049="1秒後に描画する"
+-2086956878="%d秒後に描画する"
+674938805="すべて読み込まれてから描画する"
+
+; Label in the preference dialog box for page redrawing feature
+-2044163720="描画のタイミング"
+
+; Used in mail filter dialog
+-980079358="%sからのメッセージ"
+
+; Add filter dialog box
+376529848="送信者からのメッセージ"
+-1245074222="以下の件名を含むメッセージ"
+
+; Account properties dialog box
+2121516417="アカウントのカテゴリ"
+
+; Message in reindex mail dialog box
+569895596="メールメッセージの一部を再インデックスする必要があります。今回キャンセルしても次回起動時に再度実行されます。"
+
+; Used in pref box (multimedia)
+-1676375908="すぐに画像を描画する"
+
+-1171706681="ここに %s へのクイック返信を書きます"
+-1103514230="が正規表現で一致 "
+390893824="このビューにフィルタリングして規則を追加"
+; Used in javascript option dialog box
+1209386397="ウィンドウのサイズ変更を許可する"
+2000527170="ウィンドウの移動を許可する"
+1598300031="ウィンドウの強制表示を許可する"
+1591702420="ウィンドウの強制非表示を許可する"
+
+; Used in javascript option dialog
+1059426994="ステータス欄のテキストの変更を許可する"
+
+; Opens javascript options dialog box
+2111331705="JavaScript オプション..."
+
+; Label for window handling options
+-1474072333="ウィンドウの処理"
+
+; Option string for popup window management
+-1178005071="ポップアップを含め常に最大化して表示"
+
+; Window handling mode string
+-1397166165="ウィンドウ内にタブを表示"
+
+; Window handling mode string (SDI mode)
+510974322="別々にウィンドウを表示(SDIモード)"
+
+; Message string used on startup in we cannot load plug-ins
+1597504151="Opera はプラグインライブラリ 'libnpp.so' を読み込めませんでした。プラグインは有効になりません。\n\n正しくインストールされていることを確認してください。\n"
+
+; Fallback text for plug-in description when plug-in is missing this
+; resource
+95480677="説明なし"
+
+; Fallback text for plug-in name when plug-in is missing this resource
+-996302718="名前なし"
+
+; Message shown when downloaded skin can not be used
+175291223="続行することができません。お使いの Opera のバージョンにあったスキンを選択してください。"
+
+1420284438="リンクの検索: "
+-867731270="テキストの検索: "
+; Quick find/inline search didn't find any matching items.
+1408761624="(該当なし)"
+-1914012173="見つかりませんでした"
+
+; Used when a newsgroup name is not sent in UTF-8
+1692590165="このサーバー上のいくつかのニュースグループ名は標準に準拠した形でエンコードされていません。それらのニュースグループ名は、代わりにこのアカウントの送信エンコードを使って表示されます。"
+
+; RSS folder
+-427372281="RSS ニュースフィード"
+
+; Used for OE mail import, parameters are identity, account name and mailbox
+-1034142199="%s [%s] (インポート済)/%s"
+
+; 
+-1468588607="(%s) -インポートに失敗しました, [エラー=%i]\n Id:%s\n From:%s"
+-159267853="インポート済"
+969263664="を変換中です。お待ちください……"
+-781606758="OE インポートの警告"
+-2102437032="(%s) -空のメールボックスはスキップしました"
+704878608="ニュースフィード"
+-440036748="フォルダ"
+
+1548611541="チャットルーム"
+-281751318="ユーザー"
+1710093463="トピック"
+; Displayed when the user tries to set a nickname for chatting while another
+; user is already using that name
+1843350990="ニックネーム %s は既に使用されています。新しいニックネームを入力してください。"
+
+-32822822="チャットルーム %s はパスワードで保護されています。パスワードを入力してください。"
+-620870443="自動的にすべて並べて表示"
+343252692="%d / %d"
+-973585970="%d / %d  (残り %d 秒)"
+-1501641545="%d / %d  (残り %d 分)"
+-1887302470="VoiceXML プラグインは、すべての設定を更新するために再起動する必要があります。今すぐ再起動しますか？ (開いているページはリセットされます)"
+895403355="VoiceXML プラグインは再起動する必要があります"
+; A popup warning message that appears on pages with Voice XML content in a
+; language not supported by the voice browser
+-25876283="音声ブラウザはこの言語をサポートしていません"
+
+; Default text for the Add button in forms. It is used to add template
+; instances to the form.
+1701265194="追加"
+
+; Default text for the Remove button in forms. It is used to remove template
+; instances from the form.
+1462527183="削除"
+
+; Default text for the Move Up button in forms. It is used to move template
+; instances in the form.
+1183624700="上に移動"
+
+; Default text for the Move Down button in forms. It is used to move
+; template instances in the form.
+2041209519="下へ移動"
+
+417170167="%s\n(ここをクリックすると未読メッセージを表示します)"
+147544424="%s が以下のファイルを送信しようとしています。受信しますか？\n\nファイル: %s\nサイズ: %s\n\n注意: 不明なユーザーからのファイルや中身の不明なファイルは許可するべきではありません。"
+1102844454="ファイルを許可する"
+1196390472="メール (%d)"
+945245059="開始します"
+422330584="ファイル '%s' のダウンロードが完了しました\n(ここをクリックするとメニューを表示します)"
+-683462731="情報"
+-761600753="チャットルームの招待"
+-571768538="%s が %s へのチャットの参加を招待してきました。\n招待を受け入れますか？"
+-1754086927="%s との会話を開始しました: "
+-343024111="不明のアドレス"
+-1587827817="チャットルーム内のユーザー数: %d人, トピック: %s"
+-434443649="チャットルームに参加しています..."
+-1781726688="ファイルの送信"
+-1807942708="%s での会話を開始しました: "
+991876860="チャットから切断しました"
+-1440211820="%s によりチャットルームから強制退出 (kick) させられました (理由: %s)"
+-1132826756="チャットルームを退出しました"
+264572212="%s が %s に参加しました"
+1072782510="%s は切断しました"
+987343019="%s は %s から %s によって強制退出 (kick) させられました (理由: %s)"
+1376744230="%s が %s を退出しました"
+-442172020="チャットルームトピック: %s"
+-1111971637="%s はチャットルームトピックを %s に変更しました"
+-1142203621="司会者付きチャットルームが有効にされました"
+-972968523="%s はチャットモードを +m に設定しました。チャットルームは司会者付きになります"
+-565019740="%s はチャットモードを -m に設定しました。チャットルームは司会者付きでなくなります"
+-1320703231="%s はチャットモードを +l に設定しました。ユーザー数制限が %s 人になります。"
+325891291="%s はチャットモードを -l に設定しました。ユーザー数制限は解除されます。"
+-1726460557="%s はチャットモードを +t に設定しました。トピックの変更はオペレータのみに限られます"
+-2015289952="%s はチャットモードを -t に設定しました。トピックの変更はすべての人に許可されます"
+562170748="%s はチャットモードを +k に設定しました。チャットルームはパスワードで保護されます"
+-806947253="%s はチャットモードを -k に設定しました。チャットルームはパスワードで保護されていません"
+1904702022="%s はチャットモードを +s に設定しました。チャットルームはシークレットになります"
+-750883179="%s はチャットモードを -s に設定しました。チャットルームはシークレットではありません"
+-1719434490="%s はチャットモードを %s に設定しました"
+1816602980="%s はユーザーモードを %s に設定しました"
+319028477="%s はニックネームを %s に変更しました"
+-965314470="%s はユーザーモードを +o に設定しました。%s はチャットルームのオペレータになりました"
+926299881="%s はユーザーモードを -o に設定しました。%s はチャットルームオペレータではなくなりました"
+1605464424="%s はユーザーモードを +v に設定しました。%s は、司会者付きのチャットルームで発言できるようになりました"
+-1619203754="%s はユーザーモードを -v に設定しました。%s は、司会者付きのチャットルームで発言できなくなりました"
+766732100="%s の Whois 情報: %s@%s (%s)"
+-1933272880="%s の参加中チャットルーム: %s"
+1378311846="%s の使用中サーバー: %s (%s)"
+406926542="%s が IRC オペレータです"
+-1815767593="%s は不在 (%s) です"
+1913009061="%s は %s としてログインしています"
+385714693="%u時間"
+-156316936="%u時間"
+-675178343="%u分"
+-806048756="%u分"
+-445511709="%u秒"
+-1816984426="%u秒"
+48425245="と"
+-1557830673="%s が %s にサインインし、%s アイドル状態になっています"
+936707788="%s は %s にサインインしました"
+-1752296958="&Answers.com"
+-1752296957="Opera 検索(&S)"
+-1752296956="Ama&zon.com"
+-1752296955="&Ebay.com"
+-1752296931="Do&wnload.com"
+-859211014="新着ニュースフィードメッセージ:\n%s"
+; Dialog message
+120044454="不明なエラー"
+
+; Message box text shown when hotlists data has been imported
+-348055302="%d のエントリがインポートされました"
+1862555410="1つのエントリがインポートされました"
+
+; Used in File Handler Edit Dialog
+-694083371="プログラム開始前に確認する"
+
+; Short string in dialog header seaction
+236071286="確認"
+
+; File handler dialog box string
+1387206342="ファイル (フォールバック)"
+-1153664958="フォルダ"
+
+; Dialog box string shown before opening a folder
+1501805284="フォルダを開く"
+
+; Dialog box string shown before opening a file
+-341751576="ファイルを開く"
+
+; String in dialog <open file><filename>WITH<application>
+-252900186="開く"
+
+; Text on button that opens file handler dialog box
+-1031377841="保存したファイルに対するハンドラ..."
+
+73186160="人気"
+-1570631949="ルーム一覧"
+-1689094898="新規ルーム"
+144583584="ニックネームの変更"
+-1142784857="メールを送信"
+-1591746111="送受信"
+-29774876="区切り(固定)"
+-33861927="区切り(可変)"
+-1554596811="自動改行"
+1196468679="ニュースフィード"
+; Message box string that is shown if mailto address contains command
+; character and we use an external e-mail client
+-2019540747="E-mail アドレスはコマンド文字を含んでいます。コマンドを実行しますか?"
+
+928245257="チャット (IRC)"
+-706714493="%uのルーム"
+1980799452="XHTML+Voice"
+-1773077766="使用不可"
+; This warning will be displayed for anonymous Diffie Hellman secure SSL
+; connections.
+1971097350="サーバーがアノニマス接続を要求したため、サーバーの身元を確認できません。このサービスは一般的には匿名で提供されます。このアノニマスサーバーにデータを送信しますか？"
+
+; This warning is displayed if a low level encryption (level 1) is selected
+; by the server.
+15694585="このサイトは古い暗号化方式を使用しています。現在、この方式はセキュアでない方式と分類されており、重要な情報を保護するには不十分と言えます。このまま操作を続けますか？"
+
+; Title of low encryption level dialog
+-1608443547="暗号化レベル 弱"
+
+-1938569383="パネル"
+; The error to display if we get a VALIDATE_ERROR_STEP_MISMATCH for a number
+; field. Any %1 is replaced by the entered value and %2 with the step
+; value.
+1300921250="数値 %1 はこのフォームには許可されていません。特定の数値だけが許可されています。"
+
+; The error to display if we get a VALIDATE_ERROR_STEP_MISMATCH for a date
+; field. Any %1 is replaced by the entered value and any %2 is replaced by
+; the step value.
+-2132866121="日付 %1 はこのフォームには許可されていません。特定の日付だけが許可されています。"
+
+; The title of the error page that is shown when loading a URL fails.
+-1125267849="エラー"
+
+; The error page that is shown when loading a URL fails.
+-1996452250="%s にアクセスしようとしましたが、現在利用できません。ウェブアドレス (URL) が正しく入力されていることを確認して、再度お試しください。"
+
+; The error page that is shown when loading an url fails.
+-571130177="F12キーを押し、プロキシサーバーを無効にした上で、ページを再読込してください。インターネットに接続するためにプロキシが必要だとあらかじめ分かっている場合は、この操作は不要です。"
+660918719="Opera のネットワーク設定で、同期 DNS が無効になっている場合は有効にし、有効な場合は無効にしてください。"
+-412691063="インターネットセキュリティ関連のソフトウェアが正しく設定されており、通常のウェブブラウジングが妨害されていないことを確認してください。"
+1317434611="ローカルエリアネットワーク (LAN) に設置されているファイヤーウォールが影響していると思われる場合は、システム管理者に相談してください。"
+1976505887="インターネット接続が有効で、同じ接続を使用するアプリケーションが正常に動作することを確認してください。"
+1162929380="ダイヤルアップ接続を使用している場合は、ダイヤルアップのプロパティを調べ、ネットワークにログオンするように設定されていることを確認してください。"
+
+; The associated tablefield displays the signature of the cetificate !!
+; IMPORTANT !! No special HTML characters in this string !!
+-371513372="署名"
+
+; Generic message when settings have been saved
+-1154642790="設定が保存されました"
+
+; Generic message when no changes to settings have been saved
+1871184022="保存する変更点はありません"
+
+-94837333="Opera ボイス設定のダウンロード"
+-1876705869="ボイス設定のダウンロード中..."
+1475804537="このボイス設定を使用しますか？"
+; Voice C3N User Agent Identifier, shall only be translated if supported by
+; voicelibs
+270046378="Opera"
+
+; Voice C3N Prelink Phrase, shall only be translated if supported by
+; voicelibs
+-1902106441="(go to | jump to)"
+
+; Voice C3N Postlink Phrase, shall only be translated if supported by
+; voicelibs
+-2004163178="[page]"
+
+; Encoding, when used other places than menus, to avoid crash with japanese
+; access keys
+-2092204962="エンコード"
+
+; Voice C3N Prenick Phrase, shall only be translated if supported by
+; voicelibs
+-1744783314="ブックマークに移動"
+
+; Voice C3N Postnick Phrase, shall only be translated if supported by
+; voicelibs
+-1846840051=""
+
+; While downloading binary setupfile
+-2011460894="エクステンションのダウンロード中..."
+-655411675="バイナリ設定ファイルのダウンロード中..."
+
+; Used as template when redirect is turned off to produce a clickable link
+; to the redirection target.
+-57185507="<h1>リダイレクト</h1> このURLは %s にリダイレクトされています。ページにジャンプするにはリンクをクリックしてください。<p>自動的にリダイレクト先にジャンプするようにも設定できます。<p><hr>Generated by Opera &copy;"
+-1845785787="リダイレクト"
+1433700170="この URL は %s にリダイレクトされています。ページにジャンプするにはリンクをクリックしてください。"
+1433905157="自動的にリダイレクト先にジャンプするように設定することもできます。"
+
+; Used to indicate that a document is generated by Opera.
+-826703050="Generated by Opera."
+
+; used when a wml deck is not reached in correct order
+1976688640="アクセスが拒否されました"
+566351754="この WML デッキへのアクセスが拒否されました。\n\nこのデッキへ到着する順序が正しくありません。"
+
+; used when opera generates a redirect message. this is the title.
+-2137516168="リダイレクト"
+
+; A short string to be displayed above the column of week buttons. No longer
+; than a couple of chars. Used by the month view (calendar) widget in
+; WebForms2.
+-674571725="週"
+
+; A short string for Monday. Used by the month view (calendar) widget in
+; WebForms2.
+-548377585="月"
+
+; A short string for Tuesday. Used by the month view (calendar) widget in
+; WebForms2.
+-241569242="火"
+
+; A short string for Wednesday. Used by the month view (calendar) widget in
+; WebForms2.
+11450219="水"
+
+; A short string for Thursday. Used by the month view (calendar) widget in
+; WebForms2.
+1634457179="木"
+
+; A short string for Friday. Used by the month view (calendar) widget in
+; WebForms2.
+-818947258="金"
+
+; A short string for Saturday. Used by the month view (calendar) widget in
+; WebForms2.
+1479732404="土"
+
+; A short string for Sunday. Used by the month view (calendar) widget in
+; WebForms2.
+-306449701="日"
+
+; A fatal SSL error occurred, e.g. a handshake or transmission error, the
+; internal error message gives more details
+-1527043971="セキュア処理を完了することができません"
+
+-1151828609="ニュースフィード更新中"
+; Used in a popup error message when the user has requested a document from
+; the server, the server sends the document using HTTP compression, and
+; the document decoder couldn't decode the data properly. This version is
+; used when LIMITED_MEMORY_DEVICE is turned on.
+324184647="データのデコード中に問題が発生しました。データが壊れているかメモリ不足です。"
+
+; Used in a popup error message when the user has requested a document from
+; the server, and the server returns a HTTP_USE_PROXY (which is not
+; supported for security reasons) error code.
+280883669="サーバーが別のプロキシへリダイレクトしようとしましたが、これはセキュリティ上の理由からサポートされていません。"
+
+; The title of the error page that is shown when loading a URL fails.
+-360926641="他のウェブページにアクセスできるかどうか調べています。"
+
+; The error page that is shown when loading a URL fails.
+-277470719="セキュリティプロトコルを使用しているサービスのいくつかは、TLS 1.0 では機能しません。Opera のセキュリティ設定から TLS 1.0 を無効にしてください。"
+2007199746="ウェブアドレスに間違いがなければ、次をお試しください:"
+
+; The error page that is loaded when a URL fails.
+1581176738="ヘルプ"
+-1578977767="<a href="http://help.opera.com/">Opera ヘルプ</a>を開く"
+507228282="<a href="http://jp.opera.com/support/">Opera オンラインサポートデスク</a>にアクセスする。"
+
+; Replaces obsolete string 69881.
+1399668865="Apple Mail からインポート"
+
+; Notification of a blocked popup
+-1112516751="ポップアップブロック："
+
+; Message used to notify user of logging status.
+-923196373="<<< ボイスブラウザ終了 - ログウィンドウ無効 >>>\n"
+
+; Text used in generating about text.
+314331646="プラグインがダウンロードされていません"
+
+; Text used in generating about text
+-1641044856="IBM Multimodal Runtime Environment"
+
+; Used for adding to account names when the account is temporary
+-1520398650="(一時アカウント)"
+
+; String used when a popup has been blocked to give the user an option to
+; open it.
+-314779598="\n(ポップアップを開くにはここをクリック)"
+
+; Item on the start toolbar
+376069807="Top 10"
+
+; Music toolbar item.
+1899152018="追加"
+
+; Music toolbar item
+-1751945089="再生"
+-1979986745="一時停止"
+-1751828113="中止"
+
+-1797390215="受信ファイル"
+1099492910="メール表示"
+; List box entry
+612186847="Thunderbird からインポート"
+-16709870="Opera 7 からインポート"
+
+; Used as the default text to substitute a plug-in in an HTML document, if
+; the plug-in is not installed and the images alt attribute is empty
+931079982="プラグイン"
+
+; Used as the default text to substitute a java applet in an HTML document,
+; if java is not installed and the images alt attribute is empty
+125645089="Java アプレット"
+
+; Shown as tooltip and status information when the plug-in has not been
+; activated
+-245753105="このコンテンツにアクセスするには JavaScript を有効にする必要があります。F12キーから設定を変更した上で、ページを更新してください。"
+
+; This is the title of an error page displayed when a URL containing invalid
+; characters in the servername is rejected during URL resolving
+1996608452="不正な URL が入力されました"
+
+; First line of the message, the URL is displayed on the next line
+1150263994="この URL "
+
+; Second part of the illegal URL message, follows the URL
+1150263995="には、使用することのできない次の文字が含まれています。"
+
+; The possible reasons for why the invalid characters are there: Mistake, or
+; attack.
+1379880234="間違った URL を入力していないかどうか確認してください。また信頼できるサイトに見せかけるために意図的に使用されている可能性もあります。"
+
+; Header for the SSL certificate description page" !!IMPORTANT!! No HTML
+; special characters are allowed !!
+-1396250407="セキュリティ情報"
+
+; Followed by the secure tunnel specification." !!IMPORTANT!! No HTML
+; special characters are allowed !!
+1176832065="セキュリティプロトコル"
+
+; Followed by the number of the certificate in the certificate chain, used
+; as a heading for the SSL certificate description page" !!IMPORTANT!! No
+; HTML special characters are allowed !!
+-350566025="サーバー証明書"
+
+; Followed by the number of the certificate in the certificate chain, used
+; as a heading for the SSL certificate description page." !!IMPORTANT!! No
+; HTML special characters are allowed !!
+-2018873682="有効な証明書"
+-2079528865="個人証明書"
+
+; Followed by the servername in the certificate that matched the servername
+; of the host
+1904202967="有効なサーバー名"
+
+; Who was the certificate for this server issued to
+1138739937="発行先"
+
+; Who was this certificate issued by?
+1138739353="発行者"
+
+; This warning is displayed when the user has disabled some or all of the
+; strong encryption methods, and the server selected a low level
+; encryption method (level 1)
+-1209211918="サーバーがセキュアでない暗号化レベルを指定しました。使用可能な高度の暗号化が無効にされているために、サーバーがこの暗号化レベルを選択した可能性があります。安全のため、高度の暗号化を有効に設定することをお勧めします。このまま続行しますか？"
+
+; Displayed in the about page if User JavaScript is enabled
+-458492070="ユーザー JavaScript ファイル"
+
+; Mail panel
+1520323759="選択されたメッセージの本文がローカルに保存されていないため、処理を完了できません。Opera は欠けているメッセージの本文をダウンロードしようとしています。"
+983164455="移動かコピーに失敗しました"
+
+; Transfers panel
+-319112693="ファイルのチェック中"
+-201564325="ファイルの共有中"
+-491457712="現在実行中の転送 (受信/送信)"
+-1257431027="接続 (シード/ピア) [全て]"
+
+; BitTorrent connections, short version
+-1631907428="接続"
+
+; BitTorrent connections, verbose text
+434282018="シード: %d, ピア: %d (合計 シード/ピア: %d/%d)"
+
+; Chat window
+-338247295="%d 人のユーザー"
+
+; skin manager
+86588876="Opera Standard"
+
+; Skin manager
+569369974="Windows Native"
+-903847876="Macintosh Native"
+
+; Message string shown if a plug-in setup problem takes place
+-2026717958="プラグインの設定中に問題が発生しました。プラグインは正常に動作しません。\n正しくインストールされているかを確認してください。"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate rge word 'libnpp.so'
+-432051014="'プラグイン 'libnpp.so' を見つけることができませんでした。"
+
+; Message string shown if a plug-in setup problem takes place
+-1001975364="このプラグインはインストールパッケージに含まれています。"
+2145260270="この実行可能ファイルはインストールパッケージに含まれています。"
+-1007065015="プラグインライブラリ 'libnpp.so' を読み込むことができませんでした。"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate  the word 'operamotifwrapper'
+-1024225571="プラグイン実行可能ファイル 'operamotifwrapper' を見つけることができませんでした。"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate the word 'Motif'
+708708394="Motif をインストールしてください。"
+
+; Message string shown if a plug-in setup problem takes place.
+2062427490="(設定ダイアログでパスを変更できます)"
+
+; Tooltip text shown when mouse is hovering the e-mail client text field in
+; Preference dialog.  Do not translate the flags (like %t) and not
+; 'mailto'
+-566594663="フラグ\n\n%t (to) 受信者と置換\n%c (Cc) Cc受信者と置換\n%a (Bcc) Bcc受信者と置換\n%s (subject) 件名と置換\n%b (body) 本文と置換\n%r (address) アドレスと置換し、結果は'mailto:'で開始\n%w (address) %r と同じだが'mailto:'を追加しない \n\n例\n<client> [%t] [-cc %c] [-subject %s] [-body %b]"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate the word 'operamotifwrapper'
+-494715725="プラグイン実行可能ファイル 'operamotifwrapper' を開始できませんでした。"
+
+; Tracker communication error header
+-509925896="トラッカーと通信できません:　"
+
+; Tracker communication error context
+-1318861316="BitTorrent トラッカーとトレント間の通信: "
+
+; First message to user when clicking a .torrent link
+1637975240="以下の場所から BitTorrent によるダウンロードを開始しようとしています。\n\n %s\n\n受信したコンテンツは同じファイルをダウンロードする他の人のために共有されますのでご注意ください。\n\n実行してもよろしいですか？"
+
+; Title of the dialog
+1692897257="BitTorrent ダウンロード"
+
+-819618716="BitTorrent によるダウンロード '%s' が完了しました。\n"(クリックするとメニューを表示します)\n受信したコンテンツは手動で中止するまで共有されますのでご注意ください。\n"
+; Move-to-sent-dropdown in mail import wizard, no mailbox selected:<none>
+-1564256783="<なし>"
+
+; The loading was aborted due to security reasons for instance loading a
+; file: url from a document loaded from an http: url
+-1399476641="セキュリティ上の理由により、このURLの読み込みはブロックされました。"
+
+; Caption for a single alternate link in a newsfeed
+-387365869="記事:"
+
+; Caption for a single related link in a newsfeed
+-1767083404="関連リンク:"
+
+; Caption for a single via link in a newsfeed
+-217852653="viaリンク:"
+
+; Caption for a single download link in a newsfeed
+787372707="ダウンロード:"
+
+; Button to reset a preference to default.
+-425450415="デフォルト"
+
+; Internally generated document needs JS to function.
+1110936292="このドキュメントを利用するには JavaScript を有効にし、ページを更新してください。"
+
+; Show all configuration options at the same time.
+-1870351643="すべて表示"
+
+; Messages for opera:config.
+491310161="幾つかの設定の変更を有効にするには再起動が必要となります。"
+
+; Title for opera:config.
+1592381550="設定ファイルエディタ"
+
+; Writing direction for language, "ltr" for left-to-right or "rtl" for
+; right-to-left.
+1850176044="左から右"
+
+; The OCSP server says that the OCSP request was malformed
+1676397738="不正なリクエストであるため OCSP サーバーから検証に失敗したと通知されました。"
+
+; The OCSP server could not create response because of an internal error
+1260085234="不明なサーバーのエラーによりOCSP サーバーは検証に失敗しました。た。"
+
+; The OCSP server says try again later
+-1852612414="オンラインでないため OCSP サーバーから検証に失敗したと通知されました。しばらくたってから再試行してください。"
+
+; The OCSP response should have been signed when it was sent, Opera does not
+; support signing of OCSP responses
+-1629981425="リクエストが署名されていないため OCSP サーバーから検証に失敗したと通知されました。"
+
+; The OCSP server claims we are not authorized to get a response for the
+; validation request. This is very likely an OCSP server problem
+-780013139="不正なリクエストであるため OCSP サーバーから検証に失敗したと通知されました。"
+
+; We don't understand the reason code given for why the OCSP request failed
+1288130594="不明なエラーにより OCSP サーバーから検証に失敗したと通知されました"
+
+; An error was found in the OCSP response, making it invalid
+887031139="OCSP サーバーからのレスポンスにエラーがあります。"
+
+; The OCSP response could not be validated, and it could be a fake
+1205273924="OCSP サーバーからのレスポンスがを認証できませんでした。"
+
+; The OCSP response is older than its specified validity period, or is so
+; old Opera will not accept it.
+466045243="OCSP サーバーからのレスポンスが遅すぎます。"
+
+; The website is no longer in operation, and the certificate has been
+; revoked
+452336457="このサイトは運営されていないため証明書は破棄されました"
+
+; A newer certificate has been purchased.
+-1035416434="新しい証明書が発行されているため証明書は破棄されました"
+
+; The information in the certificate no longer identifies the correct owners
+10534282="このサイトの所有者が変更されたため証明書は破棄されました"
+
+; There's been a serious problem at the CA, and at least some of the
+; certificates from the CA can no longer be trusted
+-260835684="証明書の発行者が信頼できないため証明書は破棄されました。またこの発行者により発行された証明書すべて、もしくはその幾つかは信頼できません"
+
+; The owner has reported that the private key associated with the
+; certificate was compromised (e.g. stolen) or lost (e.g. they forgot the
+; password)
+345370497="証明書のキーが信頼できないため証明書は破棄されました。証明書は信頼できません。"
+
+; Status bar shows plug-in initiated url loading. Input string: domain name
+; of url being loaded.
+83724205="%s のデータを受信しています..."
+
+; Used when a 40/56-bit, authentication-only or anonynmous method is
+; selected by the server
+-1765289207="このサーバーではセキュアでないとみなされている暗号化方式が使われています。"
+
+; Used when the public key of the server, or one of the certificates is not
+; long enough to provide adequate security, presently it is used for RSA
+; keys shorter than 900 bits.
+1375884585="このサーバーではセキュアでないとみなされている短い公開暗号鍵を使用しています。"
+
+; Used when the public key of the server, or one of the certificates is not
+; long enough to provide adequate security, presently it is used for
+; RSA/DH/DSA keys between 900 and 1020 bits.
+1691604376="このサーバーが使用している公開暗号鍵の長さは中程度のセキュリティレベルです。"
+
+; Currently used for SSL v2, which is obsolete and have known security
+; problems fixed by later versions of SSL and TLS
+-656286379="このサーバーはセキュリティプロトコルの古いバージョンを使用しています。"
+
+; Used in search field on address bar
+-1453429782="ページ内検索(&F)"
+
+; Caption for multiple alternate links in a newsfeed
+769504734="記事: "
+
+; Caption for multiple related links in a newsfeed
+-426780673="関連リンク:"
+
+; Caption for multiple via links in a newsfeed
+505415390="via リンク:"
+
+; Caption for multiple download links in a newsfeed
+1334569070="ダウンロード:"
+
+; Sent to console when Opera is not able to load a script linked from a page
+-577114886="リンク先のスクリプトを読み込むことができません"
+
+; Heading for the folder or ftp listing page
+489139792="フォルダ一覧"
+
+1964793765="%s サーバー "
+; html title of the page information
+-1527978796="ページ情報"
+
+; Chat window
+2127064144="チャットルーム内のユーザー数: %d 人"
+
+-771071578="ユーザー数: %d人, トピック: %s"
+; The certificate expired on the given date, java allow dialog.
+2089918635=""%1" に対する証明書は %2 に有効期限が切れています。サイトの管理者が証明書を更新する必要があります。"
+
+; Warning displayed if a certificate is being installed from a HTTP or FTP
+; URL
+-1725796747="この証明書は "%1" からセキュアでない接続を使用してダウンロードされました。"
+
+; Displayed for unknown root certificates that are missing the required
+; basic constraints and key usage extensions
+760918586=""%1" に対する証明書は必要な情報が含まれていません"
+
+; Name of the Today folder in the history panel/page
+-1748691533="今日"
+
+; Name of the Yesterday folder in the history panel/page
+-1882227284="昨日"
+
+; Name of the Earlier this week folder in the history panel/page
+756908222="今週"
+
+; Name of the Earlier this month folder in the history panel/page
+353293976="今月"
+
+; Name of the Older folder in the history panel/page
+1447812616="古い履歴"
+
+; About page User CSS folder label
+168507773="ユーザー CSS ディレクトリ"
+
+; Merlin dedication for about-page.
+489069232="Geir Ivars&oslash;y への追悼の意をこめて。"
+
+; Description of how Basic Authentication sends the password
+48164205="Basic 認証: テキスト形式"
+
+; Description of how Digest Authentication sends the credentials
+1677839979="Digest 認証: パスワードは直接送信されません"
+
+; Description of how NTLM Authentication sends the credentials
+-1485707258="Microsoft NTLM : パスワードは直接送信されません"
+
+; Description of how MS Negotiate Authentication sends the credentials
+-488341557="Microsoft Negotiate : パスワードは直接送信されません"
+
+; Button in source viewer toolbar for saving to cache and refreshing the
+; edited page
+1094079060="変更を適用"
+
+-611566104="最後のセッションから中断されている IMAP コマンドがあります。再度実行しますか？"
+-1662197742="中断されている IMAP コマンド"
+735576426="サーバーからのエラー: %s。パスワードを変更していませんか？"
+1809598168="ページソース:"
+-1204190122="ウィジェットを追加"
+-1318171891="完全に Mozilla として認識させる"
+-2000624253="完全に Internet Explorer として認識させる"
+-1278148494="ウィジェットダウンロード"
+1755000112="ウィジェットのダウンロード中..."
+; Error text when a setup file or widget can't be applied after download
+-420402860="設定のインストール中にエラーが発生しました"
+
+-1926142231="ウィジェットを保存"
+616590390="このウィジェットを保存しますか？"
+-48102728="%s が %s へのチャットの参加を招待してきました。\n招待を受け入れますか？"
+587964953="%s がファイル %s (%s) をあなたに送信しようとしています。許可する場合はファイル名をクリックしてください。"
+268083167="ブロックしたいコンテンツをクリックしてください。'Shift'を押した状態でクリックすると特定の画像のみをブロックします。"
+-1026292481="ブロック: "
+1415826242="ブロックしない: "
+-593203511="このファイルを開くとコンピュータに深刻な影響を与える可能性があります。\nこのファイルが信頼できる場合のみ開くようにしてください。\n続行しますか？"
+; Should typically be %#c on Windows and %c on Unix. Format used by the
+; locale to define how a long date/time is shown.
+1965445176="%#c"
+
+; Text written on top of blocked images when using the content blocker
+1592645969="画像をブロック"
+
+; Text written on top of blocked plug-ins when using the content blocker
+-1159735767="コンテンツをブロック"
+
+; Sender of welcome message shown when you create the first e-mail account
+; in Opera
+-1111582602="Opera デスクトップチーム <noreply@opera.com>"
+
+; Subject of message shown to new mail client users.
+1988764740="Welcome to Opera Mail"
+
+; Body of message shown to new mail client users.
+-1111729968="Operaユーザの皆様へ\n\nOpera メールクライアントにご興味をお持ち頂き、誠にありがとうございます。\nただいま、Opera 内蔵のメールクライアント、ニュースリーダー、ニュースフィードが利用可能になりました。\nOpera メールを利用するのは、素早くて簡単。メッセージは自動的にソートされ、簡単に効率的に検索できます。\nもし、皆様がこれまで利用していたメールソフトとの違いに戸惑ったなら、是非 Opera のヘルプをご覧ください。\nopera:/help/mail.html\nopera:/help/feeds.html\n\nOpera のメールクライアントを利用することによって、手動での面倒なメールの分類はもはや不要となりました。\n皆様がこの、すばらしいソフトを気に入ってくれることを願っております。\n\nOpera デスクトップチーム\n"
+
+-1311631998="追加"
+; Option on widget toolbar whether the Opera Widgets tab should always be
+; visible.
+-679663514="ウィジェットタブを表示"
+
+2138046855="ウィジェットを隠す"
+313144515="設定の変更"
+2080847489="完了"
+; In the BitTorrent configuration dialog to indicate unlimited
+; download/upload speed
+-1067119794="無制限"
+
+; Used in about page
+1005433012="プラグインリストを再取得"
+
+; Used for link in error page when XML document cannot be parsed.
+-1989918768="HTML ドキュメントとして再解析する"
+
+; Text for XML parse error message
+2146131313="エラー"
+-267730392="仕様"
+
+; A widget that has no name assigned to it
+-1412267390="ウィジェット"
+
+; Shown in the warning dialog for removing accounts if removing will remove
+; local messages
+-1187019550="このアカウント向けにローカルで保存されているメッセージは削除されます。"
+
+; Text on the button in the WF2 calendar that clears the selected value,
+; selecting "no" date.
+559655831="なし"
+
+; Text on the button in the WF2 calendar that selects the date that is
+; "today"
+579923217="今日"
+
+; Message string shown if a plug-in setup problem takes place. Do not
+; translate the word 'operapluginwrapper'
+-1664703893="実行可能なプラグイン 'operamotifwrapper' を見つけることができませんでした。"
+
+; Tooltip string for tray icon
+1045417549="未読メッセージ %d"
+2118270715="未読メッセージ 1"
+
+; Title for warning on read-only messages
+83187865="変更できないメッセージがあります"
+
+; Text for warning on read-only messages
+37533518="選択されたメッセージの幾つかは「読み取り専用」のため変更することができません。"
+
+; The title attribute of the >> link for selecting next entry on generated
+; webfeed pages
+1248101963="次のエントリ"
+
+; The title attribute of the << link for selecting previous entry on
+; generated webfeed pages
+-1151467159="前のエントリ"
+
+; The link for going back to list of all entries when on a generated page
+; for one entry
+-494370643="すべてのエントリ"
+
+; Title of history search page
+1099269918="履歴検索"
+
+; Subscribe to an RSS web feed.
+-606519656="登録"
+
+; Unsubscribe from an RSS web feed.
+1867586235="登録解除"
+
+; Heading for generated page when Opera has blocked a fraud site
+-91525170="フィッシング警告"
+
+; Body of warning page generated when Opera has blocked a site
+1964603636="このベージは不正なページ（フィッシングサイト）としてリストに登録されています。何らかの仕組みを利用して個人情報や金融情報が共有される可能性があります。このページにアクセスしないよう強くお勧めします。"
+
+; Option to bypass Opera's blocking of a blacklisted site
+-871840478="この警告を無視する"
+
+; Option to go to the help for the anti-phishing feature
+-543549680="インターネットチャンネルのフィッシング防止機能についての詳細"
+
+; The 'get me out of here' option for generated page when Opera has blocked
+; a blacklisted site
+-1113781852="ホームページを開く"
+
+; When printing in some locale, time is 12 hour format
+-224807385="AM"
+1801262742="PM"
+
+; Explanatory text displayed at the top of the page when using the ALT
+; debugger.
+-1197772896="表示されている画像の ALT 属性が無効か、または失われています。"
+
+; Title of the history top 10 shown in the speed dial suggestions list
+-2038375348="よくアクセスするページ"
+
+; Shown when no history top 10 is available to be listed in the Speed Dial
+; suggestions list
+1509749455="使用できるブラウジング履歴がありません"
+
+; Title of the list of open Web pages shown in the Speed Dial suggestions
+; list
+1028796671="開いているページ"
+
+; Shown when the list of tabs in the Speed Dial dialog suggestions list is
+; empty
+-1163002853="現在開いているページはありません"
+
+; Title of the list of suggested Opera sites for speeddial
+-416790863="Opera サイト"
+
+; Speed Dial help button
+528772207="スピードダイヤルとは"
+
+; Caption of button in inline help that opens an Opera help page
+1059596273="詳細..."
+
+; Short help shown inside the Speed Dial page
+2056080008="スピードダイヤルを利用すると、新しいタブを開いたときにお気に入りのウェブサイトにすばやくアクセスできます。スピードダイヤルの新しいエントリを追加するには、空白の場所をクリックします。削除するには x 印をクリックします。また、サムネイルをドラッグ＆ドロップして並べ替えることもできます。ページを開くにはサムネイルをクリックするか、%1 ～ %2 を押します。"
+
+; Caption of a button that unhides Speed Dial
+-1656817791="スピードダイヤルを表示する"
+
+; Caption of a button that hides Speed Dial
+-96763782="スピードダイヤルを非表示にする"
+
+; Shown inside an empty Speed Dial
+-1799226240="クリックするとウェブページを追加できます"
+
+; Shown on a Speed Dial to indicate that it will show a preview of the Web
+; page
+761703394="プレビュー"
+
+; Tooltip shown on a Speed Dial. The parameter will contain the url of the
+; web page that is set for the Speed Dial
+-318104816="クリックすると %s にアクセスできます"
+
+; Instructions shown during Speed Dial configuration
+-1199406616="一覧から適切な項目を選択するか、ウェブアドレスを入力します。"
+
+; Name of the feature
+2112804961="スピードダイヤル"
+
+; Title of Speed Dial in browsing history
+-524350168="スピードダイヤルに戻る"
+
+; Title of the Opera Web site listed in the Speed Dial suggestions
+-371290281="Opera"
+
+; Title of the Opera Community website listed in the Speed Dial suggestions
+956084379="Opera コミュニティ"
+
+; Title of the Opera Mini website listed in the Speed Dial suggestions
+673402787="Opera Mini"
+
+; Dialog title and components
+
+; Used in most dialogs
+660644312="OK"
+326443447="OK"
+730258692="キャンセル"
+193344611="キャンセル"
+
+; Opera as default browser
+602929145="プロトコル"
+-960648533="http"
+-1636630434="https"
+-960449144="news"
+-1070316939="ftp"
+1780552688="gopher"
+-960130529="wais"
+776127007="起動時に Opera が標準ブラウザかどうかを確認"
+1959530921="すべて選択"
+
+; Password required
+1934783555="認証"
+-175979580="メッセージ"
+-215302341="ユーザー名"
+-1474052307="パスワード"
+
+; Send form without encryption?
+660643917="送信の警告"
+
+; Use Opera
+2122499232="標準ウェブブラウザの設定"
+-1117247151="Opera は標準のウェブブラウザとして設定されていません。\n\n標準のウェブページビューアーとして設定しますか？"
+326436591="はい"
+660644283="いいえ"
+
+; Validate source
+-1956242782="HTML ソースの検証"
+722076378="このページをオンラインの HTML ソースコード検証システムにアップロードします。よろしいですか？"
+
+; Advanced startup settings
+-1918601460="DNS を同期する"
+
+; Certificate
+845172279="証明書の名前"
+760368433="発行者"
+-489552039="この証明書を使用するサイトへの接続を許可する"
+-1710695723="この証明書を使用する前に確認メッセージを表示する"
+1230327623="承認する"
+1619237134="インストール"
+
+; Performance
+1500396219="サーバーへの最大接続数"
+-963384524="最大の総接続数"
+
+; Personal information
+-1613993777="この情報はマウスの右クリックからフォームに貼り付けられます。"
+491280082="姓"
+365108324="名"
+-1758483281="住所"
+786795682="市区町村"
+-1493208566="都道府県"
+192982108="郵便番号"
+-800670115="国"
+-1308367955="電話番号"
+-78925070="Fax/携帯"
+866587697="メール"
+-2069137646="ホームページ"
+-6747107="特記情報1"
+1284720862="特記情報2"
+-1718778465="特記情報3"
+
+; Fast bookmark access
+-74873841="ブックマークのニックネームを入力してください。"
+
+; Server name completion
+-1620313612="ローカルネットワークマシンを探す"
+1099463235="次の文字列を使用して補完を行う"
+-586855897="先頭"
+-1174682320="語尾"
+
+; Links in frame
+2076813121="開く"
+-1802770985="閉じる"
+
+; Import e-mail
+-204969357="設定をインポート"
+
+; Cookie security problem
+-191270829="承認する"
+543673424="拒否する"
+531071069="Cookie 中のパスがページのアドレスと一致しません。"
+-1361312927="サイトの管理者に正しい Cookie を設定するよう依頼してください。"
+-1492700677="この Cookie を承認しますか? "
+1830946422="[承諾] または [拒否] をドメイン全体に適用する"
+
+; Update language file
+940335548="言語ファイルのアップデートが必要です。"
+-1618068701="新しい言語ファイルをダウンロードする"
+
+; Automatic window reload
+1704195940="自動更新を有効にする"
+879526679="分"
+1522085772="秒"
+-1137798824="ページが有効期限切れになったときだけ更新する"
+
+; Image properties
+-2071741297="画像"
+-360225991="サイズ"
+-360227935="色の濃さ"
+-360207182="アドレス"
+998036769="種類"
+997983738="ファイルサイズ"
+
+; File download
+-8617288="ファイル"
+-290039121="サーバー"
+
+; Delete private data
+-1539576016="続行すると以下の操作を実行します。デフォルトの操作が変更されていない場合は開いているタブをすべて閉じ、実行中のファイル転送を中断します。"
+-1773600261="テンポラリ Cookie を削除"
+198003670="すべての Cookie を削除"
+-1236632752="パスワードで保護されたページとデータを削除"
+1644218916="すべてのキャッシュを削除"
+868452184="ページの表示履歴をクリア"
+-1526188589="アドレス入力履歴をクリア"
+-818510585="リンクの表示履歴をクリア"
+1416340364="ダウンロードの履歴をクリア"
+-642181654="すべてのメールアカウントのパスワードをクリア"
+526675409="すべての認証管理パスワードをクリア"
+
+; Item properties
+2128741606="ニックネーム"
+-1618821496="アドレス"
+-1958888455="説明"
+728869388="親フォルダ"
+-1187537688="作成日時"
+-1949464196="表示日時"
+
+; Bookmarks Properties
+-1241453065="名前"
+
+; Set home page
+1795906726="Opera の起動時にホームページを表示する"
+
+; Save windows
+768336150="開いているタブ・ウィンドウをセッションとして保存します。"
+1303304956="選択..."
+-413528322="このセッションを Opera の起動時に毎回表示する"
+
+; Confirm file upload
+2025661489="次のファイルが確認なく、別のコンピュータへ送信されるために選択されています。これらのファイルを送信してよろしいですか？"
+-88521873="送信先"
+-1312077104="フォームアドレス"
+
+; Print options
+-332433289="背景を印刷する"
+-229197440="ヘッダとフッタを印刷する"
+1455310448="印刷サイズ"
+63340355="ページ余白(cm)"
+-1006130883="上"
+1157120597="左"
+-462465912="右"
+1299923487="下"
+
+; Print dialog. Destination tab
+1003648387="送信先"
+
+; Print dialog. Options tab
+592887117="オプション"
+
+; Print dialog. Printer program tab
+766567485="プリンタプログラム"
+
+; Print dialog.
+2097463237="プリンタ"
+
+; Print dialog. List column header
+161571347="プリンタ"
+-1993473331="ホスト"
+-1789499230="コメント"
+
+; Print dialog. Checkbox
+472255140="ファイルに出力"
+
+; Print dialog. Frame text label
+643823355="印刷範囲"
+850397807="複製"
+-730356454="すべて"
+
+; Print dialog
+-1927520633="選択範囲"
+-771838223="ページ"
+
+; Print dialog.
+1668227189="From:"
+
+; Print dialog
+-2104539772="To:"
+-319731166="部数"
+-479337266="最初のページから印刷"
+203854778="最後のページから印刷"
+
+; Print dialog. Frame text label
+-786746304="色"
+1087561336="オプション"
+-640741598="ページフォーマット"
+
+; Print dialog
+2128880860="可能の場合、カラーで印刷"
+-140671652="グレースケールで印刷"
+697575478="ポートレート"
+1164269708="ランドスケープ"
+
+; Print dialog. Printer parameter
+-2051840762="パラメーター"
+
+; Print dialog. Help text label
+-928277857="プリンタプログラムは標準入力から読まれます。パラメーターはプログラムに文字列として渡されます。"
+
+; Print dialog. Dialog title
+2013882579="印刷"
+
+; Print dialog. Paper type
+-2104540430="A0 (841 x 1189 mm)"
+-2104540429="A1 (594 x 841 mm"
+-2104540428="A2 (420 x 594 mm)"
+-2104540427="A3 (297 x 420 mm)"
+-2104540426="A4 (210x297 mm, 8.26x11.7 inches)"
+-2104540425="A5 (148 x 210 mm)"
+-2104540424="A6 (105 x 148 mm)"
+-2104540423="A7 (74 x 105 mm)"
+-2104540422="A8 (52 x 74 mm)"
+-2104540421="A9 (37 x 52 mm)"
+-2104540397="B0 (1030 x 1456 mm)"
+-2104540396="B1 (728 x 1030 mm)"
+-2104540395="B2 (515 x 728 mm)"
+-2104540394="B3 (364 x 515 mm)"
+-2104540393="B4 (257 x 364 mm)"
+-2104540392="B5 (182x257 mm, 7.17x10.13 inches"
+-2104540391="B6 (128 x 182 mm)"
+-2104540390="B7 (91 x 128 mm)"
+-2104540389="B8 (64 x 91 mm)"
+-2104540388="B9 (45 x 64 mm)"
+-730356284="B10 (32 x 45 mm)"
+-730355042="C5E (163 x 229 mm)"
+-730353194="DLE (110 x 220 mm)"
+-1728791405="Executive (7.5x10 inches, 191x254 mm)"
+-783188742="Folio (210 x 330 mm)"
+147238516="Ledger (432 x 279 mm)"
+-776438298="Legal (8.5x14 inches, 216x356 mm)"
+147827665="Letter (8.5x11 inches, 216x279 mm)"
+2146989824="Tabloid (279 x 432 mm)"
+-680796782="US Common #10 Envelope (105 x 241 mm)"
+
+; Print dialog.
+326882116="ローカルプログラム"
+-2033953696="カスタムプリンタ"
+
+; Print dialog. Fileselector title
+1456184242="出力先を選択"
+-1974980107="アプリケーションを選択"
+
+; Print dialog. Printer connection
+-776083284="ローカルに接続"
+
+; Print dialog. Alternate printer names
+-477665405="エイリアス"
+
+; Print dialog. Unknown printer location
+516082601="未知のロケーション"
+
+; Print dialog. Unknown printer
+-337003759="不明"
+
+; Dialog title. When no printer was found
+-1500748574="プリンタがインストールされていません"
+
+; Dialog help text
+-1557376255="印刷ダイアログ・ボックスでファイルへの出力、あるいは、プリンタを指定できます。"
+
+; Column header label when listing plug-ins
+262687564="使用"
+
+; First time dialog help text
+960391086="センタークリック時の動作は Shift+センタークリック で設定できます。\n\n今すぐこの設定をしますか？"
+
+; Dialog close button
+-979709540="閉じる"
+
+; Dialog apply button
+-981936756="適用"
+-964083629="印刷"
+
+; Dialog help button
+1011687983="ヘルプ"
+
+; Qt library strings (colordialog)
+7501022="カスタムカラーを追加(&A)"
+232103932="ベーシックカラー(&B)"
+-867638571="カラーのカスタマイズ(&C)"
+-875840640="カスタム色の定義(&D) >>"
+238629099="緑(&G)"
+-1478752555="赤(&R)"
+-1554760798="青(&U)"
+-1478751582="彩度(&S)"
+-1478748323=" 明度(&V）"
+-1478762916="色相(&E)"
+-1554797234="アルファチャンネル(&L)"
+253739196="色を選択"
+
+; Qt library strings (filedialog)
+1991694632="%1\nは見つかりません\nファイル名とパスを確認してください。"
+-1076089010="削除(&D)"
+-877919944="いいえ(&N)"
+1093424652="はい(&Y)"
+-1240457208="開く(&O)"
+-528126221="名前の変更(&R)"
+-52987579="保存(&S)"
+-1646738897="ソート無し(&U)"
+1414807772="%1 %2を削除します。よろしいですか？"
+2109971655="すべてのファイル(*)"
+-1642147550="属性"
+1722443788="戻る"
+-659416626="複写もしくは移動"
+-259324395="フォルダの作成"
+1722516217="日付"
+2105831986="%1 を削除"
+-1156894903="詳細"
+1093401914="Dir"
+956037592="ディレクトリ"
+-1710798672="ディレクトリ:"
+1010255397="エラー"
+873367164="ファイル名(&N)"
+873609021="ファイルタイプ(&T)"
+1722596539="ファイル"
+50466481="ディレクトリの検索"
+1092365088="アクセスできません"
+-821980206="一覧(&L)"
+-751032665="場所(&I)"
+1722875356="名前"
+923962996="新規フォルダ %1"
+923962995="新規フォルダ 1"
+923962994="新規フォルダ"
+-220624703="上階層へ"
+1722927373="開く"
+1865479851="ファイル内容のプレビュー"
+254602761="ファイル情報のプレビュー"
+-528183246="更新(&R)"
+-108955079="Read-only"
+709077442="Read-write"
+1723023063="読み込み: %1"
+-493443042="名前を付けて保存"
+1723055338="保存"
+574631323="隠しファイルを表示(&h)"
+1723064182="サイズ"
+1723070467="整列(&S)"
+273459937="更新日時順に表示(&D)"
+273819076="名前順に表示(&N)"
+274007902="サイズ順に表示(&S)"
+
+; Qt library strings (filedialog) - Not regular file
+1463055356="スペシャルファイル"
+
+; Qt library strings (filedialog)
+-361471359="ディレクトリへのシンボリックリンク"
+956418786="ファイルへのシンボリックリンク"
+-1926486845="スペシャルファイルへのシンボリックリンク"
+1723117213="タイプ"
+-68758424="Write-only"
+1031592326="書き込み: %1"
+277362385="ディレクトリ"
+-1853418948="ファイル"
+272992419="シンボリックリンク"
+
+; General message box strings
+-426392460="先にファイル名を選択してください"
+502259861="ファイル名が見つかりません"
+1604953162="指定されたファイル名は既に存在します。\n上書きすると既存のファイルの内容が失われます。\n\n上書きしますか？"
+1482828165="上書き"
+1626691316="選択したファイル名は既に存在します。別のファイルを選択してください。"
+-1281489981="不正なファイル名です"
+639028599="書き込みに失敗しました。\nデータは保存されていません。\n書き込み権限や十分な空き領域があるかを確認してください。"
+-314417192="保存に失敗しました"
+483903138="指定された場所への書き込み権限がありません。"
+-1211065580="指定された %1 への書き込み権限を持っていません。\n\n名前: %2"
+-490449851="アクセスが拒否されました"
+-1950990976="ディレクトリ"
+-1390443925="ファイル"
+
+; Message box title
+1563466345="無効なプラグインのバージョンです"
+
+; Message box help text
+-1533759672="このバージョンの Netscape プラグインは無効です。Opera はこのプラグインを使用することができません。このバージョンの Opera に付属したプロキシプラグインをインストールしてください。"
+
+; Message box title
+-954879056="プラグインの検索"
+
+; Message box help text for delayed plug-in search (after startup)
+-766632113="プラグインは起動時にインストールされていませんでした。インストールを開始します。"
+
+; Message box help text
+1392883905="前回プラグインの検索を試みた際に、致命的な問題が発生していました。\n\n今すぐプラグインの検索を開始しますか？"
+
+; Text above a list of directories
+-1716908490="登録されたプラグインのディレクトリ"
+
+; Help text for setting display resolution (DPI)
+-1907626649="解像度"
+
+; Default display resolution value
+-221904756="システムの標準設定"
+
+; Preferences
+-482365072="適用"
+
+; Advertising
+-673223269="広告"
+
+; Privacy
+1669902403="オートリダイレクトを有効にする"
+-44337407="認証が必要なページを把握するために Cookie を使用する"
+-710257074="Cookie を有効にする"
+1493006323="Cookie 設定..."
+-52958885="Opera の終了時に Cookie を削除する"
+370346349="不正なドメインの Cookie について警告を表示"
+-1248831366="不正なパスを含む Cookie を受け入れる"
+1456075810="不正なパスを含む Cookie について警告を表示"
+
+; Accessibility
+-819148542="マウスジェスチャーを有効にする"
+-1101959295="テキストをダブルクリックでコンテキストメニューを表示"
+186363710="｢進む｣と｢戻る｣を左手用に設定する"
+919715221="ドロップダウンのオートコンプリートを有効にする"
+
+; Windows
+1445692897="タブの切替"
+
+; Programs
+-1037896592="メールとチャットを有効にする"
+-2039956664="ダウンロードディレクトリ"
+-386352693="ソースビューア"
+-1261223714="Telnet プログラム"
+741548000="TN3270 プログラム"
+
+; Fonts and colors
+-173306681="選択..."
+1850810654="最小フォントサイズ (ピクセル)"
+-142265689="背景の色"
+-1821217361="リンクスタイル"
+-1581303318="ユーザーリンクスタイル..."
+100462302="各言語の表示"
+-466818101="文字別フォント..."
+
+; File type
+387537687="ファイルタイプ"
+1157430188="MIME タイプ"
+1246545064="処理"
+-465773983="Opera で開く"
+1157368313="ディスクに保存する"
+-476926331="ダウンロードが完了したら開く"
+-1590629512="フォルダを選択せず直接ディレクトリに保存する"
+-1269937528="標準のアプリケーションで開く"
+-1006151541="他のアプリケーションで開く"
+1844282809="プラグインを使用する"
+
+; Network
+-868465547="ブラウザーの識別"
+-1869997290="すべてのアドレスを UTF-8 でエンコードする"
+1016988895="プロキシサーバー"
+-697010572="サーバー名の自動補完"
+2097055631="常にサーバーエラーを表示する"
+1224008052="FTP パスをユーザーディレクトリに関連付ける"
+-490501369="FTP パスは絶対パスを使用する"
+
+; Link style
+-1421175617="未表示のリンク"
+-1972543376="下線"
+1222649501="取消線"
+-480033431="色"
+1289892463="訪問済のリンク"
+-84227297="表示されたリンクのマーク"
+-615919994="日"
+1706322406="時間"
+-1267953030="画像リンクを枠で囲む"
+1307039014="リンクを枠で表示する"
+
+; International fonts
+-2034190404="テキストが正しく表示されない場合に使用するフォントを選択してください。"
+-1975145200="文字コードセット"
+-1669632023="プロポーショナルフォント"
+-1793402588="等幅フォント"
+
+; Cache
+-1441773700="クリア"
+80367024="ディスクキャッシュ"
+-1269064102="ドキュメント"
+-903440803="画像"
+1084434026="その他"
+1963944855="終了時にすべて削除する"
+1267104753="今すぐ削除する"
+969938757="常にチェックする"
+1085760724="チェックしない"
+-881832071="常にリダイレクトをチェック"
+904250869="常にリダイレクトをチェック"
+
+; Proxy servers
+1889671252="プロキシサーバー"
+-1895292633="HTTP"
+1028618477="ポート"
+357110010="HTTPS"
+402457745="FTP"
+-116584809="ポート"
+-1421646356="Gopher"
+-427503717="WAIS"
+1709956069="以下のアドレスにはプロキシを使用しない"
+-1543456927="プロキシの自動設定を使用する"
+
+; E-mail client
+747685698="標準設定されているメールクライアントを使う"
+-921388538="特定のメールクライアントを使う"
+
+; Toolbars
+-368151846="アドレスバーの中に表示"
+
+; File types
+-1188521384="MIME タイプで処理を判断する"
+1481415954="信頼できない MIME タイプの場合は拡張子で処理を判断する"
+114869221="新規作成..."
+1366031389="削除"
+1627417410="編集..."
+
+; Windows
+624327750="現在のタブを再使用する"
+-781072053="ポップアップ"
+43350370="スクロールバーを表示する"
+-222483523="タイトルバーにページサイズを表示する"
+
+; Sounds
+522220231="サウンドを有効にする"
+-1436814124="選択..."
+-992349035="クリア"
+889786866="テスト"
+
+; Multimedia
+727207872="画像を表示する"
+-1587747711="キャッシュされた画像のみ表示する"
+1856019676="画像を表示しない"
+-1853078577="GIF/SVG アニメーションを有効にする"
+1268135569="ウェブページのサウンドを有効にする"
+-747386131="プラグインを有効にする"
+
+; Security
+-60978559="個人証明書"
+-74806097="SSL 2 を有効にする"
+-406036080="SSL 3 を有効にする"
+-1694952417="TLS 1 を有効にする"
+-1112133979="パスワード"
+-269833206="パスワードの確認"
+-486847814="毎回確認する"
+268462382="セッションごとに確認する"
+470118307="パスワードの設定..."
+61648426="警告"
+385257971="保護されていないフォームの情報を送信する前に警告を表示"
+1693478736="ページの HTML を検証する前に警告を表示"
+
+; Personal certificates
+-1490419489="証明書"
+-1485348422="インポート..."
+520175649="エクスポート..."
+
+; Cookie security breach
+-1149670446="アドレス"
+
+; The server wishes to send you a cookie
+-2125062381="アドレス"
+-203368946="コメントを見る"
+
+; Language
+1210138155="ユーザーインターフェイス用の言語ファイル"
+-1904842103="ウェブページの表示に優先して使用する言語"
+-1336632854="追加..."
+-1028888763="削除"
+416197127="上へ移動"
+416196573="下へ移動"
+-25810973="エンコードが指定されていないページに使用するエンコード"
+
+; Accept language
+-2008150466="言語の選択"
+-1525378187="ユーザー定義"
+
+; PREFS_STARTEXIT
+-3194516="起動"
+772433964="起動ダイアログを表示する"
+1738333564="終了を確認する"
+-1709448322="終了時にダイアルアップ接続を閉じる"
+
+; Page style
+-1557869062="標準の表示倍率"
+-1353005527="フレームを表示"
+-1657015726="インラインフレームを表示"
+-227434624="選択しているフレームに枠を表示"
+1395007035="作成者モード"
+2008271577="作成者 CSS"
+1848555975="作成者フォントと配色 "
+815498886="ユーザースタイルシート"
+1141762836="ユーザーフォントと配色"
+-969632386="ユーザーリンクスタイル"
+-239524646="ユーザーモード"
+-430838526="作成者 CSS"
+-1332666096="作成者フォントと配色 "
+-1623611217="ユーザースタイルシート"
+-2039459235="ユーザーフォントと配色"
+1424221671="ユーザーリンクスタイル"
+1588756261="ユーザースタイルシート"
+
+; Search
+-1690930933="ネットサーチ"
+67443559="標準で使用するサーチエンジンを選択してください"
+381856500="1ページあたりの検索結果の表示数"
+-2113105465="ヘルプ"
+
+; TRANSWIN_CLIENT
+-1998478790="転送元"
+-2032666645="転送先"
+1118241764="サイズ"
+1727683959="受信済"
+
+; Contact properties
+683448939="名前"
+
+; Net
+1946698160="ホームページ"
+
+; Home
+-1997322485="郵便番号・住所"
+-95751100="電話番号"
+-1063800375="FAX 番号"
+
+; Notes
+967347539="メモ"
+
+1287164928="印刷"
+905368231="証明書"
+-621122269="追加する言語"
+1074540939="起動の詳細設定"
+-652008715="設定を適用しています"
+1022323818="サーバーから送信された Cookie の承認"
+1937225622="ホットリスト高速アクセス"
+168948995="パスワード"
+2131274965="JavaScript プロンプト"
+150645968="パスワードが必要です"
+-1272161503="ページの自動更新"
+1534269379="個人情報の削除"
+173836213="ホーム"
+395724496="一般"
+1447608274="メモ"
+-1763467992="ファイルアップロードの確認"
+654135688="Cookie セキュリティの問題"
+-1704542452="Cookie セキュリティの破損"
+1322117557="Cookie サーバーフィルタの設定"
+1534399195="Opera を終了しますか?"
+2037295635="ページへの移動"
+280798523="画像のプロパティ"
+-2136618481="メールをインポート"
+-957355101="保護されていないフォームの情報を送信しますか？"
+330162258="フレーム内リンク"
+1093317516="サーバー名の自動補完"
+54691309="ファイルタイプ"
+-1725157021="個人証明書"
+-359938861="PIN コードを入力してください"
+-234093677="プラグイン"
+294279971="設定"
+687922277="印刷プレビュー"
+623579183="印刷オプション"
+-1141453357="プロキシサーバー"
+1775785897="セッションを保存"
+123194780="Opera のライセンス登録"
+661020909="リンクの表示"
+-651058078="フォントの設定"
+103768470="言語ファイルのアップデート"
+90438908="ウィンドウ"
+90582312="ホームページの設定"
+-23933957="ユーザー名"
+410049262="パスワード"
+1898978557="ユーザー名とパスワード"
+-2126225866="ニックネームの選択"
+-93301963="アカウントウィザード"
+1419869538="名前"
+1775430482="所属"
+-38539477="メールアドレス"
+-711244042="ログイン名"
+1924502288="パスワード"
+343760999="受信サーバー"
+1331275615="送信サーバー"
+258656003="メッセージの検索"
+-423800106="チャットに参加"
+1205964306="ホットリスト"
+-66246951="メール"
+-1356461606="ブックマーク"
+-1832881744="アドレス帳"
+-1433740559="チャット"
+316157379="履歴"
+130814646="送信 "
+36795105="添付"
+130361664="送信者"
+-2086232177="宛先"
+-2086232750="Cc"
+-1291027524="件名"
+963741860="メッセージを作成"
+-1502184980="新規メールを確認"
+-1989913697="新規作成"
+609024688="返信"
+-633054391="すべてに返信"
+; Forward mail
+-415694375="転送"
+
+-1925068745="削除"
+1987282893="クイック返信"
+928144058="復元"
+; Mark a message as unwanted mail
+148653237="迷惑メール"
+
+; Mark a message as wanted mail
+1328358662="一般メールに指定"
+
+; Mark a message as read
+148605312="既読化"
+
+; Mark a message as not read
+-1248878781="未読 "
+
+-1519521597="トピックの変更"
+-946246097="ログを保存"
+1822835501="送信"
+-1471065562="新規ブックマーク"
+1695332897="新規フォルダ"
+-1300231945="表示"
+699430799="新規アドレス"
+810585962="新規フォルダ"
+108662882="ニックネーム"
+1676962161="IRC ネットワークまたはサーバー名のタイプの選択"
+-447609479="アドレス帳に追加"
+1415876114="未読 "
+1664487546="受信済"
+1189434292="送信箱"
+1018758829="送信済"
+754708919="草稿"
+1018770372="迷惑メール"
+-739058027="ごみ箱"
+340864561="重要"
+1018805321="予定"
+-1602395097="要返信"
+1827310912="要連絡"
+1665342300="会議"
+-744394077="パーティー"
+-755539101="娯楽"
+-160452737="貴重"
+-747232396="音楽"
+944456873="画像"
+-737006806="ビデオクリップ"
+-884079419="ドキュメント"
+395487417="アーカイブ"
+70193737="Index"
+-1808668614="すべてのメッセージ"
+-1614271604="アクティブなアドレス"
+575323265="メーリングリスト"
+-1718639857="検索"
+963301518="ニュースグループ"
+-1876656956="ラベル"
+-1741792339="添付ファイル"
+1072512248="アクティブなスレッド"
+-712616020="チャット"
+-712766700="ニックネーム"
+-1253458380="宛先"
+1656979332="件名"
+-1546359922="送信日時"
+501271444="ラベル"
+782927141="送信者"
+-456987307="件名"
+-583974145="送信日時"
+-2099736283="ラベル"
+-967688182="接続準備完了"
+1227181119="接続中"
+-483414934="接続しました"
+169075727="認証中"
+530476474="ヘッダの受信中"
+-608225674="メッセージの受信中"
+903932286="グループの受信中"
+-475056330="メッセージの送信中"
+-1276429365="メールと認証管理にマスターパスワードを使用する"
+-599872740="一般"
+2018182024="サーバー"
+-663915022="受信"
+-1545067542="送信"
+-1699026705="フィルタ"
+; Error dialog
+-1714897938="一般エラー"
+
+-594108235="画像"
+1632572735="ファイルのダウンロード"
+1871831470="変更..."
+-1470387040="開く: "
+-1440264031="このファイルを開きますか？　保存しますか？"
+-1734360711="ファイル拡張子"
+-1776501572="ダウンロードダイアログを表示する"
+; New folder button
+-1919674626="新規作成..."
+
+-1309208407="削除..."
+-340520270="ツールバーのカスタマイズ"
+-1913444467="メッセージの削除について"
+1444256375="削除したメッセージはすべてのビューから削除されます。"
+1948572230="ごみ箱から復元したメッセージは元のビューに戻されます。"
+-1736645513="フィルタ"
+1181726059="条件"
+-89018125="スパムフィルタ"
+-1342334224="条件にマッチしたメッセージは既読にする"
+-2068041977="既存のメッセージもフィルタリングする"
+-1386444087="検索する文字列"
+-1554068629="検索範囲"
+2072166786="期間"
+-1501861780="検索ビュー"
+1596476603="サブビュー内も検索する"
+952764396="パスワードを記憶する"
+-941157161="作成するアカウントの種類を選択してください"
+-1544517843="安全(セキュア)な接続(TLS)を使用"
+797029072="サーバー上にメッセージを残す"
+78657381="インポートするプログラムの種類を選択してください"
+-1651532393="アドレス帳をインポート"
+-1813576765="メールをインポート"
+1845068602="開く..."
+-1385841870="認証管理（パスワードマネージャー）にパスワードを記憶させますか？"
+339628160="次回からは Ctrl+Enter か認証管理ボタンを押すことでログインできます。"
+464171249="このページには使用しない"
+462839326="使用するユーザー名を選択してください。"
+57541395="ウェブページアドレスを入力するか、リストから選択してください。"
+-1047096046="メッセージフィルタ"
+-2061349988="Opera へようこそ"
+1612275836="前回終了時の状態を復元する"
+1460510403="保存したセッションを開く"
+-1760565253="ホームページを表示する"
+-82217585="タブを開かずに起動する"
+-1142227500="名前"
+1026585507="追加メールアドレス"
+1880162529="写真のURL"
+-1142404932="アイコン"
+-348224542="アカウント名"
+-1115791672="フルネーム"
+-39358979="メールアドレス"
+-255067037="Reply-to"
+-1840214134="NNTPサーバー"
+-1530318101="サーバー"
+-1635866954="ポート番号"
+278019236="安全(セキュア)な接続(TLS)"
+-1213125907="送信 SMTP サーバー"
+-1940221560="ダウンロード済のメッセージは既読にする"
+-1600034694="チェックの時にメッセージ本文をダウンロードする"
+68381463="メッセージ本文をローカルにコピーする"
+82183132="#分ごとに新しいメッセージをチェックする"
+-1602521967="手動チェックの時にこのアカウントを含める"
+292202002="新着メッセージ受信時にサウンドを再生する"
+-1706007866="IMAP ルートフォルダへのパス"
+-1726997921="送信メッセージを自動改行する"
+1748463647="メッセージを一旦送信箱に保存する（すぐ送信しない）"
+-949195674="署名"
+-1147674967="IMAP 送信済フォルダ"
+-792494751="メッセージ送信時にアドレス帳に追加する"
+; Manage accounts
+746313816="新規作成..."
+
+; Manage bookmarks
+-1304949343="新規作成..."
+
+-113980259="編集..."
+-1304960797="切り取り"
+546567028="貼り付け"
+-421823748="現在のページをホームページに使用"
+228653310="インストール時のホームページに戻す"
+-1430948923="上に入力するアドレスを使用"
+-1135957070="ホームページアドレス"
+539821223="エラー発生時にコンソールを開く"
+; MDI/SDI switch
+-145520852="タブを新しいウィンドウで開く"
+
+-2084292420="スキンファイル"
+-793134482="特殊効果を有効にする"
+808098795="インポート"
+-207624035="ダウンロード"
+; Used for outgoing properties in E-mail account properties dialog
+-928603328="新しいメールのチェック後に、送信箱のメールを送信する"
+
+; Shown if a server message is sent to the authorization dialog in M2
+-1973653085="サーバーメッセージ"
+
+1234683260="Opera を終了します。よろしいですか？"
+906143915="このページに対して適用させる"
+1966823412="サーバー全体に対して適用させる"
+837999419="フォルダを開く"
+-710097434="ニュースグループの購読"
+1029105296="IMAP フォルダの購読"
+603725896="アクティブなダウンロードがあります"
+793558111="現在ダウンロード進行中です。\nOpera を終了するとダウンロードは中断/中止されます。\nOpera を終了してよろしいですか？"
+1542282257="プロパティ"
+; What to do when mid clicking outside a link. Currently only used on Linux
+731783015="マウスセンタークリックの動作を選択"
+
+; currently only used on Linux
+875866297="クリップボードから貼り付け"
+1965323504="パンニング開始"
+1774522061="水平パンニングを有効にする"
+
+; What do to when mid clicking on a link.
+1352230307="リンクをクリックした際の処理方法を選択"
+
+748752984="リンクを開かない"
+662039849="開く"
+-445280252="新しいタブで開く"
+-1592856997="バックグラウンドに新しいタブで開く"
+704798303="新しいウィンドウで開く"
+1295478975="バックグラウンドに新しいウィンドウで開く"
+946460287="スキン、アイコンサイズを選択"
+1205059253="Opera Standard"
+-675042855="Classic Windows"
+-1059799033="ユーザースキン"
+-35159543="ツールバー設定を選択"
+1309858860="標準のツールバー"
+-368017326="カスタマイズしたツールバー"
+-2049979925="この他のｽｷﾝ、ﾂｰﾙﾊﾞｰ設定は my.opera.com から利用できます。"
+765543097="Cookie をどのように処理しますか？"
+; Dialog box title.
+-74943979="センタークリックのオプション"
+
+783261691="表示"
+1549250714="証明書マネージャー"
+350979459="認証機関"
+1212973748="現在のパスワード"
+591201435="新しいパスワード"
+675284689="新しいパスワード（確認）"
+1344443447="指定して開く"
+177815783="ダウンロード"
+523656101="ブックマーク"
+-1524059248="アドレス帳の編集"
+869886902="標準の設定"
+1593201402="サーバーマネージャー"
+1854106413="認証管理ログイン"
+284052646="通常の Cookie に対する標準の設定を使用"
+1150026095="設定をドメイン全体に適用させる"
+-1010146047="サーバー/ドメイン用の Cookie を受け入れる"
+-1734148758="サーバー/ドメイン用のサードパーティーの Cookie を受け入れる"
+-421726267="Cookie"
+-1601094720="サーバーのプロパティ"
+23986966="Cookie 設定..."
+-465766087="認証管理パスワードの編集..."
+-1817791195="ブックマークの表示日時をクリア"
+1653710111="フォントの選択"
+-1680267981="イタリック"
+-1859325501="下線"
+603566913="上線"
+1883282023="打消線"
+1633756476="色"
+-1311010849="サンプル表示"
+-421878363="セキュリティプロトコル"
+-265178759="有効にする暗号形式を選択してください"
+-1144678240="検索する文字列"
+-1145004181="次を検索"
+1358260818="完全に一致した文字列のみ"
+-1269351212="大文字と小文字を区別する"
+721461702="上へ検索"
+-307830759="下へ検索"
+2061737916="保存したセッションを表示して起動する"
+795361544="例えば 'g opera' と入力すると、Google で opera という単語を検索します。"
+; Setting in dialog for creating new search.
+420293095="スピードダイヤルのサーチエンジンとして使用する"
+
+-1066839922="スキン"
+1490925320="サイズ"
+-1573715592="ツールバーとメニュー"
+548649135="名前の変更"
+-977491054="コピー"
+686346="削除"
+79996673="プログレスバー"
+-1230900508="マウスとキーボード"
+-1637909911="編集..."
+-453803737="ツールチップを表示する"
+-606205635="新しいタブ"
+-880381345="画像をスムーズに拡大・縮小する"
+1757193435="Opera で開くファイルタイプを表示しない"
+-1543329359="標準のアプリケーション"
+343300580="Opera で処理するファイルタイプ"
+831880020="Opera で処理するプロトコル"
+; HTML documents
+274605458="HTML ドキュメント"
+
+; Default application
+-1293166674="XML ドキュメント"
+
+; URL shortcuts
+1508498686="インターネットショートカット"
+
+; Default application
+-1293185325="GIF 画像"
+274672707="JPEG 画像"
+-1293175358="PNG 画像"
+-1293190628="BMP 画像"
+-1293166684="XBM 画像"
+-1429363389="mailto スキーム"
+
+1866136455="ファイル    編集    表示    ブックマーク    ツール    ヘルプ"
+-1014019772="Opera を使う"
+642269215="直接入力アドレス"
+1873534961="訪問済アドレス"
+-1579439409="メモリキャッシュ"
+801196310="ドキュメント"
+-675646986="画像"
+637653122="その他"
+-1428448501="通常の Cookie"
+1433454048="サードパーティの Cookie"
+-396198455="認証管理"
+-1696552840="有効にする"
+-1148334="マスターパスワード"
+498549961="セキュリティプロトコル..."
+-103159331="証明書の管理..."
+; Currently only used on Linux
+-947824666="ウェイト"
+
+; Open application (source viewer etc) in a terminal
+591114908="ターミナルで開く"
+
+; External news program
+-2089094003="ニュースプログラム"
+
+; Label for image dropdown box
+4560907="画像"
+
+; Label for favicon dropdown box
+1301299569="ページアイコン"
+
+; Label for java path text field
+-800347417="Java パス"
+
+; Button text for testing correct Java path
+860203344="Java パスの検証"
+
+; Dropdown menu string
+-142387607="指定されたアイコン・Favicon を表示"
+-502845958="指定されたアイコンのみを表示"
+-1172880243="アイコンを表示しない"
+
+; String in message box when testing and path is correct
+986517624="Java パスは正しいディレクトリを指定しているようです。"
+
+; String in message box when testing and path is not found
+782709632="正しくインストールされた Java が見つかりませんでした"
+
+; String in message box when testing and an alternate path has been found
+-204038994="下記ディレクトリの Java を使用した方が良いようです。このディレクトリを代わりに使用しますか？"
+
+; String in message box when testing and all failed
+1709230649="他のディレクトリで再試行してください"
+
+; Dialog caption and label string for plug-in path dialog box
+1886033443="プラグインのパス"
+
+; Sub-paths of the plug-in path string
+-1096095128="パス"
+
+; On top of a list showing all detected pug-ins
+-902159324="検知されたプラグイン"
+
+; Button text of a button starting a plug-in search
+1366072352="新たに検索..."
+
+; Button text of a button starting a dialog whe one can change the plug-in
+; path
+-1324863160="パスの変更..."
+
+; Dialog title of a dialog that detects plug-ins
+-1022104205="プラグインの関連付け"
+
+; Text above a list box
+-1696719886="関連付けるプラグインを選択してください。"
+
+; filedialog title
+1101996933="ブックマークファイルの新規作成"
+
+; filedialog title 
+-1125805445="アドレス帳ファイルの新規作成"
+
+; filedialog title
+102729404="ブックマークファイルの選択"
+145418962="Opera アドレス帳ファイルの選択"
+673786110="Opera ブックマークをエクスポート"
+1594379476="Opera アドレス帳をエクスポート"
+-1686314754="Opera ブックマークを名前を付けて保存"
+-657378444="Opera アドレス帳を名前を付けて保存"
+65483378="Opera ブックマークを HTML 形式でエクスポート"
+268402344="Opera アドレス帳を HTML 形式で保存"
+-1975244422="Opera ブックマークを保存"
+176757744="Opera アドレス帳を保存"
+1538992238="Opera ブックマークを HTML 形式で保存"
+975705252="Opera アドレス帳を HTML 形式で保存"
+1449493677="インポートする Opera ブックマークの選択"
+-1505726813="インポートする Opera アドレス帳の選択"
+1074670505="インポートする Netscape ブックマークの選択"
+890314776="インポートする Internet Explorer お気に入りフォルダの選択"
+-781848516="インポートする Konqueror ブックマークの選択"
+1959700428="インポートする KDE1 ブックマークの選択"
+
+; Filedialog title
+13914639="サウンドファイルの選択"
+606324906="言語ファイルの選択"
+-1096883633="スタイルシートファイルの選択"
+
+; Parttern string to be used in a file dialog box
+1292246144="言語ファイル |*.lng|"
+
+; Dialog title 
+138765038="キーボード設定の編集"
+
+; Dialog title
+627005670="マウス設定の編集"
+-1683022317="ボイス設定の編集"
+
+; Message box string shown when launching external programs
+-423410334="外部ヘルパー・アプリケーションを指定していません。設定を今すぐ修正しますか？"
+
+; Used in dialog box text
+546926638="メールクライアント"
+
+; Shown in error dialog box
+168337445="外部ヘルパー・アプリケーションが起動できませんでした。設定を今すぐ修正しますか？"
+
+; One of the authentication methods in M2
+1353894976="自動"
+-1645672767="プレーンテキスト"
+
+; Used in first time dialog box
+927730358="詳細..."
+
+; Title of first time dialog box
+-2099957441="クイックセットアップ"
+
+; This string will be used to add custom filter types to filesdialogs.
+; Example: PHP becomes PHP files (*.PHP) Note that %1 and %2 must be used
+-208367524="%1 ファイル (*.%2)"
+
+; File dialog title
+1683506629="証明書をインポート"
+-77827252="証明書をエクスポート"
+
+-1869005731="クリア"
+1093187033="最小化"
+-1320166808="現在のビューから削除します。キーボードショートカット: Ctrl+X"
+-565593601="インプットマネージャー"
+263870417="プロキシ接続で HTTP1.1 を使用する"
+181840283="表示モード"
+94784750="滑らかにスクロールする"
+1952261132="標準の表示モード"
+-999933412="表示モードの設定..."
+-1632714434="フォームにスタイルを適用"
+-1129052357="スクロールバーにスタイルを適用"
+2080299295="メッセージを削除する前に警告する"
+1387547132="ボイス設定"
+623308622="トークキーモード"
+-648174627="トークキー"
+-1054689194="ボイスログのレベル"
+-1452178485="マウスのボタンをクリックでコンピュータの発話を中止"
+1713137313="設定の変更を有効にするには Opera の再起動が必要となります。"
+; General title in message boxes that tell we could not saved a file
+-435323275="保存に失敗しました"
+
+; Messagebox string telling saving failed for a hotlist file
+-169802367="ホットリストファイルを保存できませんでした"
+
+; General message box string asking user to try action once more
+1887553789="再試行しますか？"
+
+; Message box text
+1651558381="すべてのタブを閉じますか？"
+865288575="アクティブなタブ以外すべて閉じますか？"
+
+; Dialog title for dialog box that will autoreset opera in kiosk mode
+1933534860="Opera をリセットします"
+
+; Dialog title string. Keep in sync with corresponding menu entry
+-84340266="ブックマークの編集"
+
+; Dialog title used when user wants to do something that requires online
+; mode (eg. fetching mail)
+1122159696="オフライン"
+
+; General dialog button string 
+-718693395="続ける"
+
+; General dialog button string
+1503565286="止める"
+
+; Caption for Reindex mail dialog box
+-676350439="メールを再インデックス"
+
+; Dialog caption javascript options dialog
+-1656874521="JavaScript オプション"
+
+1190570499="このサーバーには適用しない"
+1074068488="メッセージを処理しています (%li%%) (Tot:%li)"
+-547677647="メッセージを処理しています (%li%%) %li/%li (Tot:%li)"
+-649190548="インポートが完了しました。%li通のメッセージがインポートされました。"
+1553657846="インポートするファイルの選択"
+; for STRICT_CACHE_LIMIT when page is too huge
+1750684824="メモリ不足のために読み込みは中断されました"
+
+; Dialog title when downloaded skin can not be used
+1240228837="このスキンのバージョンは互換性がないものです"
+
+; Dialog title when downloaded setupfile can not be used
+-965546431="この設定のバージョンは互換性がないものです"
+
+; Dialog text when downloaded setupfile can not be used
+179105092="選択した設定は適用することができません。お使いの Opera のバージョンに適した設定を選択してください。"
+
+1081736327="センタークリックの設定..."
+; Dialog title for save as file dialog
+1400788506="画像を含め完全に保存"
+
+-1371611881="無料版の Opera では広告が表示されます。表示される広告の種類は、Opera の設定から変更することができます。"
+1178722403="ページと関連のあるテキスト広告・検索結果を表示 (Google 提供)"
+-935523602="ウェブページのアドレスなどのブラウザのリクエスト情報は、関連する広告を選択\n・表示するために Google に送信されます。Google と Opera はユーザーのプライ\nバシーを保護することを約束します。"
+841445049="詳細"
+-2105932865="画像形式の一般的な広告を表示"
+-1956091003="右クリックを制御するスクリプトを許可する"
+-1823538490="自動的に Cc に追加"
+-47229048="自動的に Bcc に追加"
+; Used in the dialog after having spellchecked the text
+1413665899="スペルチェックが完了しました"
+
+; Caption of spellcheck dialog
+-885735258="スペルチェック"
+
+; 
+1593001313="RSS ニュースフィードの購読"
+1028884233="チャットルーム"
+2120209365="名前"
+1742182586="アドレス"
+1465984542="<新規アカウント>"
+
+218298848="発話中はキーをホールド"
+218298829="キーを押した後、発話"
+-1386615954="トークキーを使用しない"
+-1491985673="なし"
+; The key 'Insert'
+-1471440420="Insert"
+
+; The key 'Scroll Lock'
+-466759489="Scroll Lock"
+
+-1697935102="カスタム"
+2054073447="ログは無効にされています"
+2054073448="冗長"
+2054073449="情報"
+2054073450="警告"
+2054073451="深刻"
+1757006830="ボイス設定"
+; Caption for the Encoding Mismatch dialog
+607478865="不適切なエンコード"
+
+; Text in the Encoding Mismatch dialog
+-1948757080="以下の文字は現在のエンコード設定では送信できません。　このメッセージを Unicode(UTF-8) エンコードで送信しますか? [いいえ]を選択すると、これらの文字はクエスチョンマークに変換されて送信されます。\n\n%s"
+
+; Used in print dialog box for selecting print range
+-41907442="ページ (from-to)"
+
+; Name of the month January
+1832952322="1月"
+
+; Name of the month February
+2081226600="2月"
+
+; Name of the month March
+-1386201093="3月"
+
+; Name of the month April
+1486311936="4月"
+
+; Name of the month May
+218294959="5月"
+
+; Name of the month June
+-1386287270="6月"
+
+; Name of the month July
+-1386287316="7月"
+
+; Name of the month August
+1809201313="8月"
+
+; Name of the month September
+557650799="9月"
+
+; Name of the month October
+-214471082="10月"
+
+; Name of the month November
+228168582="11月"
+
+; Name of the month December
+-1527849153="12月"
+
+; The error message when a validated field has the wrong type. Any %1 will
+; be replaced by the entered value.
+-1410234807="フォーマットが一致しません!"
+
+; The error message when a validated field is below the specified min value.
+; Any %1 will be replaced by the entered value and any %2 with the min
+; value.
+1357557748="%1 は低すぎます。使用可能な最小値は %2 です。"
+
+; The error message when a validated field is above the specified max value.
+; Any %1 will be replaced by the entered value. Any %2 will be replaced by
+; the max value.
+1921772370="%1 は高すぎます。使用可能な最大値は %2 です。"
+
+; The error message when a validated field exceeds the specified precision.
+; Any %1 will be replaced by the entered value.
+706455028="数値が精密すぎます!"
+
+; The error message when a validated field has a maxlength that's violated.
+; Any %1 will be replaced by the entered text length and any %2 will be
+; replaced by the maxlength value
+1400270323="入力したテキストは長すぎます。現在 %1 文字使用していますが、制限は %2 文字以下です。"
+
+; The error message when a validated field has a pattern that's violated.
+; Any %1 will be replaced by the entered value.
+1723208773="%1 はこのページが要求するフォーマットに適合しません。"
+
+; The error message when a required field is left empty.	Any %1 will be
+; replaced by the entered value (which will be empty so it would be
+; useless to include %1.
+1142806355="値を設定してください!"
+
+; The error message when a script has set the "doesn't validate" flag on a
+; field. Any %1 will be replaced by the entered value.
+-2131281313="値 %1 はこのページのスクリプトに許可されません。"
+
+; When using file upload fields for multiple files, the button should say
+; "Add" instead of "Browse" so that the user understands that what she
+; selects appends rather than replace the previous files
+1730601711="ファイルの追加"
+
+; Account properties
+-65655351="開始 DCC ポート"
+-429507502="終了 DCC ポート"
+754788867="自らの IP の検索にサーバーを使用"
+
+-647383136="ブラウザ"
+-262871379="区切り"
+-524159221="マイボタン"
+314760960="候補"
+853726507="スペルチェッカーの使用中"
+1413844241="スペルチェッカーが利用できません。スペルチェック機能の設定方法についての情報をご覧になりますか?"
+794187398="接続時にコマンドを実行する"
+1409451239="ルーム一覧受信中..."
+132497810="プライベートチャットウィンドウをバックグラウンドで開く"
+1402382879="参加"
+1818983654="編集"
+1092515866="更新"
+267726972="プロパティを編集したいツールバーを直接クリックしてください。"
+1252634709="配置"
+1188997476="自動改行"
+1830359827="必要なときだけ表示する"
+229965211="カスタマイズ中は表示していないツールバーも表示"
+-538710540="標準"
+1982306332="ツールバーをクリックするとそのバーの標準の状態を表示します"
+-151949160="ツールバーを標準の状態に戻す"
+748779443="ボタンと検索・入力欄"
+7907189="ボタンや入力欄をツールバーにドラッグしてください"
+-1198942416="更新"
+1522105464="ルール"
+2014349306="フィルタに追加・削除したメッセージから学習する"
+1798229294="新しい規則"
+157340274="規則を削除"
+-1613937223="メッセージをフィルタリング済にする"
+2036309980="親階層のメッセージにフィルタを適用する"
+1393273373="新しいニックネームを入力してください"
+2036801944="パスワードが必要です"
+836858572="オペレータのみにトピックの変更を許可する"
+1608578327="オペレータか音声入力ユーザーのみに会話を許可する"
+-1786310643="チャットルーム一覧からこのチャットルームを隠す"
+2002114629="パスワードで保護する"
+340060262="最大ユーザー数"
+-473551025="規則の追加"
+-486852926="以下のメッセージをフィルタリングする"
+775957656="ニックネーム"
+-2139409621="名前付きでコマンドを開始"
+-18299322="スペルチェック"
+-292512771="元のテキスト"
+1130167323="置換するテキスト"
+-1036950648="無視"
+-1197348448="置換"
+-27950922="学習"
+175198504="言語"
+1470744232="Cookie の情報"
+-2038064953="名前"
+1472820163="値"
+-1992287194="有効期限"
+1842028817="最終訪問日時"
+1245439693="セキュアであるか"
+-792642542="作成者にのみ送信されるか"
+2041948364="バージョン"
+1601195281="インポート先: "
+-1870439386="ニックネーム"
+; Dialog title for config dialog
+1584126886="保存したファイルに対するハンドラ"
+
+; Dialog title for edit dialog
+-367301013="ファイルハンドラの編集"
+
+640393889="メッセージをファイルにエクスポート"
+-416439484="ボイスを有効にする"
+-150274318="ボイスを使って Opera のユーザーインターフェイスをコントロールする"
+776192552="OperaNet, ヨーロッパ"
+-1696783537="Undernet, ヨーロッパ"
+1619131611="Undernet, 北アメリカ"
+2119891397="IRCnet, アフリカ"
+-1015579971="IRCnet, アジア"
+-2000738545="IRCnet, ヨーロッパ"
+884003882="EFnet, アジア"
+766807996="EFnet, ヨーロッパ"
+-649098072="EFnet, 北アメリカ"
+-61585840="DALnet, アジア"
+1811751778="DALnet, ヨーロッパ"
+914672014="DALnet, 北アメリカ"
+-397576462="FreeNode, ヨーロッパ"
+-169772258="FreeNode, 北アメリカ"
+-925702702="FreeNode, オセアニア"
+315804262="FreeNode, 南アメリカ"
+-2039057856="自動改行しない"
+-53452101="自動改行する"
+-1281917585="エクステンダーメニューを表示"
+2134178778="ブラウザ表示欄"
+1158416313="メール表示欄"
+; An outstanding request has been left without response for a period longer
+; than the selected timeout time 
+-1560909860="サーバーが設定時間内に応答しませんでした"
+
+; The HTTP connection has been idle for a period longer than the selected
+; timeout time
+-77029109="接続が中断されました"
+
+; A message to display when an email field has a validation error. Any %1
+; will be replaced by the entered value.
+1835716664="%1 は有効なメールアドレスではありません"
+
+; A message to display when a URI field has a validation error. Any %1 will
+; be replaced by the entered value.
+-1410232701="%1 は有効な URI ではありません"
+
+; The message to display when a file exceeds the maxlength set for it. Any
+; %1 will be replaced by the name of the file and %2 is replaced by the
+; max length.
+-296109318="ファイル %1 は大きすぎます。%2 バイト以下である必要があります。"
+
+; The message to display when the user has entered something that is not a
+; number in a number field. Any %1 will be replaced by the name of the
+; file.
+811237145="%1 は数値ではありません!"
+
+; The title for the dialog that says that validation failed.
+-876707285="フォームの検証に失敗しました"
+
+; For license dialog
+1699644116="同意します"
+534677430="同意しません"
+
+904112737="セキュリティリスクの可能性あり"
+2048468288="Opera の振る舞いを変更するファイルをインストールしようとしています。結果として Opera が不安定になったり、安全ではなくなる可能性があります。\n\nセットアップファイルやウィジェットは信頼できる場所からのみダウンロードしてください。続行しますか？"
+; Dialog that is shown when Clear private Data is executed when active
+; transfers are kept.
+-1529507154="実行中のダウンロードを続行する"
+206201073="実行中のダウンロードは取り消されません。"
+
+1474178780="チャットユーザーを強制退出させる"
+818006780="チャットルームから %s を強制退出させる理由を入力"
+-1164140259="%u ルーム"
+-1260964611="ニュースフィードから名前を取得"
+; Dialog shown when Java is needed, but no Java RE is available
+1478264425="Java がインストールされていません"
+-1390596244="このページの全内容を表示するには Java をインストールする必要があります。今すぐ Java をダウンロードしますか？"
+
+; Text shown when no new plug-ins were detected
+957511760="新しいプラグインは検出されませんでした。"
+
+; Dialog shown when voice libraries is needed.
+1586776125="ボイスライブラリがインストールされていません"
+
+; Dialog shown when Voice libraries is needed.
+814528064="ボイス機能を有効にするにはファイルを追加ダウンロードする必要があります。容量は約10.5MBです。ボイスライブラリをダウンロード、インストールしますか？"
+
+; File filter when native save as dialog can save as html and save as html
+; with inline images. Note save with inlines must be the second option.
+-1133894039="HTML ファイル|*.htm;*.html|画像付 HTML ファイル|*.htm;*.html|Web アーカイブ(単一ファイル)|*.mht|テキストファイル|*.txt|すべてのファイル(*.*)|*.*|"
+
+; Gender option of TTS engine
+1403275436="性別"
+
+; Button name for going to advanced voice preferences 
+-194548092="詳細設定..."
+
+; Heading for the dialog that prompts for download of a new version.
+1694559576="新しいバージョンの Opera が利用できます"
+
+; The text in the dialog that prompts for download of a new version.
+1226095735="新しいバージョンの Opera、Opera %s が利用できます。\n更新されたバージョンを今すぐダウンロードしますか？"
+
+; The default text that prompts for download of a new version.
+-127989377="新しいバージョンの Opera が利用できます。\n更新されたバージョンを今すぐダウンロードしますか？"
+
+; The heading for the dialog that informs the user that no new version has
+; been released.
+-681030092="最新の Opera"
+
+; The dialog that informs the user that no new version has been published.
+1874406227="最新の Opera を使用しています"
+
+; Header for the dialog that informs the user that the version check failed.
+-6600189="チェックを完了できませんでした"
+
+; Text for the dialog that informs the user that the version check failed.
+1952053638="Opera の最新版を調べている途中でエラーが発生しました。"
+
+; Part one of a warning string that informs the user that a file is missing
+; and instructs on how to fix it
+-1678483974="ファイル"
+
+; Part two of a warning string that informs the user that a file is missing
+; and instructs on how to fix it.
+-1678483973="はウィルス対策ソフトによって削除された可能性があります。メールのメッセージを欠落させないために、このダイアログを閉じる前にファイルを修復してください。"
+
+; The heading for the string that warns a user of a missing file.
+158088994="警告!"
+
+; Header for dialog used to ask confirmation of new subscription
+559835627="新規購読"
+
+; Text for dialog asking confirmation of new subscription.
+1715266015="%s を購読しますか？"
+
+; Double linebreak, used as spacer.
+-420368612="\n\n"
+
+; Comment that is appended to the new subscription confirmation dialog if
+; the new subscription is of feed type.
+1715266016="ニュースフィードはメニューに追加され、自動的に更新を調べます。"
+
+; Text used to ask user to change to online mode if the user requests an
+; update check in offline mode.
+-1489814777="オフラインモードが有効にされています。upgrade.opera.com でバージョン情報を調べるためにはオンラインモードである必要があります。\n\nオンラインモードに切り替えますか？"
+
+; Header for the dialog used to ask the user to change to online mode if the
+; user requests an update check in offline mode.
+-57205480="upgrade.opera.com へアクセス "
+
+; Question given to a user who uses functionality that requires a mail/IM
+; account without such an account set up.
+1631718152="アカウントを作成する必要があります。今すぐ作成しますか？"
+
+; Header for a dialog that asks the user if he wants to create an account so
+; that mail/IM functionality can be used.
+-1645859348="アカウントの作成"
+
+; One of the advanced voice options.
+-530853309="最低"
+119364286="低"
+-1051306963="中"
+-356096596="高"
+-338440751="最高"
+-153032965="サイレント"
+867159885="最小"
+-1818297560="小"
+-392871923="中"
+-1818548640="大"
+866908805="最大"
+
+; Alternative error message when the version checking fails.
+216227765="受信したバージョン情報を解析できませんでした。"
+
+; Alternateive error message when the version checking fails.
+1324867398="最新のバージョン情報にアクセスすることができませんでした。"
+
+; Text used to signal a user that an import has finished.
+85274702="インポート完了"
+
+; An option in the voice section of the preferences that sets the voice
+; gender to male.
+-150812152="男性"
+
+; An option in the voice section of the preferences that sets the voice
+; gender to female.
+-1294846189="女性"
+
+; An option used in the preferences dialog to select advanced MDI-mode usage
+; of Opera.
+-825311753="アドバンスド Opera ワークスペース"
+
+; String used in the first time setup to ask the user about how he wants his
+; advertisements.
+689545881="無料版の Opera には広告が表示されます。表示する広告の種類を選択して下さい。"
+
+; Header for the customize dialog.
+-1931057420="カスタマイズ"
+
+; Text for the Panels tab in the customize dialog.
+-341120270="パネル"
+
+; Text used for describing options in the customize dialog.
+906330811="表示するパネルを選択してください"
+
+; Text used for describing an option in the customize dialog.
+-2093641328="パネルを表示する位置を選択してください"
+
+; Checkbox text for selecting whether to show the panel toggle bar. Used in
+; the customize dialog.
+1177466122="ウィンドウ端にパネルの表示切替ボタンを表示する"
+
+; Text used to explain an option in the customize dialog.
+-1676976079="Opera はブックマークをウェブパネルとして表示できます"
+
+; Button text used in the customize dialog.
+1545264142="パネルを追加..."
+
+; Nutton text used in the customize dialog.
+-1089223035="ウェブからパネルを入手..."
+
+; Text for the Toolbars tab in the Customize dialog
+31686709="ツールバー"
+
+; Text for describing an option in the Customize dialog.
+-1225401794="表示するツールバーを選択してください"
+
+; Checkbox text used in the Customize dialog.
+338512283="スタートバー"
+
+; Checkbox text used in the customize dialog.
+-1347675637="ビューバー"
+
+; The text on the buttons tab in the Custiomize dialog.
+-738069602="ボタン"
+
+; Button text for a button in the Clear private data dialog.
+-858999817="詳細"
+
+; Checkbox text in the clear private data dialog
+-1073980337="すべてのタブを閉じる"
+
+; Checkbox text in the print dialog.
+-1544951481="用紙幅に合わせる"
+
+; Checkbox text for the print options dialog
+-561487535="プリンタの設定"
+
+; Checkbox in the Script options dialog
+-1947317945="アドレスバーを非表示にするスクリプトを許可する"
+
+; Button to select current page as startpage in Preferences dialog
+658922130="現在のページを使用"
+
+; Checkbox text used in Search section of Preferences dialog.
+1645305784="ページ内検索を使用する"
+
+; Label for a dropdown that selects color scheme in the Skins section of the
+; Preferences dialog.
+621616780="外観の配色"
+
+; Title for the Advanced voice options dialog
+641258805="詳細ボイスオプション"
+
+; Checkbox text in the Advanced voice options dialog
+-273685739="高品質テキストスピーチを有効にする"
+
+; Label in the Advanced voice options dialog.
+2066485008="音の高さ"
+-119783831="速度"
+804339312="ボリューム"
+1161907270="発音の正確さ"
+
+; Title for the Report site problem dialog.
+354948565="サイトの問題を報告"
+
+; Label for the Page address edit field in the Report site problem dialog.
+-919951574="ページアドレス"
+
+; Label for the Comment edit field in the Report site problem dialog.
+-261638842="コメント"
+
+; The label for the configuraton edit field in hte Report site problem
+; dialog.
+826837739="設定の詳細"
+
+; Message used in profile management.
+-1538800344="既存の設定ファイル(opera6.ini)を profile フォルダにコピーできませんでした。"
+569805750="次のセッションファイルを移動できませんでした:\n\t移動元: %s\n\t移動先:%s\n\n残りのセッションをスキップします。"
+
+; Notification for display on the clear private data dialog
+932967191="続行すると以下の操作を実行します。デフォルトの操作が変更されていない場合は開いているタブをすべて閉じ、実行中のファイル転送を中断します。"
+
+; The title of the Add bookmark dialog.
+-1486497369="ブックマークに追加"
+
+; The label for the create in folder selector in the Add bookmark dialog.
+-764386606="保存先フォルダ"
+
+; Text for the "New folder..." button in the Add bookmark dialog.
+1124973637="新規フォルダの作成..."
+
+; The "Show in panel" checkbox in the "Add bookmark" dialog. (Also in the
+; "Bookmark properties" dialog.)
+1585107057="パネルに表示する"
+
+; Title for the "Folder properties" dialog.
+-1636606016="フォルダのプロパティ"
+
+; The expand button that opens the advanced delete private data section.
+1947781954="詳細 >>"
+
+; The collapse button that hides the advanced delete private data section.
+1621400992="詳細 <<"
+
+; Used in the bookmark properties dialog when creating a new folder.
+384175349="'%s' 内に作成する新規フォルダ名を入力してください。"
+
+; Dialogue shown when a plug-in is needed, but the plug-in is unavailable.
+; Input string: plug-in name or empty string
+-1078185962="プラグイン %s がインストールされていません"
+
+; Dialogue shown when a plug-in is needed, but the plug-in is unavailable.
+; Input string 1: plug-in name or empty string. Input string 2: mimetype
+; or filename or empty string. Redirection goes to the PLUGINSPAGE site as
+; specified by the web site.
+2068707417="この%2コンテンツを見るためには%1プラグインが\n必要です\n\nプラグインを今すぐダウンロードしますか？"
+
+; Dialogue shown when a plug-in is needed, but the plug-in is unavailable.
+; Input string 1: plug-in name or empty string. Input string 2: mimetype
+; or filename or empty string. Redirection goes to Opera's plugin support
+; site.
+1008096029="この%2コンテンツを見るためには%1プラグインが\n必要です\n\nプラグインのインストールに関する詳しい説明を読みますか？"
+
+; Shown as tooltip and status information. Input string: plug-in name or
+; empty string
+-1247162120="このプラグイン %s はインストールされていません。\n詳細はプラグインのエリアをクリックしてください。"
+
+-1094853110="着信接続を許可する"
+; Security
+327043006="TLS 1.1 を有効にする"
+
+; Displayed when trying to save to a directory not found
+2134500599="ディレクトリ %s は存在しません。新しく作成しますか？"
+
+1295587160="ディレクトリが見つかりませんでした"
+-887232073="ディレクトリの作成に失敗しました。"
+-1732400104="ディレクトリエラー"
+; Save mail attachments dialog
+1951656416="添付ファイルを保存..."
+-1582395123="保存先"
+926316730="選択"
+
+; Notification message when deleting an IMAP folder
+51027645="メッセージを含む IMAP フォルダを削除"
+1313469845="本当にこのフォルダをサーバーから削除してよろしいですか？"
+
+; Error message for version checking when the language was not found.
+-299853883="現在設定されている言語はサポートされる言語の一覧にありません。そのため、最新のバージョンを調べることができません。"
+
+; Image properties dialog
+894758644="画像入力機器のメーカー名: "
+-537240249="画像入力機器のモデル名: "
+1782090563="ファイル更新日時: "
+
+; image properties dialog
+1426775258="画像タイトル: "
+
+; Image properties dialog
+1479283073="使用ソフトウェア名: "
+-1014546323="作者名: "
+587273903="著作権保持者名: "
+
+; New prefs dialog
+869477488="広告"
+-786929893="ブラウジング"
+1382228678="検索"
+155853738="通知"
+-412899669="コンテンツ"
+998762834="Java"
+-71786703="プラグイン"
+-1404813414="フォント"
+1789955483="ダウンロード"
+-1148201765="プログラム"
+1520601154="履歴"
+-412033123="Cookie"
+2090848296="セキュリティ"
+524226522="ネットワーク"
+-2047203530="ツールバー"
+-1396871304="メニュー"
+1782291871="ショートカット"
+-1396504391="マウス"
+-1385844698="ボイス"
+
+; Save attachments dialog
+-1694076281="添付ファイル"
+-671940693="添付ファイルをフォルダに保存"
+
+; Security information dialog. Warning message
+-1378043666="%s との通信は暗号化されていますが、証明書にエラーがあります:"
+
+; Security information dialog,
+-428749323="サーバーの証明書に問題があります:"
+
+; Security information dialog
+-1064565279="発行者がこの証明書に警告をしています。"
+
+; Security information dialog.
+-636929872="サーバー名と証明書名が一致しません。"
+
+; Security information dialog
+-1023477417="この証明書は信頼できる認証機関によって署名されていません。"
+
+; Security information dialog.
+-1513738731="証明書の有効期限が切れています。"
+213526677="証明書の有効期限の開始前です。"
+-491206259="サーバーがアノニマス接続を要求しています。このサーバの身元を確認することはできません。"
+-1051855115="サーバーへの通信は暗号化されていないため、傍受される危険性があります。"
+
+; Security information dialog
+-152791040="サーバーがセキュアでない暗号化レベルを要求しました。"
+181229703="エラー仕様書不足"
+
+; Security information dialog.
+2048879037="\nこの接続を使用してサーバーに重要な情報を送信することは安全ではありません！"
+-1975500735="%s との通信は暗号化されています。Opera はこの暗号化レベルを強(3)と判断します。"
+2066355973="%s との通信は暗号化されています。Opera はこの暗号化レベルを中(2)と判断します。"
+1520679532="%s との通信は暗号化されています。Opera はこの暗号化レベルを弱(1)と判断します。"
+343673090="Opera は、%s への接続はセキュアではないと判断します。"
+1184910970="\n\n証明書の情報が見つかりません。\n認証に必要な情報が利用できません。"
+449890415="\n\n%s は電子証明書によって確認されました。この証明書に署名し認証をした発行者は、このブラウザの持つ信頼できる認証機関の一覧に載っています。"
+
+; Security information dialog
+-960137523="%s のセキュリティ情報"
+
+; Security information dialog.
+-1992432="セキュリティ情報"
+
+; Setup apply dialog.
+-1330746855="Opera の設定のダウンロード"
+-2031478350="設定のダウンロード中..."
+
+; setup apply dialog
+-1877408056="設定のインストール中にエラーが発生しました"
+
+; Setup apply dialog.
+-38727426="この設定を保存しますか？"
+
+; Setup apply dialog
+780004635="ダウンロードした設定の適用"
+23632286="この設定を保存しますか？"
+2146847918="設定名:"
+
+; Customize toolbars
+-1410224289="外観の設定"
+339021751="インストールしたスキンを表示する"
+-1319908649="他のスキンを探す"
+
+; Customize toolbars.
+-918901646="アイコンサイズ"
+
+; Proxy servers dialog
+-257861009="ローカルサーバーにプロキシを使用"
+
+; New preferences dialog.
+-1488250464="一般設定"
+1696547221="起動時の動作"
+-1451906422="Opera は起動時にお気に入りのページを表示、または前回終了時の状態を復元できます。"
+159373703="ホームページ"
+309358858="タブやポップアップの表示方法を選択します"
+1610401138="タブ"
+1571683603="タブブラウジングを有効にする"
+484695957="タブに「閉じる」ボタンを表示"
+1939690568="ポップアップ"
+-97232698="言語"
+1561650147="Opera やウェブページにて主に使用する言語を選択します"
+-992152372="認証管理"
+-1630399912="認証管理ボタンを押すと、保存しているユーザー名とパスワードを入力します"
+-1501902822="認証管理にパスワードを記憶させる"
+-1346479576="パスワード"
+514143411="オートコンプリート機能を使用すると、フォームに個人の情報を簡単に入力できます"
+2086682696="ホームページ"
+1502651226="携帯電話"
+-1895425041="ウェブページ"
+-381275657="新しいタブを開いた際の画像の表示、ページの拡大・縮小率を設定します"
+1343699480="画像の表示"
+-202241757="ページの拡大・縮小率"
+-1728577538="ウィンドウ幅で表示"
+1663560460="スタイルが指定されていないページに適用する標準のフォントと色を選択します"
+620509537="通常のフォント"
+1820494909="等幅フォント"
+-336554944="背景色"
+1600108886="リンクの色"
+1325017104="リンクに下線を表示する"
+-1898094009="訪問済リンクの色"
+418045164="訪問済リンクに下線を表示する"
+-863515400="詳細設定"
+-1630992624="無料版の Opera には広告が表示されます。表示する広告の種類を選択してください"
+146645394="ツールバーやメニューにて使用する設定を選択してください"
+1302976222="ボイスコントロールによるブラウジングを有効にする"
+-1060724728="詳細設定..."
+-377368106="新着メッセージを通知する"
+603084706="ブロックしたポップアップを通知する"
+1546458710="ダウンロード終了を通知する"
+-86060268="各項目で使用するフォントを選択します"
+-526536797="ユーザー JavaScript ファイル"
+281957860="スタイルオプション..."
+1070665610="メールアプリケーション"
+673600661="以下のプロトコルに使用するアプリケーション"
+-1653108728="Cookie とはコンピューター内に保存される小さなファイルのことです。\nこれによりウェブサイトは訪問中のユーザーを区別することができます。"
+1424359680="個人証明書を保護するためのマスターパスワードを入力してください"
+-179853799="マスターパスワードの設定..."
+-1898509779="インターネットに直接接続できない場合は、プロキシサーバーを設定してください。"
+
+; Report site problem dialog.
+-1913876324="問題のあるページの情報を Opera に送信します"
+
+; Report site problem dialog
+-1888582903="問題の種類"
+
+; Security information dialog
+323109026="一般"
+637320366="証明書所有者:"
+1156605963="証明書発行者:"
+-316384395="有効期間の開始: "
+260004291="有効期限:"
+1129088703="暗号化プロトコル"
+1889240873="詳細"
+-1763615587="サーバー証明書チェーン"
+-1971831697="個人証明書"
+886494597="個人証明書チェーン"
+
+; Option in the progress bar type dropdown in the customize dialog
+274728955="シンプル表示"
+
+; Fallback name for the server when a url is not avilable.
+115772028="不明なサーバー"
+
+; Test shown in message box when downloading an executable file
+-651180256="警告\n実行可能ファイルか、実行可能なスクリプトを含んでいます。\n使用する前にディスクに保存することを推奨します。\n\n"
+
+; Text shown in a message box on startup if KDE window manager is running
+1469517564="KDE が起動中です。\n\nOpera のキーボードショートカットのいくつかは KDE によって予約されているため、動作しない場合があります。(Ctrl+F8 等)\n\nKDE のショートカットは、KDE コントロールセンターで変更できます。"
+
+-421550874="指定なし"
+-739597572="軽度の問題"
+-739889424="重大な問題"
+-1869629674="サイトが動作しない"
+; Button text in preference dialog
+-1199369534="プラグインオプション..."
+1579098901="Java オプション..."
+
+; New preference dialog
+1609899108="その他"
+
+; Setup apply dialog
+7772866="言語のダウンロード"
+
+; Setup apply dialog.
+-377415525="言語のダウンロード中..."
+
+; Setup apply dialog when downloaded file does not contain our header
+-94115010="ダウンロードされたファイルは壊れているか、セットアップファイルではありません"
+917927647="ファイルが認識できません"
+
+; The session manager dialog
+-1610150922="セッション管理"
+-829868154="開く"
+-889088669="タブを現在のウィンドウ内に開く"
+
+; Save session dialog
+1994280492="セッション名"
+
+; The report site problem dialog.
+-1460294050="詳細 >>"
+-959427070="詳細 <<"
+
+; Ask if user wants to hand over an unknown protocol to external helper
+; application
+-182474166="不明なプロトコル"
+-786436883="リンクを開くためにアプリケーション "%s" を起動する必要があります: \n%2\n\n続行しますか?"
+
+; Import wizard: move-to-sent-dropdown
+1808463049="送信済フォルダ"
+
+; Optional server name completion via Web search
+1219869690="サイトが見つからない時ウェブ検索を利用する"
+
+; Text showed in confirm dialog which asks user whether to call telephone
+; number clicked on
+-629745579="%s に発信しますか？"
+
+; Filter string for the open / save dialog box that is shown when choosing
+; to import / export a newsfeed list
+-1648280647="OPML ファイル (*.opml; *.xml)|*.opml;*.xml|全てのファイル (*.*)|*.*|"
+
+; Title for the open dialog shown when choosing which newsfeed list file to
+; import
+-814947116="OPML ファイルをインポート"
+
+; Title for the save dialog shown when choosing which file to export the
+; list of newsfeeds to
+-2065994088="OPML ファイルをエクスポート"
+
+1384330107="%u 個のニュースフィードが正しくインポートされました。フィードを更新します"
+-264471486="%u 個のニュースフィードが正しくエクスポートされました。"
+; Dialog title for customizing mail headers
+1957818719="メールヘッダのカスタマイズ"
+
+; Title of the header list in the customizing headers dialog.
+295523494="ヘッダ"
+
+; Button text for moving a mail header up in the list
+158855493="上に移動"
+
+; Button text for moving a mail header down in the list
+1194330968="下へ移動"
+
+; Option in header properties dialog.
+1874915862="アドレス帳に名前とアドレスを表示"
+
+; Label in add custom header dialog.
+1581692330="ヘッダ名"
+
+; Dialog title for adding custom mail headers
+1217197100="カスタムヘッダを追加"
+
+; Caption of the dialog which asks the user if voice should be enabled
+2143787877="ボイス機能"
+
+; This is asked when the user activates a voice function while voice
+; controlled browsing is currently switched off
+1209875579="ボイス機能を有効にしますか？"
+
+; Message that is displayed when a user tries to give a bookmark a nickname
+; that already is assigned to another bookmark
+73729813="%s は使用されています。新しいニックネームを入力してください。"
+
+; A message to be displayed when a file value is not correct. %1 will be
+; replaced by the filename.
+706412336="指定されたファイル %1 が見つかりませんでした。"
+
+; Title for the SI_ERR_REQUIRES_PROXY_SERVER_TITLE dialog
+545849272="プロキシサーバーが必要です"
+
+; The title of the messages console window
+332672256="エラーコンソール"
+
+; Button which expands all nodes in the tree of the message console
+325114080="すべて開く"
+
+; Button which collapses all nodes in the tree of the message console
+-826812429="すべて閉じる"
+
+; Download speed unit shown in the speed column of the transfer manager and
+; the transfer panel
+-1942726829="KB/s"
+
+; SSL Certificate variation Allow Java applet requesting extended privileges
+-675488447="許可"
+
+; Dialog title for security warnings
+-362105899="セキュリティ警告"
+
+; Insecure form submit from http to http warning message
+-191381779="保護されていないフォームの情報を送信しますか？"
+
+; Insecure form submit from https to http warning message
+1831556320="HTTPS ではないページ %s に対してフォーム情報を送信しようとしています。\n\nフォームはセキュアでない状態で送信されますので重要な情報は送信すべきではありません。"
+
+; Insecure plugin submit from https to http warning message
+-1215948837="HTTPS ではないページ %s に対してフォーム情報を送信しようとしています。\n\nフォームはセキュアでない状態で送信されますので重要な情報は送信すべきではありません。"
+
+; Dialog shown when a plug-in is needed, but not available.
+1676586184="このページの全内容を表示するには %s プラグインをインストールする必要があります。今すぐプラグインをダウンロードしますか？"
+
+213700059="件名が空白の場合に警告を表示する"
+464039118="サイト設定"
+-1385976707="サイト"
+844988740="Cookie を許可する"
+427617941="アクセスしているサイトからの Cookie のみ許可する"
+1729617507="Cookie を許可しない"
+-799585134="Cookie を許可する前に確認する"
+708504942="スクリプト"
+-238211726="ウィンドウのサイズ変更を許可する"
+-1304628437="ウィンドウの強制表示/非表示を許可する"
+-454827644="スタイルオプション..."
+1786069741="サーチエンジンの編集"
+-651035234="タブなしウィンドウの表示を許可する"
+1157593703="タブをクリックすると最小化"
+-123590889="タブの代わりにウィンドウを開く"
+-1256515340="ウィンドウメニューを表示する"
+-493686618="コンテンツ設定はそれぞれのサイトに適用されます"
+-106573980="サイト設定の編集..."
+920136405="ブロックされたコンテンツ"
+1402552211="履歴とオートコンプリート用にアドレスを保存します"
+277240996="アドレス数"
+-1508215371="高速にページを表示するため、コンテンツをキャッシュに保存します"
+-1159152198="ページの更新をサーバーに確認するタイミング"
+1649892997="Cookie 設定にてサイト別の取り扱い方法を指定できます。"
+1722883836="単語をアドレスフィールドに入力した際に Opera がどこに移動するかを選択します"
+-803417268="BitTorrent 設定"
+-380065806="帯域自動最適化"
+699961077="最大ダウンロードスピード (KB/s)"
+1962916322="最大アップロードスピード (KB/s)"
+-1899884434="受信ポート"
+2122356204="テスト"
+; Used when editing/adding search engine in preferences dialog
+819599123="サーチエンジン"
+
+; Name of new search being added, used in dialog for creating new search.
+359962014="名前"
+
+; Used in dialog for creating new search.
+-458107340="クエリ文字"
+-1853882022="POST を使用"
+217241825="標準サーチエンジンとして使用する"
+
+; Title of blocked content dialog.
+-1425675157="コンテンツのブロック"
+
+1014798767="すぐにブロックする"
+123654958="すべてのブロックされたコンテンツ"
+; Dialog when deleting incomplete BT downloads from transfer manager.
+992581282="この BitTorrent アーカイブはまだダウンロードを完了していません。これまでにダウンロードした一時データファイルとトレントファイルを削除しますか？"
+
+; Part of the wand dialog, describes option to never save login for this
+; site.
+404929920="保存しない"
+
+; Part of the wand dialog, describes option to save login for this site.
+-2068167264="保存する"
+
+; Part of the wand dialog, describes option to not save now, but be asked
+; again next time site is visited.
+-1850420842="今回はしない"
+
+; Warning dialog when attempting to use incompatible language file.
+-818471807="この言語ファイルは現在の Opera のバージョンと互換性がありません。"
+
+; Dialog when deleting search engine from preferences.
+1046540965="このサーチエンジンを削除します。よろしいですか？"
+
+; Title for dialog when deleting search engine from preferences.
+950223247="サーチエンジンの削除"
+
+; Heading for cycle order preference.
+1497764988="タブを切り替える順序　"
+
+; Added to list entries in (network) preference dialogs so the user knows
+; the default value
+434848766="(標準)"
+
+; Chosen keyword for edited search engine already used
+1014003663="キーワードは既に使用中です"
+
+; Warning dialog when saving a session file that overwrites previous file.
+-1486070297="既存のセッションファイルに上書きしてもよろしいですか？"
+
+; Title for warning dialog when saving a session file that overwrites
+; previous file.
+-34147247="ファイルの上書き"
+
+; Error message category used in error console.
+6251150="メールとチャット"
+
+; 
+1742891967="ウィジェット"
+
+; Heading in blocked content dialog.
+1739305622="現在のページをブロック"
+1079802683="ブロックされているサイトの一覧"
+
+; Display warnings. Used in console to determine verbosity.
+-711257433="警告"
+
+; Display messages. Used in console to determine verbosity.
+-583137002="メッセージ"
+
+; Display errors only. Used in console to determine verbosity.
+-486775461="エラー"
+
+; Display information about all components. Used in error console drop-down.
+-1616093736="すべて"
+
+2129648357="IP アドレス: %s"
+-466765485="ポート開放テスト"
+; Connection test result.
+-1775012067="設定したポートから外部からのコネクションを正常に受信しました。"
+-839644512="-839644512::設定したポートから外部からのコネクションを受信できるかテストしましたが、サーバーから以下のエラーが返ってきました。\n%s\n\nファイヤーウォールやルーターの設定を確認してください。"
+
+-1027366453="証明書が有効期限後に署名されているため証明書は破棄されました"
+-18617160="証明書が有効期限前に署名されているため証明書は破棄されました"
+-106312803="オンライン OCSP リクエストに失敗しました。"
+-513754602="タスク"
+-280506642="ソースを表示"
+; Image properties dialog
+1961337186="画像方向: "
+42885216="露出時間: "
+-1408115867="F値: "
+-1243402679="露出プログラム: "
+46929343="スペクトル感度: "
+2128426007="ISO スピードレート: "
+-766620010="シャッタースピード: "
+101362878="絞り値: "
+-425666545="明るさ: "
+42237968="露出補正値: "
+-1075262652="レンズ最小F値: "
+-153962479="被写体距離: "
+-1771776938="測光方式: "
+1757761567="光源: "
+-545652316="フラッシュ: "
+-1606752643="レンズ焦点距離: "
+691400959="被写体範囲: "
+69489614="フラッシュ強度: "
+1015506133="焦点面の幅の解像度: "
+1836761654="焦点面の高さの解像度: "
+-1193463137="焦点面解像度単位: "
+2017151="被写体位置: "
+1402336969="露出インデックス: "
+-819736914="センサー方式: "
+-431444582="カスタムイメージプロセッシング: "
+42639894="露出モード: "
+2124698941="ホワイトバランス: "
+1207330168="デジタルズーム比率: "
+2028400286="35mm 換算焦点距離: "
+718779802="シーン撮影タイプ: "
+-98579082="ゲインコントロール: "
+-1498068284="コントラスト: "
+-510422560="彩度: "
+1641819821="シャープネス: "
+1826504158="被写体距離範囲: "
+
+; Title of dialog when user tries to send message with empty subject field.
+-903341252="件名がありません"
+
+; Dialog when user tries to send message with empty subject field.
+-798931713="メッセージに件名が入力されていません。送信しますか？"
+
+; Description for program preferences dialog.
+1071148326="ソースビューアーとして使用するアプリケーション"
+
+; Title for header properties dialog.
+1273725727="ヘッダのプロパティ"
+
+; Option in header properties dialog.
+-2064944333="ヘッダ名を表示"
+1231719194="ヘッダを右寄せ"
+1725152460="ヘッダ用の新しい行"
+-1873099437="大きいフォントを使用"
+
+; Used in plug-in check dialog.
+721466468="Plug-in を利用して表示する MIME type を選択してください。"
+
+; Option in Wand dialog.
+-1112171041="このページにのみ適用する"
+
+; The title of the widget properties dialog
+-616285128="ウィジェット設定"
+
+; Used for dialog tabs/categories
+-1404260782="表示設定"
+
+; Option in server name completion dialog, triggers search with specified
+; Web service if no domain is found.
+542670714="ドメイン名が見つからない時にはウェブ検索を利用する"
+
+; Prompt when user has enabled userjs on https pages to verify that setting
+; was intentional.
+1540189008="ユーザー JavaScript ファイルがセキュアページをコントロールすることを許可しますか？ どんな JavaScript が記述されているか、それがセキュリティにどんな影響を与えるかを認識している場合に限り許可するようにしてください。"
+
+; Error message shown if a user tries to upload too many files at once. %1
+; is what the user wrote. %2 is the max.
+413993042="指定したファイルが多すぎます。%1件指定されていますが%2件以内である必要があります。"
+
+; Error message shown if a user tries to upload too few files at once. %1 is
+; what the user wrote. %2 is the min.
+-1211817057="指定したファイルが少なすぎます。%1件指定されていますが%2件以上である必要があります。"
+
+; Tooltip shown when a plug-in is displayed but not activated for
+; interactive usage.
+-191213401="このコントロールを使用する場合はクリックして下さい。"
+
+; Dialog shown when user enters access key mode on page with no defined
+; access keys.
+-1678005998="このページにはアクセスキーは設定されていません。"
+
+; Description of ordinary http connection with no security used for the
+; security information dialog.
+1778300634="%s への接続は保護されていないため、重要な情報を送受信しないでください。\n\n通信はテキスト形式で行われており、接続先のサーバーの身元も保証されていません。"
+
+; Description of failed certificate checking. Used to describe the problem
+; in the new security information dialog.
+-99260926="%s への接続は保護されていないため、重要な情報を送受信しないでください。\n\n接続に関する以下の問題が発見されました:"
+
+; Description that makes it clear that the connection is secure.
+1363485726="%sへの接続は安全です。"
+
+; Description that explains high assurance certificates for use in the
+; security information dialog.
+-409006525="%s への接続は保護されています。重要な情報を安全に送信することが出来ます。通信は暗号化されており、%s に正しく接続していることが保証されています。証明書は署名している会社によりその正確性が保たれています。"
+
+; Description for the security information dialog for known phishing sites.
+-949113470="このサイトはフィッシングサイトとして知られています。例えこのページがよく知っている、または信頼できるページに見えたとしてもこのページ上で情報を送信しないでください。"
+
+; Text for the trust and security button in the address bar for known
+; phishing sites.
+-838985197="フィッシングサイト"
+
+; List item for low security explanation.
+-63042425="旧式の弱い暗号方式が使用されています。"
+
+; Use when the page has low security reason weak key or slightly weak key.
+1630403279="弱い暗号化キーが使用されています。"
+
+; List item for low security explanation.
+-1499643944="弱い暗号化プロトコルが使用されています。"
+
+; Low security reason explained.
+-2035686440="ページ内の要素がサーバー証明書のオンライン検証 (OCSP) に失敗しました。"
+
+; Checkbox used to enable and disable the anti-phishing trust information.
+1544296322="フィッシング防止機能を有効にする"
+
+; Header on the certificate summary page that displays whether the page is
+; secure or not.
+-1387277883="安全なサイト"
+-554811332="セキュアではありません"
+
+; Security information dialog
+1505397339="セキュリティ"
+1027897775="フィッシング防止"
+-152087919="証明書"
+
+; Cert summary page label
+-260991968="証明書の要約"
+-740154740="所有者:"
+-165146092="発行者"
+2122416462="有効期限"
+-1508336832="暗号化プロトコル"
+
+; Used when download of anti-phishing page fails.
+-554852346="フィッシング防止エラー"
+
+; Describes anti-phishing page failure.
+-1991367196="ダウンロードに失敗しました。sitecheck.opera.com に接続できません。"
+
+; Use when fraud protection is off.
+-156302183="フィッシング防止機能は無効です"
+
+; Describe what the button is for.
+1249344297="ボタンを押すとこのページに関するセキュリティ信用情報を入手します。"
+
+; Describe what is happening while the anti-phishing page is being
+; downloaded.
+39445484="フィッシングチェックを実行しています。"
+
+; Describe what anti-phishing is doing.
+1221197419="sitecheck.opera.com に接続中"
+
+; Text on button that checks this one site if the filter is off.
+1094247969="フィッシングチェックの実行"
+
+; E-mail choice for the new account wizard
+-166142939="メール"
+
+; This is a label for the choice between POP and IMAP e-mail account type
+-677317675="メールアカウントの種類を選択"
+
+; Message that is shown when a user tries to check spelling, having aspell
+; installed without any dictionaries
+107713242="辞書がインストールされていないためスペルチェックを実行できません。辞書のインストール方法についての情報を表示しますか？"
+
+; Title of an error dialog that is shown when spell checking fails because
+; no dictionaries are available
+-1378877958="使用できる辞書がありません"
+
+; The dialog title for the Java Console
+-1079506468="Opera - Java コンソール"
+
+; Dialog title for m2 news dialog asking how many messages to download
+-1139888998="新規のメッセージが多数検出されました"
+
+; Dialog question on how many new messages to download from a certain group
+; Untranslated string
+1264509542="There are %d new messages available in %s. How many messages would you like to download?"
+
+-931412836="最新のメッセージ"
+; Answer to question on how many messages to download
+-1050726220="すべてのメッセージ"
+
+; Checkbox for question on how many new messages to download
+-1851190890="このニュースグループ アカウントでは今後このメッセージを表示しない"
+
+; Title of the e-mail client selection dialog
+226531271="電子メールクライアントの選択"
+
+; Label to ask which mailer to use
+-2131152474="使用する電子メールクライアントを選択します"
+
+; Text to indicate to use the system default mailer
+-1733840118="システムのデフォルトを使用"
+
+; Indicates that the mailer choosen is Opera M2
+1187954336="Opera メールアカウントの作成"
+
+; Title in usage report information dialog
+-1540426684="利用状況の統計"
+
+; Text in usage report information dialog
+1760538024="Opera では、Opera ブラウザの今後のバージョンを改善するため、ブラウザ機能の利用状況に関する統計情報を収集する場合があります。その際に機密情報が収集されることはありません。お客様の利用状況に関する統計情報を収集してよろしいですか？"
+
+; Menu strings
+
+-633698310="浮動表示"
+1878789310="パネルを追加..."
+-231322917="パネルを編集"
+-1068053848="パネルを入手"
+2030504171="新しいウィンドウで開く"
+-1907854262="パーソナルバーに表示する"
+-226927721="ページを追加"
+-1543023328="すべて追加"
+-436354111="切り取り"
+-1514790352="コピー"
+1566442962="貼り付け"
+-312138168="削除"
+375601166="すべて選択"
+-837957927="ファイル"
+797908784="新規作成..."
+1092864039="ファイルを開く..."
+1370037304="ファイルを別名で保存..."
+774804532="選択中のアイテムを保存..."
+-653075326="プロパティ..."
+-395925347="新しいウィンドウ"
+432398846="新しいタブ"
+1349063959="ウィンドウを閉じる"
+-1673433210="タブを閉じる"
+-180551227="開く..."
+1087565558="保存..."
+-1113396571="画像を含め完全に保存..."
+1509605465="インポート"
+-1169569616="メールをインポート..."
+1293223500="Opera ブックマークをインポート..."
+329820130="Opera アドレス帳をインポート..."
+-1733570712="Netscape ブックマークをインポート..."
+-91534407="Internet Explorer お気に入りをインポート..."
+1719755164="エクスポート"
+-34431149="Opera ブックマークをエクスポート..."
+-1792820215="Opera アドレス帳をエクスポート..."
+-1661960928="印刷..."
+411238961="プリンタの設定..."
+2095746136="印刷オプション..."
+-721728027="印刷プレビュー"
+-455450218="オフライン作業"
+765077890="個人情報の削除..."
+1382818662="クイック設定"
+-916967331="すべてのポップアップを有効にする"
+-957900713="すべてのポップアップを無効にする"
+-680898540="ポップアップをバックグラウンドで開く"
+-758196851="GIF/SVG アニメーションを有効にする"
+942597151="ウェブページのサウンドを有効にする"
+419317359="Java を有効にする"
+1851130415="プラグインを有効にする"
+-215880732="JavaScript を有効にする"
+-1942617190="Cookie を有効にする"
+-744114934="リファラーのログを有効にする"
+960290639="プロキシサーバーを有効にする"
+106263513="Opera として認識させる"
+-1165647451="設定..."
+-180901747="Opera を終了"
+-180337815="元に戻す"
+-395935713="切り取り"
+-180983186="コピー"
+-1662560784="貼り付け"
+504920646="削除"
+-1673201780="すべて選択"
+1091569833="ページ内検索..."
+-437077944="次を検索"
+720110694="前を検索"
+1585544368="インライン検索"
+1665544840="メインバー"
+-1841728421="パーソナルバー"
+72866546="上に表示"
+-2029186124="下に表示"
+-1890669910="左に表示"
+2039662461="右に表示"
+72860794="表示しない"
+-1865035718="ステータスバー"
+-769955148="タブバー"
+964890300="アドレスバー"
+-388572737="スクロールバー"
+-2022350619="ズーム"
+1228746428="50%"
+1228746527="80%"
+1228746560="90%"
+1893922152="100%"
+1893922218="120%"
+1893922317="150%"
+1893923241="200%"
+1405813075="-100%"
+-374563135="+100%"
+302901443="-10%"
+509251697="+10%"
+-935569335="エンコード"
+1648324256="自動選択"
+1234417673="Unicode"
+-209254816="UTF-8"
+1684525487="UTF-16"
+-1553506677="UTF-32"
+-1739032771="UTF-7"
+453393450="US ASCII"
+1311766747="西ヨーロッパ言語"
+1972531058="ISO-8859-1"
+-1401263115="Windows-1252"
+669015527="ISO-8859-15"
+980536764="中央ヨーロッパ言語"
+1972531059="ISO-8859-2"
+-964650747="ISO-8859-1"
+-1401263117="Windows-1250"
+649306781="南ヨーロッパ言語"
+1972531060="ISO-8859-3"
+492357614="バルト言語"
+669015525="ISO-8859-13"
+-1401263110="Windows-1257"
+1972531061="ISO-8859-4"
+1486047563="北欧言語"
+669015522="ISO-8859-10"
+774564213="Windows-Sami-2"
+161127631="ケルト言語"
+669015526="ISO-8859-14"
+-1338073117="トルコ語"
+1972531066="ISO-8859-9"
+-1401263113="Windows-1254"
+402612548="ベトナム語"
+-1401263109="Windows-1258"
+-218656032="VISCII"
+-1744653808="VPS"
+-13153185="キリル言語"
+1972531062="ISO-8859-5"
+-642400443="KOI8-R"
+-642400440="KOI8-U"
+-1401263116="Windows-1251"
+-735945835="Codepage 866"
+-675613151="ギリシャ語"
+1972531064="ISO-8859-7"
+-1401263114="Windows-1253"
+-344383168="アラビア語"
+1972531063="ISO-8859-6"
+-1401263111="Windows-1256"
+-1006843134="ヘブライ語"
+1972531065="ISO-8859-8 (Logical)"
+-1586430102="ISO-8859-8"
+-1401263112="Windows-1255"
+1154817580="タイ語"
+669015523="ISO-8859-11 (TIS-620)"
+-458713870="中国語"
+-209949568="Big5 (繁体字)"
+188575321="Big5-HKSCS (繁体字)"
+-870270784="EUC-TW (繁体字)"
+-815192534="GBK/GB2312 (簡体字)"
+1782001291="HZ-GB2312 (簡体字)"
+-1181501188="GB18030 (簡体字)"
+-1069175304="ISO-2022-CN"
+2104651194="日本語"
+; Auto detect for Russian, Chinese and Japanese
+1008349489="自動判別"
+
+1716574429="Shift-JIS"
+1193250691="ISO-2022-JP"
+-870271121="EUC-JP"
+85449979="韓国語"
+-870271086="EUC-KR"
+-914937566="キャッシュから更新"
+-1668211044="ページのソースを表示"
+427499822="フレームのソースを表示"
+-1805607800="フルスクリーン表示"
+-180513104="戻る"
+; Next
+-180598510="進む"
+
+-180402791="中止"
+-180839556="ホームページへ移動"
+1052826410="ページを更新"
+-1213380875="フレームを更新"
+418061858="すべてのタブを更新"
+245903149="自動更新"
+2003500548="自動更新を有効にする"
+1338449240="カスタム..."
+1683102600="ホームページの設定..."
+1226234904="アドレスを指定して移動..."
+221321741="関連ページへ移動"
+-2105180436="ブックマークに追加..."
+-956942954="新規作成..."
+; Send menu, Mail
+-1554664376="リンクをメールで送信"
+
+1126594337="受信"
+; Check menu, Mail
+1312414769="すべてチェック"
+
+; Send menu, Mail
+-1766451109="送信箱のメッセージを送信"
+
+931044940="フィルタ..."
+-502647831="新規アカウント..."
+-1067512219="アカウントの編集..."
+1120067022="既読にする"
+110969681="未読にする"
+-1740944157="ダウンロード"
+499627997="履歴"
+-939867699="プラグイン"
+1626648703="キャッシュ"
+889870952="Javaコンソール"
+476653883="ページを複製"
+-1410423340="リンク先となるタブを開く"
+-1957288457="重ねて表示"
+-180378943="左右に並べて表示"
+-583630005="上下に並べて表示"
+1335112968="すべて元のサイズに戻す"
+-282757146="すべて最小化"
+-324437720="すべて最大化"
+1017775266="すべて閉じる"
+-1379588124="キーボードショートカット一覧"
+519884260="マウスジェスチャー一覧"
+-1014312730="Operaオンラインコンテンツ"
+; Opera on the Web menu
+1686572509="ホームページ"
+1871419988="サポートページ"
+-1427075788="コミュニティ"
+-34421196="Opera Web Mail"
+
+-1680317970="Operaについて"
+; link menu
+-1258333535="新しいタブで開く"
+-1131986336="バックグラウンドのタブで開く"
+1815400486="リンクをブックマークに追加..."
+-1772975815="リンクのアドレスをコピー"
+924948442="リンク先を保存..."
+
+; mailto: link menu
+-1922701942="アドレスにメールを送信(&S)..."
+2079847218="メールアドレスをコピー"
+
+; mailto: image link menu and image link menu
+104739523="画像を保存..."
+-1556035057="画像をコピー"
+552088744="画像のアドレスをコピー"
+1958900257="画像のプロパティ"
+-352761190="画像使用メニュー"
+327272977="表面スキンに使用"
+288892246="背景スキンに使用"
+-903664585="デスクトップの壁紙に使用"
+-1799455182="表面スキンを削除"
+-1837835913="背景スキンを削除"
+
+; Default page menu
+-1698695316="戻る"
+-472963442="進む"
+-2029344331="中止"
+745933080="ホームページへ移動"
+1055891878="ページを更新"
+-720905500="ブックマークに追加"
+1029895756="アドレスをコピー"
+1254394198="リンクをメールで送信"
+1497519588="背景メニュー"
+
+; Default page menu and image link menu
+804082843="画像を表示"
+
+; Default page menu
+311387713="画像を保存"
+310827789="画像をコピー"
+1930852658="画像のアドレスをコピー"
+894736321="画像のプロパティ"
+-332858198="画像使用メニュー"
+1642593144="ページを複製"
+
+; Select menu
+-1428352028="コピー"
+1217090669="検索"
+-1793544707="データベースで検索"
+-1539396211="辞書"
+1634087069="百科事典"
+-1567414664="通貨換算"
+1104168855="翻訳"
+1208490414="英語⇒フランス語"
+1208490335="英語⇒ドイツ語"
+1208490515="英語⇒イタリア語"
+1208490746="英語⇒ポルトガル語"
+1208490382="英語⇒スペイン語"
+1209820046="フランス語⇒英語"
+1209820004="フランス語⇒ドイツ語"
+1209820184="フランス語⇒イタリア語"
+1209820415="フランス語⇒ポルトガル語"
+1209820051="フランス語⇒スペイン語"
+1206981023="ドイツ語⇒英語"
+1206981060="ドイツ語⇒フランス語"
+1213449683="イタリア語⇒英語"
+1213449720="イタリア語⇒フランス語"
+1221751130="ポルトガル語⇒英語"
+1208670062="スペイン語⇒英語"
+1208670099="スペイン語⇒フランス語"
+1208490529="英語⇒日本語"
+1213952801="日本語⇒英語"
+383461562="メールで送信"
+
+; Image link menu
+122909516="リンクをブックマークに追加"
+
+-1873877784="編集"
+; File menu
+-1486159215="ファイル"
+
+2112383807="編集"
+; Navigation menu
+-1986070207="移動"
+
+1145799194="編集"
+; Menu string, used for reverting the last change
+448997294="元に戻す"
+
+; Menu string, used for cutting text
+-1287918620="切り取り"
+
+; Menu string, used for copying text
+448351923="コピー"
+
+; Menu string, used for pasting text
+1925628597="貼り付け"
+
+-1343914101="削除"
+; Menu string, used for selecting all text
+-103436687="すべて選択"
+
+1468564474="スキンを入手"
+; Transfers view
+1810947741="詳細情報を表示"
+-1599101137="新しい項目を一番上に表示"
+
+1995842756="フレームメニュー"
+-972152965="ソースを表示"
+675445919="名前を付けて保存"
+786207879="HTML ソースの検証"
+1968963534="ブックマークに追加"
+-2082147073="アドレスをコピー"
+2037384257="リンクをメールで送信"
+-55907705="フレームを更新"
+1590095874="すべての画像を読み込む"
+-1410331935="フレームを最大化"
+335470109="クイックダウンロード"
+-640773271="パネルを固定"
+1616191563="すべてのアカウントを受信"
+-390584935="メールを表示"
+-1109316548="既読にして次の未読へ移動"
+; Cancel newsmessage
+-800478102="投稿をキャンセル"
+
+-1889494318="ラベルメニュー"
+-952082595="ビューメニュー"
+1825320888="移動メニュー"
+-1725419365="すべて既読にする"
+965956877="ごみ箱を空にする"
+882598927="リダイレクト"
+1065300918="次の未読へ"
+-1308015724="前の未読へ"
+-1846732047="スレッドへ"
+; noun (in 'Go to' menu)
+-1022991227="このアドレスのメッセージへ"
+
+-77156191="フラット表示"
+-1727144805="スレッド表示"
+-1771443114="宛先と送信者"
+1838696505="サムネイル"
+-732047787="既読を表示"
+1615066395="ごみ箱を表示"
+-731999862="迷惑メールを表示"
+755143478="メーリングリストを表示"
+1508144815="ニュースグループを表示"
+-1313644446="クイック返信を表示"
+-808796176="ビューから削除"
+; Forward mail
+-763835876="転送"
+
+513552599="優先度"
+-2002888889="ユーザー定義順に表示"
+-430535513="名前順に表示"
+-430527125="ニックネーム順に表示"
+-430999711="アドレス順に表示"
+-1334478953="説明順に表示"
+1946955422="作成日時順に表示"
+379714910="表示日時順に表示"
+1487813592="昇順に表示"
+832816672="降順に表示"
+-222381009="開く"
+1474179529="表示"
+646983333="ホームページへ移動"
+498337011="URL へ移動"
+; Help menu
+1856326853="ヘルプ"
+
+; Window menu
+-797817420="ウィンドウ"
+
+; Mail menu and button
+1856502079="メール"
+
+; Bookmarks menu
+-773844987="ブックマーク"
+
+826658526="セッション"
+-1005370522="ナビゲーションバー"
+681424016="ボタンを固定"
+-1806356542="ツールバーのカスタマイズ..."
+1359197559="スキン"
+1359895669="外観の配色"
+; Browser View Menu
+1904187347="スタイル"
+
+1109112346="スモールスクリーン表示"
+55084859="サイトナビゲーション"
+; Send mail menu
+-912591468="送信"
+
+-912627834="メッセージを表示"
+-1675112928="検索..."
+2051403335="ニュースグループ..."
+752353280="IMAP フォルダ..."
+-547860749="アクティブなページ以外すべて閉じる"
+; Bookmark Item File menu
+699316252="Opera ブックマークをインポート..."
+-782322718="Netscape/Firefox ブックマークをインポート..."
+1481843845="Internet Explorer お気に入りをインポート..."
+676559619="Opera ブックマークをエクスポート..."
+
+; Contact Item File menu
+2143265210="新規作成..."
+
+; File/Session menu
+1324632620="セッションを開く..."
+-522046225="セッションを挿入..."
+1353330729="セッションを保存..."
+
+; Quick Preferences
+73973191="要求しないポップアップを無効にする"
+
+; View Hotlist Menu
+455088957="ブックマーク"
+-115980088="メール"
+
+-1063662972="アドレス帳"
+; View Hotlist Menu
+599768087="履歴"
+1601122237="ダウンロード"
+466731462="リンク"
+-1509553296="ウィンドウ"
+
+-606317279="外観の配色を利用しない"
+-1477627959="システムカラーの配色を利用"
+-600650118="金"
+-600234054="砂"
+-1148350087="密林"
+-1319694035="海"
+-600832772="青"
+-1196144274="藍"
+-913384180="紫"
+185699471="深紅"
+-1319695121="赤"
+1256282026="特殊効果"
+-1291441751="作成者モード"
+-2101137707="ユーザーモード"
+; Reload Menu
+-2076800822="5秒"
+-20854021="15秒"
+51487160="30秒"
+-2081550897="1分"
+-2080364976="2分"
+-2076807213="5分"
+-20860412="15分"
+51480769="30分"
+
+; Site Navigation Menu
+1148359889="ホーム"
+-757689056="索引"
+413479478="目次"
+1146651294="検索"
+-452438692="用語集"
+1148348977="ヘルプ"
+-761410800="最初"
+-367808219="前へ"
+1148564999="次へ"
+1148488604="最後"
+-1899931507="親階層"
+-741210655="著作権"
+461861275="作成者"
+
+1802281339="エラーコンソール"
+-2026256740="ダウンロードをやり直す"
+1823884773="ダウンロードを削除"
+857925912="スタイル"
+-1894118679="パネルを削除"
+1412426450="ツールバーから削除"
+-1018189133="オーディオ"
+45131127="すべて閉じる"
+2037617116="アクティブなページ以外すべて閉じる"
+242581288="大きな画像を使用"
+-295627394="ダウンロード開始時にウィンドウを表示"
+; Right-click on address field
+-541472843="貼り付けて移動"
+
+; Links Panel Toolbar
+482167611="固定"
+
+466504196="全画面表示"
+-1571956663="セキュリティ"
+1416233287="画像を表示"
+; New page
+228969467="新規"
+
+; Used in menus to show the keyboard shortcut, typically Ctrl+T
+1950193902="Ctrl"
+-49577097="Shift"
+-591658278="Alt"
+1950536992="Meta"
+1950367970="Home"
+-591653872="End"
+-1761824677="PageUp"
+1222698990="PageDown"
+-798831522="↑"
+1950224561="↓"
+1950500612="←"
+-50729193="→"
+2123851594="Esc"
+-2019924306="Ins"
+2068441228="Del"
+-514501226="Backspace"
+-591637968="Tab"
+-49298427="Space"
+-65952425="Enter"
+
+1728016260="このビューに追加"
+139232325=">>"
+-1139380999="バックグラウンドのウィンドウで開く"
+-893100857="本文の表示形式"
+-25599948="手動"
+-565199379="1秒後"
+-564013458="2秒後"
+-562827537="3秒後"
+-560455695="5秒後"
+-1527001987="10秒後"
+-678879540="プレーンテキストで表示"
+-195032599="HTML で表示"
+2074453928="外部ファイルを表示しない"
+1720997374="1画面ツリー表示"
+659347127="2画面分割表示"
+-1586511026="単一フォルダ表示"
+878623088="新しいメモ"
+-524979846="巻き戻す"
+-1854776909="早送り"
+115649267="画像を読み込む"
+978223717="画像を開く"
+-1165063613="メモにコピー"
+1401135785="個人情報の挿入"
+-1633958213="メモを挿入"
+-2056802672="すべてクリア"
+-1850093723="メモに貼り付け"
+2139309562="メニューバー"
+-530514694="ページ内のリンクを表示..."
+2086062440="アドレスをここに追加"
+1313631777="フォルダ内のすべてのアドレスを追加"
+-349722280="KDE1 ブックマークをインポート..."
+-272098951="Konqueror ブックマークをインポート..."
+-373039006="HTML 形式でエクスポート..."
+-673491742="選択した項目を HTML 形式で保存..."
+1859393216="Opera アドレス帳をインポート..."
+-263247129="Opera アドレス帳をエクスポート..."
+-1177883335="選択したアドレスを保存..."
+281256766="KDE1 ブックマーク..."
+-1152765153="Konqueror ブックマーク..."
+400515521="ブックマークを HTML で保存..."
+-116109775="ページ情報"
+469325262="メモ"
+478800571="ボイス"
+-187157704="ボイス設定..."
+249480167="ボイス"
+974065854="リスニング"
+-196410301="スピーキング"
+; Revert an undo operation
+-1033798981="やり直す"
+
+; Edit popup menu string. Translate with ampersand
+541283329="元に戻す(&U)"
+541165717="やり直す(&R)"
+-764519977="切り取り(&T)"
+540637958="コピー(&C)"
+676100456="貼り付け(&P)"
+661062930="クリア(&L)"
+-739408220="すべて選択(&A)"
+
+; Workspace popup menu string. Translate with ampersand
+278512847="削除(&R)"
+540997506="移動(&M)"
+541206726="サイズ(&S)"
+-1375726451="最小化(&N)"
+1568785615="最大化(&X)"
+661074401="閉じる(&C)"
+541022634="次(&N)"
+1749943804="&Standard"
+-1661068211="&Classic"
+-366629677="装飾(&D)"
+
+; Fast forward
+1024210290="次へ"
+-822252908="次の画像へ"
+-1393499189="ログイン"
+392962037="認証管理ログイン"
+1024392948="表示"
+-649736810="画像を表示"
+
+; Menu entry for adding a mailto link to the contact list
+-1550016441="アドレス帳に追加..."
+
+468353990="音楽"
+; Page menu string
+-1203957437="閉じる"
+-1691269026="アクティブにする"
+-1283528079="元のサイズに戻す"
+1891222959="最小化"
+-1448969007="最大化"
+
+; Used in M2 menus (in the show account menu)
+-1981712151="すべてのアカウント"
+953939731="メールアカウント"
+-1285269619="ニュースアカウント"
+
+; General menu string 
+-1011452333="エクスポート..."
+
+; m2 submenu string (in hotlist)
+1655539102="アカウントの表示"
+
+; Submenu that hold all closed window entries
+-1103986197="閉じたページ"
+
+; Main help entry (F1 action)
+700981616="Opera ヘルプ"
+
+; Contents sub menu in help menu
+-1639475321="ヘルプトピックス"
+
+; Help topic
+1349075551="ツールバー"
+749810497="メニュー"
+1902334396="ダイアログ"
+-165862453="設定"
+
+; On the web menu entry
+-1809928719="機能とチュートリアル"
+195584500="アクセシビリティ"
+1802679105="セキュリティとプライバシー"
+
+; Menu string in transfer panel
+-375652521="完了したダウンロードをすべて削除"
+
+-512239998="ウィンドウ幅で表示"
+; Displayed user css file name
+1490680840="疑似テキストブラウザ表示"
+1490680841="ノスタルジア"
+1490680842="アクセシビリティレイアウト"
+1490680843="画像とリンクのみ表示"
+1490680844="高コントラスト表示(白/黒)"
+1490680845="高コントラスト表示(黒/白)"
+1490680846="非リンク画像を表示しない"
+1490680847="特定のサイズの要素を表示しない"
+1490680848="表(table)要素を無効にする"
+1947827512="要素の構造を表示"
+1947827513="要素のアウトラインを表示"
+
+; User style sheet menu: Debug ALT attributes for AREA and IMG tags.
+-332511012="Alt デバッガ"
+
+; User style sheet menu: Display structure of block elements.
+-686521710="ブロック構造"
+
+; User style sheet menu: Display class and id for elements.
+837256235="クラスと ID"
+
+; User style sheet menu: Remove line breaks from the document.
+-2051949502="改行を無効にする"
+
+; User style sheets menu: Reset "float" property to "none" for all elements.
+-1902163789="浮動表示を無効にする"
+
+; User style sheets menu: Remove forms and form controls.
+1504276433="フォームを無効にする"
+
+; User style sheets menu: Reset position property to "static" for all
+; elements.
+-2094734467="表示位置の変更を無効にする"
+
+; Disable tables for user style sheets menu item
+-1367769115="表(table)要素を無効にする"
+
+; User style sheets menu: Applay fixed table layout.
+-825542133="表(table)の固定レイアウト"
+
+; User style sheets menu: Display structure of inline elements.
+1576075846="インライン構造"
+
+; User style sheets menu: Add visual outline to structural elements.
+1693283863="アウトライン"
+
+; User style sheets menu: Display table of contents based on HTML structure.
+922536704="目次"
+
+; User style sheets menu: Display structure of table elements.
+1457933711="表(table)の構造"
+
+1825521194="属性の指定"
+202463533="迷惑メールに指定"
+1036476413="迷惑メール指定を解除"
+-1033759406="表示"
+-1297624400="クイックビューを表示"
+6332797="ニュースフィードを表示"
+488600680="フィルタリング済のメッセージを表示"
+1647951654="一覧のみ表示"
+1211806319="メッセージ本文のみを表示"
+-937510413="一覧の下にメッセージを表示"
+-2114247916="一覧の右にメッセージを表示"
+-1402422468="迷惑メールを削除する"
+-1014114388="新規フィルタ"
+1231853902="ニュースフィード..."
+-345125667="絵文字を有効にする"
+55270379="新規区切り"
+-504023100="オンライン"
+791812866="取り込み中"
+-795122829="離席中"
+791778513="応答不可(Away)"
+542781365="電話中"
+-1352477070="食事中"
+-840031526="不可視"
+227010946="オフライン"
+-933464272="チャットルーム一覧..."
+-1507087861="新規チャットルーム..."
+2010601265="チャットルームに参加"
+-1207633810="チャットルームを退出"
+802041291="Whois 情報"
+-1702962564="プライベートチャット..."
+910379491="コントロール"
+329917149="ニックネームをアドレス帳に追加"
+-1999862341="オペレータに任命"
+-1473509284="オペレータを解任"
+-1704192350="発言権を与える"
+245479301="発言権を奪う"
+216369028="強制退出させる(kick)"
+247115170="ツール"
+-1726668283="パネル"
+476738568="ツールバー"
+-24942707="パネルの位置"
+-1492318387="パネルセレクタの位置"
+-924065418="パネル切り替えバーを表示"
+740709416="すべての画像を表示"
+2078369352="キャッシュされた画像のみ表示"
+480957484="画像を表示しない"
+-913412452="パネル"
+-1799349578="ニュース"
+-1799742343="チャット"
+1789573805="用語解説"
+-1291243751="開く"
+827467700="フォルダを開く"
+-1765624737="ダウンロードウィンドウを表示"
+71017590="ページを切り離す"
+1946828818="'新しいタブ' ボタンを表示する"
+985451769="Opera を開く"
+-707204186="Cookie..."
+1643742408="認証管理パスワードの編集..."
+-476548985="詳細ツール"
+1308477025="Opera を隠す"
+1856150076="チャット"
+1002421702="理由付きで強制退出"
+-2075861805="接続禁止"
+1377830109="スレッドをマークして次の未読へ移動"
+; Text for a menu option that allow the user to run a check for new updates
+; without visiting opera.com
+-1686497347="最新のリリースをチェック"
+
+; Right click menu item in the links panel.
+-273323133="ブックマークに追加..."
+
+; Item on the document popup menu
+-1183760952="ブックマークに追加..."
+
+; Item on the Document popup menu.
+262284064="ソースの検証"
+
+; Item om the Document background menu.
+-2143886002="画像をクリップボードにコピー"
+
+; Item on the Document background menu.
+-950110492="画像をデスクトップ背景に使用"
+
+; Item on the Frame menu
+359283713="開く"
+
+; Item on the File menu
+1326919570="インポート・エクスポート"
+
+; Entry on the Toolbars menu.
+1010344045="カスタマイズ..."
+
+; Item on the Feeds menu
+-483882041="ニュースフィードを読む"
+
+; Item on the Feeds menu.
+1133480436="ニュースフィードの編集..."
+
+; Item on the Chat connect menu
+-675993705="すべて切断"
+
+; Item on the Chat menu
+1351031184="接続"
+
+; Item on the Tools menu.
+-1174342411="メールとチャットアカウントの編集..."
+
+; Item on the ImportExport menu.
+-471823510="メールをインポート..."
+
+; Item on the Importexport menu.
+-480684226="ブックマークを HTML 形式でエクスポート..."
+
+; Item on the Identify as menu.
+590106237="Firefox として認識させる"
+344289886="Internet Explorer として認識させる"
+
+; Item on the Korean encoding menu.
+-1648789598="ISO-2022-KR"
+
+; Menu item on the Pagebar popup menu.
+-352842957="配置"
+
+; Item on the Closed pages menu
+1528103915="ブロックされたポップアップ"
+
+; Item on the Closed pages menu.
+1507601038="ごみ箱を空にする"
+
+; A menu item in the Image link popup menu.
+759751550="画像を再読込"
+
+; A menu item on the bookmark popup menu.
+-600815674="開いているページをすべてブックマークに追加"
+
+; The "Feeds" main menu item.
+-617989186="ニュースフィード(&S)"
+
+; Mail popup menu item
+-786490390="メッセージを表示"
+
+; Help menu item
+1950816291="ボイス"
+
+; Hotclick menu item speak
+764933719="スピーク"
+
+2012606042="スレッドを既読にする"
+; Mail attachments popup menu entry
+-479928419="添付ファイルを保存..."
+
+; SVG popup menu
+1367653122="拡大"
+-2112080381="縮小"
+-298073704="元のサイズへ"
+-1573288049="高品質"
+256765524="アニメーションを開始"
+1403312836="アニメーションを一時停止"
+1779715500="アニメーションを中止"
+
+; Browser tools menu entry
+1214667496="外観の設定..."
+
+; Entry in the browser help menu
+-651452180="サイトの問題を報告..."
+
+; Entry in the sessions menu
+995766100="セッション管理..."
+
+; Entry in the transfers view popup menu
+410382762="ダウンロード開始時にウィンドウをバックグラウンドで表示"
+
+; Entry in the transfers view menu
+-1607101803="ダウンロード開始時にウィンドウを表示しない"
+
+; Option for the image toolbar items/dropdown menus.
+-1320335960="画像を表示する"
+333270751="キャッシュされた画像のみ"
+-383776252="画像を表示しない"
+
+; Load original image, not a low-quality one served by proxy (typically
+; SlipStream)
+-1580772985="元の画像を読み込む"
+2088683986="すべての元の画像を読み込む"
+
+; Menu item for adding attachments when right clicking in attachment window
+-17191327="添付ファイルを追加"
+
+; Menu item for removing attachments when right clicking in attachment
+; window
+-1943095130="添付ファイルを削除"
+
+1782149687="ニュースフィードリストをインポート..."
+-755032706="ニュースフィードリストをエクスポート..."
+; Name of "Time and Site view" in view dropdown in history panel/page
+817518784="時間/サイト順"
+
+; Name of "Site view" in view dropdown in history panel/page
+1825780288="サイト順"
+
+; Name of "Time view" in view dropdown in history panel/page
+1366023738="時間順"
+
+; Info dialog header, bcc recepients not supported
+1895070662="Bcc はサポートされていません。Bcc 送信者へ Cc として送信しますか？"
+
+; Mail context menu option to display message source.
+-1107090027="すべてのヘッダとメッセージを表示"
+
+; Menu option for files.
+581357748="ダウンロードフォルダに保存"
+
+; Tab context menu option.
+765050320="タブの固定"
+
+; Page context menu option for blocking content on current page.
+-1745751818="コンテンツのブロック ..."
+
+; Page context menu option to edit preferences for current site.
+385004252="サイト設定の編集..."
+
+; Search filed context menu option for adding search to Opera.
+1560773594="検索の作成..."
+
+; Menu option to switch to viewing widgets.
+238756904="ウィジェットを表示"
+
+1731356187="ピン"
+-582071422="削除"
+234772830="ピンをはずす"
+-214002413="常に前面に表示"
+; Menu option indicates that the user has already dragged the widget tab to
+; a custom position
+-601444231="カスタムポジション"
+
+; Menu option to center the widget tab on (the top of) the screen
+-460214741="中央"
+
+; Used in View menu, under Style.
+-926762484="表示モードの編集..."
+
+; Option indicating that the (gadget) window should be positioned below all
+; other windows, ie. on the desktop
+-1063450371="常に背面に表示"
+
+; Option indicating that the (gadget) window behaves like a normal window
+1684925437="標準"
+
+; Caption for the list of possible widget positions (on top, below, normal
+; ...)
+-752705216="表示位置"
+
+; Widgets menu
+-895653680="ウィジェット設定..."
+
+; Widget main menu entry.
+-235137047="ウィジェット(&G)"
+
+; Menu entry that links to dev.opera.com
+800491965="開発者用ツール"
+
+; Configure the speed dial entry
+-456197667="編集..."
+
+; Reload the current speed dial entry
+1578896085="更新"
+
+; Remove the current speed dial entry
+-1520745903="クリア"

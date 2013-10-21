@@ -1,0 +1,10 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Minecraft
+GenericName=minecraft
+Exec=%%PBI_EXEDIR%%/minecraft.sh
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/minecraft-icon.png
+StartupNotify=true

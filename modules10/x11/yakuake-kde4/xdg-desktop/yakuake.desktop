@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Yakuake
+GenericName=Yakuake
+Exec=%%PBI_EXEDIR%%/yakuake
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/yakuake.png
+StartupNotify=true

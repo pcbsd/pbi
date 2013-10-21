@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=recordMyDesktop
+GenericName=recordMyDesktop
+Exec=%%PBI_EXEDIR%%/manpage.sh
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/share/pixmaps/recordmydesktop.png
+StartupNotify=true
+Categories=Utility;

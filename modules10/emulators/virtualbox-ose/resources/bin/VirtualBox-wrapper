@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PROGDIR=CHANGEME
+
+VBOX_USER_HOME="`cat /etc/passwd | grep ^${USER}: | cut -d ":" -f 6`/.VirtualBox"
+export VBOX_USER_HOME
+export LD_LIBRARY_PATH PATH
+
+${PROGDIR}/bin/VirtualBox $@

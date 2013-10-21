@@ -1,0 +1,9 @@
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Beast-%%PORTVERSION%%
+GenericName=beast-%%PORTVERSION%%
+Exec=%%PBI_EXEDIR%%/beast-%%PORTVERSION%%
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/defaulticon.png
+StartupNotify=true
