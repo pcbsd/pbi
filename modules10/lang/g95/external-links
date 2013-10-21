@@ -1,9 +1,0 @@
-# Files to be Sym-Linked into the default LOCALBASE
-# One per-line, relative to %%PBI_APPDIR%% and LOCALBASE
-# Defaults to keeping any existing files in LOCALBASE
-# Use action binary for binaries that need wrapper functionality
-
-# TARGET             LINK IN LOCALBASE         ACTION
-bin/g95     bin/g95     binary,nocrash
-bin/f95     bin/f95     binary,nocrash
-bin/f951     bin/f951     binary,nocrash
