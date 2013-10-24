@@ -6,5 +6,5 @@ Name=BasKet
 GenericName=BasKet
 Exec=%%PBI_EXEDIR%%/basket
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/icons/crystalsvg/32x32/apps/basket.png
+Icon=%%PBI_APPDIR%%/basket.png
 StartupNotify=true
