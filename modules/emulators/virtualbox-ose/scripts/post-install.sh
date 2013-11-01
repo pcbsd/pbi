@@ -1,8 +1,9 @@
 #!/bin/sh
 
 # Copy over the modules specific to this release
-FBSDVER=`uname -r | cut -d '-' -f 1`
-cp ${PBI_PROGDIRPATH}/modules${FBSDVER}/* /boot/modules/
+#FBSDVER=`uname -r | cut -d '-' -f 1`
+#cp ${PBI_PROGDIRPATH}/modules${FBSDVER}/* /boot/modules/
+cp ${PBI_PROGDIRPATH}/modules*/* /boot/modules/
 
 cp /boot/loader.conf /boot/loader.conf.orig
 cat /boot/loader.conf | grep -v "vboxdrv_load"  > /tmp/loader.conf
