@@ -2272,8 +2272,8 @@ py-fail2ban:amd64:0.8.10:27dde11a0d39a28e8b037005c889f9b36abcba2573aebda9e0b9db3
 py-fail2ban:amd64:0.8.9:f14c0cbd003044bb2169a39e35b782bfde032a50f17d34ba0204dd02312112b3:20130615 114348:/PBI/security/py-fail2ban/9/x64/py-fail2ban-0.8.9-amd64.pbi:1371576737::active:16913:
 py-fail2ban:i386:0.8.7.1:f214b94492174b713144bd4d1c7c72f1dd3fb8668efe2e147a5c9960a02f951d:20121204 150940:/PBI/security/py-fail2ban/9/x32/py-fail2ban-0.8.7.1-i386.pbi:1354724181::active:16528:
 py-fail2ban:i386:0.8.8_1:3613512c196388daee8bb036bc386795798808b1c057c7c3eb842b0da4af0512:20130306 065414:/PBI/security/py-fail2ban/9/x32/py-fail2ban-0.8.8_1-i386.pbi:1363022318::current:16386:
-py-karaoke:amd64:0.5_6:c5a3df151484f693e0108e2f5344e84736583c302a1e5e09a3d8c1bf9a360c06:20120823 195225:/PBI/audio/py-karaoke/9/x64/py-karaoke-0.5_6-amd64.pbi:1347652227::active:190213:
-py-karaoke:amd64:0.7.5:74a0d597e8f1fac969d52c67d423cd118f7f1dd64982ec93e40c8fb17f1cc77a:20121215 154145:/PBI/audio/py-karaoke/9/x64/py-karaoke-0.7.5-amd64.pbi:1355848044::current:202509:
+py-karaoke:amd64:0.7.5:74a0d597e8f1fac969d52c67d423cd118f7f1dd64982ec93e40c8fb17f1cc77a:20121215 154145:/PBI/audio/py-karaoke/9/x64/py-karaoke-0.7.5-amd64.pbi:1355848044::active:202509:
+py-karaoke:amd64:0.7.5_1:a91c3c7c89852cf1a2c2d6ee9938488d36863e568a3c08e53a1e1f2a053c0dc6:20131031 025945:/PBI/audio/py-karaoke/9/x64/py-karaoke-0.7.5_1-amd64.pbi:1383325983::current:226346:
 py-karaoke:i386:0.5_6:164db08c4147c3db34eab515a3c070ef2f905643bc02438cd139f3ea0acd3b1f:20120824 000742:/PBI/audio/py-karaoke/9/x32/py-karaoke-0.5_6-i386.pbi:1347651965::active:179197:
 py-karaoke:i386:0.7.5:3e819599deb60acd1e1849cecfa92e966be8761b0f48ee2ae59e271a48427b69:20121216 163743:/PBI/audio/py-karaoke/9/x32/py-karaoke-0.7.5-i386.pbi:1355847687::current:190597:
 py-mnemosyne:amd64:1.2.2_1:86355e09021f656b09da4b11b01101f5e81787d2bd3ae0894e6abd7eff73cbdb:20111011 170424:/PBI/games/py-mnemosyne/9/x64/py-mnemosyne-1.2.2_1-amd64.pbi:1320079975::current:44450:
