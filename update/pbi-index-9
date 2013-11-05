@@ -166,8 +166,8 @@ artha:amd64:1.0.2_2:b77c271cbd9be1426693117c1f5d739319e803d5bd1b6869b5cdf6b9b717
 artha:i386:1.0.2_2:91a2dd8a2d378ee2fe03c2f6bc873c05f60bc9c7d857d482f9774d897480b335:20120910 171207:/PBI/textproc/artha/9/x32/artha-1.0.2_2-i386.pbi:1347635722::current:57643:
 asciiquarium:amd64:1.0:4c444f76ccc857fb18edee0e2d3f07a52d7bdf0ceb5facc6e95610291c8411ac:20120411 032801:/PBI/games/asciiquarium/9/x64/asciiquarium-1.0-amd64.pbi:1334159779::current:13323:
 asciiquarium:i386:1.0:44ca36a0dea5f477a6891e48f5bb1f4adcbc83a323e2809c39043a48e8d2f2b6:20120411 040830:/PBI/games/asciiquarium/9/x32/asciiquarium-1.0-i386.pbi:1334159710::current:12810:
-assaultcube:amd64:1.1.0.4_1:3b9c6630ac7707a837696caffcd78c2f23d2936c7e123eac7b986c8753b1e6ca:20110928 075809:/PBI/games/assaultcube/9/x64/assaultcube-1.1.0.4_1-amd64.pbi:1317214315::active
-assaultcube:amd64:1.2.0.0:37bc48178c9ddc43c29b6cf37740c1fd661934476cdad981eb56ddcf0fc5e55f:20131013 170310:/PBI/games/assaultcube/9/x64/assaultcube-1.2.0.0-amd64.pbi:1382116407::current:81342:
+assaultcube:amd64:1.2.0.0:37bc48178c9ddc43c29b6cf37740c1fd661934476cdad981eb56ddcf0fc5e55f:20131013 170310:/PBI/games/assaultcube/9/x64/assaultcube-1.2.0.0-amd64.pbi:1382116407::active:81342:
+assaultcube:amd64:1.2.0.1:41601c12fd8af9919b41e9f95420c781de498c07a6744cda8b754d5a8b5ed03e:20131105 121252:/PBI/games/assaultcube/9/x64/assaultcube-1.2.0.1-amd64.pbi:1383676949::current:81983:
 assaultcube:i386:1.1.0.4_1:f7690a921321d00dc58ac6997249d4eb037a902ae003fcfd4e2b84243d178842:20110927 070358:/PBI/games/assaultcube/9/x32/assaultcube-1.1.0.4_1-i386.pbi:1317214431::current
 asterisk:amd64:1.8.23.0:e5083a37d2a04a66a1724ef17380abe7321591dbb36bb0447e52fffdeea17933:20130725 090700:/PBI/net/asterisk/9/x64/asterisk-1.8.23.0-amd64.pbi:1375112766::active:58411:
 asterisk:amd64:1.8.23.1:861f168ea8eab952003e08568b95a698a03cfeef7a1294c6bdeea8887db5eef5:20130830 140158:/PBI/net/asterisk/9/x64/asterisk-1.8.23.1-amd64.pbi:1378223261::current:57258:
