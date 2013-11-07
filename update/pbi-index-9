@@ -2201,8 +2201,8 @@ planner:amd64:0.14.6:7ba58d92f31015225cdfe5af6edc216da17e25a52acca878fed777b1511
 planner:amd64:0.14.6_1:c58543a6e3170ead2c42dfe0c1617be0aa053714e09bac7593b2fcc8034dfc44:20130626 172449:/PBI/deskutils/planner/9/x64/planner-0.14.6_1-amd64.pbi:1373916977::current:96070:
 planner:i386:0.14.5:0cfd707f3c451a608bb5e4f80591ed1bfb48489fdb7348c91b5dd53e31923659:20111019 142907:/PBI/deskutils/planner/9/x32/planner-0.14.5-i386.pbi:1319048090::active
 planner:i386:0.14.6:a56c124fbd364d8f2deb6fc200fb8a84b811b07050d45b628d4af00c6ac95eef:20120108 082121:/PBI/deskutils/planner/9/x32/planner-0.14.6-i386.pbi:1326218810::current:79292:
-plee-the-bear:amd64:0.3.1_5:6768b2502922b158c0950759304fc0de0a1e63461959b25fa4aa608ed50b6744:20111011 090342:/PBI/games/plee-the-bear/9/x64/plee-the-bear-0.3.1_5-amd64.pbi:1318343130::active
-plee-the-bear:amd64:0.6.0_1:96bc989a16996d8ec863f0427a41868f6aa99799a7a32db27c667e5ce8a49fe4:20120917 052054:/PBI/games/plee-the-bear/9/x64/plee-the-bear-0.6.0_1-amd64.pbi:1351534415::current:188941:
+plee-the-bear:amd64:0.6.0_1:96bc989a16996d8ec863f0427a41868f6aa99799a7a32db27c667e5ce8a49fe4:20120917 052054:/PBI/games/plee-the-bear/9/x64/plee-the-bear-0.6.0_1-amd64.pbi:1351534415::active:188941:
+plee-the-bear:amd64:0.6.0_4:bf2cb84d376ad14b47785931ba65b3fd9e29cab97e45c8d176bacde83752f58e:20130623 052429:/PBI/games/plee-the-bear/9/x64/plee-the-bear-0.6.0_4-amd64.pbi:1383837790::current:216344:
 plee-the-bear:i386:0.3.1_5:add6d8e7d81a14a25573a4c86f0a80e1bd3fcd968cacc1cdc663cd8f2a3b2340:20111010 190235:/PBI/games/plee-the-bear/9/x32/plee-the-bear-0.3.1_5-i386.pbi:1318343368::active
 plee-the-bear:i386:0.6.0_1:54b981468c503660d1133262232a531a6b8f24d5ab023e8948e2b8f33c0d1757:20121028 091439:/PBI/games/plee-the-bear/9/x32/plee-the-bear-0.6.0_1-i386.pbi:1351534149::current:187271:
 png2ico:amd64:2002.12.08_3:725318da7e3add6cc707a0edb92bf1697dbacd81176780e740f0df23cda7292c:20110829 122544:/PBI/graphics/png2ico/9/x64/png2ico-2002.12.08_3-amd64.pbi:1314718074::current
