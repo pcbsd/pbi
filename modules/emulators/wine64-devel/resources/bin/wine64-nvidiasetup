@@ -47,7 +47,7 @@
 set -e
 
 PORTSDIR=${PORTSDIR:-/usr/ports}
-PREFIX=/usr/pbi/wine64-i386
+PREFIX=/usr/pbi/wine-i386
 
 cd /tmp/
 
