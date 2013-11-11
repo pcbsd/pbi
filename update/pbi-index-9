@@ -2629,6 +2629,7 @@ soundconverter:i386:1.5.4_1:ecb2127b795b5de5dcdf91c6a5d684518a5e3caea8fde0a6b198
 soundkonverter:amd64:2.0.3:818c3d83c9049d0f54ea3527594bd1e4d777158e283192e269cdc3e35bcf714e:20130628 054316:/PBI/audio/soundkonverter/9/x64/soundkonverter-2.0.3-amd64.pbi:1373918525::active:548246:
 soundkonverter:amd64:2.0.4:027458835602583d01499c2ca324f4acc004f001f2fa6001dfac198852096e07:20130724 063639:/PBI/audio/soundkonverter/9/x64/soundkonverter-2.0.4-amd64.pbi:1375116754::current:548473:
 soundkonverter:i386:0.9.94rc2_5:43c150274905850f4ec3fc074bb1447f4199088d9df5f5b61ed79d968e87e8a0:20120818 133604:/PBI/audio/soundkonverter/9/x32/soundkonverter-0.9.94rc2_5-i386.pbi:1345831854::current:238245:
+speech-dispatcher:amd64:0.7.1_3:6dc5e004de1240b03297ad6bd1a982c46a4f315fdba4884f3492c5502de0acaf:20130629 193326:/PBI/accessibility/speech-dispatcher/9/x64/speech-dispatcher-0.7.1_3-amd64.pbi:1384199027::current:37536:
 spek:amd64:0.8.2:aaaa350e3b3f12f4cca16520ada05c0a79d051895574fa26ebcf8e59686ffa1b:20130308 212224:/PBI/audio/spek/9/x64/spek-0.8.2-amd64.pbi:1363023552::active:165906:
 spek:amd64:0.8.2_1:c9b5827225f0e7d8b81bc861c145ceda065007f15bd30e3e2edec9d88dc104e1:20130701 211431:/PBI/audio/spek/9/x64/spek-0.8.2_1-amd64.pbi:1373918596::current:167542:
 spek:i386:0.8.1:1f7c98ab2df2a8c5a0ce9d0f253012fbf1b703bbe8c02a3e4fb786a099443e20:20121216 095348:/PBI/audio/spek/9/x32/spek-0.8.1-i386.pbi:1355853178::active:80954:
