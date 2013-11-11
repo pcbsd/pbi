@@ -223,6 +223,7 @@ backuppc:amd64:3.2.1:74612668112cd3954cf4acfbc08e550fc7d1e2dfc3f69380c1b7befab14
 backuppc:amd64:3.3.0:a2da63edb761a1f1065605fbab35d14740dbf86d77d24c8b3d8079120366e6b0:20130615 052829:/PBI/sysutils/backuppc/9/x64/backuppc-3.3.0-amd64.pbi:1371491675::current:13963:
 backuppc:i386:3.2.1:41f15595612b6ea32f579e4f07d418e82159ec16c1086b1a3f4eef9045025d3e:20120130 063605:/PBI/sysutils/backuppc/9/x32/backuppc-3.2.1-i386.pbi:1329833464::active:14091:
 backuppc:i386:3.3.0:438bdce425fc56473f04fa0164a33aa8651c1829429dd91e77ac86ca1b1849aa:20130615 172618:/PBI/sysutils/backuppc/9/x32/backuppc-3.3.0-i386.pbi:1371491666::current:13323:
+baculabat:amd64:5.2.12_3:725e39317b4535d19a4d07191733265871ea5970fc26d72cfcc186a9805caa3c:20131019 005349:/PBI/sysutils/bacula-server/9/x64/baculabat-5.2.12_3-amd64.pbi:1384190540::current:351238:
 barbie_seahorse_adventures:amd64:1.0:89d5a3b1e169248e540218f419166d00303f173504c762d662caf40499f623a4:20121018 051754:/PBI/games/barbie_seahorse_adventures/9/x64/barbie_seahorse_adventures-1.0-amd64.pbi:1350661836::current:141283:
 barbie_seahorse_adventures:i386:1.0:b927019df9a44fc19da8d1f73025c5382357df4bb329f9c9d6dbd84faea18da7:20121017 230812:/PBI/games/barbie_seahorse_adventures/9/x32/barbie_seahorse_adventures-1.0-i386.pbi:1350661638::current:131293:
 barrage:amd64:1.0.4:6d26a5651f91c816b15e2a561ca64311ff052251440db8d888366cb03ec6c7dd:20111006 154331:/PBI/games/barrage/9/x64/barrage-1.0.4-amd64.pbi:1317917267::current
