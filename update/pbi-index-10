@@ -2,6 +2,7 @@
 abiword:amd64:2.8.6_01:6ab3d5750cfae24fb79ad0bcc6e3a2560bcf03188d8da4592dbf0dbd8b93b899:20131104 044414:/PBI/editors/abiword/10/x64/abiword-2.8.6_01-amd64.pbi:1384178262::current:186754:
 abuse-sdl:amd64:0.8_3_1:b2d89e1157fdc76834e3af71c6c69db669379f5507ee0e8e82615fe17b00c03e:20131103 033017:/PBI/games/abuse_sdl/10/x64/abuse-sdl-0.8_3_1-amd64.pbi:1384178022::current:42785:
 acidrip:amd64:0.14_9_02:2e4b1789b2d7cb639f73d209ae8d857ee875f418c814f50d11b083f9731ae29b:20131026 124904:/PBI/multimedia/acidrip/10/x64/acidrip-0.14_9_02-amd64.pbi:1383420344::current:145002:
+afnix:amd64:2.3.1_01:94d68db84a84cb6f3fba8a0f54ddf07f194dc235ad714db12351c67b2f2fcbdc:20131026 140048:/PBI/lang/afnix/10/x64/afnix-2.3.1_01-amd64.pbi:1384180206::current:7815:
 afternoonstalker:amd64:1.1.5_01:b77abd888c54f9d3d033225f3acabcd96624cfd3cde5e131208e8e4f21766ab0:20131103 032944:/PBI/games/afternoonstalker/10/x64/afternoonstalker-1.1.5_01-amd64.pbi:1384178638::current:38942:
 algol68g:amd64:2.8_01:65b6485a6ce51ab28c3c78fecf0ed97d0a8aa600d7cd4450c8b59c61fde2fd30:20131026 140141:/PBI/lang/algol68g/10/x64/algol68g-2.8_01-amd64.pbi:1383420770::current:45604:
 audacity:amd64:2.0.5_01:677e5c5f5074b09fbedb0982771673354e23336c51dbd8adb56fb6391e002000:20131104 140958:/PBI/audio/audacity/10/x64/audacity-2.0.5_01-amd64.pbi:1383683355::current:271037:
