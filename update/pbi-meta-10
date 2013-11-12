@@ -1,3 +1,4 @@
+App=3dpong;Games;http://images.pbidir.com/progicons/3dpong.png;nemysis@gmx.ch;http://www.newbreedsoftware.com/3dpong/;GPL;Text;game,pong,arcade;3D Pong is an X Window game for 1 or 2 players. It's a 3D game based<br>on the first arcade game, Pong. Like Pong, it's a game played with<br>a ball and paddles. The object is to hit the ball and get it in the<br>other player's goal. Use your paddle to deflect the ball and keep it<br>from getting in your goal.<br><br>WWW: http://www.newbreedsoftware.com/3dpong/<br>;;1384289230;nemysis@gmx.ch;X Window 3D Pong game for 1 or 2 players<br>;
 Cat=Accessibility;http://images.pbidir.com/cats/accessibility.png;Utilities to ease computer usage;
 Cat=Archivers;http://images.pbidir.com/cats/archivers.png;Programs for packing/unpacking data archives;
 Cat=Astronomy;http://images.pbidir.com/cats/astro.png;Programs for mapping the stars or the earth;
