@@ -7,3 +7,4 @@ afternoonstalker:amd64:1.1.5_01:b2b08089dce64f50a02d6d43578688cd4375a6d9580adcbc
 alacarte:amd64:0.13.2_2_01:be9b9e13f230ab6adebb67caf6f40dd6838f42a68b329682928a6dde7ac17d08:20131109 020513:/PBI/deskutils/alacarte/10/x64/alacarte-0.13.2_2_01-amd64.pbi:1384283869::current:501592:
 algol68g:amd64:2.8_01:65b6485a6ce51ab28c3c78fecf0ed97d0a8aa600d7cd4450c8b59c61fde2fd30:20131026 140141:/PBI/lang/algol68g/10/x64/algol68g-2.8_01-amd64.pbi:1384284110::current:45604:
 amanda-client:amd64:3.3.2_1_1:6c9fefcc4609f22505b55856ef79f0ee631a879c26447cf32eb649abece8e8ea:20131026 131811:/PBI/misc/amanda-client/10/x64/amanda-client-3.3.2_1_1-amd64.pbi:1384284155::current:64306:
+amide:amd64:1.0.4_2_01:78cf910fa852e964d1ca82cefa5b77466a1b6a400e693a130114744a8d1dbbcf:20131026 165551:/PBI/graphics/amide/10/x64/amide-1.0.4_2_01-amd64.pbi:1384284203::current:356731:
