@@ -1,0 +1,10 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Wbar Configuration
+GenericName=wbar configuration
+Exec=%%PBI_EXEDIR%%/wbar-config
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/wbar.png
+StartupNotify=true
