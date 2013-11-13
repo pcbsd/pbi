@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PROGDIR=CHANGEME
+PROGDIR=/usr/local
 ps -auwx | grep "jackd" | grep -v grep >/dev/null 2>/dev/null
 if [ "$?" != "0" ]
 then

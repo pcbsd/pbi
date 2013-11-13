@@ -1,8 +1,5 @@
 #!/bin/sh
 
-sed -i.bak "s,CHANGEME,${PBI_PROGDIRPATH},g" ${PBI_PROGDIRPATH}/vsftpdcfg
-
-
 echo "vsftpd_enable=\"YES\"" >> /etc/rc.conf
 ln -s ${PBI_PROGDIRPATH}/vsftpd /usr/local/etc/rc.d/vsftpd
 
@@ -10,7 +7,7 @@ if [ "$?" = "0" ]
 then 
 	if [ "$USERS" != "b" ] 
 	then
-		sed -i.bak 's/anonymous_enable=NO/anonymous_enable=YES/g' ${PBI_PROGDIRPATH}/vsftpd.conf
+		sed -i.bak 's/anonymous_enable=NO/anonymous_enable=YES/g' ${PBI_PROGDIRPATH}/local/vsftpd.conf
 		#vsftpdanon
 		pw user add -n ftp -c "FTP User" -m -s /sbin/nologin -w none
 		chmod 755 ${PBI_PROGDIRPATH}/anon_ftp

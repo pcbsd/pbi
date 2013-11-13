@@ -1,5 +1,5 @@
 #!/bin/sh
-PROGDIR=CHANGEME
+PROGDIR=/usr/local
 export JAVA_HOME=${PROGDIR}/openjdk6
 
 #Start minecraft-server
