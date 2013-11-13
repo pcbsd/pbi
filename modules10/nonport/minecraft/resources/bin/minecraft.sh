@@ -1,5 +1,5 @@
 #!/bin/sh
-PROGDIR=CHANGEME
+PROGDIR=/usr/local
 LIBDIR=${PROGDIR}/lib/lwjgl2.7.1
 JARDIR=${PROGDIR}/share/java/classes
 USERMINEDIR=~/.minecraft

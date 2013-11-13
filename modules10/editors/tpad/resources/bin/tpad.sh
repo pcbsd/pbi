@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PROGDIR=CHANGEME
+PROGDIR=/usr/local
 
 #Make sure the user configuration file exists
 if [ ! -f ~/.tpadrc ]; then

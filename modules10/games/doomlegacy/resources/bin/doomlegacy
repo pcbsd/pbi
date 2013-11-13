@@ -3,7 +3,7 @@
 # The executable needs to run from a directory with the Doom Legacy data
 # files, libraries and executables. So we mirror the Doom Legacy data
 # directory to ~/.doomlegacy, and create symlinks to the data files.
-PROGNAME=CHANGEME
+PROGNAME=/usr/local
 DOOMWADDIR="${PROGNAME}/share/doom"; export DOOMWADDIR
 
 if [ -d ~/.doomlegacy ]

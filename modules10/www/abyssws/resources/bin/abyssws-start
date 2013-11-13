@@ -1,6 +1,0 @@
-#!/bin/sh
-
-PROGDIR=CHANGEME
-
-cd ${PROGDIR}/lib/abyssws
-./abyssws

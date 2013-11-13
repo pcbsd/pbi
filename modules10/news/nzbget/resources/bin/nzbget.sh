@@ -1,5 +1,5 @@
 #!/bin/sh
-PROGDIR=CHANGEME
+PROGDIR=/usr/local
 
 if [ ! -f ~/.nzbget ]; then
   #Copy the sample configuration file into the user's dir
