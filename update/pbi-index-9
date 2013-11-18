@@ -2395,8 +2395,8 @@ rdesktop:amd64:1.7.1:869a0dc89eff6f7bca5281120493eb4ccf31d8ddd9ea6450b29182063e4
 rdesktop:i386:1.7.1:3e531626670a4a0f344a632bef9b29090ec045a03f1b8e3b4118f30a89a345c5:20120129 144455:/PBI/net/rdesktop/9/x32/rdesktop-1.7.1-i386.pbi:1329939023::current:2180:
 rdiff-backup:amd64:1.2.8:f68d74fe4debbfa7b4ba25fb214f5cabddfa8a5380458acea1388e61753c9084:20120324 225349:/PBI/sysutils/rdiff-backup/9/x64/rdiff-backup-1.2.8-amd64.pbi:1347653228::current:15628:
 rdiff-backup:i386:1.2.8:d5a870ea1dbc6bf49a26b413d24353a7923fbff6ac7db90981fc552b249c84c6:20120326 011917:/PBI/sysutils/rdiff-backup/9/x32/rdiff-backup-1.2.8-i386.pbi:1347653193::current:15500:
-recoll:amd64:1.18.2:784de1caec17ce81e1ed636d401ccea59d7e2142a85d708d53e731d01cafb8e8:20130627 191241:/PBI/deskutils/recoll/9/x64/recoll-1.18.2-amd64.pbi:1373392266::active:99149:
-recoll:amd64:1.19.7:8da3593dffeb3a251126bc8d97852a79380ff8798d4da7b40f1235181baeab5d:20131101 223006:/PBI/deskutils/recoll/9/x64/recoll-1.19.7-amd64.pbi:1383833248::current:97610:
+recoll:amd64:1.19.7:8da3593dffeb3a251126bc8d97852a79380ff8798d4da7b40f1235181baeab5d:20131101 223006:/PBI/deskutils/recoll/9/x64/recoll-1.19.7-amd64.pbi:1383833248::active:97610:
+recoll:amd64:1.19.8:dc5958aebc721fd7f2a56e5fdc2e1deebcac13b22a3b31070a88ee65b05b5d91:20131108 125938:/PBI/deskutils/recoll/9/x64/recoll-1.19.8-amd64.pbi:1384794471::current:96201:
 recoll:i386:1.17.3_1:2b911306ac0c6e9612ffcced2520f79f87b045967fc705c9dac0bd0e8c8f5569:20120720 004214:/PBI/deskutils/recoll/9/x32/recoll-1.17.3_1-i386.pbi:1342793800::active:74422:
 recoll:i386:1.18.1:fbee668da5650127e151206b53fe38eb46f369160254623f2e68871c0301bbff:20121215 104243:/PBI/deskutils/recoll/9/x32/recoll-1.18.1-i386.pbi:1355852062::current:79291:
 recordmydesktop:amd64:0.3.8.1_2:cccd621766e0349ea45ab4c06c3a764ce6230d65e9f170405c7bd3cafc29ee15:20110919 060832:/PBI/multimedia/recordmydesktop/9/x64/recordmydesktop-0.3.8.1_2-amd64.pbi:1316445523::current
