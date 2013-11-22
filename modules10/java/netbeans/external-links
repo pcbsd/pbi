@@ -4,4 +4,4 @@
 # Use action "binary" for binaries that need wrapper functionality
 
 # TARGET             LINK IN LOCALBASE         ACTION
-bin/netbeans.sh     bin/netbeans     binary,replace
+bin/netbeans	bin/netbeans	binary,replace
