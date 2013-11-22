@@ -189,6 +189,7 @@ mldonkey:amd64:3.1.3_1_01:eb6dacd99ee53b151dbd7966f2e8d95c988464a87baaf53eb8c4fb
 moagg:amd64:1.95b_1:ae12b94946ad6bf06e1ca381e1a7a2b6ca03fe93ae5dcc13f69e1e832ecefba2:20131110 023313:/PBI/games/moagg/10/x64/moagg-1.95b_1-amd64.pbi:1385149492::current:134497:
 mongodb:amd64:2.4.7_1:18dffa9dd35a3c7da8f29ac43aabca263c7f9a43dafb208944e47f13ade0f1c3:20131110 123129:/PBI/databases/mongodb/10/x64/mongodb-2.4.7_1-amd64.pbi:1385149966::current:113103:
 monkeybubble:amd64:0.4.0_6_1:bf9ed6a70aae5a2fc06483b052d08a4a82d14ec7cffe80e148a2455c1f351e1a:20131110 024406:/PBI/games/monkeybubble/10/x64/monkeybubble-0.4.0_6_1-amd64.pbi:1385149999::current:344943:
+mopesnake:amd64:0.5_3_1:ab11f256a47c29cfa7213eb2680f12ce6d614d176911cc91451136d084fbe0c9:20131110 021401:/PBI/games/mopesnake/10/x64/mopesnake-0.5_3_1-amd64.pbi:1385150044::current:162289:
 nagios:amd64:3.5.1_01:af94909a82b7ebbd34119282afdc99f2c228dfed7e97275fd0c04d734ffba395:20131109 103814:/PBI/net-mgmt/nagios/10/x64/nagios-3.5.1_01-amd64.pbi:1385143348::current:58924:
 nano:amd64:2.3.2_01:b9fccdfabca7a66ab62bb5b21eed326a79d0a05c642f0b10e24a7f6f98c6aaea:20131110 091735:/PBI/editors/nano-devel/10/x64/nano-2.3.2_01-amd64.pbi:1385143378::current:7175:
 nedit:amd64:5.5_4_01:439d29165efa761d24608a31458087b38fc9459dfb6d03faa884f18292bc0922:20131110 091808:/PBI/editors/nedit/10/x64/nedit-5.5_4_01-amd64.pbi:1385143583::current:32025:
