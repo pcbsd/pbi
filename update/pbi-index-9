@@ -132,8 +132,8 @@ apacheopenoffice-zh_tw:amd64:3.4.0_3:8f4f06aba94f98d00e6067900296882d45ef4c6720f
 apacheopenoffice-zh_tw:amd64:3.4.0_3_01:74cc016a6cee70b8e7ddffe22308eb3b9b408b2c64161c1e3e7cee7fa6632a41:20120730 102906:/PBI/editors/openoffice-3-zh_TW/9/x64/apacheopenoffice-zh_tw-3.4.0_3_01-amd64.pbi:1343841161::current:253743:
 apacheopenoffice-zh_tw:i386:3.4.0_3:54c1da64263f552e50a5a98932372ca819d2d52c951e306f23b03943c2eb00c8:20120704 130425:/PBI/editors/openoffice-3-zh_TW/9/x32/apacheopenoffice-zh_tw-3.4.0_3-i386.pbi:1341486450::active:246187:
 apacheopenoffice-zh_tw:i386:3.4.0_3_01:8179d1b389d006d6e6f07c53115a34986c6e42f6aedf9484f1584d279fbe3265:20120731 054640:/PBI/editors/openoffice-3-zh_TW/9/x32/apacheopenoffice-zh_tw-3.4.0_3_01-i386.pbi:1343840681::current:256178:
-apacheopenoffice:amd64:3.4.1:909db7d6a8fb277f19d61497edadad06d64292faa0f707361e890e82a9bd12ba:20121111 130250:/PBI/editors/openoffice-3/9/x64/apacheopenoffice-3.4.1-amd64.pbi:1360351356::active:284826:
-apacheopenoffice:amd64:3.4.1_1:6b3de95d35fe4635fe2015e2eed49d596a485da4e9329aff436c18cbd0f701a2:20130712 053459:/PBI/editors/openoffice-3/9/x64/apacheopenoffice-3.4.1_1-amd64.pbi:1373900479::current:295756:
+apacheopenoffice:amd64:3.4.1_1:6b3de95d35fe4635fe2015e2eed49d596a485da4e9329aff436c18cbd0f701a2:20130712 053459:/PBI/editors/openoffice-3/9/x64/apacheopenoffice-3.4.1_1-amd64.pbi:1373900479::active:295756:
+apacheopenoffice:amd64:4.0.1:d1c24e65ff79256209f9417f204d083050ae912f0aa265cea993d81e07d1c719:20131010 000401:/PBI/editors/openoffice-4/9/x64/apacheopenoffice-4.0.1-amd64.pbi:1385390938::current:288728:
 apacheopenoffice:i386:3.4.0_3_01:1fd6e5ad0c2b517533807a9a5e77ef30d92f9ef0d48eacb6bbc6a1ef2d43ef73:20120731 204927:/PBI/editors/openoffice-3/9/x32/apacheopenoffice-3.4.0_3_01-i386.pbi:1343823071::active:262587:
 apacheopenoffice:i386:3.4.1:8dea9ca21f51a13a12b738c9b11251253797a63d4a27546246048cc7fcf68c12:20130206 013251:/PBI/editors/openoffice-3/9/x32/apacheopenoffice-3.4.1-i386.pbi:1360351328::current:374305:
 apcupsd:amd64:3.14.10:f665e2f84a4c44cf80ce51dec3356913dd8f0f0dd169e73e578c2b2bc63d930e:20120831 033836:/PBI/sysutils/apcupsd/9/x64/apcupsd-3.14.10-amd64.pbi:1347635355::current:387:
@@ -628,6 +628,7 @@ efax-gtk:i386:3.2.11:e1511e40621edbd23d7f2ac71c9bccbbe63de14d79098dbf654bd33deca
 efax-gtk:i386:3.2.9_1:a9ad1178f24f02a0cab595ca8fb90a804c46503f5265205c6653dd487cb4bf7d:20120715 120258:/PBI/comms/efax-gtk/9/x32/efax-gtk-3.2.9_1-i386.pbi:1342444074::active:177019:
 eiskaltdcpp-qt:amd64:2.2.4_2:26b4dd6138d0e4d56cb7fae75100c8601ad05913a53016aa42c6233f53da64a8:20120828 091222:/PBI/net-p2p/eiskaltdcpp-qt/9/x64/eiskaltdcpp-qt-2.2.4_2-amd64.pbi:1346769726::current:162292:
 eiskaltdcpp-qt:i386:2.2.4_2:f74e4bc58328f9635d1e9c02f0a87b9d1088320a98da6c7c2d4967b758fd0b27:20120902 100335:/PBI/net-p2p/eiskaltdcpp-qt/9/x32/eiskaltdcpp-qt-2.2.4_2-i386.pbi:1346769425::current:152940:
+electrum:amd64:1.7.3:975620ad9b7f8e37f11b1334ee30f2938d731957f0a11ddaeca213ad83d99d56:20131114 000237:/PBI/finance/electrum/9/x64/electrum-1.7.3-amd64.pbi:1385391772::current:202009:
 elinks:amd64:0.11.7_3:bd7b6f980b3a483522f055aed074e539a65e39bc25cecedd99e55db5ddd8caa4:20121130 184014:/PBI/www/elinks/9/x64/elinks-0.11.7_3-amd64.pbi:1355948873::current:6278:
 elinks:i386:0.11.7_3:7f666c0fcdaf45b2c12116a56878f915ff72d32d9fc1e0d67a89360b0570f7ca:20121201 221132:/PBI/www/elinks/9/x32/elinks-0.11.7_3-i386.pbi:1355948705::current:6278:
 emacs-devel:amd64:24.3.50.112178:1ff7c4fecc875ba5708196fe5354dc26a1dcf4a4bd4ea3301b7854f4e78df7d6:20130407 082144:/PBI/editors/emacs-devel/9/x64/emacs-devel-24.3.50.112178-amd64.pbi:1365438711::active:134288:
