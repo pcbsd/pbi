@@ -4,3 +4,4 @@
 # Use action "binary" for binaries that need wrapper functionality
 
 # TARGET             LINK IN LOCALBASE         ACTION
+bin/jitsi	bin/jitsi	binary
