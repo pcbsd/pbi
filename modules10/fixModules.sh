@@ -1,5 +1,7 @@
 #!/bin/sh
 
+CLEANUP="YES"
+
 #quick script to search for and fix all the pbi.conf's it is given
 for i in $@
 do
@@ -37,10 +39,21 @@ if [ -n `echo ${PBI_PROGAUTHOR} | grep @` ]; then
   CHANGED="YES"
 fi
 
+#Clear out the PBI_PROGREVISION if it is set
+if [ -n "${PBI_PROGREVISION}" ]; then
+  sed -i.bak "s,PBI_PROGREVISION=\"${PBI_PROGREVISION}\",PBI_PROGREVISION=\"\",g" ${i}
+  CHANGED="YES"
+fi
+
 if [ ${CHANGED} == "YES" ]; then
   #bump the build key and prep for commit
   sed -i.bak "s,PBI_BUILDKEY=\"${PBI_BUILDKEY}\",PBI_BUILDKEY=\"`expr ${PBI_BUILDKEY} + 1`\",g" ${i}
   git add ${i}
 fi
+
+if [ ${CLEANUP} == "YES" ]; then
+  rm ${i}.bak
+fi
+
 #end of the loop over pbi.conf's
 done
