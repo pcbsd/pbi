@@ -40,6 +40,7 @@ baculabat:amd64:5.2.12_3_01:a065ebc9b3a004f62a6599bc2b1f6dba7eabc25425044e74ca1a
 barbie_seahorse_adventures:amd64:1.0_2_01:d073442cdb25b403a611e31caecd4187bf7bebe67e1a690cc6384f9e594ecc3b:20131110 080136:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_2_01-amd64.pbi:1384366305::current:235691:
 barrage:amd64:1.0.4_1_01:a0004b199f5af5855291c7090cb735fa6656f4538019065c002b30ef0857440e:20131110 075416:/PBI/games/barrage/10/x64/barrage-1.0.4_1_01-amd64.pbi:1384366660::current:138084:
 basket:amd64:1.81_1_01:479cd07180f64a0da10470eb7aa7b8fc95327443a9756427ecb7a0dc792b135f:20131104 090551:/PBI/deskutils/basket/10/x64/basket-1.81_1_01-amd64.pbi:1384368588::current:515430:
+bftpd:amd64:4.0:2dd10739cc132460f7d9f18d681b48ff1e5b1090fd4fcb5a42ba1e80b8c7aef3:20131129 164658:/PBI/ftp/bftpd/10/x64/bftpd-4.0-amd64.pbi:1386005669::current:4101:
 bibletime:amd64:2.9.2_1:3470a663fb6ded3e8299096b389a9cc5401e94faf82f11fc89f63c4b37f7bad2:20131026 132519:/PBI/misc/bibletime/10/x64/bibletime-2.9.2_1-amd64.pbi:1384367467::current:226470:
 bitlbee:amd64:3.2_2_1:f41c578960fa60d53b1748e68977b047f5778c57bf9ec094c4e16b447ddeab0e:20131103 010735:/PBI/irc/bitlbee/10/x64/bitlbee-3.2_2_1-amd64.pbi:1384369388::current:71478:
 blinkensisters:amd64:0.5.3_9_01:6ca8d7c56138faaabb133f9887e93314b711e9156d466637884b6a9d8b0e9c9e:20131110 074718:/PBI/games/blinkensisters/10/x64/blinkensisters-0.5.3_9_01-amd64.pbi:1384368747::current:191625:
