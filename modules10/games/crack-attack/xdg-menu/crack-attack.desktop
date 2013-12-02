@@ -6,6 +6,6 @@ Name=Crack Attack
 GenericName=Crack Attack
 Exec=%%PBI_EXEDIR%%/crack-attack
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/crack-attack/crack-attack.xpm
+Icon=%%PBI_APPDIR%%/crackattack.png
 StartupNotify=true
 Categories=Game;TacticStrategy;
