@@ -2456,8 +2456,8 @@ rnd_jue:i386:3.3.0.0:89229220fda515f87fa7391a820104f76bb48978694a62a3021e2b8d290
 robocode:amd64:1.8.2.0:c9c0a56f93c9e94be1ab0a0cc12ccdb8623b8e613aeac0343eb45afd2ccb15b9:20130725 070800:/PBI/games/robocode/9/x64/robocode-1.8.2.0-amd64.pbi:1375116267::active:96068:
 robocode:amd64:1.8.3.0:bbe8ea0c4cff3bd6e9bbc17368a2343f670da3ca5b99d9fd79e5b73492655ead:20131012 134907:/PBI/games/robocode/9/x64/robocode-1.8.3.0-amd64.pbi:1382118859::current:96329:
 robocode:i386:1.8.0.0:29a7c0f0e12f2dbc512b3e9e50cb503c78967c87c8283b4ff72841fa70603603:20130405 162530:/PBI/games/robocode/9/x32/robocode-1.8.0.0-i386.pbi:1365774093::current:98315:
-rocksndiamonds:amd64:3.3.0.1_2:948c3e80d6a9717969e0b352e91ead8be107337809ebdb564e575c7afe31d421:20130124 014007:/PBI/games/rocksndiamonds/9/x64/rocksndiamonds-3.3.0.1_2-amd64.pbi:1359562728::active:75659:
-rocksndiamonds:amd64:3.3.1.0:e5e24de28addf8456a556a55445adb82a80fb829527146bb9b8ed2cc105a3795:20131108 114438:/PBI/games/rocksndiamonds/9/x64/rocksndiamonds-3.3.1.0-amd64.pbi:1384795000::current:180104:
+rocksndiamonds:amd64:3.3.1.0:e5e24de28addf8456a556a55445adb82a80fb829527146bb9b8ed2cc105a3795:20131108 114438:/PBI/games/rocksndiamonds/9/x64/rocksndiamonds-3.3.1.0-amd64.pbi:1384795000::active:180104:
+rocksndiamonds:amd64:3.3.1.2:6cdc48a2c37aa4dfbae5d68f7f959dc3966e3de43fdcd1206cb5babb31c89ccb:20131130 193542:/PBI/games/rocksndiamonds/9/x64/rocksndiamonds-3.3.1.2-amd64.pbi:1386174462::current:190864:
 rocksndiamonds:i386:3.3.0.1_2:898d9013eb20ac920c9cc7b5452b608101879dc4456741630bbfd8f68bcb3dcf:20130123 230947:/PBI/games/rocksndiamonds/9/x32/rocksndiamonds-3.3.0.1_2-i386.pbi:1359562712::current:74250:
 rootkithunter:amd64:1.3.8_1_01:895b869e2b0008b8e0cefe35cd4fcb825dbccec42fa93d58c33efa4b8425603e:20120203 175251:/PBI/security/rkhunter/9/x64/rootkithunter-1.3.8_1_01-amd64.pbi:1329179415::active:19730:
 rootkithunter:amd64:1.4.0_01:02904773591dbd623b58cdcda244b23a3da00720f31e7df2077dd9d44f91f5b7:20121021 200831:/PBI/security/rkhunter/9/x64/rootkithunter-1.4.0_01-amd64.pbi:1351095708::current:19602:
