@@ -33,7 +33,6 @@ aumix:amd64:2.9.1_01:54340a140beb9fec2abae0208dadb7769438adc13e80bc74d7a9ef4c29b
 autocutsel:amd64:0.9.0_2_01:571d789597f08dbc75b6c04c8e499ac59bd834fd8773ccc6c24ae67b937b8330:20131110 121615:/PBI/deskutils/autocutsel/10/x64/autocutsel-0.9.0_2_01-amd64.pbi:1384351487::current:12298:
 autoq3d:amd64:1.40_4_1:cd93fedaa1f7e0f36c106b95f0e482e5b497c833ccd6f0b1fbaaa3a50222eee9:20131109 204147:/PBI/graphics/autoq3d/10/x64/autoq3d-1.40_4_1-amd64.pbi:1384362918::current:115410:
 autossh:amd64:1.4c_01:1c0c64b84210d542ef1362bffd5498ec9960b49ebc4da48361bacb1ae8edfdf8:20131026 084032:/PBI/security/autossh/10/x64/autossh-1.4c_01-amd64.pbi:1384362822::current:2052:
-avahi-app:amd64:0.6.31_01:c9bdd4d30f98ed41fded92ba0b73a752ee3220faeb8006249ad5d9b0e6f96ae9:20131026 095007:/PBI/net/avahi-app/10/x64/avahi-app-0.6.31_01-amd64.pbi:1384359310::current:72630:
 avoision:amd64:1.1_3_1:a68e4385b2c320cbad25acd57cf3f3f25700894597696fc9945af4f8ad54be6b:20131110 075533:/PBI/games/avoision/10/x64/avoision-1.1_3_1-amd64.pbi:1384364936::current:42914:
 backuppc:amd64:3.3.0_01:ce0a7326ea97f62da3a6c63799a2288d6906dd738069b3bb0e14241cdbde35f6:20131026 080130:/PBI/sysutils/backuppc/10/x64/backuppc-3.3.0_01-amd64.pbi:1384365752::current:29592:
 baculabat:amd64:5.2.12_3_01:a065ebc9b3a004f62a6599bc2b1f6dba7eabc25425044e74ca1a8a24964483c5:20131109 065735:/PBI/sysutils/bacula-server/10/x64/baculabat-5.2.12_3_01-amd64.pbi:1386005539::current:777106:
