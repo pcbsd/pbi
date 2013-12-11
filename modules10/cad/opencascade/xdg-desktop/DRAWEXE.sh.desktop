@@ -8,3 +8,4 @@ Exec=%%PBI_EXEDIR%%/DRAWEXE
 Path=%%PBI_APPDIR%%
 Icon=%%PBI_APPDIR%%/opencascade.png
 StartupNotify=true
+Terminal=true
