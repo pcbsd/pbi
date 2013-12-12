@@ -564,6 +564,7 @@ streamtuner:amd64:0.99.99_20_01:0f5a082c838015c3321b2131c5fa9e2de3b4a8b47b0d2b5b
 stress:amd64:1.0.4_01:809bc0c4ca8750f8f8f6d7f026956519a4145a575d96494ee2eef25276b7c91f:20131109 055439:/PBI/sysutils/stress/10/x64/stress-1.0.4_01-amd64.pbi:1384805245::current:2052:
 subcommander:amd64:2.0.0.b5.2_1:0610ed1bf3ba845f2ce09416f7fe1eea57aa37f90d5034abc76ae588caa2154b:20131104 050542:/PBI/devel/subcommander2/10/x64/subcommander-2.0.0.b5.2_1-amd64.pbi:1384805287::current:511075:
 subtitleeditor:amd64:0.40.0_2_02:49e67c6deb7e8b7a9416cb1672f885c7c9d56241740136859fcf2779521525ab:20131109 115853:/PBI/multimedia/subtitleeditor/10/x64/subtitleeditor-0.40.0_2_02-amd64.pbi:1384805322::current:240550:
+subversion:amd64:1.8.4:9f73312e1617f0162923aef26a878068915215a68eaabb1795fd7a62f22fd7e2:20131129 174212:/PBI/devel/subversion/10/x64/subversion-1.8.4-amd64.pbi:1386859993::current:18961:
 supertuxkart:amd64:0.8_1_01:e1c83cccb9ed377a81f66cc49882a4a72361a9fcaa2696e4d8f66b9d4ca9dbe6:20131109 223500:/PBI/games/supertuxkart/10/x64/supertuxkart-0.8_1_01-amd64.pbi:1384805362::current:319197:
 surf:amd64:0.6_01:dbb8dc6c0268efd74e543eda354d5cd3eeef9370bdb5d643e5a57d66280201db:20131109 042909:/PBI/www/surf/10/x64/surf-0.6_01-amd64.pbi:1384805409::current:234799:
 swfdec-gnome:amd64:2.30.1_1_02:5d26df79b7f8f872fb610e90069806738d7ebabceb6629401cf683c747f798a7:20131109 114332:/PBI/multimedia/swfdec-gnome/10/x64/swfdec-gnome-2.30.1_1_02-amd64.pbi:1384805441::current:239783:
