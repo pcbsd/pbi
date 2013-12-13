@@ -25,7 +25,8 @@ asciiquarium:amd64:1.0:a5e4e453d698c33eb6dea513d14699f892caa91c01d41a3adc90ecb34
 assaultcube:amd64:1.2.0.2:343abacdeb4188c7f59f72593fa92b61ef6a71c858e936e5def1c6ec2a3f9a6e:20131129 164133:/PBI/games/assaultcube/10/x64/assaultcube-1.2.0.2-amd64.pbi:1386961321::current:137314:
 asteroids3d:amd64:0.5.1_4:569c42a5b4bb6ffd322b2ba4c8fcaf8b97264c28660ef2fb40636e34fbd247ad:20131129 164346:/PBI/games/asteroids3d/10/x64/asteroids3d-0.5.1_4-amd64.pbi:1386961405::current:117204:
 asunder:amd64:2.3:0d9c02ddabc0af4d2f8e840c64a6ebf9f8aaafc6f2b7ac511b76c121e50dd8f9:20131129 230759:/PBI/audio/asunder/10/x64/asunder-2.3-amd64.pbi:1386000388::current:140646:
-ataidle:amd64:2.7.2_01:f76c510d4ee421e027c157eac4384fb1769886a9aebe8ea4a83bab920e06fbf6:20131026 080202:/PBI/sysutils/ataidle/10/x64/ataidle-2.7.2_01-amd64.pbi:1384364526::current:2052:
+ataidle:amd64:2.7.2:d75c9d2693b45f1f889894145be22c518f8b9f209967643acb700fc5fce527be:20131129 063117:/PBI/sysutils/ataidle/10/x64/ataidle-2.7.2-amd64.pbi:1386961438::current:3973:
+ataidle:amd64:2.7.2_01:f76c510d4ee421e027c157eac4384fb1769886a9aebe8ea4a83bab920e06fbf6:20131026 080202:/PBI/sysutils/ataidle/10/x64/ataidle-2.7.2_01-amd64.pbi:1384364526::active:2052:
 atomix:amd64:2.14.0_11_1:10aa17e110967d482f4cb00d4591430a7930c4bc0d235fc4b7d1a9b295653c6e:20131110 080812:/PBI/games/atomix/10/x64/atomix-2.14.0_11_1-amd64.pbi:1384353229::current:324073:
 atunes:amd64:3.1.1_01:948243639a02a4ea9ee044f6be1b04f8b559082a428cecc51efb2dcb0281887c:20131110 170328:/PBI/audio/atunes/10/x64/atunes-3.1.1_01-amd64.pbi:1384353707::current:313061:
 audacious:amd64:3.4.1_02:14abaeaa9d7cc4e0a0389b85914c124029b49da27ff5b20969c78cf903ae477e:20131124 190259:/PBI/multimedia/audacious/10/x64/audacious-3.4.1_02-amd64.pbi:1386000482::current:234277:
