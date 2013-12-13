@@ -22,7 +22,7 @@ ario:amd64:1.5.1_6:bd5d61617b4ba5eafea086af43b185f02005dd429fc2e47ff23ca824489af
 arora:amd64:0.11.0_1:f2ceb8b29c4b044cad78e4d44f79f0de4f90010292b5f9dfcdcdd9d5b76cfe1f:20131129 055311:/PBI/www/arora/10/x64/arora-0.11.0_1-amd64.pbi:1386958469::current:424870:
 artha:amd64:1.0.3:383e3bf0762a108d1e14722b669f12c556e92562e2c1b9f5689f27a08d0983e6:20131129 055613:/PBI/textproc/artha/10/x64/artha-1.0.3-amd64.pbi:1386961228::current:151788:
 asciiquarium:amd64:1.0:a5e4e453d698c33eb6dea513d14699f892caa91c01d41a3adc90ecb34204c1a1:20131129 164034:/PBI/games/asciiquarium/10/x64/asciiquarium-1.0-amd64.pbi:1386961197::current:30360:
-assaultcube:amd64:1.2.0.0_01:133bfad2e021efaff03729f6f71f15d12cd67a643f8ab42b0c8236f65f8fc775:20131103 032257:/PBI/games/assaultcube/10/x64/assaultcube-1.2.0.0_01-amd64.pbi:1384356879::current:133857:
+assaultcube:amd64:1.2.0.2:343abacdeb4188c7f59f72593fa92b61ef6a71c858e936e5def1c6ec2a3f9a6e:20131129 164133:/PBI/games/assaultcube/10/x64/assaultcube-1.2.0.2-amd64.pbi:1386961321::current:137314:
 asteroids3d:amd64:0.5.1_4_01:a9a3d13be5c5c949efa68bce62f8e72bd31de5cf1642b945c545f88cfa93573a:20131110 080058:/PBI/games/asteroids3d/10/x64/asteroids3d-0.5.1_4_01-amd64.pbi:1384355590::current:115413:
 asunder:amd64:2.3:0d9c02ddabc0af4d2f8e840c64a6ebf9f8aaafc6f2b7ac511b76c121e50dd8f9:20131129 230759:/PBI/audio/asunder/10/x64/asunder-2.3-amd64.pbi:1386000388::current:140646:
 ataidle:amd64:2.7.2_01:f76c510d4ee421e027c157eac4384fb1769886a9aebe8ea4a83bab920e06fbf6:20131026 080202:/PBI/sysutils/ataidle/10/x64/ataidle-2.7.2_01-amd64.pbi:1384364526::current:2052:
