@@ -38,7 +38,7 @@ autoq3d:amd64:1.40_4:4e8af4d9a02e0277530e1d76675d24fa90f03cd3aa2595b27a098bd3715
 autossh:amd64:1.4c:9ac3d32b91894eb1dd8210f02339e847873e676fdc025fb1b5109099592fbaf9:20131129 065802:/PBI/security/autossh/10/x64/autossh-1.4c-amd64.pbi:1386962216::current:3973:
 avoision:amd64:1.1_3:2bdb89daad9596779c1db8c0acf9bb9c921b343ea182b72e124008b35b6f46f4:20131129 163805:/PBI/games/avoision/10/x64/avoision-1.1_3-amd64.pbi:1386962300::current:45219:
 backuppc:amd64:3.3.0:0e7357507356e32eef8f39f3ac1299f556be434fe20a9c83a384b1ed8353e6ba:20131129 063214:/PBI/sysutils/backuppc/10/x64/backuppc-3.3.0-amd64.pbi:1387309315::current:31641:
-baculabat:amd64:5.2.12_3_01:a065ebc9b3a004f62a6599bc2b1f6dba7eabc25425044e74ca1a8a24964483c5:20131109 065735:/PBI/sysutils/bacula-server/10/x64/baculabat-5.2.12_3_01-amd64.pbi:1386005539::current:777106:
+baculabat:amd64:5.2.12_3:73753853049e6b18541efcbd3dfb02021367978377ba3387af4cade8833be183:20131129 070423:/PBI/sysutils/bacula-server/10/x64/baculabat-5.2.12_3-amd64.pbi:1387309442::current:718318:
 barbie_seahorse_adventures:amd64:1.0_2:6160b111030263c344f10927058cd045dd22b7047db23e7a3bf0531aafc6cb6a:20131129 164706:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_2-amd64.pbi:1387203732::current:238502:
 barrage:amd64:1.0.4_1:ccc508e1b19a79e2405e69c6e3dd71746bd80a6ddee74bb5f1a8b9e5d90fad64:20131129 164127:/PBI/games/barrage/10/x64/barrage-1.0.4_1-amd64.pbi:1387203739::current:139747:
 basket:amd64:1.81_1:cdd98005c320d93a274863fe8dcb45a7f9f3d7f5eae523f9449c9ab36a965d74:20131129 204241:/PBI/deskutils/basket/10/x64/basket-1.81_1-amd64.pbi:1387227776::current:718609:
