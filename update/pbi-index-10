@@ -63,7 +63,7 @@ briquolo:amd64:0.5.7_9:5b16bd3211e105fc45f2ce5a387c72e20dbeca754ef1f52900cb44483
 brlcad:amd64:7.24.0:9c9689c31440a28b9c13de2364f06c211be9a6c793c06834a9dc377a2c5157e9:20131129 210629:/PBI/cad/brlcad/10/x64/brlcad-7.24.0-amd64.pbi:1386005790::current:156917:
 brutalchess:amd64:0.5.2_10:045e4044c909ca5fb1c6855ce24a17ec69228bd742129dda6e267b71c5b0d572:20131129 162510:/PBI/games/brutalchess/10/x64/brutalchess-0.5.2_10-amd64.pbi:1387309935::current:29976:
 bsdgames:amd64:2.4_2,1:389be5356ede29e68dbbadea34cc964b8f686f9d748a81ded43afa8610e082fc:20131129 162335:/PBI/games/bsdgames/10/x64/bsdgames-2.4_2,1-amd64.pbi:1386005826::current:5382:
-bubble-chains:amd64:0.1.1_5_01:1f64ab3c864a24690c5afe7c4fd8ab500250e716788ad61a7f169fdd0f559bfa:20131110 073104:/PBI/games/bubble-chains/10/x64/bubble-chains-0.1.1_5_01-amd64.pbi:1384393547::current:151790:
+bubble-chains:amd64:0.1.1_5:ee4832bab21e48b2269d3849c52ee1d8410f19e9c6508e05d1bd8eef24b77f3f:20131129 163026:/PBI/games/bubble-chains/10/x64/bubble-chains-0.1.1_5-amd64.pbi:1387310184::current:156404:
 bubblemon-dockapp:amd64:1.46_6_01:44483810956f58ac776399ab8e0da3a540bc1c95ca6b0113e887ec968ff54e13:20131026 075804:/PBI/sysutils/bubblemon-dockapp/10/x64/bubblemon-dockapp-1.46_6_01-amd64.pbi:1384390600::current:17553:
 burgerspace:amd64:1.9.2_1:ec78121a2108b94a560f0dd60b1b9ba1e857ea00e4c68ba16c56d13868d5a17e:20131110 072308:/PBI/games/burgerspace/10/x64/burgerspace-1.9.2_1-amd64.pbi:1384391169::current:38431:
 burpsuite:amd64:1.5_01:4bacd59428a51ac5e21c40da51a802118b43581fcd828e0590cc88499bd9d234:20131026 084530:/PBI/security/burpsuite/10/x64/burpsuite-1.5_01-amd64.pbi:1384393985::current:191502:
