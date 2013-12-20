@@ -1,0 +1,13 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Wine
+GenericName=wine
+Exec=%%PBI_EXEDIR%%/msiexec
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/wine.png
+Categories=System
+MimeType=application/x-msiexec
+StartupNotify=true
+NoDisplay=true

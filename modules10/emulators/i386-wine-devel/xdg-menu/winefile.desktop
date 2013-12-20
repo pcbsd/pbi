@@ -1,0 +1,11 @@
+#!/usr/bin/env
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Wine FIle Manager
+GenericName=wine file manager
+Exec=%%PBI_EXEDIR%%/winefile
+Path=%%PBI_APPDIR%%
+Icon=%%PBI_APPDIR%%/wine.png
+Categories=System
+StartupNotify=true
