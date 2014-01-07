@@ -47,7 +47,7 @@
 set -e
 
 PORTSDIR=${PORTSDIR:-/usr/ports}
-PREFIX=/usr/pbi/wine64-i386
+PREFIX=/usr/pbi/wine-i386/local
 
 cd /tmp/
 
@@ -99,12 +99,8 @@ fi
 
 echo "===> Patching wine64 to work with x11/nvidia-driver:"
 
-NV=`pkg_info -E nvidia-driver-'*' | cut -f 3 -d -` \
+NV=`pkg query '%v' nvidia-driver` \
   || terminate 0 "No nvidia-driver installed, using default Xorg GL..."
-if [ -z "$NV" ] ; then
-NV=`pkg info nvidia-driver | cut -f 3 -d -` \
-  || terminate 0 "No nvidia-driver installed, using default Xorg GL..."
-fi
 echo "=> Detected nvidia-driver: ${NV}"
 
 NVIDIA=${NV}
