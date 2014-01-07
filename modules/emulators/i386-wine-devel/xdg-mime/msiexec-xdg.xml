@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
-  <mime-type type="application/x-msiexec">
-  <glob weight="100" pattern="*.msi"/>
-  <glob weight="100" pattern="*.MSI"/>
- </mime-type>
-</mime-info>
