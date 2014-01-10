@@ -8,4 +8,4 @@
 #include/libfoo.h       include/libfoo.h        replace
 #bin/appfoo             bin/appfoo              binary,nocrash
 #bin/appfoo2            bin/appfoo-test         binary
-
+bin/freshclam		bin/freshclam		binary
