@@ -6,5 +6,5 @@ Name=Cairo-Dock
 GenericName=Cairo-Dock
 Exec=%%PBI_EXEDIR%%/cairo-dock
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/cairo_icon.png
+Icon=%%PBI_APPDIR%%/cairo-icon.png
 StartupNotify=true
