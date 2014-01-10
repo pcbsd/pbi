@@ -74,7 +74,8 @@ bubble-chains:amd64:0.1.1_5:ee4832bab21e48b2269d3849c52ee1d8410f19e9c6508e05d1bd
 bubblemon-dockapp:amd64:1.46_6:0a2ed6ec2a893477d77edd9410fc4753e2edf4da4361b31d23c97892a7bc3a57:20131129 062907:/PBI/sysutils/bubblemon-dockapp/10/x64/bubblemon-dockapp-1.46_6-amd64.pbi:1387310196::current:18961:
 burgerspace:amd64:1.9.2:fca73007c4c5930a2db306a26d304062201ec77f4da390bf01060c93c078819a:20131129 162259:/PBI/games/burgerspace/10/x64/burgerspace-1.9.2-amd64.pbi:1387310267::current:42531:
 burpsuite:amd64:1.5_01:4bacd59428a51ac5e21c40da51a802118b43581fcd828e0590cc88499bd9d234:20131026 084530:/PBI/security/burpsuite/10/x64/burpsuite-1.5_01-amd64.pbi:1384393985::current:191502:
-bxpkg:amd64:0.0.4_0_2:89286c30c8e81be8c927bc082954cefc31e1211ddf4db6d8a9ca8f487655a966:20131026 090837:/PBI/ports-mgmt/bxpkg/10/x64/bxpkg-0.0.4_0_2-amd64.pbi:1384391329::current:128352:
+bxpkg:amd64:0.0.4.0_2:eeda0fd3ec9253654eb40fc6cdf5374535cd9c7ccd536e65e1f394eb9ec10858:20131129 071537:/PBI/ports-mgmt/bxpkg/10/x64/bxpkg-0.0.4.0_2-amd64.pbi:1389370467::current:132062:
+bxpkg:amd64:0.0.4_0_2:89286c30c8e81be8c927bc082954cefc31e1211ddf4db6d8a9ca8f487655a966:20131026 090837:/PBI/ports-mgmt/bxpkg/10/x64/bxpkg-0.0.4_0_2-amd64.pbi:1384391329::active:128352:
 bygfoot:amd64:2.2.1_7:472514781932681edd2718046d402bed8d05bcc01ca78427d67eda4cec337e62:20131129 162719:/PBI/games/bygfoot/10/x64/bygfoot-2.2.1_7-amd64.pbi:1387315905::current:134625:
 bzflag:amd64:2.4.2_2:d0751bdea2eeeaa84583f9bcc8ffee25f191d5f7cf4d5130014e84b0175aad68:20131129 162153:/PBI/games/bzflag/10/x64/bzflag-2.4.2_2-amd64.pbi:1387311822::current:40991:
 cabextract:amd64:1.4:0ca3bc1458bfc07aa567ffd2d0f0421903399f76d3bef4bb8ccac6a72af52147:20131129 234052:/PBI/archivers/cabextract/10/x64/cabextract-1.4-amd64.pbi:1387311817::current:4357:
