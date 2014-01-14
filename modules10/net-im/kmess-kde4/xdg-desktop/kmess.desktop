@@ -1,9 +1,0 @@
-[Desktop Entry]
-Value=1.0
-Type=Application
-Name=Kmess
-GenericName=kmess
-Exec=%%PBI_EXEDIR%%/kmess
-Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/kmess.png
-StartupNotify=true
