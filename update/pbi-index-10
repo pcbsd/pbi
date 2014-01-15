@@ -643,6 +643,7 @@ stress:amd64:1.0.4_01:809bc0c4ca8750f8f8f6d7f026956519a4145a575d96494ee2eef25276
 subcommander:amd64:2.0.0.b5.2_1:0610ed1bf3ba845f2ce09416f7fe1eea57aa37f90d5034abc76ae588caa2154b:20131104 050542:/PBI/devel/subcommander2/10/x64/subcommander-2.0.0.b5.2_1-amd64.pbi:1384805287::current:511075:
 subtitleeditor:amd64:0.40.0_2_02:49e67c6deb7e8b7a9416cb1672f885c7c9d56241740136859fcf2779521525ab:20131109 115853:/PBI/multimedia/subtitleeditor/10/x64/subtitleeditor-0.40.0_2_02-amd64.pbi:1384805322::current:240550:
 subversion:amd64:1.8.4:9f73312e1617f0162923aef26a878068915215a68eaabb1795fd7a62f22fd7e2:20131129 174212:/PBI/devel/subversion/10/x64/subversion-1.8.4-amd64.pbi:1386859993::current:18961:
+supertransball2:amd64:1.5_7:02c0a1cbab15d6ec753b59abf7c7f7158488941cfc63f21b4a277ad5cea6d117:20140103 052224:/PBI/games/stransball2/10/x64/supertransball2-1.5_7-amd64.pbi:1389734452::current:46373:
 supertuxkart:amd64:0.8_1_01:e1c83cccb9ed377a81f66cc49882a4a72361a9fcaa2696e4d8f66b9d4ca9dbe6:20131109 223500:/PBI/games/supertuxkart/10/x64/supertuxkart-0.8_1_01-amd64.pbi:1384805362::current:319197:
 surf:amd64:0.6_01:dbb8dc6c0268efd74e543eda354d5cd3eeef9370bdb5d643e5a57d66280201db:20131109 042909:/PBI/www/surf/10/x64/surf-0.6_01-amd64.pbi:1384805409::current:234799:
 suricata:amd64:1.4.6:7ad4657f9710dcd7df28565d37c215f4eeb9280070f45babb7727095b50a990e:20131129 063609:/PBI/security/suricata/10/x64/suricata-1.4.6-amd64.pbi:1386860025::current:7431:
