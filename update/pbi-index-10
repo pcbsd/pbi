@@ -16,4 +16,5 @@ firefox:amd64:26.0,1:d52031427f1b1bd3d3b6cdf8f5b9c5362d2c762b74f462bde7ade5d3099
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
 netbeans:amd64:7.4:a58d688dd9a4230b31d1c595f911702e2089c20cb2d1d29ddbf1700ea4122fba:20140117 225154:/PBI/java/netbeans/10/x64/netbeans-7.4-amd64.pbi:1390254565::current:676183:
+tea:amd64:37.0.1:94d25719c70fbe521b759a70904593db351bbb1efa4f718d6d205f7d7fb6a067:20140118 175616:/PBI/editors/tea/10/x64/tea-37.0.1-amd64.pbi:1390254897::current:125791:
 thunderbird:amd64:24.2.0:b2934543dfefb06cb68efab565866cd99a17713a45d22d5b7cd4e02ff73dc3d0:20140117 223700:/PBI/mail/thunderbird/10/x64/thunderbird-24.2.0-amd64.pbi:1390250939::current:223520:
