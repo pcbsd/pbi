@@ -1,4 +1,5 @@
 chromium:amd64:31.0.1650.63:80de6028d33d0dc0dcecc44c37ee8c24147e37f858c942a703e6e7ff2ac954d0:20140117 223721:/PBI/www/chromium/10/x64/chromium-31.0.1650.63-amd64.pbi:1390250908::current:275903:
 firefox:amd64:26.0,1:d52031427f1b1bd3d3b6cdf8f5b9c5362d2c762b74f462bde7ade5d3099277ea:20140118 134132:/PBI/www/firefox/10/x64/firefox-26.0,1-amd64.pbi:1390250672::current:401301:
+libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
 thunderbird:amd64:24.2.0:b2934543dfefb06cb68efab565866cd99a17713a45d22d5b7cd4e02ff73dc3d0:20140117 223700:/PBI/mail/thunderbird/10/x64/thunderbird-24.2.0-amd64.pbi:1390250939::current:223520:
