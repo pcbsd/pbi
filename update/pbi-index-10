@@ -3,6 +3,7 @@ afternoonstalker:amd64:1.1.5:78c0f3e349c80e18a4f85b5325a5c902f6f5cf9ad2f2b6f1c82
 amoebax:amd64:0.2.1_6:25b83bf5c0309f1b0d7674980da942d7adbf8b2f9f8ee391495d6314a6816dc8:20140118 170504:/PBI/games/amoebax/10/x64/amoebax-0.2.1_6-amd64.pbi:1390252890::current:60974:
 asciiquarium:amd64:1.0:9dce99e8dc01b6aa46e1d1965e11276d07076a944a218a446f729c052afcd60a:20140118 170301:/PBI/games/asciiquarium/10/x64/asciiquarium-1.0-amd64.pbi:1390252955::current:30872:
 assaultcube:amd64:1.2.0.2:2df2ca37b1cbd6a76743c54e557a902e51a1d7f73978d2232c7ee1497207674d:20140118 170135:/PBI/games/assaultcube/10/x64/assaultcube-1.2.0.2-amd64.pbi:1390253157::current:138344:
+asteroids3d:amd64:0.5.1_4:5a36332c3b7a85136523f254e59d59508d01b10d5b7276fbbc54461f801f2f50:20140118 170300:/PBI/games/asteroids3d/10/x64/asteroids3d-0.5.1_4-amd64.pbi:1390253175::current:118617:
 chromium:amd64:31.0.1650.63:80de6028d33d0dc0dcecc44c37ee8c24147e37f858c942a703e6e7ff2ac954d0:20140117 223721:/PBI/www/chromium/10/x64/chromium-31.0.1650.63-amd64.pbi:1390250908::current:275903:
 firefox:amd64:26.0,1:d52031427f1b1bd3d3b6cdf8f5b9c5362d2c762b74f462bde7ade5d3099277ea:20140118 134132:/PBI/www/firefox/10/x64/firefox-26.0,1-amd64.pbi:1390250672::current:401301:
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
