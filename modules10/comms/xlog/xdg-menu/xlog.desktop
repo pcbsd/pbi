@@ -6,6 +6,6 @@ Name=Xlog
 GenericName=Xlog
 Exec=%%PBI_EXEDIR%%/xlog
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/pixmaps/xlog/xlog.png
+Icon=%%PBI_APPDIR%%/xlog.png
 StartupNotify=true
 Categories=Utility;
