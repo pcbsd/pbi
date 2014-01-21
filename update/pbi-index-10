@@ -19,6 +19,7 @@ chromium:amd64:31.0.1650.63:80de6028d33d0dc0dcecc44c37ee8c24147e37f858c942a703e6
 firefox:amd64:26.0,1:d52031427f1b1bd3d3b6cdf8f5b9c5362d2c762b74f462bde7ade5d3099277ea:20140118 134132:/PBI/www/firefox/10/x64/firefox-26.0,1-amd64.pbi:1390250672::current:401301:
 freeciv:amd64:2.4.1:7c4408b8824a3940e4c9781e4bf1d5c773b169d98127a4e3c69a32a9738a621f:20140118 161145:/PBI/games/freeciv/10/x64/freeciv-2.4.1-amd64.pbi:1390313959::current:174466:
 ganyremote:amd64:6.3.1:08f5f179666aff48992dcdff7962a76bf4f8aff0a118bcc941895a58e836fefc:20140118 203307:/PBI/deskutils/ganyremote/10/x64/ganyremote-6.3.1-amd64.pbi:1390314104::current:140389:
+geany:amd64:1.23.1:50289918bcbe787e10c1bed445f5bfd178cdc8f14014d7a7728c8ea872af32d2:20140118 192018:/PBI/devel/geany/10/x64/geany-1.23.1-amd64.pbi:1390314156::current:135271:
 git:amd64:1.8.5.2:ba79c3077f7ea6b709ef7d563ed70abe5b6dc6a9cf03fd5ac00e680a130f0f67:20140118 191742:/PBI/devel/git/10/x64/git-1.8.5.2-amd64.pbi:1390313111::current:80702:
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
