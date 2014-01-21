@@ -22,6 +22,7 @@ bomberclone:amd64:0.11.9:f260ed687d592f2ab07aef01914689b3a02bc8aa4def66cd23a171a
 brutalchess:amd64:0.5.2_10:8a5424d10efc2454f4fd8350837cb4dce1da29770b3e86fa9086563c99460908:20140118 163757:/PBI/games/brutalchess/10/x64/brutalchess-0.5.2_10-amd64.pbi:1390332567::current:30617:
 bsdgames:amd64:2.4_2,1:61ceba5e9a1230095c02183d9dfe019e791355e27e21e7646855bb63b4980bec:20140119 031355:/PBI/games/bsdgames/10/x64/bsdgames-2.4_2,1-amd64.pbi:1390332740::current:5894:
 bubble-chains:amd64:0.1.1_5:1519ee49449f20854544158a5033fb95b39d6d4690bc31c03ffc15591514c6fa:20140118 163945:/PBI/games/bubble-chains/10/x64/bubble-chains-0.1.1_5-amd64.pbi:1390332856::current:156277:
+bubblemon-dockapp:amd64:1.46_6:a4c350888c7421e0daffbe9bc89b3ad2abf206eee011abac9e101122f3d6916a:20140118 022608:/PBI/sysutils/bubblemon-dockapp/10/x64/bubblemon-dockapp-1.46_6-amd64.pbi:1390346594::current:19602:
 cabextract:amd64:1.4:0f27607c2d17e548bdd10a9901eeef75de95151d166aee729d3b176df91229d0:20140119 012451:/PBI/archivers/cabextract/10/x64/cabextract-1.4-amd64.pbi:1390312985::current:4485:
 calibre:amd64:1.13.0_1:360faa3ba481c329ca1a46e82ec4753208d8611a9b7137b588a7360bdc2cadb9:20140118 211315:/PBI/deskutils/calibre/10/x64/calibre-1.13.0_1-amd64.pbi:1390315300::current:518375:
 celestia:amd64:1.6.1_3:d6fbd3979a966935d5ff1ab51e40f70b2c706e48f616e6f3d4af746413105886:20140119 011902:/PBI/astro/celestia/10/x64/celestia-1.6.1_3-amd64.pbi:1390323943::current:197002:
