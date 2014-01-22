@@ -28,6 +28,7 @@ atunes:amd64:3.1.1:a7ec347dc0cbe1c0fed3964ef6ec0b6be0794870b0c52c1051663dbdc3b93
 audacity:amd64:2.0.5_1:3b6bd2b245f8ae8ff3bd4986b92b7cf2dc23dff73d40557e315a0f21c5a48635:20140119 005348:/PBI/audio/audacity/10/x64/audacity-2.0.5_1-amd64.pbi:1390335233::current:212499:
 aumix:amd64:2.9.1:92480d6e1172cfdcea5a736689752f7f30f2a9e3c3878e7ab44e5873f27ab7d3:20140119 004505:/PBI/audio/aumix/10/x64/aumix-2.9.1-amd64.pbi:1390350118::current:129756:
 autocutsel:amd64:0.9.0_2:5a02c7f46c71074ad167bf75f64ea2acce22df35c92c4aabfefbe982660d6ab1:20140118 211445:/PBI/deskutils/autocutsel/10/x64/autocutsel-0.9.0_2-amd64.pbi:1390353132::current:14731:
+avogadro:amd64:1.1.1:b18d461a4a4c980c991b929680fe9f64f09a9e6c7b6a63d7ed082a70aa63c318:20140118 031011:/PBI/science/avogadro/10/x64/avogadro-1.1.1-amd64.pbi:1390353564::current:249262:
 avoision:amd64:1.1_3:9292fedb2c99ec850a9884e2e831dcba89ed2c3222f9a14731b9d06c061b6339:20140118 165822:/PBI/games/avoision/10/x64/avoision-1.1_3-amd64.pbi:1390350021::current:45604:
 barbie_seahorse_adventures:amd64:1.0_2:445155e2e61a27b0709f7a81e1dd9b3efe921aeca18c9f45cca730773693fa9b:20140118 170117:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_2-amd64.pbi:1390254263::current:240050:
 barrage:amd64:1.0.4_1:1f51722e78ca810e3477d690882a582f452a91538c509757371aed29aed98a50:20140118 165745:/PBI/games/barrage/10/x64/barrage-1.0.4_1-amd64.pbi:1390254276::current:141547:
