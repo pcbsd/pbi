@@ -122,6 +122,7 @@ lbreakout2:amd64:2.6_4:bf572546652b6a78279666dc5a30abcff6437ffdcc626e301b9ea0727
 lcdproc:amd64:0.5.6:c1e2bf968d71da8333bd2e749d3be68310ec0ea3aa5dfbaf0082e74a07abe75b:20140118 021517:/PBI/sysutils/lcdproc/10/x64/lcdproc-0.5.6-amd64.pbi:1390411147::current:5894:
 leafpad:amd64:0.8.18.1_1:83b01f601d7818595effbaafc6413c1ed25d455f4de13512796eea93b2571c2e:20140118 180746:/PBI/editors/leafpad/10/x64/leafpad-0.8.18.1_1-amd64.pbi:1390315419::current:129632:
 leocad:amd64:0.80.1:e8fdfea56361bb7224b8b9344af5a06fb43fba483b70043bbea6073fca00cb78:20140118 214937:/PBI/cad/leocad/10/x64/leocad-0.80.1-amd64.pbi:1390411094::current:217624:
+lftp:amd64:4.4.14:f9b4fab0fd2b31f67924a4e6cfe87e4c9ab3a9ae31e241c142cd4397c896f0d0:20140118 171512:/PBI/ftp/lftp/10/x64/lftp-4.4.14-amd64.pbi:1390411252::current:9993:
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
 mame:amd64:0.150_1:eaf9d1b04930308c477e84afb560bbdc19be0c8365fae8336020131ce35df609:20140118 174513:/PBI/emulators/mame/10/x64/mame-0.150_1-amd64.pbi:1390405449::current:63921:
