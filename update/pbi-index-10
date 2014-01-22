@@ -104,6 +104,7 @@ libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df67
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
 marble:amd64:4.10.5:a9e5a111ea007fd039c3d5a8588a62b6a26d42af45944502fa6b3e496bb54bd4:20140119 012801:/PBI/astro/marble/10/x64/marble-4.10.5-amd64.pbi:1390324806::current:732916:
 nano:amd64:2.3.2:c1ed85154a27372901d3e7ce1114782a2ebb10a509ac2ecc49f17e7f6847ac68:20140118 180117:/PBI/editors/nano-devel/10/x64/nano-2.3.2-amd64.pbi:1390333708::current:8840:
+netatalk:amd64:2.2.5,1:be3aae677b2ba26da98eed0a2b5d5ca8e128fde5493ec982ddb199d124e7bc6e:20140118 035401:/PBI/net/netatalk/10/x64/netatalk-2.2.5,1-amd64.pbi:1390404337::current:89538:
 netbeans:amd64:7.4:a58d688dd9a4230b31d1c595f911702e2089c20cb2d1d29ddbf1700ea4122fba:20140117 225154:/PBI/java/netbeans/10/x64/netbeans-7.4-amd64.pbi:1390254565::current:676183:
 netsurf:amd64:3.0_2:07f7bd341b7eefd8cd87fa498371d4ed5c59f283e1e9ce5a307ee5476a28f670:20140118 011730:/PBI/www/netsurf/10/x64/netsurf-3.0_2-amd64.pbi:1390404314::current:137570:
 newsbeuter:amd64:2.7_1:0a29ccdc242d042cfa0aa37f94879c6a43ab5d7891028627a87c4bb616754809:20140118 011411:/PBI/www/newsbeuter/10/x64/newsbeuter-2.7_1-amd64.pbi:1390404293::current:82492:
