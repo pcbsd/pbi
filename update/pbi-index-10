@@ -104,6 +104,7 @@ libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92b
 marble:amd64:4.10.5:a9e5a111ea007fd039c3d5a8588a62b6a26d42af45944502fa6b3e496bb54bd4:20140119 012801:/PBI/astro/marble/10/x64/marble-4.10.5-amd64.pbi:1390324806::current:732916:
 nano:amd64:2.3.2:c1ed85154a27372901d3e7ce1114782a2ebb10a509ac2ecc49f17e7f6847ac68:20140118 180117:/PBI/editors/nano-devel/10/x64/nano-2.3.2-amd64.pbi:1390333708::current:8840:
 netbeans:amd64:7.4:a58d688dd9a4230b31d1c595f911702e2089c20cb2d1d29ddbf1700ea4122fba:20140117 225154:/PBI/java/netbeans/10/x64/netbeans-7.4-amd64.pbi:1390254565::current:676183:
+opencascade:amd64:6.6.0_1:1035158abd78055226d1b9f7f7bdef3ef44b61a11d5bdf0509e37e62ab2d5bf7:20140118 215239:/PBI/cad/opencascade/10/x64/opencascade-6.6.0_1-amd64.pbi:1390403952::current:205327:
 openconnect:amd64:5.01:6f437d3db1d2b4f5e7872764bf12e92a2b0ebae0fc5e10e087611e75bf2950f6:20140118 024551:/PBI/security/openconnect/10/x64/openconnect-5.01-amd64.pbi:1390403932::current:6022:
 openjdk:amd64:b28_7,1:6c7aae8516e92831cc51942c2a9ca7dd8bfaec805b66acbebcc9ee6872efeb57:20140118 033838:/PBI/java/openjdk6/10/x64/openjdk-b28_7,1-amd64.pbi:1390403854::current:349938:
 openproj:amd64:1.4:e2b186da92ddcfce4ff98fe7b0ac9400524b5e9297025d955a7d695c38c4b405:20140118 200022:/PBI/deskutils/openproj/10/x64/openproj-1.4-amd64.pbi:1390403810::current:145134:
