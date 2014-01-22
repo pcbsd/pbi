@@ -106,6 +106,7 @@ leafpad:amd64:0.8.18.1_1:83b01f601d7818595effbaafc6413c1ed25d455f4de13512796eea9
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
 marble:amd64:4.10.5:a9e5a111ea007fd039c3d5a8588a62b6a26d42af45944502fa6b3e496bb54bd4:20140119 012801:/PBI/astro/marble/10/x64/marble-4.10.5-amd64.pbi:1390324806::current:732916:
+mucommander:amd64:0.9.0:6454eae84c0270a9374c56375690ad1bfb4eb03e8900484184a5db0b8e8346d3:20140118 003446:/PBI/x11-fm/mucommander/10/x64/mucommander-0.9.0-amd64.pbi:1390404882::current:140261:
 multisync:amd64:0.82_11:80e8f5994ba56900846b0def63ce16b19fb57b8e220a9a2db441128bfaf3a2e9:20140118 201147:/PBI/deskutils/multisync/10/x64/multisync-0.82_11-amd64.pbi:1390404781::current:323683:
 nano:amd64:2.3.2:c1ed85154a27372901d3e7ce1114782a2ebb10a509ac2ecc49f17e7f6847ac68:20140118 180117:/PBI/editors/nano-devel/10/x64/nano-2.3.2-amd64.pbi:1390333708::current:8840:
 nasm:amd64:2.10.09,1:8d20007010ab13f85c7463f9dce4a706f41fde7f2778c2d0003ecedf7686c05d:20140119 033052:/PBI/devel/nasm/10/x64/nasm-2.10.09,1-amd64.pbi:1390404748::current:4870:
