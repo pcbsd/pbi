@@ -30,6 +30,7 @@ aumix:amd64:2.9.1:92480d6e1172cfdcea5a736689752f7f30f2a9e3c3878e7ab44e5873f27ab7
 autocutsel:amd64:0.9.0_2:5a02c7f46c71074ad167bf75f64ea2acce22df35c92c4aabfefbe982660d6ab1:20140118 211445:/PBI/deskutils/autocutsel/10/x64/autocutsel-0.9.0_2-amd64.pbi:1390353132::current:14731:
 avogadro:amd64:1.1.1:b18d461a4a4c980c991b929680fe9f64f09a9e6c7b6a63d7ed082a70aa63c318:20140118 031011:/PBI/science/avogadro/10/x64/avogadro-1.1.1-amd64.pbi:1390353564::current:249262:
 avoision:amd64:1.1_3:9292fedb2c99ec850a9884e2e831dcba89ed2c3222f9a14731b9d06c061b6339:20140118 165822:/PBI/games/avoision/10/x64/avoision-1.1_3-amd64.pbi:1390350021::current:45604:
+baculabat:amd64:5.2.12_3:f4158fc848d75b96e6e81cfa999247b7b3e22e183667f719dbec425451e656f4:20140118 024737:/PBI/sysutils/bacula-server/10/x64/baculabat-5.2.12_3-amd64.pbi:1390401000::current:704869:
 barbie_seahorse_adventures:amd64:1.0_2:445155e2e61a27b0709f7a81e1dd9b3efe921aeca18c9f45cca730773693fa9b:20140118 170117:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_2-amd64.pbi:1390254263::current:240050:
 barrage:amd64:1.0.4_1:1f51722e78ca810e3477d690882a582f452a91538c509757371aed29aed98a50:20140118 165745:/PBI/games/barrage/10/x64/barrage-1.0.4_1-amd64.pbi:1390254276::current:141547:
 basket:amd64:1.81_1:3a64997ea3191349fba18f56fea6aac6ee006b979746e740c4ce9051a3718e2a:20140118 213104:/PBI/deskutils/basket/10/x64/basket-1.81_1-amd64.pbi:1390400907::current:707303:
