@@ -53,6 +53,7 @@ brutalchess:amd64:0.5.2_10:8a5424d10efc2454f4fd8350837cb4dce1da29770b3e86fa90865
 bsdgames:amd64:2.4_2,1:61ceba5e9a1230095c02183d9dfe019e791355e27e21e7646855bb63b4980bec:20140119 031355:/PBI/games/bsdgames/10/x64/bsdgames-2.4_2,1-amd64.pbi:1390332740::current:5894:
 bubble-chains:amd64:0.1.1_5:1519ee49449f20854544158a5033fb95b39d6d4690bc31c03ffc15591514c6fa:20140118 163945:/PBI/games/bubble-chains/10/x64/bubble-chains-0.1.1_5-amd64.pbi:1390332856::current:156277:
 bubblemon-dockapp:amd64:1.46_6:a4c350888c7421e0daffbe9bc89b3ad2abf206eee011abac9e101122f3d6916a:20140118 022608:/PBI/sysutils/bubblemon-dockapp/10/x64/bubblemon-dockapp-1.46_6-amd64.pbi:1390346594::current:19602:
+bubbros:amd64:1.6_5:ae6ef71a96d91b25ff545754ee8a832de8145d0eec6c42ab2af9ffd96799b35a:20140118 164042:/PBI/games/bubbros/10/x64/bubbros-1.6_5-amd64.pbi:1390497535::current:182283:
 burgerspace:amd64:1.9.2:ed5320f557bbd8c9aed8ed2cb661126c1978e6ea20e2fd0cc82c9330137ef101:20140118 163351:/PBI/games/burgerspace/10/x64/burgerspace-1.9.2-amd64.pbi:1390399639::current:43426:
 bygfoot:amd64:2.2.1_7:a67c65653d0f38db040ec0010dbc162fec5bb6bf1cc640dbf2814c741bfcaba3:20140118 163736:/PBI/games/bygfoot/10/x64/bygfoot-2.2.1_7-amd64.pbi:1390401838::current:132452:
 bzflag:amd64:2.4.2_2:fc9240cbae833a86d36672bb13fba9b04f55979c45c3a766019369ae51c15331:20140118 163220:/PBI/games/bzflag/10/x64/bzflag-2.4.2_2-amd64.pbi:1390400615::current:41634:
