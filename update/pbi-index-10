@@ -109,6 +109,7 @@ exaile:amd64:3.3.2:a73df1928ecd5db6ecc01aed541cdce87a82dab9bdfd56d79b4b426e27dee
 extremetuxracer:amd64:0.4_8:83a44d5ceded0fe046db3ecbbe7844309140cb39f4ecd43c1a181494a4702cf8:20140118 161406:/PBI/games/etracer/10/x64/extremetuxracer-0.4_8-amd64.pbi:1390426649::current:96713:
 ezjail:amd64:3.3:f22e8c0e2f8428e59c79d268e8991534024d017996e80fe02eb2895275f52822:20140118 022307:/PBI/sysutils/ezjail/10/x64/ezjail-3.3-amd64.pbi:1390426659::current:4613:
 f1-spirit:amd64:1.0_9:2bde0e75cefd306dff152bdf82faac58ffc116a74193fca24aa6c3d3271bdd13:20140118 161304:/PBI/games/f1spirit-remake/10/x64/f1-spirit-1.0_9-amd64.pbi:1390477441::current:80318:
+fceux:amd64:2.2.1.1_2:a3898b52d41c4919fc8776ec303639cb26578ad8322adb4af9f7b8d9e9aa661d:20140118 174944:/PBI/emulators/fceux/10/x64/fceux-2.2.1.1_2-amd64.pbi:1390477446::current:157559:
 file-roller:amd64:3.6.2,1:ad292cc75e4a655b4bd748c592ad9832838d59be28db2fda7604a6260f4b7e49:20140120 222359:/PBI/archivers/file-roller/10/x64/file-roller-3.6.2,1-amd64.pbi:1390324083::current:343916:
 filezilla:amd64:3.6.0.2_1:4474250d8597d66c79427c11d13a36d0cdb775d07f19a72880513c24ac80f4dc:20140118 172214:/PBI/ftp/filezilla/10/x64/filezilla-3.6.0.2_1-amd64.pbi:1390315369::current:171008:
 firefox:amd64:26.0,1:d52031427f1b1bd3d3b6cdf8f5b9c5362d2c762b74f462bde7ade5d3099277ea:20140118 134132:/PBI/www/firefox/10/x64/firefox-26.0,1-amd64.pbi:1390250672::current:401301:
