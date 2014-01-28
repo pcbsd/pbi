@@ -317,6 +317,7 @@ lftp:amd64:4.4.14:f9b4fab0fd2b31f67924a4e6cfe87e4c9ab3a9ae31e241c142cd4397c896f0
 libcanberra:amd64:0.28_4:a42c2fc87a973014988ab7a4e4939436cff5f3fea64732f6a2086e928e34ce6e:20140118 235103:/PBI/audio/libcanberra/10/x64/libcanberra-0.28_4-amd64.pbi:1390411361::current:138211:
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
+liferea:amd64:1.8.15:55070a932ef562f35eae27f9624ae4d9981df1c5125748a124e8c8811a911e7d:20140118 040500:/PBI/net/liferea/10/x64/liferea-1.8.15-amd64.pbi:1390933745::current:179841:
 lincity-ng:amd64:2.0_7:228eaac497fac9d4146e9b70bed0485b08c1d64be17949699a075ccff6a0fb53:20140118 135427:/PBI/games/lincity-ng/10/x64/lincity-ng-2.0_7-amd64.pbi:1390411473::current:114129:
 links:amd64:2.8,1:12c729e397ed33dd5156a81b082a4198782b42e47b96481b38dd80757f879e6c:20140118 011613:/PBI/www/links/10/x64/links-2.8,1-amd64.pbi:1390411596::current:23188:
 lmarbles:amd64:1.0.8_3:1848fb4ed9062c740dc6d0f3a2c2fe48fed622053656c19c62dc84d28dbeda51:20140118 134057:/PBI/games/lmarbles/10/x64/lmarbles-1.0.8_3-amd64.pbi:1390411664::current:38174:
