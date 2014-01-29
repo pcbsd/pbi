@@ -413,6 +413,7 @@ openlp:amd64:2.0.3_2:b5ea85f63e3c6fca1d05c5ea25d6f7373d9bba08f959151c368fa385506
 openmortal:amd64:0.7_9:90c36a853bac59d66fbe6da450ebb03135b56ca0e685ce1afab3262088e7b500:20140118 125227:/PBI/games/openmortal/10/x64/openmortal-0.7_9-amd64.pbi:1391008953::current:165749:
 openproj:amd64:1.4:e2b186da92ddcfce4ff98fe7b0ac9400524b5e9297025d955a7d695c38c4b405:20140118 200022:/PBI/deskutils/openproj/10/x64/openproj-1.4-amd64.pbi:1390403810::current:145134:
 openshot:amd64:1.4.3:6aca22036bed25d7f1fcc96159760f6a35a83f7f7da96f6bc2c6e170ee79b6e2:20140118 053908:/PBI/multimedia/openshot/10/x64/openshot-1.4.3-amd64.pbi:1391008988::current:336116:
+opensonic:amd64:0.1.4:83eb7752f4ab5f294e8cf621082d995be49f3ec43892aea6d976c93772818b8c:20140118 124719:/PBI/games/opensonic/10/x64/opensonic-0.1.4-amd64.pbi:1391009028::current:42785:
 opentaxsolver:amd64:10.00:020d4541debb795f24c07ae9d7c25d03c9f52ceb4be810e093779bbc0a33417c:20140118 171924:/PBI/finance/opentaxsolver/10/x64/opentaxsolver-10.00-amd64.pbi:1390403776::current:15628:
 orage:amd64:4.10.0:3e9239831614e521136a212b04da231dfa863cbf8d11bcd0c449f39caca4be68:20140118 195811:/PBI/deskutils/orage/10/x64/orage-4.10.0-amd64.pbi:1390403691::current:140779:
 osmo:amd64:0.2.10_5:c9c3865c83a9cb834bf7694bb0baf35c6281188e58b7ca4ff17fd3ee7f2df32b:20140118 195808:/PBI/deskutils/osmo/10/x64/osmo-0.2.10_5-amd64.pbi:1390403660::current:151793:
