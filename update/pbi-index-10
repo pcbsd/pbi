@@ -556,6 +556,7 @@ sonata:amd64:1.6.2.1_8:7edc290e789dd2113246b5b0d94f05582bc17392124fde89325e35e3b
 soundconverter:amd64:1.5.4_1:3e8f85fc28ca5fb55f55c2bfb9d92c84a88e17cf9aadf6777ecb4d7f133ceda8:20140118 223435:/PBI/audio/soundconverter/10/x64/soundconverter-1.5.4_1-amd64.pbi:1391037532::current:540664:
 speech-dispatcher:amd64:0.8:fd2e06de44205873e0241a9ffe53a89a093cd7845b9233b00034eefa900be57f:20140119 012811:/PBI/accessibility/speech-dispatcher/10/x64/speech-dispatcher-0.8-amd64.pbi:1390331858::current:70580:
 spek:amd64:0.8.2_3:174513bd0f99d4a34ff9e3e63f34c1e2b35db30d458b02e0c99b7fa73e234323:20140118 222056:/PBI/audio/spek/10/x64/spek-0.8.2_3-amd64.pbi:1390331825::current:192137:
+ssvnc:amd64:1.0.29:56422a94bbd84e4de2a7eeeaa0207b25fc4a53afd5be93bed21428408215b508:20140123 163519:/PBI/net/ssvnc/10/x64/ssvnc-1.0.29-amd64.pbi:1391037621::current:167930:
 steadyflow:amd64:0.2.0_1:f6a33706e3305112ee1cb5efa312c14062f81ea4c9531bced90aeb99e09d0aa2:20140118 194334:/PBI/deskutils/steadyflow/10/x64/steadyflow-0.2.0_1-amd64.pbi:1390331798::current:146669:
 stella:amd64:3.9.2:ef23d745c4ac0a1cfe76079d322f546032e5b72db809f81914bcd37eec6edc03:20140118 173307:/PBI/emulators/stella/10/x64/stella-3.9.2-amd64.pbi:1390331735::current:18450:
 stellarium:amd64:0.12.4:5e00f25365359eda44356ec0a09c605444522511f7294513625d0bbb72409cf2:20140119 011218:/PBI/astro/stellarium/10/x64/stellarium-0.12.4-amd64.pbi:1390326012::current:266041:
