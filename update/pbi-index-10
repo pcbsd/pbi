@@ -409,6 +409,7 @@ openbabel:amd64:2.3.2:db4fe92a3a9b5ccce6ecf90a8df356873089a7d36683543b5765df87be
 opencascade:amd64:6.6.0_1:1035158abd78055226d1b9f7f7bdef3ef44b61a11d5bdf0509e37e62ab2d5bf7:20140118 215239:/PBI/cad/opencascade/10/x64/opencascade-6.6.0_1-amd64.pbi:1390403952::current:205327:
 openconnect:amd64:5.01:6f437d3db1d2b4f5e7872764bf12e92a2b0ebae0fc5e10e087611e75bf2950f6:20140118 024551:/PBI/security/openconnect/10/x64/openconnect-5.01-amd64.pbi:1390403932::current:6022:
 openjdk:amd64:b28_7,1:6c7aae8516e92831cc51942c2a9ca7dd8bfaec805b66acbebcc9ee6872efeb57:20140118 033838:/PBI/java/openjdk6/10/x64/openjdk-b28_7,1-amd64.pbi:1390403854::current:349938:
+openlp:amd64:2.0.3_2:b5ea85f63e3c6fca1d05c5ea25d6f7373d9bba08f959151c368fa38550692af7:20140118 054007:/PBI/multimedia/py-openlp/10/x64/openlp-2.0.3_2-amd64.pbi:1391008847::current:575116:
 openproj:amd64:1.4:e2b186da92ddcfce4ff98fe7b0ac9400524b5e9297025d955a7d695c38c4b405:20140118 200022:/PBI/deskutils/openproj/10/x64/openproj-1.4-amd64.pbi:1390403810::current:145134:
 opentaxsolver:amd64:10.00:020d4541debb795f24c07ae9d7c25d03c9f52ceb4be810e093779bbc0a33417c:20140118 171924:/PBI/finance/opentaxsolver/10/x64/opentaxsolver-10.00-amd64.pbi:1390403776::current:15628:
 orage:amd64:4.10.0:3e9239831614e521136a212b04da231dfa863cbf8d11bcd0c449f39caca4be68:20140118 195811:/PBI/deskutils/orage/10/x64/orage-4.10.0-amd64.pbi:1390403691::current:140779:
