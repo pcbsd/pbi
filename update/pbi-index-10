@@ -403,6 +403,7 @@ nzbget:amd64:11.0_1:fc50e5730704cfcecd7524f39a8bad1c31976cf530053b4a797f9b5dd41b
 ocsinventory-agent:amd64:2.0.5,1:185c3740183701e20e787d2e9599096ca318beab42a17c51841d695a08804c5e:20140123 191640:/PBI/net-mgmt/ocsinventory-agent/10/x64/ocsinventory-agent-2.0.5,1-amd64.pbi:1391008697::current:33949:
 octave:amd64:3.6.4_7:1993bd0584d21e7fd26eb8817395fc9ece6d5f5209d549065a6b2dd2a0ef8b60:20140118 073243:/PBI/math/octave/10/x64/octave-3.6.4_7-amd64.pbi:1391008740::current:515454:
 oneko-sakura:amd64:1.2_2:d1434d79ced68d54f4ff43de436ee5c0b3ace14c10031982cc2e341032d501c3:20140118 125323:/PBI/games/oneko-sakura/10/x64/oneko-sakura-1.2_2-amd64.pbi:1391008767::current:12170:
+onyx:amd64:5.1.2_2:5dc83d33d497e40f15a16a8a0d475e37741c8ab9ee1b3f071f076ac3be6a7b55:20140118 074558:/PBI/lang/onyx/10/x64/onyx-5.1.2_2-amd64.pbi:1391008788::current:8456:
 openbabel:amd64:2.3.2:db4fe92a3a9b5ccce6ecf90a8df356873089a7d36683543b5765df87be3b1b38:20140118 025907:/PBI/science/openbabel/10/x64/openbabel-2.3.2-amd64.pbi:1390404016::current:38046:
 opencascade:amd64:6.6.0_1:1035158abd78055226d1b9f7f7bdef3ef44b61a11d5bdf0509e37e62ab2d5bf7:20140118 215239:/PBI/cad/opencascade/10/x64/opencascade-6.6.0_1-amd64.pbi:1390403952::current:205327:
 openconnect:amd64:5.01:6f437d3db1d2b4f5e7872764bf12e92a2b0ebae0fc5e10e087611e75bf2950f6:20140118 024551:/PBI/security/openconnect/10/x64/openconnect-5.01-amd64.pbi:1390403932::current:6022:
