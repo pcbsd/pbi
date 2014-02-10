@@ -6,6 +6,6 @@ Name=Sauerbraten (Client)
 GenericName=Sauerbraten (Client)
 Exec=%%PBI_EXEDIR%%/sauer_client
 Path=%%PBI_APPDIR%%
-Icon=%%PBI_APPDIR%%/share/icons/sauerbraten.png
+Icon=%%PBI_APPDIR%%/sauerbraten.png
 StartupNotify=true
 Categories=Game;
