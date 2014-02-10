@@ -444,8 +444,8 @@ openaxiom:amd64:1.4.2_3:e0ec4a03d2f61ccd285eb304e804fc99b367632f63b5e0b220b0db6a
 openbabel:amd64:2.3.2:db4fe92a3a9b5ccce6ecf90a8df356873089a7d36683543b5765df87be3b1b38:20140118 025907:/PBI/science/openbabel/10/x64/openbabel-2.3.2-amd64.pbi:1390404016::current:38046:
 opencascade:amd64:6.6.0_1:1035158abd78055226d1b9f7f7bdef3ef44b61a11d5bdf0509e37e62ab2d5bf7:20140118 215239:/PBI/cad/opencascade/10/x64/opencascade-6.6.0_1-amd64.pbi:1390403952::current:205327:
 openconnect:amd64:5.01:6f437d3db1d2b4f5e7872764bf12e92a2b0ebae0fc5e10e087611e75bf2950f6:20140118 024551:/PBI/security/openconnect/10/x64/openconnect-5.01-amd64.pbi:1390403932::current:6022:
-openjdk:amd64:b28_7,1:6c7aae8516e92831cc51942c2a9ca7dd8bfaec805b66acbebcc9ee6872efeb57:20140118 033838:/PBI/java/openjdk6/10/x64/openjdk-b28_7,1-amd64.pbi:1390403854::active:349938:
-openjdk:amd64:b30,1:603afbc8d33c9e1187f080af1b03affce76bd4007225bc8f6354c525b539ba17:20140207 044536:/PBI/java/openjdk6/10/x64/openjdk-b30,1-amd64.pbi:1392054573::current:175739:
+openjdk:amd64:b30,1:603afbc8d33c9e1187f080af1b03affce76bd4007225bc8f6354c525b539ba17:20140207 044536:/PBI/java/openjdk6/10/x64/openjdk-b30,1-amd64.pbi:1392054573::active:175739:
+openjdk:amd64:b30,1:603afbc8d33c9e1187f080af1b03affce76bd4007225bc8f6354c525b539ba17:20140207 044536:/PBI/java/openjdk6/10/x64/openjdk-b30,1-amd64.pbi:1392054629::current:175739:
 openlp:amd64:2.0.3_2:b5ea85f63e3c6fca1d05c5ea25d6f7373d9bba08f959151c368fa38550692af7:20140118 054007:/PBI/multimedia/py-openlp/10/x64/openlp-2.0.3_2-amd64.pbi:1391008847::current:575116:
 openmortal:amd64:0.7_9:90c36a853bac59d66fbe6da450ebb03135b56ca0e685ce1afab3262088e7b500:20140118 125227:/PBI/games/openmortal/10/x64/openmortal-0.7_9-amd64.pbi:1391008953::current:165749:
 openproj:amd64:1.4:e2b186da92ddcfce4ff98fe7b0ac9400524b5e9297025d955a7d695c38c4b405:20140118 200022:/PBI/deskutils/openproj/10/x64/openproj-1.4-amd64.pbi:1390403810::current:145134:
