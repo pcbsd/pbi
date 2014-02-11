@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Make the sym-links without the openoffice version in the name
-cd ${PBI_PROGDIRPATH}/local/bin
+cd /usr/local/bin
 ln -s open*sbase sbase
 ln -s open*scalc scalc
 ln -s open*sdraw sdraw
