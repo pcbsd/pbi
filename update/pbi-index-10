@@ -682,7 +682,8 @@ sdl_jewels:amd64:1.1.1_3:28cea7fc29e5848ba1bece3e9feb0b4c25093aa5bbb0d28376ff6e5
 sdl_lopan:amd64:10_3:8f81d88bbf05bb344f56736958a548e58191d2e28f824b3569198a6b6d55e502:20140118 115404:/PBI/games/sdl_lopan/10/x64/sdl_lopan-10_3-amd64.pbi:1391036215::current:43169:
 sdl_scavenger:amd64:145.2014.01.01,1:b7eb4683da969b8230a566ba4ce2d65839da186fdfecc3b1dd01593c2b49f975:20140207 074607:/PBI/games/sdl_scavenger/10/x64/sdl_scavenger-145.2014.01.01,1-amd64.pbi:1392055338::active:55850:
 sdl_scavenger:amd64:145.2014.01.01,1:b7eb4683da969b8230a566ba4ce2d65839da186fdfecc3b1dd01593c2b49f975:20140207 074607:/PBI/games/sdl_scavenger/10/x64/sdl_scavenger-145.2014.01.01,1-amd64.pbi:1392055366::current:55850:
-seamonkey:amd64:2.23_1:15189002a44b8ed028864be62c2a18c5cf3a3226fb511102e998d9f12040dd6f:20140118 010657:/PBI/www/seamonkey/10/x64/seamonkey-2.23_1-amd64.pbi:1390255077::current:296653:
+seamonkey:amd64:2.23_1:15189002a44b8ed028864be62c2a18c5cf3a3226fb511102e998d9f12040dd6f:20140118 010657:/PBI/www/seamonkey/10/x64/seamonkey-2.23_1-amd64.pbi:1390255077::active:296653:
+seamonkey:amd64:2.24:e82d64ddfa1cb47ab2701dd27ade97d70ccc6a6bd27ecd6f9bdf6ed39bda74c0:20140227 163630:/PBI/www/seamonkey/10/x64/seamonkey-2.24-amd64.pbi:1393885043::current:149098:
 searchandrescue:amd64:1.4.0_1:3b721aaa624940485e1c2004ec5d28eb30fa484c6a6f43785d0fbc5ca58ef605:20140118 115051:/PBI/games/searchandrescue/10/x64/searchandrescue-1.4.0_1-amd64.pbi:1391036335::current:127833:
 secpanel:amd64:0.6.1_2,1:9c54a71769e7e33034cd3e018626f75dea3310aaa72afd2f2f8637028f6eb7de:20140123 190651:/PBI/security/secpanel/10/x64/secpanel-0.6.1_2,1-amd64.pbi:1391036519::current:21011:
 secretmaryochronicles:amd64:1.10.git20120512_5:a63738bf5cbe423eb6702917053d35e4514965004cb4b6d86850d82c224696d0:20140118 120030:/PBI/games/secretmaryochronicles/10/x64/secretmaryochronicles-1.10.git20120512_5-amd64.pbi:1391036546::current:500312:
