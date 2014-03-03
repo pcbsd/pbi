@@ -404,7 +404,8 @@ lianliankan:amd64:2.3.b1_7:3300fb69c65dd56540808d6e611ca497558646bad42b7d7af0a3a
 libcanberra:amd64:0.28_4:a42c2fc87a973014988ab7a4e4939436cff5f3fea64732f6a2086e928e34ce6e:20140118 235103:/PBI/audio/libcanberra/10/x64/libcanberra-0.28_4-amd64.pbi:1390411361::current:138211:
 librecad:amd64:2.0.0.r3:0f3585d277fd0645e4cbdfc2a25a6088ca8f029e545e0801dc4c47ace43d772d:20140211 033306:/PBI/cad/librecad/10/x64/librecad-2.0.0.r3-amd64.pbi:1392222335::current:73270:
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::current:1082390:
-libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::current:344448:
+libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::active:344448:
+libreoffice:amd64:4.1.5_1:54799056706152e39997eed513b380703959c1b6f2bc9e4887506add610819d8:20140302 020717:/PBI/editors/libreoffice/10/x64/libreoffice-4.1.5_1-amd64.pbi:1393880569::current:185481:
 liferea:amd64:1.8.15:55070a932ef562f35eae27f9624ae4d9981df1c5125748a124e8c8811a911e7d:20140118 040500:/PBI/net/liferea/10/x64/liferea-1.8.15-amd64.pbi:1390933745::current:179841:
 lincity-ng:amd64:2.0_7:228eaac497fac9d4146e9b70bed0485b08c1d64be17949699a075ccff6a0fb53:20140118 135427:/PBI/games/lincity-ng/10/x64/lincity-ng-2.0_7-amd64.pbi:1390411473::current:114129:
 links:amd64:2.8,1:12c729e397ed33dd5156a81b082a4198782b42e47b96481b38dd80757f879e6c:20140118 011613:/PBI/www/links/10/x64/links-2.8,1-amd64.pbi:1390411596::current:23188:
