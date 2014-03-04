@@ -745,6 +745,7 @@ texmaker:amd64:4.1_1,2:cdd75962351979334c044d0e4a8d3b73a5b68a283ee04f8cd5a3e4c27
 textroom:amd64:0.8.2_5:183eb14d9e2c9a8a783245696d5a7730bb09a46da9c1b5400b8dc148db40be36:20140118 175324:/PBI/editors/textroom/10/x64/textroom-0.8.2_5-amd64.pbi:1390325853::current:169726:
 thefish:amd64:0.6.6_6:a8952f517d835cbb17bcf85cb6d93cc5c10ffad5fb8bf1fd1770dcb066cba2d8:20140118 020720:/PBI/sysutils/thefish/10/x64/thefish-0.6.6_6-amd64.pbi:1390325834::current:130397:
 thegrind:amd64:0.1.2_1:be98d55824e923cb139173b78363be2b4dbeb9fed41a7053781e069edc10ae92:20140118 112733:/PBI/games/thegrind/10/x64/thegrind-0.1.2_1-amd64.pbi:1391041295::current:39711:
+thinkingrock:amd64:2.2.1_3:d7d518973cc3eb6bbc5055356712a36ed1a10c0dc2f21889bd04f3c33d99932d:20140228 024826:/PBI/deskutils/thinkingrock/10/x64/thinkingrock-2.2.1_3-amd64.pbi:1393947155::current:98248:
 thunderbird:amd64:24.3.0:6f60dc948ba6ab4f6e15dd2e1ca6fd3b7663c7c0e981d9bed328c8de044bdcda:20140206 213224:/PBI/mail/thunderbird/10/x64/thunderbird-24.3.0-amd64.pbi:1392056238::active:112464:
 thunderbird:amd64:24.3.0_1:873fe8bb70d9ce5a456d0ac2c47af45e52157d08a10586bee5800d5df141a499:20140210 161506:/PBI/mail/thunderbird/10/x64/thunderbird-24.3.0_1-amd64.pbi:1392139513::current:112976:
 tightvnc:amd64:1.3.10_3:3ea1f3d3e91b1e41189e73dc95d81e314f393ba82fbd9bbb72d8d73c20016084:20140123 163208:/PBI/net/tightvnc/10/x64/tightvnc-1.3.10_3-amd64.pbi:1391041353::current:80059:
