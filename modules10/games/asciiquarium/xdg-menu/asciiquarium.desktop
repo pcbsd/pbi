@@ -7,5 +7,6 @@ GenericName=asciiquarium
 Exec=%%PBI_EXEDIR%%/asciiquarium
 Path=%%PBI_APPDIR%%
 Icon=%%PBI_APPDIR%%/defaulticon.png
+Categories=Game
 StartupNotify=true
-Categories=Game;
+Terminal=true
