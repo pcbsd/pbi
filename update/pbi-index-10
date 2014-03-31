@@ -73,7 +73,8 @@ biniax2:amd64:1.30_7:6a67b2abef9fd448f6742b25a4b0b9bffca5f34a12d22195f43a7056e4f
 bitchx:amd64:1.2.f,1:c26f1e96d1ed27e22e6aefa22d823db5dc3254c3878c8ded9613880aca42d41d:20140210 223434:/PBI/irc/bitchx/10/x64/bitchx-1.2.f,1-amd64.pbi:1392129928::current:17040:
 bitcoin:amd64:0.8.6:73d3f288fc124dac011235e7acd29b831822b1ef56a6f5500d070a1b59a34a17:20140118 044415:/PBI/net-p2p/bitcoin/10/x64/bitcoin-0.8.6-amd64.pbi:1390840265::active:442307:
 bitcoin:amd64:0.8.6_1:c9efdd9723cca71fe9c2af267f5cfde3e18e8d6d116c88ee8a1cf5be874e337f:20140210 215106:/PBI/net-p2p/bitcoin/10/x64/bitcoin-0.8.6_1-amd64.pbi:1396295848::current:225052:
-blender:amd64:2.69_3:a6939d9b57f068cfaaec8caefb941eaab692c32f56ca206a2212320e8ec31d02:20140118 101333:/PBI/graphics/blender/10/x64/blender-2.69_3-amd64.pbi:1390581479::current:330596:
+blender:amd64:2.69_3:a6939d9b57f068cfaaec8caefb941eaab692c32f56ca206a2212320e8ec31d02:20140118 101333:/PBI/graphics/blender/10/x64/blender-2.69_3-amd64.pbi:1390581479::active:330596:
+blender:amd64:2.69_4:350c87b4363b8c626901627e8f3715f6a9988a0dcb864836f71a0f56af0908fb:20140210 230909:/PBI/graphics/blender/10/x64/blender-2.69_4-amd64.pbi:1396296890::current:168951:
 blinkensisters:amd64:0.5.3_9:399ea7d70a6ecf4bd9d5fb37e46f54498125a22f6268764dfcf9f79d97b9066f:20140118 165138:/PBI/games/blinkensisters/10/x64/blinkensisters-0.5.3_9-amd64.pbi:1390262237::current:196627:
 bloboats:amd64:1.0.2_2:9fa89f72529068c5e77a5b90ccb05b99c47089a2ea3004aa3395f1df93b7faf8:20140118 164848:/PBI/games/bloboats/10/x64/bloboats-1.0.2_2-amd64.pbi:1390405550::current:57260:
 blockrage:amd64:0.2.3_3:e85a7fac54f0b88aaeafd206a6fdcdf2be0c2954a604495e03635cd307b072e0:20140118 164901:/PBI/games/blockrage/10/x64/blockrage-0.2.3_3-amd64.pbi:1390330153::current:142314:
