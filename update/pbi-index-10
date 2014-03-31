@@ -81,7 +81,8 @@ blockrage:amd64:0.2.3_3:e85a7fac54f0b88aaeafd206a6fdcdf2be0c2954a604495e03635cd3
 blockrage:amd64:0.2.3_4:4df284cf323758d57a1d24f31c277d5442ab16e8b4370ca4b533e8ebfcbbb6e6:20140227 221045:/PBI/games/blockrage/10/x64/blockrage-0.2.3_4-amd64.pbi:1396296920::current:71860:
 bloodfrontier:amd64:b2_7:eb70789ae795c1986ac5bdfc4c1e37ce04855328605a690829b13f90ff6896c8:20140211 010019:/PBI/games/bloodfrontier/10/x64/bloodfrontier-b2_7-amd64.pbi:1392221723::current:411678:
 bomb-her-man:amd64:0.3_2:187d227f984a657533a8279d708b9b89a8f8cf118d5d77812d76bd41718461b1:20140118 164710:/PBI/games/bombherman/10/x64/bomb-her-man-0.3_2-amd64.pbi:1390401583::current:158070:
-bomberclone:amd64:0.11.9:f260ed687d592f2ab07aef01914689b3a02bc8aa4def66cd23a171a5fa831a6d:20140118 164330:/PBI/games/bomberclone/10/x64/bomberclone-0.11.9-amd64.pbi:1390254920::current:57901:
+bomberclone:amd64:0.11.9:f260ed687d592f2ab07aef01914689b3a02bc8aa4def66cd23a171a5fa831a6d:20140118 164330:/PBI/games/bomberclone/10/x64/bomberclone-0.11.9-amd64.pbi:1390254920::active:57901:
+bomberclone:amd64:0.11.9_1:6a5033ff41d2556bf5411f2adb08ea4dc66fe874dbcb35469d4eb573fe36c48f:20140207 084059:/PBI/games/bomberclone/10/x64/bomberclone-0.11.9_1-amd64.pbi:1396296959::current:29464:
 bomns:amd64:0.99.2_2:35732fd7ebd9e9c617d9549e92ee29cd9a9de1a477f8fc7f1e20dc86e5965964:20140118 164650:/PBI/games/bomns/10/x64/bomns-0.99.2_2-amd64.pbi:1390400556::current:154741:
 boswars:amd64:2.6.1_4:7190fffbfdd5a26195cde13ef5e6f06de8039f0fdf626d7512cce565c9eb4593:20140118 164224:/PBI/games/boswars/10/x64/boswars-2.6.1_4-amd64.pbi:1390401503::current:140777:
 brainparty:amd64:0.5_4:322d733f5257f3f968d6f40011cf539a316f76981a8a5c807b0caaccf9ee6616:20140118 164029:/PBI/games/brainparty/10/x64/brainparty-0.5_4-amd64.pbi:1390401644::current:123230:
