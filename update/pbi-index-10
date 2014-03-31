@@ -56,7 +56,8 @@ avogadro:amd64:1.1.1:b18d461a4a4c980c991b929680fe9f64f09a9e6c7b6a63d7ed082a70aa6
 avogadro:amd64:1.1.1_2:37a51700262a9370a592e5302e5cc02862e2fe4e9b6ebbad7f7c038ecba3583a:20140323 235908:/PBI/science/avogadro/10/x64/avogadro-1.1.1_2-amd64.pbi:1396294684::current:131425:
 avoision:amd64:1.1_3:9292fedb2c99ec850a9884e2e831dcba89ed2c3222f9a14731b9d06c061b6339:20140118 165822:/PBI/games/avoision/10/x64/avoision-1.1_3-amd64.pbi:1390350021::current:45604:
 baculabat:amd64:5.2.12_3:f4158fc848d75b96e6e81cfa999247b7b3e22e183667f719dbec425451e656f4:20140118 024737:/PBI/sysutils/bacula-server/10/x64/baculabat-5.2.12_3-amd64.pbi:1390401000::current:704869:
-barbie_seahorse_adventures:amd64:1.0_2:445155e2e61a27b0709f7a81e1dd9b3efe921aeca18c9f45cca730773693fa9b:20140118 170117:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_2-amd64.pbi:1390254263::current:240050:
+barbie_seahorse_adventures:amd64:1.0_2:445155e2e61a27b0709f7a81e1dd9b3efe921aeca18c9f45cca730773693fa9b:20140118 170117:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_2-amd64.pbi:1390254263::active:240050:
+barbie_seahorse_adventures:amd64:1.0_3:8bde08e4a41bfd275382a14b08d03cd37fc40d1124d461b9fe5747479b41102d:20140324 151642:/PBI/games/barbie_seahorse_adventures/10/x64/barbie_seahorse_adventures-1.0_3-amd64.pbi:1396295657::current:143461:
 barrage:amd64:1.0.4_1:1f51722e78ca810e3477d690882a582f452a91538c509757371aed29aed98a50:20140118 165745:/PBI/games/barrage/10/x64/barrage-1.0.4_1-amd64.pbi:1390254276::current:141547:
 basic-256:amd64:1.0.0.0:028f56837dffefec9674213ea554464330353e8c934f4f9ffab00b140765fd22:20140118 075724:/PBI/lang/basic256/10/x64/basic-256-1.0.0.0-amd64.pbi:1390840208::active:181248:
 basic-256:amd64:1.1.0.0:b9c4c5e8b7971e577b43f858a943d0b0c50702639df9335ee70c118950c56ebe:20140227 202022:/PBI/lang/basic256/10/x64/basic-256-1.1.0.0-amd64.pbi:1393946703::current:91201:
