@@ -761,7 +761,8 @@ seamonkey:amd64:2.23_1:15189002a44b8ed028864be62c2a18c5cf3a3226fb511102e998d9f12
 seamonkey:amd64:2.24:e82d64ddfa1cb47ab2701dd27ade97d70ccc6a6bd27ecd6f9bdf6ed39bda74c0:20140227 163630:/PBI/www/seamonkey/10/x64/seamonkey-2.24-amd64.pbi:1393885043::current:149098:
 searchandrescue:amd64:1.4.0_1:3b721aaa624940485e1c2004ec5d28eb30fa484c6a6f43785d0fbc5ca58ef605:20140118 115051:/PBI/games/searchandrescue/10/x64/searchandrescue-1.4.0_1-amd64.pbi:1391036335::current:127833:
 secpanel:amd64:0.6.1_2,1:9c54a71769e7e33034cd3e018626f75dea3310aaa72afd2f2f8637028f6eb7de:20140123 190651:/PBI/security/secpanel/10/x64/secpanel-0.6.1_2,1-amd64.pbi:1391036519::current:21011:
-secretmaryochronicles:amd64:1.10.git20120512_5:a63738bf5cbe423eb6702917053d35e4514965004cb4b6d86850d82c224696d0:20140118 120030:/PBI/games/secretmaryochronicles/10/x64/secretmaryochronicles-1.10.git20120512_5-amd64.pbi:1391036546::current:500312:
+secretmaryochronicles:amd64:1.10.git20120512_5:a63738bf5cbe423eb6702917053d35e4514965004cb4b6d86850d82c224696d0:20140118 120030:/PBI/games/secretmaryochronicles/10/x64/secretmaryochronicles-1.10.git20120512_5-amd64.pbi:1391036546::active:500312:
+secretmaryochronicles:amd64:1.10.git20120512_6:c840afdaf2c59f9ddab08b8a5eda6f3ef039b0b25c2edab0ac22cc42017e1d02:20140227 211152:/PBI/games/secretmaryochronicles/10/x64/secretmaryochronicles-1.10.git20120512_6-amd64.pbi:1396542986::current:256056:
 sets:amd64:1.0.0_1:1398f14e6e1f442d2cc50f34ad98a626c3a9db0393fdd8bdc33d0da4006289eb:20140118 114831:/PBI/games/sets/10/x64/sets-1.0.0_1-amd64.pbi:1391036605::current:20882:
 setxkbmap:amd64:1.3.0:1bed3582f9c787786889354bbfefa9510dcce7748d5a8bbb2e8e75b740210b77:20140117 235514:/PBI/x11/setxkbmap/10/x64/setxkbmap-1.3.0-amd64.pbi:1390332265::current:12426:
 shotwell:amd64:0.15.1:f444e8c9ce486d746f015ece9ea25e8c87d402da67937668dea23c95ec8f77f9:20140211 061416:/PBI/graphics/shotwell/10/x64/shotwell-0.15.1-amd64.pbi:1392223600::current:111439:
