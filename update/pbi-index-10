@@ -308,7 +308,8 @@ gnome-media:amd64:2.32.0_4:d7f744cfae75c62f7cb652a1ae43ea9d4beefe59427c3eb0116d8
 gnomebreakout:amd64:0.5.3_11:21fc06b2d161b4fa41c64dd9154841b50ee8025d0cb155dda7ac3fe323302924:20140118 152457:/PBI/games/gnomebreakout/10/x64/gnomebreakout-0.5.3_11-amd64.pbi:1390924077::current:323183:
 gnomekiss:amd64:2.0_7:0d9b8fd4b5d5c328deca95393bc17d86aeb75bc664ed7527577c698b4a88df8b:20140118 152029:/PBI/games/gnomekiss/10/x64/gnomekiss-2.0_7-amd64.pbi:1390482712::current:323182:
 gnotime:amd64:2.4.1:3eef4cf04f2e4d47c1113c870a84438521cf334a4ac8c6c6ff9754fbfc8a350e:20140118 202641:/PBI/deskutils/gnotime/10/x64/gnotime-2.4.1-amd64.pbi:1390482739::current:336233:
-gnucash:amd64:2.6.1:aae58f47a1ce0ff190492db68b2f7027bfde0f2de92b474926dd9c2e0aaaf26f:20140211 010827:/PBI/finance/gnucash/10/x64/gnucash-2.6.1-amd64.pbi:1392221392::current:102730:
+gnucash:amd64:2.6.1:aae58f47a1ce0ff190492db68b2f7027bfde0f2de92b474926dd9c2e0aaaf26f:20140211 010827:/PBI/finance/gnucash/10/x64/gnucash-2.6.1-amd64.pbi:1392221392::active:102730:
+gnucash:amd64:2.6.2:af25e37c36c805c3269bc5fb3642b945cfe6bc9a620c29dd4c682017e731c174:20140324 152106:/PBI/finance/gnucash/10/x64/gnucash-2.6.2-amd64.pbi:1396977462::current:104138:
 gnudoku:amd64:0.93_6:d17f2650f9a5c2fb15d4973b2516571cc8187954f4e306f0e266878edc433c63:20140118 151143:/PBI/games/gnudoku/10/x64/gnudoku-0.93_6-amd64.pbi:1390924120::current:143339:
 gnumeric:amd64:1.12.11_1:52df5a73ac11eddd3af58b1814a4c53c3b05cc56d3e8e248ce027ac60b6a8a48:20140323 214513:/PBI/math/gnumeric/10/x64/gnumeric-1.12.11_1-amd64.pbi:1396367663::current:100296:
 gnumeric:amd64:1.12.9:38f5a2ab44c572aa14f25ed8c9fae1fee68bb4b4e2d1987fca5cdaec6181ec03:20140206 233309:/PBI/math/gnumeric/10/x64/gnumeric-1.12.9-amd64.pbi:1392072298::active:99015:
