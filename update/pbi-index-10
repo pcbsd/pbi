@@ -470,7 +470,8 @@ lftp:amd64:4.4.14:f9b4fab0fd2b31f67924a4e6cfe87e4c9ab3a9ae31e241c142cd4397c896f0
 lftp:amd64:4.4.15:7c4af08eb1ea8ee4c0c2d2f0afbe87406d5d628857bc4fde5dbf8f4555c05543:20140207 085408:/PBI/ftp/lftp/10/x64/lftp-4.4.15-amd64.pbi:1392053436::current:5510:
 lianliankan:amd64:2.3.b1_7:3300fb69c65dd56540808d6e611ca497558646bad42b7d7af0a3a7b14bc93e09:20140211 003856:/PBI/games/lianliankan/10/x64/lianliankan-2.3.b1_7-amd64.pbi:1392222253::current:68146:
 libcanberra:amd64:0.28_4:a42c2fc87a973014988ab7a4e4939436cff5f3fea64732f6a2086e928e34ce6e:20140118 235103:/PBI/audio/libcanberra/10/x64/libcanberra-0.28_4-amd64.pbi:1390411361::current:138211:
-librecad:amd64:2.0.0.r3:0f3585d277fd0645e4cbdfc2a25a6088ca8f029e545e0801dc4c47ace43d772d:20140211 033306:/PBI/cad/librecad/10/x64/librecad-2.0.0.r3-amd64.pbi:1392222335::current:73270:
+librecad:amd64:2.0.0.r3:0f3585d277fd0645e4cbdfc2a25a6088ca8f029e545e0801dc4c47ace43d772d:20140211 033306:/PBI/cad/librecad/10/x64/librecad-2.0.0.r3-amd64.pbi:1392222335::active:73270:
+librecad:amd64:2.0.3:7b42d35fa8aaa6d08fd76b57706155797e0b0821b86df1d09a7ce45bf95a398c:20140408 100104:/PBI/cad/librecad/10/x64/librecad-2.0.3-amd64.pbi:1397141867::current:73525:
 libreoffice-international:amd64:4.0.6_2:65fe916414ca5c754f01401b2d6210e26660df675d7eb8b76abe13a7b4a1c2ad:20140118 183347:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.0.6_2-amd64.pbi:1390251022::active:1082390:
 libreoffice-international:amd64:4.1.5_1:b252f2bbb03897d56eb0b07f6362be1749734335a62eec62a98de762070eeac3:20140302 022559:/PBI/editors/libreoffice-i18n/10/x64/libreoffice-international-4.1.5_1-amd64.pbi:1393880605::current:362752:
 libreoffice:amd64:4.0.6_2:cf4f98402eae0c2ebe9cfdc75ed64f3763feaf3466000f248ed92bdceffba380:20140118 181515:/PBI/editors/libreoffice/10/x64/libreoffice-4.0.6_2-amd64.pbi:1390250967::active:344448:
